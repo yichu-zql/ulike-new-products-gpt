@@ -29,7 +29,7 @@ for (const entry of provenance.images) {
 }
 assert.equal(hash(JSON.stringify(restored)),provenance.sourceDataSHA256,'Source data parity changed; review and update provenance for an intentional data revision');
 assert.equal(hash(read('src/styles.css')),provenance.sourceCSSSHA256,'Source visual styling changed');
-const sourceApp = read('src/app.js').replaceAll('"ulike-new-products-gpt:view:v1"','"oppview"').replaceAll('数据截至2026-10-28','每周一上午8:05更新');
+const sourceApp = read('src/app.js').replace(': SITE_TITLE;', ': "机会新品库";').replaceAll('"ulike-new-products-gpt:view:v1"','"oppview"').replaceAll('数据截至2026-10-28','每周一上午8:05更新');
 assert.equal(hash(sourceApp),provenance.sourceAppSHA256,'Source behavior changed');
 new vm.Script(read('src/app.js'));
 assert.equal(data.items.length,129);

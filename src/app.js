@@ -34,7 +34,7 @@ function renderViews(){
   const n = {all:DATA.items.length, group:DATA.items.filter(i=>!isSY(i)).length, sy:DATA.items.filter(isSY).length};
   $("#views").innerHTML = VIEWS.map(([k,l]) => `<button role="tab" type="button" data-view="${k}" class="${k}" aria-selected="${view===k}">${l} <em>${n[k]}</em>${k==="sy"?'<span class="new">NEW</span>':""}</button>`).join("");
   document.body.classList.toggle("v-sy", view==="sy");
-  $("#h1").innerHTML = view==="sy" ? `<span class="symark">术原 <small>SHUYUAN</small></span> 超导护肤新品` : "机会新品库";
+  $("#h1").innerHTML = view==="sy" ? `<span class="symark">术原 <small>SHUYUAN</small></span> 超导护肤新品` : SITE_TITLE;
   $("#sub").textContent = SUB[view];
   const items = pool();
   if (view==="sy"){
