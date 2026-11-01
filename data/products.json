@@ -344,6 +344,48 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-11-01",
+      "brief": [
+        {
+          "text": "本期海外候选用于观察结构与使用流程，尚无同口径近期销量；不能把海外在售写成已验证热卖。局部放松工具可重点比较体积、佩戴与维护负担。",
+          "url": "https://www.therabody.com/products/wave-solo",
+          "source": "Therabody官方；研究判断",
+          "items": [
+            "therabody-wave-solo",
+            "recoverypulse-calf"
+          ]
+        },
+        {
+          "text": "ReFa LOCK系列累计出货从2025年1月300万增至11月500万。口径为系列出货，不是单SKU销量、零售复购或年度同比。",
+          "url": "https://www.mtg.gr.jp/news/detail/2026/01/article_2478.html",
+          "source": "MTG官方公告",
+          "items": [
+            "refa-lock-series"
+          ]
+        },
+        {
+          "text": "NIHR EMPOWER基于329份问卷梳理女性健康需求，支持扩张器、哺乳疼痛与孕产漏尿方向；不能据此宣称具体商品疗效或中国市场规模。",
+          "url": "https://www.community.healthcare.mic.nihr.ac.uk/research/femtech",
+          "source": "NIHR EMPOWER",
+          "items": [
+            "milli-expanding-dilator",
+            "silverette-cups",
+            "uresta-bladder-support"
+          ]
+        },
+        {
+          "text": "术原开发优先让护肤品承担配方价值，辅具解决控量、贴合、补涂与卫生。300元以内为器械开发目标，尚未核实成本；贴合体验不等于已证明导入增效。",
+          "url": "https://www.dieuxskin.com/products/forever-eye-mask",
+          "source": "Dieux官方；术原开发推断",
+          "items": [
+            "sy-reusable-occlusion",
+            "sy-refill-glide",
+            "sy-flex-pearl"
+          ]
+        }
+      ]
     }
   ],
   "items": [
@@ -3275,127 +3317,126 @@
     {
       "id": "sy-id-booster",
       "rank": "主推",
-      "category": "超导仪器",
-      "direction": "海外热门",
-      "type": "仪器+耗材",
-      "name": "耗材识别式超导仪（电穿孔+微电流，按安瓶自动匹配程序）",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "type": "护肤品+辅助器具开发概念",
+      "name": "精华识别式涂布辅助手柄（开发概念）",
       "tech": [
-        "电穿孔导入",
-        "微电流",
-        "活性成分"
+        "定量涂布",
+        "护肤流程设计"
       ],
       "pain": [
-        "成分进不去",
-        "用法不会选"
+        "安瓶用量和步骤不一致"
       ],
-      "reason": "海外头部已经验证\"仪器让精华更有效\"：Medicube AGE-R系列累计卖出600万台、海外占六成，2026年推出第二代Booster Pro X2（电极数量和输出翻倍、7种模式、App里做AI个性化），先上美国TikTok Shop再上Amazon。FOREO UFO则让App扫面膜条码、自动把对应程序同步到仪器。两者合起来，就是\"仪器认得耗材\"的超导路线。",
-      "audience": "25-40岁、护肤品用得多但觉得\"不吸收、没效果\"的成分党；做过水光针想在家维持的女性",
-      "points": "电穿孔+微电流把安瓶推进去；扫码或芯片识别安瓶，自动切换电流波形和时长；安瓶按疗程复购",
-      "innovation": "器械ID：每支安瓶带编码，仪器识别后自动匹配导入参数（成分分子量不同、波形不同），解决\"一台仪器配所有精华，效果打折\"和\"不知道该开哪个档\"两个问题；也天然锁定术原自家耗材复购",
+      "reason": "FOREO手册显示扫描面膜条码后选择对应流程；可借鉴耗材与流程关联，不等于术原已实现自动识别。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "面部精华用户",
+      "points": "分区定量精华为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "innovation": "可替换安瓶套环带机械防错键；手柄只做计时与轻振；标签对应单一护理程序",
       "platforms": [
         "天猫",
         "抖音"
       ],
       "links": [
         {
-          "title": "Medicube AGE-R Booster Pro X2 美英上市（Herald）",
-          "url": "https://biz.heraldcorp.com/article/10779614"
-        },
-        {
-          "title": "FOREO UFO 扫码同步面膜程序（用户手册）",
-          "url": "https://foreo.com/node/797"
-        },
-        {
-          "title": "APR：AGE-R累计销量超600万台",
-          "url": "https://www.placera.se/pressmeddelanden/apr-exceeds-6-million-units-in-global-sales-of-medicube-age-r-beauty-devices-strengthening-leadership-in-home-beauty-tech-20260129"
+          "title": "参考产品官方/授权渠道证据",
+          "url": "https://assets.foreo.com/files/static/manuals/2020-12/UFO_manual_English.pdf?UAmttbwcNzBWvxwEliMlr0to9vkUTWLy="
         }
       ],
-      "why": "与术原\"超导护肤\"定位最贴合：仪器+安瓶双收入，器械ID既是卖点又是复购护城河；非射频路线，不受国内射频三类证影响。",
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "image_page": "https://www.lifepharmacy.com/product/medicube-age-r-booster-pro-facial-device-pink-4481-4269",
       "market": {
-        "size": "全球家用美容仪约214亿美元（2024，P&S）；国内三平台美容仪208.57亿元（2025）",
-        "growth": "全球家用美容仪CAGR 27.4%（2024-2030，机构预测偏乐观）；国内2025年同比-11.1%，仅仪器配件子类增长",
-        "demand": "导入类是国内射频收紧后的主要替代方向；Medicube一个品牌就卖出600万台，配件是唯一增长子类",
-        "demand_level": "高",
-        "verdict": "推荐",
-        "tier": "第一梯队",
-        "view": "大盘最大、需求已被海外验证，且耗材复购能对冲国内美容仪整体下滑，推荐作为专区首推。",
+        "tier": "暂无统计",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "安瓶用量和步骤不一致（产品机会假设，待用户访谈）",
+        "verdict": "谨慎推荐",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
-            "title": "APR：AGE-R累计销量超600万台",
-            "url": "https://www.placera.se/pressmeddelanden/apr-exceeds-6-million-units-in-global-sales-of-medicube-age-r-beauty-devices-strengthening-leadership-in-home-beauty-tech-20260129"
-          },
-          {
-            "title": "什么值得买：2025三平台美容仪数据",
-            "url": "https://post.smzdm.com/p/ak8l2pq9/"
-          },
-          {
-            "title": "新华网：射频美容仪持证上岗后市场转向",
-            "url": "https://www.news.cn/20260330/382497eb4f664993b95e9300b54ec83f/c.html"
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://assets.foreo.com/files/static/manuals/2020-12/UFO_manual_English.pdf?UAmttbwcNzBWvxwEliMlr0to9vkUTWLy="
           }
         ]
       },
       "summary": {
-        "reason": "Medicube 600万台+FOREO扫码识别已验证",
-        "audience": "成分党、水光针维持人群",
-        "points": "电穿孔+微电流、安瓶疗程复购",
-        "innovation": "安瓶编码识别，自动匹配导入参数",
-        "why": "最贴合超导定位，仪器+耗材双收入"
+        "reason": "FOREO手册显示扫描面膜条码后选择对应流程；可借鉴耗材与流程关联，不等于术原已实现自动识别。",
+        "audience": "面部精华用户",
+        "points": "分区定量精华为主，器械辅助",
+        "innovation": "可替换安瓶套环带机械防错键；手柄只做计时与轻振；标签对应单一护理程序",
+        "why": "先验证使用改善和耗材复购"
       },
       "date": "2026-10-28",
       "brands": [
         "术原"
       ],
       "visual": {
-        "hook": "安瓶是钥匙",
-        "sell": "仪器认得精华，自动匹配程序",
-        "idea": "安瓶像钥匙一样插进仪器，「咔哒」一声屏幕亮起对应程序；换另一支安瓶，程序自动切换。一句话：术原的仪器认得术原的精华",
-        "links": []
+        "idea": "展示分区定量精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
       },
       "concept": {
-        "title": "术原·识别式超导安瓶 + 超导导入仪",
+        "title": "精华识别式涂布辅助手柄（开发概念）",
+        "desc": "可替换安瓶套环带机械防错键；手柄只做计时与轻振；标签对应单一护理程序；辅助器械≤300元为开发目标，成本待验证。",
         "form": "wand",
+        "primary": "skin",
         "kit": [
           [
-            "cart",
-            "编码安瓶"
+            "serum",
+            "分区定量精华"
           ]
         ],
         "up": [
-          "安瓶为主，仪器≤499元",
-          "插入安瓶自动匹配程序",
-          "促渗目标≥150%（需检测）"
-        ],
-        "desc": "安瓶是主产品，导入仪只认术原安瓶并自动匹配电流程序，一台仪器带动多款安瓶复购。",
-        "primary": "skin"
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
       },
       "steps": [
-        "洁面后取1支编码安瓶",
-        "安瓶插入仪器，自动匹配程序",
-        "按提示全脸导入约5分钟",
-        "剩余安瓶涂开吸收"
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
       ],
-      "img": "assets/images/sy-id-booster.webp"
+      "img": "assets/images/sy-id-booster.webp",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "可替换安瓶套环带机械防错键；手柄只做计时与轻振；标签对应单一护理程序",
+        "problem": "安瓶用量和步骤不一致"
+      },
+      "evidence": [
+        {
+          "url": "https://assets.foreo.com/files/static/manuals/2020-12/UFO_manual_English.pdf?UAmttbwcNzBWvxwEliMlr0to9vkUTWLy=",
+          "claim": "FOREO手册显示扫描面膜条码后选择对应流程；可借鉴耗材与流程关联，不等于术原已实现自动识别。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ]
     },
     {
       "id": "sy-sono",
-      "rank": "主推",
-      "category": "超导仪器",
-      "direction": "海外热门",
-      "type": "仪器+耗材",
-      "name": "3MHz声波超导舒缓仪（敏感肌可用的高频超声导入）",
+      "rank": "次推",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "type": "护肤品+辅助器具开发概念",
+      "name": "舒缓精华+耦合提醒手柄（超声路线待工程验证）",
       "tech": [
-        "声波振动",
-        "活性成分"
+        "定量涂布",
+        "护肤流程设计"
       ],
       "pain": [
-        "敏感不耐受",
-        "成分进不去"
+        "精华干掉后继续摩擦"
       ],
-      "reason": "爱茉莉太平洋旗下仪器品牌makeON在IFA 2025推出Gem Sono Therapy Relief，用每秒300万次的超声振动（自研Infinity Sono Tech）帮助活性成分吸收，主打舒缓；同期还推出微LED面罩ONFACE和3秒测肤的Skin Light Therapy 3S。韩国大厂开始把\"高频超声导入\"做成敏感肌也能用的家用仪器。",
-      "audience": "屏障受损、泛红敏感、用不了电流和酸类的20-35岁女性；医美术后需要温和导入修护成分的人群",
-      "points": "无电流刺激，敏感肌也能用；超声把修护精华推进去；小巧便携，早晚可用",
-      "innovation": "用高频超声替代电流做导入，把\"超导\"带给敏感肌；仪器端可识别修护精华并限定低强度档位，避免敏感期过度刺激",
+      "reason": "Amorepacific官方发布Gem Sono Therapy Relief，定位护肤配合装置；本轮不延用敏感肌普遍适用及确定透皮提升表述。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "喜欢短流程护理的人群",
+      "points": "保湿舒缓精华为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "innovation": "宽弧接触头、低余量提示和易拆洗面；超声版本须另做声输出与预算验证",
       "platforms": [
         "天猫",
         "京东",
@@ -3403,80 +3444,90 @@
       ],
       "links": [
         {
-          "title": "Amorepacific：IFA 2025发布makeON新品（官方新闻）",
-          "url": "https://www.apgroup.com/int/en/news/2025-09-01-1.html"
-        },
-        {
-          "title": "Amorepacific IFA 2025新闻稿（AAP）",
-          "url": "https://www.aap.com.au/aapreleases/cision20250903ae64338/"
+          "title": "参考产品官方/授权渠道证据",
+          "url": "https://www.apgroup.com/int/ko/news/2025-04-14-1.html"
         }
       ],
-      "why": "敏感肌是国内护肤最大人群之一，现有导入仪多数依赖电流，术原可以用\"不刺激的超导\"做差异化。",
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "image_page": "https://www.apgroup.com/int/en/news/2025-09-01-1.html",
       "market": {
-        "size": "全球家用美容仪约214亿美元（2024，P&S）；国内三平台美容仪208.57亿元（2025）",
-        "growth": "全球家用美容仪CAGR 27.4%（2024-2030，机构预测偏乐观）；国内2025年同比-11.1%，仅仪器配件子类增长",
-        "demand": "敏感肌和术后修护需求大，但\"超声导入\"在国内还没有强势单品，消费者认知需要教育",
-        "demand_level": "高",
-        "verdict": "推荐",
-        "tier": "第一梯队",
-        "view": "大盘大、敏感肌人群大，且超声路线竞争少；需要内容教育，但适合作为术原差异化主推。",
+        "tier": "暂无统计",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "精华干掉后继续摩擦（产品机会假设，待用户访谈）",
+        "verdict": "谨慎推荐",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
-            "title": "P&S：全球家用美容仪市场",
-            "url": "https://www.psmarketresearch.com/market-analysis/home-use-beauty-devices-market"
-          },
-          {
-            "title": "什么值得买：2025三平台美容仪数据",
-            "url": "https://post.smzdm.com/p/ak8l2pq9/"
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://www.apgroup.com/int/ko/news/2025-04-14-1.html"
           }
         ]
       },
       "summary": {
-        "reason": "makeON用3MHz超声做舒缓导入",
-        "audience": "敏感肌、医美术后人群",
-        "points": "无电流、温和导入修护精华",
-        "innovation": "超声替代电流，敏感期自动限档",
-        "why": "用不刺激的超导做差异化"
+        "reason": "Amorepacific官方发布Gem Sono Therapy Relief，定位护肤配合装置；本轮不延用敏感肌普遍适用及确定透皮提升表述。",
+        "audience": "喜欢短流程护理的人群",
+        "points": "保湿舒缓精华为主，器械辅助",
+        "innovation": "宽弧接触头、低余量提示和易拆洗面；超声版本须另做声输出与预算验证",
+        "why": "先验证使用改善和耗材复购"
       },
       "date": "2026-10-28",
       "brands": [
         "术原"
       ],
       "visual": {
-        "hook": "没有电流的超导",
-        "sell": "敏感肌也能用的超声导入",
-        "idea": "敏感肌怕电流的人把仪器贴在手背上，旁边测电笔不亮；一碗豆腐脑表面被振出细纹却不碎，讲温和",
-        "links": []
+        "idea": "展示保湿舒缓精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
       },
       "concept": {
-        "title": "术原·敏感肌修护精华 + 声波导入头",
+        "title": "舒缓精华+耦合提醒手柄（超声路线待工程验证）",
+        "desc": "宽弧接触头、低余量提示和易拆洗面；超声版本须另做声输出与预算验证；辅助器械≤300元为开发目标，成本待验证。",
         "form": "wand",
+        "primary": "skin",
         "kit": [
           [
             "serum",
-            "屏障修护精华"
+            "保湿舒缓精华"
           ]
         ],
         "up": [
-          "修护精华为主",
-          "3MHz声波导入头≤399元",
-          "无电流，敏感肌可用"
-        ],
-        "desc": "以敏感肌修护精华为主，配一个无电流的高频声波导入头，解决「敏感肌不敢用导入仪」。",
-        "primary": "skin"
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
       },
       "steps": [
-        "洁面后涂修护精华",
-        "声波导入头贴脸慢移",
-        "全脸约3分钟",
-        "早晚可用"
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
       ],
-      "img": "assets/images/sy-sono.webp"
+      "img": "assets/images/sy-sono.webp",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "宽弧接触头、低余量提示和易拆洗面；超声版本须另做声输出与预算验证",
+        "problem": "精华干掉后继续摩擦"
+      },
+      "evidence": [
+        {
+          "url": "https://www.apgroup.com/int/ko/news/2025-04-14-1.html",
+          "claim": "Amorepacific官方发布Gem Sono Therapy Relief，定位护肤配合装置；本轮不延用敏感肌普遍适用及确定透皮提升表述。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ]
     },
     {
       "id": "sy-ion-mask",
-      "rank": "主推",
+      "rank": "技术观察",
       "category": "超导面膜",
       "direction": "海外热门",
       "type": "耗材",
@@ -3489,7 +3540,7 @@
         "成分进不去",
         "效果难坚持"
       ],
-      "reason": "韩国Reziena的Young&Be Bio-radiance微电流面膜把纸基电池（Biocell）做进面膜里，用离子导入把成分推进皮肤，获CES 2023创新奖；青岛大学2025年发表遇水即可供电的纤维电池离子导入面膜研究。\"面膜本身就是仪器\"已有产品和学术基础，但还没有品牌做成规模。",
+      "reason": "自供电面膜的零售上市与供应链未确认；先保留技术观察，不作为当前300元辅助器械的主推。",
       "audience": "想要导入效果但不想买仪器、或嫌仪器麻烦坚持不下来的22-35岁女性；术原仪器用户的高频补充",
       "points": "一次性面膜内置微电流，贴上即导入；带指示灯显示电流在工作；价格远低于导入仪",
       "innovation": "把仪器\"做薄\"进面膜：每片面膜就是一次超导疗程，零学习成本；可按功效出补水/提亮/修护多个SKU，和术原仪器形成\"日常面膜+每周仪器\"的组合",
@@ -3510,13 +3561,13 @@
       "why": "面膜是国内最大的护肤单品之一，\"会导入的面膜\"最直观地表达\"超导护肤\"，也是术原拉新的低价入口。",
       "image_page": "https://www.koreadaily.com/section/articles/iontophoresis%20technology",
       "market": {
-        "size": "暂无可靠细分统计；上级品类全球微电流美容约4.69亿美元（2025，Fortune）",
-        "growth": "微电流美容CAGR约7.4%（2026-2034）",
-        "demand": "面膜是高频刚需品类；离子导入面膜还没有成规模品牌，用户认知需要建立",
-        "demand_level": "中",
-        "verdict": "推荐",
+        "size": "缺失：本轮未验证",
+        "growth": "缺失：本轮未验证",
+        "demand": "技术观察，需求强度未验证",
+        "demand_level": "待验证",
+        "verdict": "观望",
         "tier": "暂无统计",
-        "view": "细分市场尚未形成，但面膜大盘和高频复购让试错成本低，适合术原做概念爆品和拉新入口。",
+        "view": "自供电面膜的零售上市与供应链未确认；先保留技术观察，不作为当前300元辅助器械的主推。",
         "sources": [
           {
             "title": "Fortune：微电流美容市场",
@@ -3525,11 +3576,11 @@
         ]
       },
       "summary": {
-        "reason": "韩国电池面膜获CES奖，学术已验证",
+        "reason": "自供电面膜的零售上市与供应链未确认；先保留技术观察，不作为当前300元辅助器械的主推。",
         "audience": "嫌仪器麻烦的年轻女性",
-        "points": "面膜自带电流，贴上即导入",
-        "innovation": "面膜即仪器，每片就是一次疗程",
-        "why": "最直观表达超导，低价拉新入口"
+        "points": "仅技术观察，不纳入当前5主推10次推",
+        "innovation": "需补齐证据后再评估",
+        "why": "自供电面膜的零售上市与供应链未确认；先保留技术观察，不作为当前300元辅助器械的主推。"
       },
       "date": "2026-10-28",
       "brands": [
@@ -3583,11 +3634,38 @@
         "撕开包装，贴上自供电面膜",
         "约15分钟自动导入",
         "取下轻拍吸收"
-      ]
+      ],
+      "recommendationStatus": "技术观察",
+      "recommendationReview": {
+        "checked": "2026-11-01",
+        "note": "自供电面膜的零售上市与供应链未确认；先保留技术观察，不作为当前300元辅助器械的主推。"
+      },
+      "evidence": [
+        {
+          "url": "https://ick.intercharmkorea.com/eng/exhibitor/exhi_detail04.asp?idx=6429&param=%26page%3D27&ref_idx=16258",
+          "claim": "2026 InterCHARM参展方仍展示Young&be Bio-radiance Mask。已确认展示记录；没有取得可核实的正式零售上架和开售日期，不能把未检索到认作确定未上市。保留跟踪并注明上市待核实。",
+          "checked": "2026-11-01",
+          "status": "partial",
+          "kind": "launch-review"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ],
+      "lastReview": {
+        "id": "sy-ion-mask",
+        "checked": "2026-11-01",
+        "status": "inconclusive",
+        "url": "https://ick.intercharmkorea.com/eng/exhibitor/exhi_detail04.asp?idx=6429&param=%26page%3D27&ref_idx=16258",
+        "note": "2026 InterCHARM参展方仍展示Young&be Bio-radiance Mask。已确认展示记录；没有取得可核实的正式零售上架和开售日期，不能把未检索到认作确定未上市。保留跟踪并注明上市待核实。"
+      }
     },
     {
       "id": "sy-two-step",
-      "rank": "主推",
+      "rank": "技术观察",
       "category": "微通道导入",
       "direction": "销量起量",
       "type": "仪器+耗材",
@@ -3601,7 +3679,7 @@
         "成分进不去",
         "怕疼怕恢复期"
       ],
-      "reason": "海外\"先开通道、再推送\"已成主流：VT Reedle Shot海绵微针精华2025年进入约1400家Ulta门店，社媒曝光超1亿次；雅萌2025年7月推出带微针的ニードルリフトシートマスク（7片1,870日元）；兰蔻也推出微针灵感的家用仪器Nano Resurfacer。但\"微针耗材\"和\"导入仪\"还没被一个品牌打通。",
+      "reason": "微刺/海绵针与电刺激叠加的配方和刺激风险未验证，不纳入首轮低风险护肤工具方案。",
       "audience": "想要微针、水光效果但怕疼、怕恢复期的20-35岁女性；已有导入仪的用户",
       "points": "第一步微针精华/面膜打开通道，第二步导入仪推送；按微针浓度分级进阶复购",
       "innovation": "两段式流程由仪器引导：仪器识别当前用的是哪一级微针耗材，自动提示停留时长和导入强度，避免过度刺激",
@@ -3626,13 +3704,13 @@
       "why": "耗材开发门槛低、复购强，又能带动导入仪销售；雅萌、兰蔻都在入场，窗口期较短。",
       "image_page": "https://www.dodoskin.com/products/vt-reedle-shot-100",
       "market": {
-        "size": "化妆品微针贴暂无可靠总规模；维C微针贴约4亿美元（2025，Market Intelo）",
-        "growth": "化妆品微针贴CAGR约6.9%（2025-2031，Lucintel）",
-        "demand": "怕疼想要微针效果的人群大，和水光仪用户高度重叠",
-        "demand_level": "高",
-        "verdict": "推荐",
+        "size": "缺失：本轮未验证",
+        "growth": "缺失：本轮未验证",
+        "demand": "技术观察，需求强度未验证",
+        "demand_level": "待验证",
+        "verdict": "观望",
         "tier": "第二梯队",
-        "view": "细分规模中等但增长和社媒热度都在，开发成本低、复购高，推荐快速推进。",
+        "view": "微刺/海绵针与电刺激叠加的配方和刺激风险未验证，不纳入首轮低风险护肤工具方案。",
         "sources": [
           {
             "title": "Lucintel：化妆品微针贴市场",
@@ -3641,11 +3719,11 @@
         ]
       },
       "summary": {
-        "reason": "Reedle Shot进Ulta、雅萌兰蔻入场",
+        "reason": "微刺/海绵针与电刺激叠加的配方和刺激风险未验证，不纳入首轮低风险护肤工具方案。",
         "audience": "怕疼想要微针效果的人群",
-        "points": "先微针开通道、再仪器推送",
-        "innovation": "仪器识别微针等级，自动提示时长",
-        "why": "门槛低复购强，窗口期短"
+        "points": "仅技术观察，不纳入当前5主推10次推",
+        "innovation": "需补齐证据后再评估",
+        "why": "微刺/海绵针与电刺激叠加的配方和刺激风险未验证，不纳入首轮低风险护肤工具方案。"
       },
       "date": "2026-10-28",
       "brands": [
@@ -3684,414 +3762,465 @@
         "导入头全脸走一遍",
         "晚间使用"
       ],
-      "img": "assets/images/sy-two-step.webp"
+      "img": "assets/images/sy-two-step.webp",
+      "recommendationStatus": "技术观察",
+      "recommendationReview": {
+        "checked": "2026-11-01",
+        "note": "微刺/海绵针与电刺激叠加的配方和刺激风险未验证，不纳入首轮低风险护肤工具方案。"
+      },
+      "evidence": [
+        {
+          "url": "https://www.webull.com/news/13209909441881088",
+          "claim": "本轮按非侵入、护肤品为主、辅助器械开发目标≤300元筛选，暂退为技术观察；旧来源本轮未完成重新抓取，不用来支持新增销量、功效或上市结论。",
+          "checked": "2026-11-01",
+          "status": "unverified",
+          "kind": "editorial-decision"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ]
     },
     {
       "id": "sy-eye-patch",
       "rank": "主推",
       "category": "局部精护",
-      "direction": "海外热门",
-      "type": "仪器+耗材",
-      "name": "微电流眼周导入贴+导入笔（眼周超导精护）",
+      "direction": "需求未满足",
+      "type": "护肤品+辅助器具开发概念",
+      "name": "导电眼贴+眼周限位辅助手柄（开发概念）",
       "tech": [
-        "微电流",
-        "活性成分"
+        "定量涂布",
+        "护肤流程设计"
       ],
       "pain": [
-        "局部问题难护理",
-        "成分进不去"
+        "眼贴滑动、眼周器械使用边界不清"
       ],
-      "reason": "NuFACE推出IonPlex Hydra-Gel Power Patches眼膜（55美元），精华眼贴本身增强导电，配合FDA许可的FIX MicroWand微电流笔在眼贴上滑动，把\"眼贴+仪器\"做成组合套装售卖。眼周是最薄、最难让成分渗透的部位，也是国内美眼仪的成熟赛道。",
-      "audience": "有黑眼圈、细纹、眼袋浮肿的25-40岁女性；美眼仪现有用户",
-      "points": "导电眼贴+微电流笔，眼贴同时是耗材和导电介质；一次5分钟；眼贴按盒复购",
-      "innovation": "耗材即导电介质：眼贴配方专为电流导入设计，不用额外涂凝胶；导入笔识别眼贴后切换眼周低强度模式",
+      "reason": "NuFACE官网提供一次性IonPlex眼贴，并说明可搭配FIX MicroWand；参考笔售价175美元，不是300元内成品。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "眼周干燥护理用户",
+      "points": "导电保湿眼贴为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "innovation": "贴片外沿设操作区、手柄限位头和定时；电流方案须另做眼周安全与配方匹配验证",
       "platforms": [
         "天猫",
         "抖音"
       ],
       "links": [
         {
-          "title": "NuFACE IonPlex Hydra-Gel Power Patches（官网）",
-          "url": "https://mynuface.com/collections/devices/products/ionplex-hydra-gel-power-patches-eye-masks"
-        },
-        {
-          "title": "NuFACE Power Move 套装说明",
-          "url": "https://mynuface.com/pages/power-move-learn-more"
+          "title": "参考产品官方/授权渠道证据",
+          "url": "https://www.mynuface.com/products/ionplex-hydra-gel-power-patches-eye-masks"
         }
       ],
-      "why": "眼周是高客单、高复购的细分，集团已有美眼仪经验，术原可以用\"导电眼贴\"做耗材差异。",
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "image_page": "https://mynuface.com/collections/devices/products/ionplex-hydra-gel-power-patches-eye-masks",
       "market": {
-        "size": "全球微电流美容约4.69亿美元（2025，Fortune），家用占约34%",
-        "growth": "微电流美容CAGR约7.4%（2026-2034）",
-        "demand": "眼周细纹、黑眼圈是高频诉求，美眼仪在国内已有成熟用户；射频收紧后微电流是主流替代",
-        "demand_level": "高",
-        "verdict": "推荐",
-        "tier": "第三梯队",
-        "view": "微电流细分规模不大，但眼周耗材复购高、和集团美眼仪协同，推荐。",
+        "tier": "暂无统计",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "眼贴滑动、眼周器械使用边界不清（产品机会假设，待用户访谈）",
+        "verdict": "谨慎推荐",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
-            "title": "Fortune：微电流美容市场",
-            "url": "https://www.fortunebusinessinsights.com/microcurrent-facial-market-117660"
-          },
-          {
-            "title": "新华网：射频美容仪持证上岗后市场转向",
-            "url": "https://www.news.cn/20260330/382497eb4f664993b95e9300b54ec83f/c.html"
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://www.mynuface.com/products/ionplex-hydra-gel-power-patches-eye-masks"
           }
         ]
       },
       "summary": {
-        "reason": "NuFACE眼贴+微电流笔组合热卖",
-        "audience": "黑眼圈细纹人群、美眼仪用户",
-        "points": "导电眼贴+微电流笔，5分钟",
-        "innovation": "眼贴即导电介质，免涂凝胶",
-        "why": "眼周高复购，与美眼仪协同"
+        "reason": "NuFACE官网提供一次性IonPlex眼贴，并说明可搭配FIX MicroWand；参考笔售价175美元，不是300元内成品。",
+        "audience": "眼周干燥护理用户",
+        "points": "导电保湿眼贴为主，器械辅助",
+        "innovation": "贴片外沿设操作区、手柄限位头和定时；电流方案须另做眼周安全与配方匹配验证",
+        "why": "先验证使用改善和耗材复购"
       },
       "date": "2026-10-28",
       "brands": [
-        "术原",
-        "极萌"
+        "术原"
       ],
       "visual": {
-        "hook": "眼下加油站",
-        "sell": "5分钟眼周超导精护",
-        "idea": "眼下贴上导电眼贴像接上加油枪，电量条从疲惫红变成满格绿；熬夜后的早晨",
-        "links": []
+        "idea": "展示导电保湿眼贴包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
       },
       "concept": {
-        "title": "术原·眼周导电贴 + 微电流导入笔",
+        "title": "导电眼贴+眼周限位辅助手柄（开发概念）",
+        "desc": "贴片外沿设操作区、手柄限位头和定时；电流方案须另做眼周安全与配方匹配验证；辅助器械≤300元为开发目标，成本待验证。",
         "form": "pen",
+        "primary": "skin",
         "kit": [
           [
-            "patch",
-            "导电眼贴"
+            "serum",
+            "导电保湿眼贴"
           ]
         ],
         "up": [
-          "眼贴为主耗材",
-          "微电流笔≤199元",
-          "5分钟眼周精护"
-        ],
-        "desc": "导电眼贴含眼周精华，贴上后用微电流笔在贴片上滑动，帮助精华吸收。",
-        "primary": "skin"
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
       },
       "steps": [
-        "洁面后贴上导电眼贴",
-        "微电流笔在贴片上滑动",
-        "每侧约2分钟",
-        "取下贴片按摩吸收"
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
       ],
-      "img": "assets/images/sy-eye-patch.webp"
+      "img": "assets/images/sy-eye-patch.webp",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "贴片外沿设操作区、手柄限位头和定时；电流方案须另做眼周安全与配方匹配验证",
+        "problem": "眼贴滑动、眼周器械使用边界不清"
+      },
+      "evidence": [
+        {
+          "url": "https://www.mynuface.com/products/ionplex-hydra-gel-power-patches-eye-masks",
+          "claim": "NuFACE官网提供一次性IonPlex眼贴，并说明可搭配FIX MicroWand；参考笔售价175美元，不是300元内成品。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ]
     },
     {
       "id": "sy-lg-superform",
       "rank": "次推",
-      "category": "超导仪器",
-      "direction": "海外热门",
-      "type": "仪器",
-      "name": "47克迷你离子导入笔（79美元入门款）",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "type": "护肤品+辅助器具开发概念",
+      "name": "精华瓶盖式轻振笔（开发概念）",
       "tech": [
-        "离子导入",
-        "LED光疗"
+        "定量涂布",
+        "护肤流程设计"
       ],
       "pain": [
-        "成分进不去",
-        "效果难坚持"
+        "精华与仪器分开收纳导致漏用"
       ],
-      "reason": "LG生活健康收购LG Pra.L后的第一款新品Superform Galvanic Booster于2025年10月在美国上市：仅47克、售价79美元，称护肤品吸收率最高提升182%，带红光LED，电池可旋拧更换。导入仪正在从\"大而全\"走向\"小而轻\"的入门款。",
-      "audience": "第一次尝试美容仪、预算有限的20-30岁女性；需要随身带的通勤人群",
-      "points": "口红大小，随身用；离子导入+红光；价格低，入门门槛低",
-      "innovation": "把导入仪做成\"护肤品涂抹工具\"：涂精华时顺手导入，无需单独留出仪器时间",
+      "reason": "LG品牌2025年新闻稿介绍Superform Galvanic Booster，发布价79美元；仅作轻巧形态与精华配套参考。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "通勤、旅行护理用户",
+      "points": "保湿精华为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "innovation": "笔体卡入精华外盖，单键计时，拆卸接触头；首版评估轻振而非复刻所有电功能",
       "platforms": [
         "天猫",
         "抖音"
       ],
       "links": [
         {
-          "title": "LG Pra.L Superform 美国上市（FN News）",
-          "url": "https://en.fnnews.com/news/202510211330454258"
-        },
-        {
-          "title": "LG Pra.L Superform 发布（MarketScreener）",
-          "url": "https://www.marketscreener.com/news/lg-pra-l-debuts-next-gen-skincare-tech-with-superform-galvanic-booster-ce7d5bdddc8df623"
+          "title": "参考产品官方/授权渠道证据",
+          "url": "https://www.prnewswire.com/news-releases/lg-pral-debuts-next-gen-skincare-tech-with-superform-galvanic-booster-302575835.html"
         }
       ],
-      "why": "适合作为术原的引流款，用低价把用户带进\"超导\"体系，再卖安瓶和高端仪器。",
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "image_page": "https://www.lg.com/sg/pra-l/lg-BBL1-galvanic-ion-booster",
       "market": {
-        "size": "全球家用美容仪约214亿美元（2024，P&S）；国内三平台美容仪208.57亿元（2025）",
-        "growth": "全球家用美容仪CAGR 27.4%（2024-2030，机构预测偏乐观）；国内2025年同比-11.1%，仅仪器配件子类增长",
-        "demand": "入门价位美容仪人群最大，但价格战激烈",
-        "demand_level": "高",
+        "tier": "暂无统计",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "精华与仪器分开收纳导致漏用（产品机会假设，待用户访谈）",
         "verdict": "谨慎推荐",
-        "tier": "第一梯队",
-        "view": "大盘大、人群广，但低价段竞争激烈、利润薄，建议作为引流款而不是利润款。",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
-            "title": "P&S：全球家用美容仪市场",
-            "url": "https://www.psmarketresearch.com/market-analysis/home-use-beauty-devices-market"
-          },
-          {
-            "title": "什么值得买：2025三平台美容仪数据",
-            "url": "https://post.smzdm.com/p/ak8l2pq9/"
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://www.prnewswire.com/news-releases/lg-pral-debuts-next-gen-skincare-tech-with-superform-galvanic-booster-302575835.html"
           }
         ]
       },
       "date": "2026-10-28",
       "brands": [
-        "术原",
-        "极萌"
+        "术原"
       ],
       "summary": {
-        "reason": "LG Pra.L 47克导入笔美国上市",
-        "audience": "入门、预算有限的年轻女性",
-        "points": "口红大小、离子+红光、79美元",
-        "innovation": "涂精华时顺手导入",
-        "why": "适合做术原引流款"
+        "reason": "LG品牌2025年新闻稿介绍Superform Galvanic Booster，发布价79美元；仅作轻巧形态与精华配套参考。",
+        "audience": "通勤、旅行护理用户",
+        "points": "保湿精华为主，器械辅助",
+        "innovation": "笔体卡入精华外盖，单键计时，拆卸接触头；首版评估轻振而非复刻所有电功能",
+        "why": "先验证使用改善和耗材复购"
       },
       "visual": {
-        "hook": "化妆包里的超导",
-        "sell": "口红大小，随时导入",
-        "idea": "化妆包里拿出来，和口红一起摆在洗手台上，补妆时顺手导入一次",
-        "links": []
+        "idea": "展示保湿精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
       },
       "concept": {
-        "title": "术原·口红导入仪 + 泡沫精华",
+        "title": "精华瓶盖式轻振笔（开发概念）",
+        "desc": "笔体卡入精华外盖，单键计时，拆卸接触头；首版评估轻振而非复刻所有电功能；辅助器械≤300元为开发目标，成本待验证。",
         "form": "pen",
+        "primary": "skin",
         "kit": [
           [
             "serum",
-            "泡沫导入精华"
+            "保湿精华"
           ]
         ],
         "up": [
-          "口红大小，≤199元",
-          "离子+红光",
-          "泡沫精华复购"
-        ],
-        "desc": "入门款：口红大小的导入仪配泡沫精华，适合第一次尝试超导护肤的年轻用户。",
-        "primary": "skin"
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
       },
       "steps": [
-        "挤泡沫精华",
-        "开离子+红光",
-        "全脸导入约3分钟",
-        "随身补涂"
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
       ],
-      "img": "assets/images/sy-lg-superform.webp"
+      "img": "assets/images/sy-lg-superform.webp",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "笔体卡入精华外盖，单键计时，拆卸接触头；首版评估轻振而非复刻所有电功能",
+        "problem": "精华与仪器分开收纳导致漏用"
+      },
+      "evidence": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/lg-pral-debuts-next-gen-skincare-tech-with-superform-galvanic-booster-302575835.html",
+          "claim": "LG品牌2025年新闻稿介绍Superform Galvanic Booster，发布价79美元；仅作轻巧形态与精华配套参考。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ]
     },
     {
       "id": "sy-panasonic",
       "rank": "次推",
-      "category": "超导仪器",
-      "direction": "海外热门",
-      "type": "仪器",
-      "name": "离子+温热+EMS三合一导入仪（日系经典路线升级）",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "type": "护肤品+辅助器具开发概念",
+      "name": "晚霜+单模式温感涂布头（开发概念）",
       "tech": [
-        "离子导入",
-        "温热",
-        "EMS"
+        "定量涂布",
+        "护肤流程设计"
       ],
       "pain": [
-        "成分进不去"
+        "厚霜分布不均、操作模式过多"
       ],
-      "reason": "松下イオンブーストマルチEX（EH-SS85）用\"パワーブーストテクノロジー\"做角质层导入，官方称透明质酸渗透为手涂的12倍、胶原蛋白6.3倍，并加入双波形EMS。日本导入仪以离子+温热为主流，长期稳居家电渠道。",
-      "audience": "30-45岁注重抗老和紧致的女性；偏好大品牌、看重安全感的用户",
-      "points": "离子导入+温热打开毛孔+EMS按摩；配合化妆水/精华使用；家电级做工",
-      "innovation": "温热+离子联合导入，并用数据化宣称（成分渗透倍数）讲清楚\"超导\"效果，可借鉴为术原的效果背书方式",
+      "reason": "Panasonic EH-SS85官网列出多种护理模式；术原只借鉴护肤步骤组织，不能认为完整三合一能压到300元。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "偏干肌日常保湿用户",
+      "points": "保湿晚霜为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "innovation": "宽扁陶瓷涂布头、一个温感模式及超时停止；温度和配方稳定性须实测",
       "platforms": [
         "天猫",
         "京东"
       ],
       "links": [
         {
-          "title": "松下 EH-SS85 官方产品页",
+          "title": "参考产品官方/授权渠道证据",
           "url": "https://panasonic.jp/face/products/EH-SS85.html"
-        },
-        {
-          "title": "EH-SS85 规格与渗透数据（K's电器）",
-          "url": "https://www.ksdenki.com/shop/g/g4549980741108"
         }
       ],
-      "why": "技术成熟、风险低，可作为术原中高端线的功能参照，但差异化不足。",
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "image_page": "https://panasonic.jp/face/products/EH-SS85.html",
       "market": {
-        "size": "全球家用美容仪约214亿美元（2024，P&S）；国内三平台美容仪208.57亿元（2025）",
-        "growth": "全球家用美容仪CAGR 27.4%（2024-2030，机构预测偏乐观）；国内2025年同比-11.1%，仅仪器配件子类增长",
-        "demand": "日系导入仪用户稳定，国内对大品牌信任度高",
-        "demand_level": "中",
+        "tier": "暂无统计",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "厚霜分布不均、操作模式过多（产品机会假设，待用户访谈）",
         "verdict": "谨慎推荐",
-        "tier": "第一梯队",
-        "view": "大盘稳定但技术同质，适合借鉴效果宣称方式，不建议单独作为主推。",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
-            "title": "P&S：全球家用美容仪市场",
-            "url": "https://www.psmarketresearch.com/market-analysis/home-use-beauty-devices-market"
-          },
-          {
-            "title": "什么值得买：2025三平台美容仪数据",
-            "url": "https://post.smzdm.com/p/ak8l2pq9/"
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://panasonic.jp/face/products/EH-SS85.html"
           }
         ]
       },
       "date": "2026-10-28",
       "brands": [
-        "术原",
-        "极萌"
+        "术原"
       ],
       "summary": {
-        "reason": "松下导入仪称HA渗透为手涂12倍",
-        "audience": "30-45岁抗老人群",
-        "points": "离子+温热+EMS",
-        "innovation": "用渗透倍数讲清超导效果",
-        "why": "技术成熟，可借鉴效果宣称"
+        "reason": "Panasonic EH-SS85官网列出多种护理模式；术原只借鉴护肤步骤组织，不能认为完整三合一能压到300元。",
+        "audience": "偏干肌日常保湿用户",
+        "points": "保湿晚霜为主，器械辅助",
+        "innovation": "宽扁陶瓷涂布头、一个温感模式及超时停止；温度和配方稳定性须实测",
+        "why": "先验证使用改善和耗材复购"
       },
       "visual": {
-        "hook": "脸上泡温泉",
-        "sell": "离子+温热+EMS三合一",
-        "idea": "一张脸泡进日式温泉里，温热打开毛孔、离子把精华推进去、EMS像按摩师；日系经典路线",
-        "links": []
+        "idea": "展示保湿晚霜包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
       },
       "concept": {
-        "title": "术原·温感离子导入仪 + 导入化妆水",
+        "title": "晚霜+单模式温感涂布头（开发概念）",
+        "desc": "宽扁陶瓷涂布头、一个温感模式及超时停止；温度和配方稳定性须实测；辅助器械≤300元为开发目标，成本待验证。",
         "form": "wand",
+        "primary": "skin",
         "kit": [
           [
             "serum",
-            "导入化妆水"
+            "保湿晚霜"
           ]
         ],
         "up": [
-          "离子+温热+EMS",
-          "导入化妆水为主",
-          "仪器≤499元"
-        ],
-        "desc": "日系「化妆水+导入仪」路线：化妆棉夹在仪器头上，离子和温热帮助化妆水渗透。",
-        "primary": "skin"
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
       },
       "steps": [
-        "化妆棉浸透导入化妆水",
-        "夹在仪器头上",
-        "温热+离子导入全脸",
-        "EMS模式收尾"
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
       ],
-      "img": "assets/images/sy-panasonic.webp"
+      "img": "assets/images/sy-panasonic.webp",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "宽扁陶瓷涂布头、一个温感模式及超时停止；温度和配方稳定性须实测",
+        "problem": "厚霜分布不均、操作模式过多"
+      },
+      "evidence": [
+        {
+          "url": "https://panasonic.jp/face/products/EH-SS85.html",
+          "claim": "Panasonic EH-SS85官网列出多种护理模式；术原只借鉴护肤步骤组织，不能认为完整三合一能压到300元。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ]
     },
     {
       "id": "sy-ziip",
       "rank": "次推",
-      "category": "超导仪器",
-      "direction": "海外热门",
-      "type": "仪器+耗材",
-      "name": "纳米电流仪+专用导电精华凝胶（凝胶订阅制）",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "type": "护肤品+辅助器具开发概念",
+      "name": "功效凝胶+定量梳齿涂布头（开发概念）",
       "tech": [
-        "微电流",
-        "活性成分"
+        "定量涂布",
+        "护肤流程设计"
       ],
       "pain": [
-        "效果难坚持",
-        "用法不会选"
+        "凝胶厚薄不均、用量难控制"
       ],
-      "reason": "美国ZIIP HALO用纳米电流+微电流，售价约399美元，必须配合专用导电凝胶使用（英国价格从30英镑到120英镑不等），连接App解锁多种护理程序；Costco澳洲等大渠道已在销售。商业模式是\"仪器一次性+凝胶持续复购\"。",
-      "audience": "追求精致抗老、愿意为高端仪器付费的30-45岁女性",
-      "points": "纳米电流+微电流双模式；不同功效凝胶；App提供定制程序",
-      "innovation": "凝胶既是导电介质也是功效耗材，App按凝胶种类推荐程序，形成高端订阅复购",
+      "reason": "ZIIP官网Electric Complex Gel是导电基础凝胶，明确不添加功效活性物；不能把它写成含活性精华或已证实订阅制。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "现有微电流设备用户",
+      "points": "保湿导电凝胶为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "innovation": "泵头与短梳齿出液口一体，按压一泵覆盖单区，导电与护肤配方分别测试",
       "platforms": [
         "天猫"
       ],
       "links": [
         {
-          "title": "ZIIP HALO 评测（Which?）",
-          "url": "https://www.which.co.uk/news/article/ziip-halo-microcurrent-device-review-aczYA3D3WleG"
-        },
-        {
-          "title": "ZIIP HALO（Costco澳洲）",
-          "url": "https://www.costco.com.au/c/ZIIP-Halo-Microcurrent-Face-Device-ZPHALO/p/268202"
+          "title": "参考产品官方/授权渠道证据",
+          "url": "https://ziipbeauty.com/products/electric-complex-gel"
         }
       ],
-      "why": "凝胶订阅模式值得借鉴，但高端微电流竞争多，可作为术原高端线参考。",
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "image_page": "https://www.costco.com.au/c/ZIIP-Halo-Microcurrent-Face-Device-ZPHALO/p/268202",
       "market": {
-        "size": "全球微电流美容约4.69亿美元（2025，Fortune），家用占约34%",
-        "growth": "微电流美容CAGR约7.4%（2026-2034）",
-        "demand": "高端抗老人群付费意愿强，但规模有限",
-        "demand_level": "中",
+        "tier": "暂无统计",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "凝胶厚薄不均、用量难控制（产品机会假设，待用户访谈）",
         "verdict": "谨慎推荐",
-        "tier": "第三梯队",
-        "view": "细分规模小、客单价高，商业模式可借鉴，建议次推。",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
-            "title": "Fortune：微电流美容市场",
-            "url": "https://www.fortunebusinessinsights.com/microcurrent-facial-market-117660"
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://ziipbeauty.com/products/electric-complex-gel"
           }
         ]
       },
       "date": "2026-10-28",
       "brands": [
-        "术原",
-        "极萌"
+        "术原"
       ],
       "summary": {
-        "reason": "ZIIP仪器+专用凝胶持续复购",
-        "audience": "高端抗老人群",
-        "points": "纳米电流、多功效凝胶",
-        "innovation": "凝胶即导电介质+功效耗材",
-        "why": "订阅模式可借鉴"
+        "reason": "ZIIP官网Electric Complex Gel是导电基础凝胶，明确不添加功效活性物；不能把它写成含活性精华或已证实订阅制。",
+        "audience": "现有微电流设备用户",
+        "points": "保湿导电凝胶为主，器械辅助",
+        "innovation": "泵头与短梳齿出液口一体，按压一泵覆盖单区，导电与护肤配方分别测试",
+        "why": "先验证使用改善和耗材复购"
       },
       "visual": {
-        "hook": "凝胶胶囊机",
-        "sell": "不同功效凝胶，按需切换",
-        "idea": "一排彩色凝胶像胶囊咖啡一样摆好，今天想补水就选蓝色、想提亮就选金色；订阅制每月到货",
-        "links": []
+        "idea": "展示保湿导电凝胶包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
       },
       "concept": {
-        "title": "术原·纳米电流仪 + 功效凝胶胶囊",
+        "title": "功效凝胶+定量梳齿涂布头（开发概念）",
+        "desc": "泵头与短梳齿出液口一体，按压一泵覆盖单区，导电与护肤配方分别测试；辅助器械≤300元为开发目标，成本待验证。",
         "form": "wand",
+        "primary": "skin",
         "kit": [
           [
-            "gel",
-            "功效导电凝胶"
-          ],
-          [
-            "gel",
-            "提亮凝胶"
+            "serum",
+            "保湿导电凝胶"
           ]
         ],
         "up": [
-          "凝胶按功效分色",
-          "订阅制每月到货",
-          "仪器≤499元"
-        ],
-        "desc": "不同功效的导电凝胶像胶囊咖啡一样按需切换，仪器负责导入，凝胶订阅制复购。",
-        "primary": "skin"
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
       },
       "steps": [
-        "按今天的需求选凝胶",
-        "涂在脸上",
-        "纳米电流仪全脸导入",
-        "约5分钟"
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
       ],
-      "img": "assets/images/sy-ziip.webp"
+      "img": "assets/images/sy-ziip.webp",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "泵头与短梳齿出液口一体，按压一泵覆盖单区，导电与护肤配方分别测试",
+        "problem": "凝胶厚薄不均、用量难控制"
+      },
+      "evidence": [
+        {
+          "url": "https://ziipbeauty.com/products/electric-complex-gel",
+          "claim": "ZIIP官网Electric Complex Gel是导电基础凝胶，明确不添加功效活性物；不能把它写成含活性精华或已证实订阅制。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ]
     },
     {
       "id": "sy-light-serum",
       "rank": "次推",
-      "category": "光疗协同",
-      "direction": "海外热门",
-      "type": "耗材",
-      "name": "光疗协同超导精华（照灯前导+照后修护）",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "type": "护肤品+辅助器具开发概念",
+      "name": "光护理配套精华+分区计时盖（开发概念）",
       "tech": [
-        "活性成分",
-        "LED光疗"
+        "定量涂布",
+        "护肤流程设计"
       ],
       "pain": [
-        "敏感不耐受",
-        "效果难坚持"
+        "全脸先涂导致后护理区域精华干燥"
       ],
-      "reason": "Mito Red Light推出照灯专用三步护肤MitoAURA（93美元/约30天）：照前用无硅油前导精华，照后用依克多因+神经酰胺修护。国内LED面罩、大排灯放量，但\"照灯配什么护肤品\"仍是空白。",
-      "audience": "已有LED面罩/大排灯的用户；照灯后干燥泛红的敏感肌",
-      "points": "照前不含硅油、不挡光；照后修护屏障；30天装复购",
-      "innovation": "光敏协同配方：成分按光波段设计，仪器扫码后推荐照射时长，让光和精华互相增效",
+      "reason": "Solawave官方指导将脸部分区并逐区涂精华后使用棒；不据此证明任何精华与任意光源协同。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "已有光护理工具用户",
+      "points": "光护理配套保湿精华为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "innovation": "四区计时盖提示换区与补涂；不再堆叠光源，兼容性仅针对测试组合",
       "platforms": [
         "天猫",
         "京东",
@@ -4099,87 +4228,91 @@
       ],
       "links": [
         {
-          "title": "MitoAURA 三步套装商品页",
-          "url": "https://www.mitoredlight.com/products/mitoaura-complete-system"
-        },
-        {
-          "title": "什么值得买：2025三平台美容仪数据",
-          "url": "https://post.smzdm.com/p/ak8l2pq9/"
+          "title": "参考产品官方/授权渠道证据",
+          "url": "https://help.solawave.co/en-US/lightboost-wand-activating-serum-1101741"
         }
       ],
-      "why": "集团已有大量光疗设备用户，可直接转化为术原耗材客群。",
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "image_page": "https://www.mitoredlight.com/products/mitoaura-complete-system",
       "market": {
-        "size": "暂无可靠细分统计；上级品类全球红光疗法约5.34亿美元（2025）",
-        "growth": "红光疗法CAGR约9.8%（2026-2033）；国内仪器配件是2025年美容仪唯一增长子类",
-        "demand": "国内大排灯/LED面罩用户快速增加，照灯后干燥是高频讨论点",
-        "demand_level": "高",
-        "verdict": "推荐",
         "tier": "暂无统计",
-        "view": "细分尚无统计，但存量用户大、配件是唯一增长子类，风险低。",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "全脸先涂导致后护理区域精华干燥（产品机会假设，待用户访谈）",
+        "verdict": "谨慎推荐",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
-            "title": "Grand View：红光疗法市场（GII）",
-            "url": "https://www.gii.tw/report/grvi2018186-red-light-therapy-market-size-share-trends.html"
-          },
-          {
-            "title": "什么值得买：2025三平台美容仪数据",
-            "url": "https://post.smzdm.com/p/ak8l2pq9/"
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://help.solawave.co/en-US/lightboost-wand-activating-serum-1101741"
           }
         ]
       },
       "date": "2026-10-28",
       "brands": [
-        "术原",
-        "极萌"
+        "术原"
       ],
       "summary": {
-        "reason": "海外光疗专用护肤出现，国内空白",
-        "audience": "LED面罩/大排灯存量用户",
-        "points": "照前前导、照后修护",
-        "innovation": "按光波段设计成分",
-        "why": "集团光疗用户可直接转化"
+        "reason": "Solawave官方指导将脸部分区并逐区涂精华后使用棒；不据此证明任何精华与任意光源协同。",
+        "audience": "已有光护理工具用户",
+        "points": "光护理配套保湿精华为主，器械辅助",
+        "innovation": "四区计时盖提示换区与补涂；不再堆叠光源，兼容性仅针对测试组合",
+        "why": "先验证使用改善和耗材复购"
       },
       "visual": {
-        "hook": "光的引路人",
-        "sell": "照前前导、照后修护",
-        "idea": "LED光像游客，前导精华举着小旗给光带路走进皮肤深处；照完后修护霜像导游送客收尾",
-        "links": []
+        "idea": "展示光护理配套保湿精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
       },
       "concept": {
-        "title": "术原·光感超导精华 + 导光小灯",
+        "title": "光护理配套精华+分区计时盖（开发概念）",
+        "desc": "四区计时盖提示换区与补涂；不再堆叠光源，兼容性仅针对测试组合；辅助器械≤300元为开发目标，成本待验证。",
         "form": "lamp",
+        "primary": "skin",
         "kit": [
           [
             "serum",
-            "光感前导精华"
-          ],
-          [
-            "jar",
-            "照后修护霜"
+            "光护理配套保湿精华"
           ]
         ],
         "up": [
-          "精华内置光敏协同成分",
-          "掌心导光灯≤299元",
-          "扫码匹配照射时长"
-        ],
-        "desc": "原品只有护肤品。升级为「精华为主、迷你红光导光灯为辅」的一体套组：精华负责成分，小灯在涂抹后照3分钟帮助渗透，已有大排灯的用户也可只买精华。促渗目标≥150%（需第三方检测验证）。",
-        "primary": "skin",
-        "prompt": "A skincare-first kit: a 30ml frosted glass dropper serum bottle with teal cap as the hero product in front, next to a 50g white cream jar, and behind them a palm-sized white handheld red-light LED device (rounded square head with a grid of small LED dots glowing soft red, short grip), ceramic-matte finish, teal accents. Photorealistic commercial product photography, studio softbox lighting, seamless light warm grey background, soft natural shadows, 85mm lens, sharp focus, high-end beauty-tech brand catalog style, no text, no logo, no people unless stated, 4:3."
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
       },
       "steps": [
-        "洁面后涂光感前导精华",
-        "掌心导光灯贴脸照3分钟（或用已有大排灯）",
-        "照后涂修护霜",
-        "每天晚上1次"
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
       ],
       "picked": true,
-      "img": "assets/images/sy-light-serum.webp"
+      "img": "assets/images/sy-light-serum.webp",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "四区计时盖提示换区与补涂；不再堆叠光源，兼容性仅针对测试组合",
+        "problem": "全脸先涂导致后护理区域精华干燥"
+      },
+      "evidence": [
+        {
+          "url": "https://help.solawave.co/en-US/lightboost-wand-activating-serum-1101741",
+          "claim": "Solawave官方指导将脸部分区并逐区涂精华后使用棒；不据此证明任何精华与任意光源协同。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ]
     },
     {
       "id": "sy-spot-print",
-      "rank": "次推",
+      "rank": "技术观察",
       "category": "局部精护",
       "direction": "海外热门",
       "type": "仪器+耗材",
@@ -4191,7 +4324,7 @@
       "pain": [
         "局部问题难护理"
       ],
-      "reason": "宝洁曾推出Opté精准护肤仪：摄像头每秒拍200帧识别色斑，用热喷墨把含烟酰胺的精华只喷在斑点上，首发价599美元、补充装约99-129美元。2023年品牌关停，但\"识别+精准投放\"的思路至今无人接手。",
+      "reason": "精密扫描喷印的成本、耗材和当前售后状态未确认，暂不纳入300元辅助器械推荐。",
       "audience": "有色斑、痘印、肤色不均的25-40岁女性",
       "points": "摄像头自动找斑；只在问题处精准点涂；即时遮瑕+长期淡斑",
       "innovation": "器械ID的极致形态：仪器\"看见\"皮肤问题，再决定把成分放在哪里、放多少",
@@ -4215,13 +4348,13 @@
       "why": "创新度最高，但宝洁做过并关停，说明成本和价格是难点；建议作为术原的技术储备方向。",
       "image_page": "https://www.etonline.com/we-tried-opte-the-new-beauty-device-thats-a-3d-printer-for-your-face-162078",
       "market": {
-        "size": "暂无可靠细分统计；上级品类家用AI测肤设备约38亿美元（2025，口径偏宽）",
-        "growth": "家用AI测肤CAGR约16.1%（2025-2034）",
-        "demand": "淡斑需求大，但用户对599美元级别仪器付费意愿未被验证",
-        "demand_level": "中",
+        "size": "缺失：本轮未验证",
+        "growth": "缺失：本轮未验证",
+        "demand": "技术观察，需求强度未验证",
+        "demand_level": "待验证",
         "verdict": "观望",
         "tier": "暂无统计",
-        "view": "需求明确但先行者已关停，成本和定价风险高，建议观望并做技术储备。",
+        "view": "精密扫描喷印的成本、耗材和当前售后状态未确认，暂不纳入300元辅助器械推荐。",
         "sources": [
           {
             "title": "Market Intelo：家用AI测肤设备市场",
@@ -4234,11 +4367,11 @@
         "术原"
       ],
       "summary": {
-        "reason": "宝洁Opté识斑精准点涂，已关停",
+        "reason": "精密扫描喷印的成本、耗材和当前售后状态未确认，暂不纳入300元辅助器械推荐。",
         "audience": "色斑痘印人群",
-        "points": "摄像头找斑、精准点涂",
-        "innovation": "仪器看见问题再投放成分",
-        "why": "创新最高，作技术储备"
+        "points": "仅技术观察，不纳入当前5主推10次推",
+        "innovation": "需补齐证据后再评估",
+        "why": "精密扫描喷印的成本、耗材和当前售后状态未确认，暂不纳入300元辅助器械推荐。"
       },
       "visual": {
         "hook": "斑点打印机",
@@ -4269,11 +4402,31 @@
         "自动在斑上点涂精华",
         "每天1次"
       ],
-      "img": "assets/images/sy-spot-print.webp"
+      "img": "assets/images/sy-spot-print.webp",
+      "recommendationStatus": "技术观察",
+      "recommendationReview": {
+        "checked": "2026-11-01",
+        "note": "精密扫描喷印的成本、耗材和当前售后状态未确认，暂不纳入300元辅助器械推荐。"
+      },
+      "evidence": [
+        {
+          "url": "https://prod.cm.bloomberg.com/news/articles/2019-10-21/p-g-opte-beauty-wand-is-like-an-inkjet-printer-for-your-skin",
+          "claim": "本轮按非侵入、护肤品为主、辅助器械开发目标≤300元筛选，暂退为技术观察；旧来源本轮未完成重新抓取，不用来支持新增销量、功效或上市结论。",
+          "checked": "2026-11-01",
+          "status": "unverified",
+          "kind": "editorial-decision"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ]
     },
     {
       "id": "sy-fiber-veil",
-      "rank": "次推",
+      "rank": "技术观察",
       "category": "超导面膜",
       "direction": "海外热门",
       "type": "仪器+耗材",
@@ -4284,7 +4437,7 @@
       "pain": [
         "敏感不耐受"
       ],
-      "reason": "花王与松下合作推出Fine Fiber技术，在est和SENSAI品牌上市：喷雾器把直径不到1微米的纤维层层喷在脸上，形成透气的薄膜，整晚锁住精华，早上撕下。日本售价：喷雾器5万日元、补充液8,000日元。注意：花王已宣布该系列停售（喷雾器先停，其余商品卖到2026年12月31日），说明成本和使用门槛偏高。",
+      "reason": "喷纤维膜方案需要专用耗材与设备；当前可售和成本基础不足，暂作技术观察。",
       "audience": "屏障受损、干燥敏感，晚上护肤品\"锁不住\"的25-40岁女性；医美术后人群",
       "points": "喷出超薄透气膜，锁住下层精华；按肤质定制厚度；补充液复购",
       "innovation": "用器械\"造\"一层膜代替面膜纸，让护肤品在膜下持续渗透，是\"超导\"的另一种思路（封包增效）",
@@ -4312,13 +4465,13 @@
       "why": "技术独特，适合高端线和线下体验店展示；量产成本和使用门槛高，建议次推观察。",
       "image_page": "https://www.kao-kirei.com/ja/item/kbb/est/4901301399540/",
       "market": {
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "屏障修护需求大，但\"喷膜\"概念在国内几乎没有认知",
-        "demand_level": "中",
+        "size": "缺失：本轮未验证",
+        "growth": "缺失：本轮未验证",
+        "demand": "技术观察，需求强度未验证",
+        "demand_level": "待验证",
         "verdict": "观望",
         "tier": "暂无统计",
-        "view": "缺市场数据、教育成本高，适合在线下门店做体验型展示，暂时观望。",
+        "view": "喷纤维膜方案需要专用耗材与设备；当前可售和成本基础不足，暂作技术观察。",
         "sources": [
           {
             "title": "花王 Fine Fiber 技术发布（Cosmetics Business）",
@@ -4331,17 +4484,21 @@
         "术原"
       ],
       "summary": {
-        "reason": "花王×松下纳米纤维喷膜",
+        "reason": "喷纤维膜方案需要专用耗材与设备；当前可售和成本基础不足，暂作技术观察。",
         "audience": "屏障弱、术后人群",
-        "points": "喷超薄透气膜锁住精华",
-        "innovation": "用器械造膜，封包增效",
-        "why": "适合线下体验展示"
+        "points": "仅技术观察，不纳入当前5主推10次推",
+        "innovation": "需补齐证据后再评估",
+        "why": "喷纤维膜方案需要专用耗材与设备；当前可售和成本基础不足，暂作技术观察。"
       },
       "image_url": "https://www.kao-kirei.com/content/dam/sites/kao/www-kao-kirei-com/jp/ja/item/kbb/est/25420594/GG01.jpg",
       "updates": [
         {
           "date": "2026-10-28",
           "note": "补上商品图（花王官方商城的补充液），并加上花王已宣布停售的信息"
+        },
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
       ],
       "visual": {
@@ -4373,11 +4530,25 @@
         "形成透气薄膜过夜",
         "早上洗去"
       ],
-      "img": "assets/images/sy-fiber-veil.webp"
+      "img": "assets/images/sy-fiber-veil.webp",
+      "recommendationStatus": "技术观察",
+      "recommendationReview": {
+        "checked": "2026-11-01",
+        "note": "喷纤维膜方案需要专用耗材与设备；当前可售和成本基础不足，暂作技术观察。"
+      },
+      "evidence": [
+        {
+          "url": "https://www.cosmeticsbusiness.com/kao-develops-first-ever-diffuser-applicator-for-skin-care--159577",
+          "claim": "本轮按非侵入、护肤品为主、辅助器械开发目标≤300元筛选，暂退为技术观察；旧来源本轮未完成重新抓取，不用来支持新增销量、功效或上市结论。",
+          "checked": "2026-11-01",
+          "status": "unverified",
+          "kind": "editorial-decision"
+        }
+      ]
     },
     {
       "id": "sy-exosome",
-      "rank": "次推",
+      "rank": "技术观察",
       "category": "微通道导入",
       "direction": "医美院线家用化",
       "type": "耗材",
@@ -4389,7 +4560,7 @@
       "pain": [
         "成分进不去"
       ],
-      "reason": "院线\"外泌体焕肤\"\"三文鱼针\"正在变成家用安瓶：Medicube One Day Exosome Shot用微刺开通道，主打毛孔和修护，常与AGE-R仪器搭配。",
+      "reason": "外泌体/PDRN与微刺叠加的具体成分来源、配方证据及产品合规未逐项核实，暂不主推。",
       "audience": "做过院线水光、外泌体项目的女性；毛孔粗大、屏障受损人群",
       "points": "微刺促渗；外泌体+PDRN组合；与导入仪捆绑；月度复购",
       "innovation": "微刺精华与超导仪组成\"开通道→推送\"的标准流程，仪器记录疗程进度",
@@ -4410,13 +4581,13 @@
       "why": "增速快、能提升仪器复购，但国内外泌体原料合规是前提。",
       "image_page": "https://www.dodoskin.com/en-au/products/medicube-one-day-exosome-shot-2000-30ml",
       "market": {
-        "size": "全球外泌体护肤约4.18亿美元（2025，Coherent）",
-        "growth": "CAGR约9.9%-12.7%（各机构，2025-2032）",
-        "demand": "院线外泌体、三文鱼针热度高，海外外泌体+微针安瓶成为趋势",
-        "demand_level": "高",
-        "verdict": "谨慎推荐",
+        "size": "缺失：本轮未验证",
+        "growth": "缺失：本轮未验证",
+        "demand": "技术观察，需求强度未验证",
+        "demand_level": "待验证",
+        "verdict": "观望",
         "tier": "第三梯队",
-        "view": "细分增速快，但原料合规风险需先确认，谨慎推荐。",
+        "view": "外泌体/PDRN与微刺叠加的具体成分来源、配方证据及产品合规未逐项核实，暂不主推。",
         "sources": [
           {
             "title": "Coherent：外泌体护肤市场",
@@ -4433,11 +4604,11 @@
         "术原"
       ],
       "summary": {
-        "reason": "院线外泌体焕肤变成家用安瓶",
+        "reason": "外泌体/PDRN与微刺叠加的具体成分来源、配方证据及产品合规未逐项核实，暂不主推。",
         "audience": "院线水光/外泌体用户",
-        "points": "微刺促渗、仪器捆绑",
-        "innovation": "开通道→推送标准流程",
-        "why": "增速快，原料合规需先确认"
+        "points": "仅技术观察，不纳入当前5主推10次推",
+        "innovation": "需补齐证据后再评估",
+        "why": "外泌体/PDRN与微刺叠加的具体成分来源、配方证据及产品合规未逐项核实，暂不主推。"
       },
       "visual": {
         "hook": "精华里藏了针",
@@ -4468,11 +4639,31 @@
         "导入头推送",
         "晚间使用"
       ],
-      "img": "assets/images/sy-exosome.webp"
+      "img": "assets/images/sy-exosome.webp",
+      "recommendationStatus": "技术观察",
+      "recommendationReview": {
+        "checked": "2026-11-01",
+        "note": "外泌体/PDRN与微刺叠加的具体成分来源、配方证据及产品合规未逐项核实，暂不主推。"
+      },
+      "evidence": [
+        {
+          "url": "https://www.dodoskin.com/en-au/products/medicube-one-day-exosome-shot-2000-30ml",
+          "claim": "本轮按非侵入、护肤品为主、辅助器械开发目标≤300元筛选，暂退为技术观察；旧来源本轮未完成重新抓取，不用来支持新增销量、功效或上市结论。",
+          "checked": "2026-11-01",
+          "status": "unverified",
+          "kind": "editorial-decision"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ]
     },
     {
       "id": "sy-microcone",
-      "rank": "次推",
+      "rank": "技术观察",
       "category": "局部精护",
       "direction": "海外热门",
       "type": "耗材",
@@ -4485,7 +4676,7 @@
         "局部问题难护理",
         "成分进不去"
       ],
-      "reason": "韩国医药级微针企业Raphas旗下Acropass把可溶透明质酸微针做成贴片，淡斑款在Olive Young常年热卖，已进入美国大型渠道。",
+      "reason": "可溶微针会穿刺皮肤，且原方案叠加导入笔缺少安全与收益证据，暂作技术观察。",
       "audience": "有痘印、色斑、眼周细纹的20-35岁女性",
       "points": "微针贴敷后溶解；点状精准护理；按盒复购",
       "innovation": "贴片+导入笔组合：夜间贴片微通道释放，早晨导入笔加强，形成局部精护流程",
@@ -4505,13 +4696,13 @@
       "why": "规模中等、开发门槛低，适合做术原主推仪器的搭配耗材。",
       "image_page": "https://acropass.com/",
       "market": {
-        "size": "化妆品微针贴暂无可靠总规模；维C微针贴约4亿美元（2025）",
-        "growth": "化妆品微针贴CAGR约6.9%（2025-2031，Lucintel）",
-        "demand": "国内痤疮患病率约39%，痘印淡斑需求随之而来",
-        "demand_level": "中",
-        "verdict": "推荐",
+        "size": "缺失：本轮未验证",
+        "growth": "缺失：本轮未验证",
+        "demand": "技术观察，需求强度未验证",
+        "demand_level": "待验证",
+        "verdict": "观望",
         "tier": "第二梯队",
-        "view": "复购强、门槛低，推荐作为搭配耗材。",
+        "view": "可溶微针会穿刺皮肤，且原方案叠加导入笔缺少安全与收益证据，暂作技术观察。",
         "sources": [
           {
             "title": "Lucintel：化妆品微针贴市场",
@@ -4524,11 +4715,11 @@
         "术原"
       ],
       "summary": {
-        "reason": "韩国可溶微针贴长期热卖",
+        "reason": "可溶微针会穿刺皮肤，且原方案叠加导入笔缺少安全与收益证据，暂作技术观察。",
         "audience": "痘印色斑、眼周细纹人群",
-        "points": "点状精准、按盒复购",
-        "innovation": "夜贴片+晨导入的局部流程",
-        "why": "适合做搭配耗材"
+        "points": "仅技术观察，不纳入当前5主推10次推",
+        "innovation": "需补齐证据后再评估",
+        "why": "可溶微针会穿刺皮肤，且原方案叠加导入笔缺少安全与收益证据，暂作技术观察。"
       },
       "visual": {
         "hook": "夜里融化的刺",
@@ -4565,105 +4756,135 @@
         "温感导入笔在斑点处打圈1分钟"
       ],
       "picked": true,
-      "img": "assets/images/sy-microcone.webp"
+      "img": "assets/images/sy-microcone.webp",
+      "recommendationStatus": "技术观察",
+      "recommendationReview": {
+        "checked": "2026-11-01",
+        "note": "可溶微针会穿刺皮肤，且原方案叠加导入笔缺少安全与收益证据，暂作技术观察。"
+      },
+      "evidence": [
+        {
+          "url": "https://acropass.com/product/%EB%8B%A4%ED%81%AC%EC%8A%A4%ED%8C%9F%EC%BC%80%EC%96%B4-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BD%98-%ED%8C%A8%EC%B9%98-6%ED%8C%A8%EC%B9%98/35/",
+          "claim": "本轮按非侵入、护肤品为主、辅助器械开发目标≤300元筛选，暂退为技术观察；旧来源本轮未完成重新抓取，不用来支持新增销量、功效或上市结论。",
+          "checked": "2026-11-01",
+          "status": "unverified",
+          "kind": "editorial-decision"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ]
     },
     {
       "id": "sy-skin-scan",
       "rank": "次推",
-      "category": "检测定制",
-      "direction": "海外热门",
-      "type": "仪器",
-      "name": "测肤+定制导入方案（先检测，再决定导什么）",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "type": "护肤品+辅助器具开发概念",
+      "name": "保湿精华+接触一致性提示器（开发概念）",
       "tech": [
-        "AI测肤"
+        "定量涂布",
+        "护肤流程设计"
       ],
       "pain": [
-        "用法不会选"
+        "消费者用主观感受判断补涂时机"
       ],
-      "reason": "欧莱雅在CES 2025发布Cell BioPrint，用胶带取样+芯片5分钟分析皮肤蛋白，预测皮肤问题，计划先在亚洲门店试点；爱茉莉makeON的Skin Light Therapy 3S可3秒测肤并给出个性化护理。大厂都在把\"检测\"接到\"护理方案\"上。",
-      "audience": "不知道自己该用什么成分、想看到量化效果的25-40岁女性；术原线下门店客户",
-      "points": "检测皮肤状态；推荐对应安瓶和导入程序；定期复测看效果",
-      "innovation": "把检测结果直接写入超导仪的程序（器械ID+肤质ID），让\"用什么、怎么导\"由数据决定，并用复测证明效果",
+      "reason": "makeON官网Skin Light Therapy 3介绍3秒测肤及应用连接；售价285美元，不能认作低价设备基准。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "希望统一护理步骤用户",
+      "points": "保湿精华为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "innovation": "固定接触面积和压力行程；只输出是否需要补涂提示，未经标定不输出肤龄/诊断",
       "platforms": [
         "天猫"
       ],
       "links": [
         {
-          "title": "L'Oréal Cell BioPrint 发布（L'Oréal Finance）",
-          "url": "https://www.loreal-finance.com/eng/news-event/loreal-groupe-unveils-loreal-cell-bioprint-revolution-consumer-skin-intelligence-rooted"
-        },
-        {
-          "title": "Cell BioPrint 原理（Cosmetics Business）",
-          "url": "https://cosmeticsbusiness.com/l-or%C3%A9al-cell-bioprint-tool-can-predict-skin-issues"
-        },
-        {
-          "title": "makeON Skin Light Therapy 3S（Amorepacific）",
-          "url": "https://www.apgroup.com/int/en/news/2025-09-01-1.html"
+          "title": "参考产品官方/授权渠道证据",
+          "url": "https://global.make-on.com/product/skin-light-therapy-3/48"
         }
       ],
-      "why": "适合术原线下门店和医院场景做\"检测→定制→复购\"闭环，单独作为线上家用产品价值有限。",
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "image_page": "https://cosmeticsbusiness.com/l-or%C3%A9al-cell-bioprint-tool-can-predict-skin-issues",
       "market": {
-        "size": "全球皮肤检测仪约12.7亿美元（2024，含专业机构）；家用AI测肤口径约38亿美元（2025，偏宽）",
-        "growth": "家用AI测肤CAGR约16.1%（2025-2034）",
-        "demand": "用户希望量化护肤和仪器效果；亚太占家用AI测肤约38%份额",
-        "demand_level": "中",
+        "tier": "暂无统计",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "消费者用主观感受判断补涂时机（产品机会假设，待用户访谈）",
         "verdict": "谨慎推荐",
-        "tier": "第二梯队",
-        "view": "增速快、适合线下闭环，但单独线上售卖需求未被验证，谨慎推荐。",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
-            "title": "Market Intelo：家用AI测肤设备市场",
-            "url": "https://marketintelo.com/report/at-home-ai-skin-diagnostics-devices-market"
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://global.make-on.com/product/skin-light-therapy-3/48"
           }
         ]
       },
       "date": "2026-10-28",
       "brands": [
-        "术原",
-        "极萌"
+        "术原"
       ],
       "summary": {
-        "reason": "欧莱雅、爱茉莉都在做测肤定制",
-        "audience": "不知道该用啥的成分新手",
-        "points": "检测→推荐安瓶和程序",
-        "innovation": "肤质ID写入导入程序",
-        "why": "适合门店检测闭环"
+        "reason": "makeON官网Skin Light Therapy 3介绍3秒测肤及应用连接；售价285美元，不能认作低价设备基准。",
+        "audience": "希望统一护理步骤用户",
+        "points": "保湿精华为主，器械辅助",
+        "innovation": "固定接触面积和压力行程；只输出是否需要补涂提示，未经标定不输出肤龄/诊断",
+        "why": "先验证使用改善和耗材复购"
       },
       "visual": {
-        "hook": "先看诊再护肤",
-        "sell": "测肤后定制导入方案",
-        "idea": "像医生看诊一样先扫一遍脸，开出一张「处方」：今天导哪支安瓶、用哪个档位",
-        "links": []
+        "idea": "展示保湿精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
       },
       "concept": {
-        "title": "术原·测肤镜 + 定制安瓶套组",
+        "title": "保湿精华+接触一致性提示器（开发概念）",
+        "desc": "固定接触面积和压力行程；只输出是否需要补涂提示，未经标定不输出肤龄/诊断；辅助器械≤300元为开发目标，成本待验证。",
         "form": "scanner",
+        "primary": "skin",
         "kit": [
           [
-            "cart",
-            "定制安瓶"
+            "serum",
+            "保湿精华"
           ]
         ],
         "up": [
-          "App测肤",
-          "按测肤结果推荐安瓶",
-          "测肤镜≤199元"
-        ],
-        "desc": "先测再导：测肤镜和App给出建议，推荐对应安瓶和导入程序。",
-        "primary": "skin"
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
       },
       "steps": [
-        "测肤镜拍照",
-        "App给出肤况",
-        "按推荐选安瓶和档位",
-        "每月复测一次"
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
       ],
-      "img": "assets/images/sy-skin-scan.webp"
+      "img": "assets/images/sy-skin-scan.webp",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "固定接触面积和压力行程；只输出是否需要补涂提示，未经标定不输出肤龄/诊断",
+        "problem": "消费者用主观感受判断补涂时机"
+      },
+      "evidence": [
+        {
+          "url": "https://global.make-on.com/product/skin-light-therapy-3/48",
+          "claim": "makeON官网Skin Light Therapy 3介绍3秒测肤及应用连接；售价285美元，不能认作低价设备基准。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ]
     },
     {
       "id": "sy-hydra-pen",
-      "rank": "次推",
+      "rank": "技术观察",
       "category": "微通道导入",
       "direction": "医美院线家用化",
       "type": "仪器+耗材",
@@ -4675,7 +4896,7 @@
       "pain": [
         "成分进不去"
       ],
-      "reason": "Dr.Pen Hydra Pen H3等储液式微针笔在海外家用渠道走量：3ml储液仓边微针边输送精华，针头仓按痘印、细纹、敏感分型，针长0-1.0mm可调。",
+      "reason": "微针储液笔涉及穿刺与卫生控制，不符合首轮非侵入辅助工具方向。",
       "audience": "想在家做\"水光微针\"的25-40岁女性；院线微针老客",
       "points": "微针+自动输液一步完成；分型针头仓；精华和针头仓双耗材复购",
       "innovation": "储液仓+一次性针头仓的耗材结构，天然适合做术原专属精华卡匣",
@@ -4696,13 +4917,13 @@
       "why": "需求真实，但国内微针器械涉及医疗器械监管、感染风险高，只建议参考其耗材结构，不建议直接做。",
       "image_page": "https://www.imaxshop.com/en/h3-hydra-pen-microneedling-device-for-skin-texture-and-acne-scars.html",
       "market": {
-        "size": "全球自动微针笔约5亿美元（2024，Emergen）",
-        "growth": "CAGR约8.5%（2025-2034）",
-        "demand": "院线微针、水光人群基数大，但家用安全风险高",
-        "demand_level": "中",
+        "size": "缺失：本轮未验证",
+        "growth": "缺失：本轮未验证",
+        "demand": "技术观察，需求强度未验证",
+        "demand_level": "待验证",
         "verdict": "观望",
         "tier": "第三梯队",
-        "view": "国内监管和安全风险高，观望，只借鉴卡匣耗材设计。",
+        "view": "微针储液笔涉及穿刺与卫生控制，不符合首轮非侵入辅助工具方向。",
         "sources": [
           {
             "title": "Emergen：自动微针笔市场",
@@ -4715,11 +4936,11 @@
         "术原"
       ],
       "summary": {
-        "reason": "储液微针笔海外家用走量",
+        "reason": "微针储液笔涉及穿刺与卫生控制，不符合首轮非侵入辅助工具方向。",
         "audience": "院线微针老客",
-        "points": "微针+自动输液",
-        "innovation": "卡匣式耗材结构",
-        "why": "监管风险高，只借鉴耗材"
+        "points": "仅技术观察，不纳入当前5主推10次推",
+        "innovation": "需补齐证据后再评估",
+        "why": "微针储液笔涉及穿刺与卫生控制，不符合首轮非侵入辅助工具方向。"
       },
       "visual": {
         "hook": "自动加墨的水光笔",
@@ -4756,11 +4977,31 @@
         "卡匣用完更换"
       ],
       "picked": true,
-      "img": "assets/images/sy-hydra-pen.webp"
+      "img": "assets/images/sy-hydra-pen.webp",
+      "recommendationStatus": "技术观察",
+      "recommendationReview": {
+        "checked": "2026-11-01",
+        "note": "微针储液笔涉及穿刺与卫生控制，不符合首轮非侵入辅助工具方向。"
+      },
+      "evidence": [
+        {
+          "url": "https://www.imaxshop.com/en/h3-hydra-pen-microneedling-device-for-skin-texture-and-acne-scars.html",
+          "claim": "本轮按非侵入、护肤品为主、辅助器械开发目标≤300元筛选，暂退为技术观察；旧来源本轮未完成重新抓取，不用来支持新增销量、功效或上市结论。",
+          "checked": "2026-11-01",
+          "status": "unverified",
+          "kind": "editorial-decision"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ]
     },
     {
       "id": "sy-jet",
-      "rank": "次推",
+      "rank": "技术观察",
       "category": "微通道导入",
       "direction": "医美院线家用化",
       "type": "仪器",
@@ -4772,7 +5013,7 @@
         "怕疼怕恢复期",
         "成分进不去"
       ],
-      "reason": "欧莱雅SkinBoosters Jet获CES 2026创新奖：不用电、用活塞弹簧机构产生最高4,500Pa压力，把成分以高速微粒送入皮肤。但2024年《Dermatologic Surgery》研究显示家用透明质酸喷射器输送剂量明显低于医用设备，安全性也不足。",
+      "reason": "CES展示偏专业应用，零售上市及300元实现路径未确认；继续回查。",
       "audience": "想要无针水光、对疼痛敏感的女性；术原医院和门店客户",
       "points": "无针、无痛、无恢复期；喷射输送精华",
       "innovation": "用机械压力代替针和电流，是\"超导\"最前沿的形态",
@@ -4793,13 +5034,13 @@
       "why": "技术方向值得跟踪，但家用安全证据不利，建议先在术原院线/门店场景观察，不做家用。",
       "image_page": "https://www.ces.tech/ces-innovation-awards/2026/skinboosters-jet/",
       "market": {
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "无针水光需求真实，但家用产品安全性未被证实",
-        "demand_level": "低",
+        "size": "缺失：本轮未验证",
+        "growth": "缺失：本轮未验证",
+        "demand": "技术观察，需求强度未验证",
+        "demand_level": "待验证",
         "verdict": "观望",
         "tier": "暂无统计",
-        "view": "缺少市场数据且家用安全证据不利，观望。",
+        "view": "CES展示偏专业应用，零售上市及300元实现路径未确认；继续回查。",
         "sources": [
           {
             "title": "家用透明质酸喷射器研究（Erasmus MC）",
@@ -4812,11 +5053,11 @@
         "术原"
       ],
       "summary": {
-        "reason": "欧莱雅无针喷射获CES 2026奖",
+        "reason": "CES展示偏专业应用，零售上市及300元实现路径未确认；继续回查。",
         "audience": "怕疼想要水光的人群",
-        "points": "无针无痛喷射导入",
-        "innovation": "机械压力替代针和电流",
-        "why": "家用安全证据不利，观望"
+        "points": "仅技术观察，不纳入当前5主推10次推",
+        "innovation": "需补齐证据后再评估",
+        "why": "CES展示偏专业应用，零售上市及300元实现路径未确认；继续回查。"
       },
       "launch": {
         "status": "未上市",
@@ -4862,99 +5103,139 @@
         "喷头距脸2-3cm",
         "分区喷入",
         "用后清洁喷头"
-      ]
+      ],
+      "recommendationStatus": "技术观察",
+      "recommendationReview": {
+        "checked": "2026-11-01",
+        "note": "CES展示偏专业应用，零售上市及300元实现路径未确认；继续回查。"
+      },
+      "evidence": [
+        {
+          "url": "https://www.ces.tech/ces-innovation-awards/2026/skinboosters-jet/",
+          "claim": "CES 2026官方创新奖页确认SkinBoosters Jet，描述面向专业美容护理的微雾化应用。本轮未取得家用零售上市公告或可下单官方商品页；继续跟踪，不填虚构上市日。",
+          "checked": "2026-11-01",
+          "status": "partial",
+          "kind": "launch-review"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ],
+      "lastReview": {
+        "id": "sy-jet",
+        "checked": "2026-11-01",
+        "status": "inconclusive",
+        "url": "https://www.ces.tech/ces-innovation-awards/2026/skinboosters-jet/",
+        "note": "CES 2026官方创新奖页确认SkinBoosters Jet，描述面向专业美容护理的微雾化应用。本轮未取得家用零售上市公告或可下单官方商品页；继续跟踪，不填虚构上市日。"
+      }
     },
     {
       "id": "sy-body-adaptive",
       "rank": "次推",
-      "category": "超导仪器",
-      "direction": "海外热门",
-      "type": "仪器+耗材",
-      "name": "自适应微电流身体导入仪+身体导电凝胶",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "type": "护肤品+辅助器具开发概念",
+      "name": "身体精华+大面积定量滚头（开发概念）",
       "tech": [
-        "微电流",
-        "活性成分"
+        "定量涂布",
+        "护肤流程设计"
       ],
       "pain": [
-        "效果难坚持"
+        "身体精华涂得慢、用量大、难清洁"
       ],
-      "reason": "如新Nu Skin推出身体仪WellSpa iO，自适应微电流每秒80多次根据皮肤导电性调整输出，必须搭配ageLOC Body Activating Gel身体凝胶使用。\"超导\"从脸延伸到身体。",
-      "audience": "关注身体紧致、橘皮纹、肩颈护理的30-45岁女性",
-      "points": "自适应微电流，不同部位自动调整；配套身体凝胶复购",
-      "innovation": "根据皮肤导电性实时调整电流（皮肤ID），解决身体不同部位厚薄差异大的问题",
+      "reason": "NuSkin官方FAQ区分配合设备的产品和不得配合设备的身体磨砂；配方与工具必须明确匹配。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "身体干燥、日常护理用户",
+      "points": "身体保湿精华为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "innovation": "双向宽滚头、按区定量出液、可拆洗流道；首版无需自适应电流",
       "platforms": [
         "天猫",
         "抖音"
       ],
       "links": [
         {
-          "title": "Nu Skin WellSpa iO 介绍",
-          "url": "https://view.ceros.com/nuskin/ageloc-wellspa-io"
-        },
-        {
-          "title": "Nu Skin 新闻稿（Business Wire）",
-          "url": "https://www.businesswire.com/news/home/20240730332637/en"
+          "title": "参考产品官方/授权渠道证据",
+          "url": "https://uk.nuskin.com/content/dam/eu-library/website-content/device-care-pages/wellspa-io/ageloc-wellspa-io-FAQ-device-care-en.pdf"
         }
       ],
-      "why": "可作为术原从脸部延伸到身体的第二条线，优先级低于面部。",
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "image_page": "https://view.ceros.com/nuskin/ageloc-wellspa-io",
       "market": {
-        "size": "全球身体塑形器械约69亿美元（2024）",
-        "growth": "全球CAGR约14.3%（2024-2030）",
-        "demand": "身体紧致需求存在，但身体护理仪在国内渗透率低",
-        "demand_level": "中",
+        "tier": "暂无统计",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "身体精华涂得慢、用量大、难清洁（产品机会假设，待用户访谈）",
         "verdict": "谨慎推荐",
-        "tier": "第二梯队",
-        "view": "大盘可观但国内用户习惯未形成，谨慎推荐作为延伸线。",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
-            "title": "GII：身体塑形器械市场",
-            "url": "https://m.giikorea.co.kr/report/go1651016-body-contouring-devices.html"
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://uk.nuskin.com/content/dam/eu-library/website-content/device-care-pages/wellspa-io/ageloc-wellspa-io-FAQ-device-care-en.pdf"
           }
         ]
       },
       "date": "2026-10-28",
       "brands": [
-        "术原",
-        "极萌"
+        "术原"
       ],
       "summary": {
-        "reason": "如新自适应微电流身体仪",
-        "audience": "身体紧致需求人群",
-        "points": "自适应电流+身体凝胶",
-        "innovation": "按皮肤导电性实时调电流",
-        "why": "可作身体延伸线"
+        "reason": "NuSkin官方FAQ区分配合设备的产品和不得配合设备的身体磨砂；配方与工具必须明确匹配。",
+        "audience": "身体干燥、日常护理用户",
+        "points": "身体保湿精华为主，器械辅助",
+        "innovation": "双向宽滚头、按区定量出液、可拆洗流道；首版无需自适应电流",
+        "why": "先验证使用改善和耗材复购"
       },
       "visual": {
-        "hook": "身体自动挡",
-        "sell": "自适应微电流，部位不同自动调",
-        "idea": "像汽车自动挡一样，从手臂滑到大腿，电流自动「换挡」；不用自己调档位",
-        "links": []
+        "idea": "展示身体保湿精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
       },
       "concept": {
-        "title": "术原·身体超导凝胶 + 自适应导入仪",
+        "title": "身体精华+大面积定量滚头（开发概念）",
+        "desc": "双向宽滚头、按区定量出液、可拆洗流道；首版无需自适应电流；辅助器械≤300元为开发目标，成本待验证。",
         "form": "body",
+        "primary": "skin",
         "kit": [
           [
-            "gel",
-            "身体紧致凝胶"
+            "serum",
+            "身体保湿精华"
           ]
         ],
         "up": [
-          "身体凝胶为主",
-          "部位自适应电流",
-          "仪器≤499元"
-        ],
-        "desc": "以身体紧致凝胶为主，配一台按部位自动调节电流的导入仪。",
-        "primary": "skin"
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
       },
       "steps": [
-        "涂身体紧致凝胶",
-        "仪器贴皮肤滑动，自动调电流",
-        "每部位3-5分钟",
-        "每周3-5次"
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
       ],
-      "img": "assets/images/sy-body-adaptive.webp"
+      "img": "assets/images/sy-body-adaptive.webp",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "双向宽滚头、按区定量出液、可拆洗流道；首版无需自适应电流",
+        "problem": "身体精华涂得慢、用量大、难清洁"
+      },
+      "evidence": [
+        {
+          "url": "https://uk.nuskin.com/content/dam/eu-library/website-content/device-care-pages/wellspa-io/ageloc-wellspa-io-FAQ-device-care-en.pdf",
+          "claim": "NuSkin官方FAQ区分配合设备的产品和不得配合设备的身体磨砂；配方与工具必须明确匹配。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "updates": [
+        {
+          "date": "2026-11-01",
+          "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
+        }
+      ]
     },
     {
       "date": "2026-10-24",
@@ -12635,6 +12916,2668 @@
       ],
       "picked": true,
       "img": "assets/images/bear2body.webp"
+    },
+    {
+      "id": "newa-rf",
+      "name": "NEWA 家用射频仪",
+      "direction": "医美院线家用化",
+      "category": "面部美容仪",
+      "brands": [
+        "极萌",
+        "金茉"
+      ],
+      "referenceBrand": "NEWA",
+      "type": "仪器",
+      "tech": [
+        "射频"
+      ],
+      "reason": "品牌源自专业射频设备企业 ENDYMED；可研究专业技术简化为家庭操作的路径。 本期新收录，非本期新上市。",
+      "audience": "面部抗老人群",
+      "points": "以接触和温度管理降低操作负担；不能据此等同院线疗效。",
+      "links": [
+        {
+          "title": "NEWA 产品/说明资料",
+          "url": "https://mynewa.com/pages/about-newa"
+        }
+      ],
+      "why": "开发判断：以接触和温度管理降低操作负担；不能据此等同院线疗效。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand_level": "待验证",
+        "demand": "面部抗老人群（需求假设，待访谈验证）",
+        "verdict": "谨慎推荐",
+        "view": "开发判断：以接触和温度管理降低操作负担；不能据此等同院线疗效。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+        "sources": [
+          {
+            "title": "NEWA 产品/说明资料",
+            "url": "https://mynewa.com/pages/about-newa"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "品牌源自专业射频设备企业 ENDYMED；可研究专业技术简化为家庭操作的路径。",
+        "audience": "面部抗老人群",
+        "points": "以接触和温度管理降低操作负担；不能据此等同院线疗效。",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand": "待访谈验证",
+        "why": "开发判断：以接触和温度管理降低操作负担；不能据此等同院线疗效。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
+      },
+      "concept": {
+        "title": "研发方向：NEWA 家用射频仪",
+        "desc": "仅作为集团能力匹配与结构创新假设，不是已上市自有品牌产品。",
+        "primary": "仪器结构与使用便利性",
+        "kit": [],
+        "up": [
+          "验证接触与清洁便利性",
+          "核查适用范围和上市要求"
+        ]
+      },
+      "steps": [],
+      "evidence": [
+        {
+          "url": "https://mynewa.com/pages/about-newa",
+          "claim": "品牌源自专业射频设备企业 ENDYMED；可研究专业技术简化为家庭操作的路径。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "evidenceLevel": "产品与结构已核实；热度/规模待验证",
+      "launchStatus": "既有产品，本期新收录"
+    },
+    {
+      "id": "nira-pro",
+      "name": "NIRA Pro 家用激光护理仪",
+      "direction": "医美院线家用化",
+      "category": "光电/激光",
+      "brands": [
+        "极萌",
+        "金茉"
+      ],
+      "referenceBrand": "NIRA",
+      "type": "仪器",
+      "tech": [
+        "激光"
+      ],
+      "reason": "品牌帮助中心确认 Pro 是家庭使用的激光护理工具，采用较大光斑设计。 本期新收录，非本期新上市。",
+      "audience": "希望在家进行细纹护理的人群",
+      "points": "研究覆盖效率、接触确认和简化操作；国内上市资格另核。",
+      "links": [
+        {
+          "title": "NIRA 产品/说明资料",
+          "url": "https://niraskin-u7ptz03y31j.gorgias.help/en-US/what-is-the-pro-laser-1333607"
+        }
+      ],
+      "why": "开发判断：研究覆盖效率、接触确认和简化操作；国内上市资格另核。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand_level": "待验证",
+        "demand": "希望在家进行细纹护理的人群（需求假设，待访谈验证）",
+        "verdict": "谨慎推荐",
+        "view": "开发判断：研究覆盖效率、接触确认和简化操作；国内上市资格另核。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+        "sources": [
+          {
+            "title": "NIRA 产品/说明资料",
+            "url": "https://niraskin-u7ptz03y31j.gorgias.help/en-US/what-is-the-pro-laser-1333607"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "品牌帮助中心确认 Pro 是家庭使用的激光护理工具，采用较大光斑设计。",
+        "audience": "希望在家进行细纹护理的人群",
+        "points": "研究覆盖效率、接触确认和简化操作；国内上市资格另核。",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand": "待访谈验证",
+        "why": "开发判断：研究覆盖效率、接触确认和简化操作；国内上市资格另核。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
+      },
+      "concept": {
+        "title": "研发方向：NIRA Pro 家用激光护理仪",
+        "desc": "仅作为集团能力匹配与结构创新假设，不是已上市自有品牌产品。",
+        "primary": "仪器结构与使用便利性",
+        "kit": [],
+        "up": [
+          "验证接触与清洁便利性",
+          "核查适用范围和上市要求"
+        ]
+      },
+      "steps": [],
+      "evidence": [
+        {
+          "url": "https://niraskin-u7ptz03y31j.gorgias.help/en-US/what-is-the-pro-laser-1333607",
+          "claim": "品牌帮助中心确认 Pro 是家庭使用的激光护理工具，采用较大光斑设计。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "evidenceLevel": "产品与结构已核实；热度/规模待验证",
+      "launchStatus": "既有产品，本期新收录"
+    },
+    {
+      "id": "compex-mini",
+      "name": "Compex Mini 无线 EMS/TENS 肌肉刺激器",
+      "direction": "医美院线家用化",
+      "category": "运动康复",
+      "brands": [
+        "Ulike"
+      ],
+      "referenceBrand": "Compex",
+      "type": "仪器",
+      "tech": [
+        "EMS",
+        "TENS"
+      ],
+      "reason": "官方在售无线双通道设备，手机控制并提供训练及恢复程序；属于康复电刺激家用化。 本期新收录，非本期新上市。",
+      "audience": "运动训练后恢复人群",
+      "points": "小型主机配贴片，分区贴合；需评估禁忌、强度上限及贴片耗材。",
+      "links": [
+        {
+          "title": "Compex 产品/说明资料",
+          "url": "https://www.compex.com/en-au/products/compex-mini"
+        }
+      ],
+      "why": "开发判断：小型主机配贴片，分区贴合；需评估禁忌、强度上限及贴片耗材。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand_level": "待验证",
+        "demand": "运动训练后恢复人群（需求假设，待访谈验证）",
+        "verdict": "谨慎推荐",
+        "view": "开发判断：小型主机配贴片，分区贴合；需评估禁忌、强度上限及贴片耗材。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+        "sources": [
+          {
+            "title": "Compex 产品/说明资料",
+            "url": "https://www.compex.com/en-au/products/compex-mini"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "官方在售无线双通道设备，手机控制并提供训练及恢复程序；属于康复电刺激家用化。",
+        "audience": "运动训练后恢复人群",
+        "points": "小型主机配贴片，分区贴合；需评估禁忌、强度上限及贴片耗材。",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand": "待访谈验证",
+        "why": "开发判断：小型主机配贴片，分区贴合；需评估禁忌、强度上限及贴片耗材。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
+      },
+      "concept": {
+        "title": "研发方向：Compex Mini 无线 EMS/TENS 肌肉刺激器",
+        "desc": "仅作为集团能力匹配与结构创新假设，不是已上市自有品牌产品。",
+        "primary": "仪器结构与使用便利性",
+        "kit": [],
+        "up": [
+          "验证接触与清洁便利性",
+          "核查适用范围和上市要求"
+        ]
+      },
+      "steps": [],
+      "evidence": [
+        {
+          "url": "https://www.compex.com/en-au/products/compex-mini",
+          "claim": "官方在售无线双通道设备，手机控制并提供训练及恢复程序；属于康复电刺激家用化。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "evidenceLevel": "产品与结构已核实；热度/规模待验证",
+      "launchStatus": "既有产品，本期新收录"
+    },
+    {
+      "id": "myolift-qt-plus",
+      "name": "MyoLift QT Plus 微电流分区贴膜系统",
+      "direction": "医美院线家用化",
+      "category": "面部美容仪",
+      "brands": [
+        "极萌",
+        "金茉"
+      ],
+      "referenceBrand": "7E Wellness",
+      "type": "仪器+耗材",
+      "tech": [
+        "微电流"
+      ],
+      "reason": "官方指南提供按皮肤目标制定的应用程序，并可搭配分区导电面膜附件。 本期新收录，非本期新上市。",
+      "audience": "抗老护理且希望减少手持操作的人群",
+      "points": "重点拆解唇、眼、额头等区域附件与导电凝胶的配套逻辑，不把导电等同经皮递送。",
+      "links": [
+        {
+          "title": "7E Wellness 产品/说明资料",
+          "url": "https://help.7ewellness.com/en-US/my-plan-124443"
+        }
+      ],
+      "why": "开发判断：重点拆解唇、眼、额头等区域附件与导电凝胶的配套逻辑，不把导电等同经皮递送。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand_level": "待验证",
+        "demand": "抗老护理且希望减少手持操作的人群（需求假设，待访谈验证）",
+        "verdict": "谨慎推荐",
+        "view": "开发判断：重点拆解唇、眼、额头等区域附件与导电凝胶的配套逻辑，不把导电等同经皮递送。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+        "sources": [
+          {
+            "title": "7E Wellness 产品/说明资料",
+            "url": "https://help.7ewellness.com/en-US/my-plan-124443"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "官方指南提供按皮肤目标制定的应用程序，并可搭配分区导电面膜附件。",
+        "audience": "抗老护理且希望减少手持操作的人群",
+        "points": "重点拆解唇、眼、额头等区域附件与导电凝胶的配套逻辑，不把导电等同经皮递送。",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand": "待访谈验证",
+        "why": "开发判断：重点拆解唇、眼、额头等区域附件与导电凝胶的配套逻辑，不把导电等同经皮递送。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
+      },
+      "concept": {
+        "title": "研发方向：MyoLift QT Plus 微电流分区贴膜系统",
+        "desc": "仅作为集团能力匹配与结构创新假设，不是已上市自有品牌产品。",
+        "primary": "仪器结构与使用便利性",
+        "kit": [],
+        "up": [
+          "验证接触与清洁便利性",
+          "核查适用范围和上市要求"
+        ]
+      },
+      "steps": [],
+      "evidence": [
+        {
+          "url": "https://help.7ewellness.com/en-US/my-plan-124443",
+          "claim": "官方指南提供按皮肤目标制定的应用程序，并可搭配分区导电面膜附件。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "evidenceLevel": "产品与结构已核实；热度/规模待验证",
+      "launchStatus": "既有产品，本期新收录"
+    },
+    {
+      "id": "qure-microinfusion",
+      "name": "Qure Micro-Infusion 储液微针印章套装",
+      "direction": "医美院线家用化",
+      "category": "水光仪耗材",
+      "brands": [
+        "极萌",
+        "金茉"
+      ],
+      "referenceBrand": "Qure",
+      "type": "仪器+耗材",
+      "tech": [
+        "微针",
+        "储液结构"
+      ],
+      "reason": "官方说明呈现储液腔、精华及一次性针头组成；是器械与耗材绑定的结构参考。 本期新收录，非本期新上市。",
+      "audience": "研究级候选，不作为普通护肤消费建议",
+      "points": "涉及破皮，不纳入低风险超导护肤主推；先查分类、无菌、配方适用性及医疗边界。",
+      "links": [
+        {
+          "title": "Qure 产品/说明资料",
+          "url": "https://qureskincare.com/pages/microinfusion-safety-guide"
+        }
+      ],
+      "why": "开发判断：涉及破皮，不纳入低风险超导护肤主推；先查分类、无菌、配方适用性及医疗边界。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand_level": "待验证",
+        "demand": "研究级候选，不作为普通护肤消费建议（需求假设，待访谈验证）",
+        "verdict": "观望",
+        "view": "开发判断：涉及破皮，不纳入低风险超导护肤主推；先查分类、无菌、配方适用性及医疗边界。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+        "sources": [
+          {
+            "title": "Qure 产品/说明资料",
+            "url": "https://qureskincare.com/pages/microinfusion-safety-guide"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "官方说明呈现储液腔、精华及一次性针头组成；是器械与耗材绑定的结构参考。",
+        "audience": "研究级候选，不作为普通护肤消费建议",
+        "points": "涉及破皮，不纳入低风险超导护肤主推；先查分类、无菌、配方适用性及医疗边界。",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand": "待访谈验证",
+        "why": "开发判断：涉及破皮，不纳入低风险超导护肤主推；先查分类、无菌、配方适用性及医疗边界。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
+      },
+      "concept": {
+        "title": "研发方向：Qure Micro-Infusion 储液微针印章套装",
+        "desc": "仅作为集团能力匹配与结构创新假设，不是已上市自有品牌产品。",
+        "primary": "仪器结构与使用便利性",
+        "kit": [],
+        "up": [
+          "验证接触与清洁便利性",
+          "核查适用范围和上市要求"
+        ]
+      },
+      "steps": [],
+      "evidence": [
+        {
+          "url": "https://qureskincare.com/pages/microinfusion-safety-guide",
+          "claim": "官方说明呈现储液腔、精华及一次性针头组成；是器械与耗材绑定的结构参考。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "evidenceLevel": "产品与结构已核实；热度/规模待验证",
+      "launchStatus": "既有产品，本期新收录"
+    },
+    {
+      "id": "beautybio-glofacial",
+      "name": "BeautyBio GLOfacial 水吸清洁与蓝光工具",
+      "direction": "医美院线家用化",
+      "category": "清洁仪",
+      "brands": [
+        "极萌",
+        "金茉"
+      ],
+      "referenceBrand": "BeautyBio",
+      "type": "仪器+耗材",
+      "tech": [
+        "负压",
+        "蓝光"
+      ],
+      "reason": "品牌帮助中心明确专用浓缩液、清洁工具和独立蓝光功能；可借鉴院线水吸清洁的家庭化结构。 本期新收录，非本期新上市。",
+      "audience": "油脂清洁需求且关注卫生维护的人群",
+      "points": "双水路清污分离、可清洗吸头、耗材适配是工程重点；不声称实现注射水光效果。",
+      "links": [
+        {
+          "title": "BeautyBio 产品/说明资料",
+          "url": "https://beautybio.gorgias.help/en-US/glofacial-faqs-233062"
+        }
+      ],
+      "why": "开发判断：双水路清污分离、可清洗吸头、耗材适配是工程重点；不声称实现注射水光效果。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand_level": "待验证",
+        "demand": "油脂清洁需求且关注卫生维护的人群（需求假设，待访谈验证）",
+        "verdict": "谨慎推荐",
+        "view": "开发判断：双水路清污分离、可清洗吸头、耗材适配是工程重点；不声称实现注射水光效果。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+        "sources": [
+          {
+            "title": "BeautyBio 产品/说明资料",
+            "url": "https://beautybio.gorgias.help/en-US/glofacial-faqs-233062"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "品牌帮助中心明确专用浓缩液、清洁工具和独立蓝光功能；可借鉴院线水吸清洁的家庭化结构。",
+        "audience": "油脂清洁需求且关注卫生维护的人群",
+        "points": "双水路清污分离、可清洗吸头、耗材适配是工程重点；不声称实现注射水光效果。",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand": "待访谈验证",
+        "why": "开发判断：双水路清污分离、可清洗吸头、耗材适配是工程重点；不声称实现注射水光效果。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
+      },
+      "concept": {
+        "title": "研发方向：BeautyBio GLOfacial 水吸清洁与蓝光工具",
+        "desc": "仅作为集团能力匹配与结构创新假设，不是已上市自有品牌产品。",
+        "primary": "仪器结构与使用便利性",
+        "kit": [],
+        "up": [
+          "验证接触与清洁便利性",
+          "核查适用范围和上市要求"
+        ]
+      },
+      "steps": [],
+      "evidence": [
+        {
+          "url": "https://beautybio.gorgias.help/en-US/glofacial-faqs-233062",
+          "claim": "品牌帮助中心明确专用浓缩液、清洁工具和独立蓝光功能；可借鉴院线水吸清洁的家庭化结构。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "evidenceLevel": "产品与结构已核实；热度/规模待验证",
+      "launchStatus": "既有产品，本期新收录"
+    },
+    {
+      "id": "silkn-titan-allways",
+      "name": "Silk’n Titan AllWays 家用 RF+光护理仪",
+      "direction": "医美院线家用化",
+      "category": "面部美容仪",
+      "brands": [
+        "极萌",
+        "金茉"
+      ],
+      "referenceBrand": "Silk’n",
+      "type": "仪器",
+      "tech": [
+        "射频",
+        "红光",
+        "近红外"
+      ],
+      "reason": "FDA公开文件确认家用设备结构组合射频和低功率光；适用范围与肤色限制应按文件理解。 本期新收录，非本期新上市。",
+      "audience": "符合产品适用范围的成人护理人群",
+      "points": "无线握持与温度管理值得研究；国外许可不代表中国获准上市。",
+      "links": [
+        {
+          "title": "Silk’n 产品/说明资料",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K230013.pdf"
+        }
+      ],
+      "why": "开发判断：无线握持与温度管理值得研究；国外许可不代表中国获准上市。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand_level": "待验证",
+        "demand": "符合产品适用范围的成人护理人群（需求假设，待访谈验证）",
+        "verdict": "谨慎推荐",
+        "view": "开发判断：无线握持与温度管理值得研究；国外许可不代表中国获准上市。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+        "sources": [
+          {
+            "title": "Silk’n 产品/说明资料",
+            "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K230013.pdf"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "FDA公开文件确认家用设备结构组合射频和低功率光；适用范围与肤色限制应按文件理解。",
+        "audience": "符合产品适用范围的成人护理人群",
+        "points": "无线握持与温度管理值得研究；国外许可不代表中国获准上市。",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand": "待访谈验证",
+        "why": "开发判断：无线握持与温度管理值得研究；国外许可不代表中国获准上市。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
+      },
+      "concept": {
+        "title": "研发方向：Silk’n Titan AllWays 家用 RF+光护理仪",
+        "desc": "仅作为集团能力匹配与结构创新假设，不是已上市自有品牌产品。",
+        "primary": "仪器结构与使用便利性",
+        "kit": [],
+        "up": [
+          "验证接触与清洁便利性",
+          "核查适用范围和上市要求"
+        ]
+      },
+      "steps": [],
+      "evidence": [
+        {
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K230013.pdf",
+          "claim": "FDA公开文件确认家用设备结构组合射频和低功率光；适用范围与肤色限制应按文件理解。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "evidenceLevel": "产品与结构已核实；热度/规模待验证",
+      "launchStatus": "既有产品，本期新收录"
+    },
+    {
+      "id": "recoverypulse-calf",
+      "name": "Therabody RecoveryPulse Calf 振动压缩小腿套",
+      "direction": "海外热门",
+      "category": "运动康复",
+      "brands": [
+        "Ulike"
+      ],
+      "referenceBrand": "Therabody",
+      "type": "仪器",
+      "tech": [
+        "振动",
+        "弹力压缩"
+      ],
+      "reason": "海外品牌在售小腿套，将弹力压缩与振动集成到可穿戴形态。 本期新收录，非本期新上市。",
+      "audience": "运动后小腿放松和久站人群",
+      "points": "关注多尺码、防滑移和电机可拆洗；热度仅为候选，暂无独立销量证据。",
+      "links": [
+        {
+          "title": "Therabody 产品/说明资料",
+          "url": "https://www.therabody.com/products/recoverypulse-calf-small?option=s"
+        }
+      ],
+      "why": "开发判断：关注多尺码、防滑移和电机可拆洗；热度仅为候选，暂无独立销量证据。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand_level": "待验证",
+        "demand": "运动后小腿放松和久站人群（需求假设，待访谈验证）",
+        "verdict": "谨慎推荐",
+        "view": "开发判断：关注多尺码、防滑移和电机可拆洗；热度仅为候选，暂无独立销量证据。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+        "sources": [
+          {
+            "title": "Therabody 产品/说明资料",
+            "url": "https://www.therabody.com/products/recoverypulse-calf-small?option=s"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "海外品牌在售小腿套，将弹力压缩与振动集成到可穿戴形态。",
+        "audience": "运动后小腿放松和久站人群",
+        "points": "关注多尺码、防滑移和电机可拆洗；热度仅为候选，暂无独立销量证据。",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand": "待访谈验证",
+        "why": "开发判断：关注多尺码、防滑移和电机可拆洗；热度仅为候选，暂无独立销量证据。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
+      },
+      "concept": {
+        "title": "研发方向：Therabody RecoveryPulse Calf 振动压缩小腿套",
+        "desc": "仅作为集团能力匹配与结构创新假设，不是已上市自有品牌产品。",
+        "primary": "仪器结构与使用便利性",
+        "kit": [],
+        "up": [
+          "验证接触与清洁便利性",
+          "核查适用范围和上市要求"
+        ]
+      },
+      "steps": [],
+      "evidence": [
+        {
+          "url": "https://www.therabody.com/products/recoverypulse-calf-small?option=s",
+          "claim": "海外品牌在售小腿套，将弹力压缩与振动集成到可穿戴形态。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "evidenceLevel": "产品与结构已核实；热度/规模待验证",
+      "launchStatus": "既有产品，本期新收录"
+    },
+    {
+      "id": "therabody-wave-solo",
+      "name": "Therabody WaveSolo 局部振动按摩球",
+      "direction": "海外热门",
+      "category": "运动康复",
+      "brands": [
+        "Ulike"
+      ],
+      "referenceBrand": "Therabody",
+      "type": "仪器",
+      "tech": [
+        "振动",
+        "局部按压"
+      ],
+      "reason": "官方商品页展示小型振动球、硅胶表面和应用程序引导；可拆解局部放松的低体积形态。 本期新收录，非本期新上市。",
+      "audience": "运动后希望精准放松的小空间用户",
+      "points": "关注脚底及身体局部接触、降噪和防滚走；未核实近期销量增长。",
+      "links": [
+        {
+          "title": "Therabody 产品/说明资料",
+          "url": "https://www.therabody.com/products/wave-solo"
+        }
+      ],
+      "why": "开发判断：关注脚底及身体局部接触、降噪和防滚走；未核实近期销量增长。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand_level": "待验证",
+        "demand": "运动后希望精准放松的小空间用户（需求假设，待访谈验证）",
+        "verdict": "谨慎推荐",
+        "view": "开发判断：关注脚底及身体局部接触、降噪和防滚走；未核实近期销量增长。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+        "sources": [
+          {
+            "title": "Therabody 产品/说明资料",
+            "url": "https://www.therabody.com/products/wave-solo"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "官方商品页展示小型振动球、硅胶表面和应用程序引导；可拆解局部放松的低体积形态。",
+        "audience": "运动后希望精准放松的小空间用户",
+        "points": "关注脚底及身体局部接触、降噪和防滚走；未核实近期销量增长。",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand": "待访谈验证",
+        "why": "开发判断：关注脚底及身体局部接触、降噪和防滚走；未核实近期销量增长。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
+      },
+      "concept": {
+        "title": "研发方向：Therabody WaveSolo 局部振动按摩球",
+        "desc": "仅作为集团能力匹配与结构创新假设，不是已上市自有品牌产品。",
+        "primary": "仪器结构与使用便利性",
+        "kit": [],
+        "up": [
+          "验证接触与清洁便利性",
+          "核查适用范围和上市要求"
+        ]
+      },
+      "steps": [],
+      "evidence": [
+        {
+          "url": "https://www.therabody.com/products/wave-solo",
+          "claim": "官方商品页展示小型振动球、硅胶表面和应用程序引导；可拆解局部放松的低体积形态。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "evidenceLevel": "产品与结构已核实；热度/规模待验证",
+      "launchStatus": "既有产品，本期新收录"
+    },
+    {
+      "id": "hyperice-venom2-back",
+      "name": "Hyperice Venom 2 Back 温热振动腰背带",
+      "direction": "海外热门",
+      "category": "运动康复",
+      "brands": [
+        "Ulike"
+      ],
+      "referenceBrand": "Hyperice",
+      "type": "仪器",
+      "tech": [
+        "温热",
+        "振动"
+      ],
+      "reason": "官方页面与使用指南确认腰背包裹结构、温热及振动模式；区别于库内 Venom Go 小贴片。 本期新收录，非本期新上市。",
+      "audience": "运动后腰背紧绷和久坐人群",
+      "points": "评估带体贴合、分区温度与活动自由度；海外在售不等于销量起量。",
+      "links": [
+        {
+          "title": "Hyperice 产品/说明资料",
+          "url": "https://get.hyperice.com/venom-collection"
+        }
+      ],
+      "why": "开发判断：评估带体贴合、分区温度与活动自由度；海外在售不等于销量起量。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand_level": "待验证",
+        "demand": "运动后腰背紧绷和久坐人群（需求假设，待访谈验证）",
+        "verdict": "谨慎推荐",
+        "view": "开发判断：评估带体贴合、分区温度与活动自由度；海外在售不等于销量起量。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+        "sources": [
+          {
+            "title": "Hyperice 产品/说明资料",
+            "url": "https://get.hyperice.com/venom-collection"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "官方页面与使用指南确认腰背包裹结构、温热及振动模式；区别于库内 Venom Go 小贴片。",
+        "audience": "运动后腰背紧绷和久坐人群",
+        "points": "评估带体贴合、分区温度与活动自由度；海外在售不等于销量起量。",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand": "待访谈验证",
+        "why": "开发判断：评估带体贴合、分区温度与活动自由度；海外在售不等于销量起量。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
+      },
+      "concept": {
+        "title": "研发方向：Hyperice Venom 2 Back 温热振动腰背带",
+        "desc": "仅作为集团能力匹配与结构创新假设，不是已上市自有品牌产品。",
+        "primary": "仪器结构与使用便利性",
+        "kit": [],
+        "up": [
+          "验证接触与清洁便利性",
+          "核查适用范围和上市要求"
+        ]
+      },
+      "steps": [],
+      "evidence": [
+        {
+          "url": "https://get.hyperice.com/venom-collection",
+          "claim": "官方页面与使用指南确认腰背包裹结构、温热及振动模式；区别于库内 Venom Go 小贴片。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "evidenceLevel": "产品与结构已核实；热度/规模待验证",
+      "launchStatus": "既有产品，本期新收录"
+    },
+    {
+      "id": "geske-thermo-brush",
+      "name": "GESKE Sonic Thermo 温热声波洁面刷",
+      "direction": "海外热门",
+      "category": "清洁仪",
+      "brands": [
+        "极萌",
+        "金茉"
+      ],
+      "referenceBrand": "GESKE",
+      "type": "仪器",
+      "tech": [
+        "声波振动",
+        "温热"
+      ],
+      "reason": "官方页面确认硅胶刷头、温热背面与应用程序引导；海外媒体有体验报道，未有可比销量。 本期新收录，非本期新上市。",
+      "audience": "重视鼻翼清洁和精华涂抹便利的人群",
+      "points": "可研究双面一体ID和易清洗结构；温热并不自动证明精华透皮吸收提升。",
+      "links": [
+        {
+          "title": "GESKE 产品/说明资料",
+          "url": "https://us.geske.com/us/products/sonic-thermo-facial-brush-6-in-1/black"
+        }
+      ],
+      "why": "开发判断：可研究双面一体ID和易清洗结构；温热并不自动证明精华透皮吸收提升。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand_level": "待验证",
+        "demand": "重视鼻翼清洁和精华涂抹便利的人群（需求假设，待访谈验证）",
+        "verdict": "谨慎推荐",
+        "view": "开发判断：可研究双面一体ID和易清洗结构；温热并不自动证明精华透皮吸收提升。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+        "sources": [
+          {
+            "title": "GESKE 产品/说明资料",
+            "url": "https://us.geske.com/us/products/sonic-thermo-facial-brush-6-in-1/black"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "官方页面确认硅胶刷头、温热背面与应用程序引导；海外媒体有体验报道，未有可比销量。",
+        "audience": "重视鼻翼清洁和精华涂抹便利的人群",
+        "points": "可研究双面一体ID和易清洗结构；温热并不自动证明精华透皮吸收提升。",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand": "待访谈验证",
+        "why": "开发判断：可研究双面一体ID和易清洗结构；温热并不自动证明精华透皮吸收提升。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
+      },
+      "concept": {
+        "title": "研发方向：GESKE Sonic Thermo 温热声波洁面刷",
+        "desc": "仅作为集团能力匹配与结构创新假设，不是已上市自有品牌产品。",
+        "primary": "仪器结构与使用便利性",
+        "kit": [],
+        "up": [
+          "验证接触与清洁便利性",
+          "核查适用范围和上市要求"
+        ]
+      },
+      "steps": [],
+      "evidence": [
+        {
+          "url": "https://us.geske.com/us/products/sonic-thermo-facial-brush-6-in-1/black",
+          "claim": "官方页面确认硅胶刷头、温热背面与应用程序引导；海外媒体有体验报道，未有可比销量。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "evidenceLevel": "产品与结构已核实；热度/规模待验证",
+      "launchStatus": "既有产品，本期新收录"
+    },
+    {
+      "id": "faq-202-mask",
+      "name": "FAQ 202 柔性无线 LED 面罩",
+      "direction": "海外热门",
+      "category": "LED光疗",
+      "brands": [
+        "极萌",
+        "金茉"
+      ],
+      "referenceBrand": "FAQ / FOREO",
+      "type": "仪器",
+      "tech": [
+        "LED",
+        "近红外"
+      ],
+      "reason": "官方产品及说明书确认柔性硅胶、无线形态和多波段选择；海外零售商与媒体持续收录。 本期新收录，非本期新上市。",
+      "audience": "希望减少线缆束缚的面部护理用户",
+      "points": "重点比较贴合、眼部避光、清洁和首次配对负担；不能用媒体体验替代临床证据。",
+      "links": [
+        {
+          "title": "FAQ / FOREO 产品/说明资料",
+          "url": "https://www.foreo.com/faq-swiss-202"
+        }
+      ],
+      "why": "开发判断：重点比较贴合、眼部避光、清洁和首次配对负担；不能用媒体体验替代临床证据。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand_level": "待验证",
+        "demand": "希望减少线缆束缚的面部护理用户（需求假设，待访谈验证）",
+        "verdict": "谨慎推荐",
+        "view": "开发判断：重点比较贴合、眼部避光、清洁和首次配对负担；不能用媒体体验替代临床证据。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+        "sources": [
+          {
+            "title": "FAQ / FOREO 产品/说明资料",
+            "url": "https://www.foreo.com/faq-swiss-202"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "官方产品及说明书确认柔性硅胶、无线形态和多波段选择；海外零售商与媒体持续收录。",
+        "audience": "希望减少线缆束缚的面部护理用户",
+        "points": "重点比较贴合、眼部避光、清洁和首次配对负担；不能用媒体体验替代临床证据。",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand": "待访谈验证",
+        "why": "开发判断：重点比较贴合、眼部避光、清洁和首次配对负担；不能用媒体体验替代临床证据。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
+      },
+      "concept": {
+        "title": "研发方向：FAQ 202 柔性无线 LED 面罩",
+        "desc": "仅作为集团能力匹配与结构创新假设，不是已上市自有品牌产品。",
+        "primary": "仪器结构与使用便利性",
+        "kit": [],
+        "up": [
+          "验证接触与清洁便利性",
+          "核查适用范围和上市要求"
+        ]
+      },
+      "steps": [],
+      "evidence": [
+        {
+          "url": "https://www.foreo.com/faq-swiss-202",
+          "claim": "官方产品及说明书确认柔性硅胶、无线形态和多波段选择；海外零售商与媒体持续收录。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "evidenceLevel": "产品与结构已核实；热度/规模待验证",
+      "launchStatus": "既有产品，本期新收录"
+    },
+    {
+      "id": "luminette3-glasses",
+      "name": "Luminette 3 可穿戴光照眼镜",
+      "direction": "海外热门",
+      "category": "情绪/睡眠",
+      "brands": [
+        "Ulike"
+      ],
+      "referenceBrand": "Luminette",
+      "type": "仪器",
+      "tech": [
+        "光照"
+      ],
+      "reason": "官方在售轻量光照眼镜，可与普通眼镜搭配；可研究从桌面光照灯转向可穿戴使用。 本期新收录，非本期新上市。",
+      "audience": "晨间光照不足且希望活动中使用的人群",
+      "points": "先核对眼部禁忌、照度和使用时段，避免宣称治疗失眠；海外热度待量化。",
+      "links": [
+        {
+          "title": "Luminette 产品/说明资料",
+          "url": "https://myluminette.com/en-us/products/luminette-3"
+        }
+      ],
+      "why": "开发判断：先核对眼部禁忌、照度和使用时段，避免宣称治疗失眠；海外热度待量化。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand_level": "待验证",
+        "demand": "晨间光照不足且希望活动中使用的人群（需求假设，待访谈验证）",
+        "verdict": "谨慎推荐",
+        "view": "开发判断：先核对眼部禁忌、照度和使用时段，避免宣称治疗失眠；海外热度待量化。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+        "sources": [
+          {
+            "title": "Luminette 产品/说明资料",
+            "url": "https://myluminette.com/en-us/products/luminette-3"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "官方在售轻量光照眼镜，可与普通眼镜搭配；可研究从桌面光照灯转向可穿戴使用。",
+        "audience": "晨间光照不足且希望活动中使用的人群",
+        "points": "先核对眼部禁忌、照度和使用时段，避免宣称治疗失眠；海外热度待量化。",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand": "待访谈验证",
+        "why": "开发判断：先核对眼部禁忌、照度和使用时段，避免宣称治疗失眠；海外热度待量化。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
+      },
+      "concept": {
+        "title": "研发方向：Luminette 3 可穿戴光照眼镜",
+        "desc": "仅作为集团能力匹配与结构创新假设，不是已上市自有品牌产品。",
+        "primary": "仪器结构与使用便利性",
+        "kit": [],
+        "up": [
+          "验证接触与清洁便利性",
+          "核查适用范围和上市要求"
+        ]
+      },
+      "steps": [],
+      "evidence": [
+        {
+          "url": "https://myluminette.com/en-us/products/luminette-3",
+          "claim": "官方在售轻量光照眼镜，可与普通眼镜搭配；可研究从桌面光照灯转向可穿戴使用。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "evidenceLevel": "产品与结构已核实；热度/规模待验证",
+      "launchStatus": "既有产品，本期新收录"
+    },
+    {
+      "id": "sensate-relaxation",
+      "name": "Sensate 胸前振动与声音放松器",
+      "direction": "海外热门",
+      "category": "运动康复",
+      "brands": [
+        "Ulike"
+      ],
+      "referenceBrand": "Sensate",
+      "type": "仪器",
+      "tech": [
+        "振动",
+        "声音引导"
+      ],
+      "reason": "官方说明为胸前轻振动配合应用程序声音，不是电刺激；海外媒体有关注。 本期新收录，非本期新上市。",
+      "audience": "希望形成短时放松习惯的人群",
+      "points": "研究握石式触感、振动音频同步和无屏操作；不把放松体验写成焦虑症疗效。",
+      "links": [
+        {
+          "title": "Sensate 产品/说明资料",
+          "url": "https://www.getsensate.com/pages/home"
+        }
+      ],
+      "why": "开发判断：研究握石式触感、振动音频同步和无屏操作；不把放松体验写成焦虑症疗效。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand_level": "待验证",
+        "demand": "希望形成短时放松习惯的人群（需求假设，待访谈验证）",
+        "verdict": "谨慎推荐",
+        "view": "开发判断：研究握石式触感、振动音频同步和无屏操作；不把放松体验写成焦虑症疗效。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
+        "sources": [
+          {
+            "title": "Sensate 产品/说明资料",
+            "url": "https://www.getsensate.com/pages/home"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "官方说明为胸前轻振动配合应用程序声音，不是电刺激；海外媒体有关注。",
+        "audience": "希望形成短时放松习惯的人群",
+        "points": "研究握石式触感、振动音频同步和无屏操作；不把放松体验写成焦虑症疗效。",
+        "size": "暂无可靠细分统计",
+        "growth": "暂无可靠细分统计",
+        "demand": "待访谈验证",
+        "why": "开发判断：研究握石式触感、振动音频同步和无屏操作；不把放松体验写成焦虑症疗效。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
+      },
+      "concept": {
+        "title": "研发方向：Sensate 胸前振动与声音放松器",
+        "desc": "仅作为集团能力匹配与结构创新假设，不是已上市自有品牌产品。",
+        "primary": "仪器结构与使用便利性",
+        "kit": [],
+        "up": [
+          "验证接触与清洁便利性",
+          "核查适用范围和上市要求"
+        ]
+      },
+      "steps": [],
+      "evidence": [
+        {
+          "url": "https://www.getsensate.com/pages/home",
+          "claim": "官方说明为胸前轻振动配合应用程序声音，不是电刺激；海外媒体有关注。",
+          "checked": "2026-11-01"
+        }
+      ],
+      "evidenceLevel": "产品与结构已核实；热度/规模待验证",
+      "launchStatus": "既有产品，本期新收录"
+    },
+    {
+      "id": "refa-fine-bubble",
+      "name": "ReFa Fine Bubble 微细气泡花洒系列",
+      "direction": "销量起量",
+      "category": "身体护理仪",
+      "brands": [],
+      "type": "设备/护理用品",
+      "tech": [
+        "微细气泡与可替换花洒"
+      ],
+      "reason": "累计出货由2023年10月200万支至2025年6月300万支；约20个月增加100万支。系列出货，不是零售销量。",
+      "audience": "日常沐浴与温和清洁人群",
+      "points": "累计出货由2023年10月200万支至2025年6月300万支；约20个月增加100万支。系列出货，不是零售销量。；把高频洗澡变为护理触点，先验证水压适配和清洁体验",
+      "links": [
+        {
+          "title": "官方产品/销售证据",
+          "url": "https://www.mtg.gr.jp/news/detail/2025/07/article_2381.html"
+        },
+        {
+          "title": "对照证据/需求依据",
+          "url": "https://www.mtg.gr.jp/news/detail/2023/11/article_2206.html"
+        }
+      ],
+      "why": "把高频洗澡变为护理触点，先验证水压适配和清洁体验",
+      "market": {
+        "tier": "暂无统计",
+        "size": "未用品牌出货量推算整体市场",
+        "growth": "累计出货由2023年10月200万支至2025年6月300万支；约20个月增加100万支。系列出货，不是零售销量。",
+        "demand_level": "有量化市场信号",
+        "demand": "日常沐浴与温和清洁人群",
+        "verdict": "观望",
+        "view": "把高频洗澡变为护理触点，先验证水压适配和清洁体验",
+        "sources": [
+          {
+            "title": "来源依据",
+            "url": "https://www.mtg.gr.jp/news/detail/2025/07/article_2381.html"
+          },
+          {
+            "title": "来源依据",
+            "url": "https://www.mtg.gr.jp/news/detail/2023/11/article_2206.html"
+          }
+        ]
+      },
+      "summary": {
+        "fact": "累计出货由2023年10月200万支至2025年6月300万支；约20个月增加100万支。系列出货，不是零售销量。",
+        "inference": "把高频洗澡变为护理触点，先验证水压适配和清洁体验",
+        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比"
+      },
+      "date": "2026-11-01",
+      "platforms": [
+        "品牌官网"
+      ],
+      "visual": {
+        "idea": "展示实际结构与使用情境，标注参考产品"
+      },
+      "concept": {
+        "title": "ReFa Fine Bubble 微细气泡花洒系列的本土化参考",
+        "desc": "把高频洗澡变为护理触点，先验证水压适配和清洁体验",
+        "primary": "先验证真实使用障碍，再立项",
+        "kit": [],
+        "up": []
+      },
+      "steps": [
+        "核验本地适用范围与可售状态",
+        "访谈目标用户并进行结构适配测试",
+        "补充价格、供应与渠道成交证据"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mtg.gr.jp/news/detail/2025/07/article_2381.html",
+          "claim": "累计出货由2023年10月200万支至2025年6月300万支；约20个月增加100万支。系列出货，不是零售销量。",
+          "checked": "2026-11-01"
+        },
+        {
+          "url": "https://www.mtg.gr.jp/news/detail/2023/11/article_2206.html",
+          "claim": "历史对照或系列口径辅助证据",
+          "checked": "2026-11-01"
+        }
+      ],
+      "referenceBrand": "ReFa"
+    },
+    {
+      "id": "refa-lock-series",
+      "name": "ReFa LOCK 造型护理油系列",
+      "direction": "销量起量",
+      "category": "头皮/生发仪",
+      "brands": [],
+      "type": "护肤/护理耗材",
+      "tech": [
+        "造型前护理油与热造型搭配"
+      ],
+      "reason": "系列累计出货2025年1月300万瓶，2025年11月末500万瓶；增加200万瓶，不等于同比增速。",
+      "audience": "频繁使用卷发棒/直发夹人群",
+      "points": "系列累计出货2025年1月300万瓶，2025年11月末500万瓶；增加200万瓶，不等于同比增速。；仪器负责造型，耗材解决触感与持型，形成复购组合",
+      "links": [
+        {
+          "title": "官方产品/销售证据",
+          "url": "https://www.mtg.gr.jp/news/detail/2026/01/article_2478.html"
+        },
+        {
+          "title": "对照证据/需求依据",
+          "url": "https://www.mtg.gr.jp/news/detail/2025/02/article_2330.html"
+        }
+      ],
+      "why": "仪器负责造型，耗材解决触感与持型，形成复购组合",
+      "market": {
+        "tier": "暂无统计",
+        "size": "未用品牌出货量推算整体市场",
+        "growth": "系列累计出货2025年1月300万瓶，2025年11月末500万瓶；增加200万瓶，不等于同比增速。",
+        "demand_level": "有量化市场信号",
+        "demand": "频繁使用卷发棒/直发夹人群",
+        "verdict": "观望",
+        "view": "仪器负责造型，耗材解决触感与持型，形成复购组合",
+        "sources": [
+          {
+            "title": "来源依据",
+            "url": "https://www.mtg.gr.jp/news/detail/2026/01/article_2478.html"
+          },
+          {
+            "title": "来源依据",
+            "url": "https://www.mtg.gr.jp/news/detail/2025/02/article_2330.html"
+          }
+        ]
+      },
+      "summary": {
+        "fact": "系列累计出货2025年1月300万瓶，2025年11月末500万瓶；增加200万瓶，不等于同比增速。",
+        "inference": "仪器负责造型，耗材解决触感与持型，形成复购组合",
+        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比"
+      },
+      "date": "2026-11-01",
+      "platforms": [
+        "品牌官网"
+      ],
+      "visual": {
+        "idea": "展示实际结构与使用情境，标注参考产品"
+      },
+      "concept": {
+        "title": "ReFa LOCK 造型护理油系列的本土化参考",
+        "desc": "仪器负责造型，耗材解决触感与持型，形成复购组合",
+        "primary": "先验证真实使用障碍，再立项",
+        "kit": [],
+        "up": []
+      },
+      "steps": [
+        "核验本地适用范围与可售状态",
+        "访谈目标用户并进行结构适配测试",
+        "补充价格、供应与渠道成交证据"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mtg.gr.jp/news/detail/2026/01/article_2478.html",
+          "claim": "系列累计出货2025年1月300万瓶，2025年11月末500万瓶；增加200万瓶，不等于同比增速。",
+          "checked": "2026-11-01"
+        },
+        {
+          "url": "https://www.mtg.gr.jp/news/detail/2025/02/article_2330.html",
+          "claim": "历史对照或系列口径辅助证据",
+          "checked": "2026-11-01"
+        }
+      ],
+      "referenceBrand": "ReFa"
+    },
+    {
+      "id": "refa-iron-series",
+      "name": "ReFa 热造型夹板系列",
+      "direction": "销量起量",
+      "category": "头皮/生发仪",
+      "brands": [],
+      "type": "设备/护理用品",
+      "tech": [
+        "碳层夹板；热与压力控制"
+      ],
+      "reason": "系列累计出货2024年5月200万支至2025年9月300万支；16个月增加100万支。不是PRO+单款销量。",
+      "audience": "居家造型与发损困扰人群",
+      "points": "系列累计出货2024年5月200万支至2025年9月300万支；16个月增加100万支。不是PRO+单款销量。；从温度堆叠转向控制热、压和操作失误",
+      "links": [
+        {
+          "title": "官方产品/销售证据",
+          "url": "https://www.mtg.gr.jp/news/detail/2026/02/article_2497.html"
+        },
+        {
+          "title": "对照证据/需求依据",
+          "url": "https://www.mtg.gr.jp/news/detail/2024/07/article_2278.html"
+        }
+      ],
+      "why": "从温度堆叠转向控制热、压和操作失误",
+      "market": {
+        "tier": "暂无统计",
+        "size": "未用品牌出货量推算整体市场",
+        "growth": "系列累计出货2024年5月200万支至2025年9月300万支；16个月增加100万支。不是PRO+单款销量。",
+        "demand_level": "有量化市场信号",
+        "demand": "居家造型与发损困扰人群",
+        "verdict": "观望",
+        "view": "从温度堆叠转向控制热、压和操作失误",
+        "sources": [
+          {
+            "title": "来源依据",
+            "url": "https://www.mtg.gr.jp/news/detail/2026/02/article_2497.html"
+          },
+          {
+            "title": "来源依据",
+            "url": "https://www.mtg.gr.jp/news/detail/2024/07/article_2278.html"
+          }
+        ]
+      },
+      "summary": {
+        "fact": "系列累计出货2024年5月200万支至2025年9月300万支；16个月增加100万支。不是PRO+单款销量。",
+        "inference": "从温度堆叠转向控制热、压和操作失误",
+        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比"
+      },
+      "date": "2026-11-01",
+      "platforms": [
+        "品牌官网"
+      ],
+      "visual": {
+        "idea": "展示实际结构与使用情境，标注参考产品"
+      },
+      "concept": {
+        "title": "ReFa 热造型夹板系列的本土化参考",
+        "desc": "从温度堆叠转向控制热、压和操作失误",
+        "primary": "先验证真实使用障碍，再立项",
+        "kit": [],
+        "up": []
+      },
+      "steps": [
+        "核验本地适用范围与可售状态",
+        "访谈目标用户并进行结构适配测试",
+        "补充价格、供应与渠道成交证据"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mtg.gr.jp/news/detail/2026/02/article_2497.html",
+          "claim": "系列累计出货2024年5月200万支至2025年9月300万支；16个月增加100万支。不是PRO+单款销量。",
+          "checked": "2026-11-01"
+        },
+        {
+          "url": "https://www.mtg.gr.jp/news/detail/2024/07/article_2278.html",
+          "claim": "历史对照或系列口径辅助证据",
+          "checked": "2026-11-01"
+        }
+      ],
+      "referenceBrand": "ReFa"
+    },
+    {
+      "id": "style-bx-innerwear",
+      "name": "Style BX 姿势支撑内衣",
+      "direction": "销量起量",
+      "category": "运动辅助",
+      "brands": [],
+      "type": "设备/护理用品",
+      "tech": [
+        "日常贴身穿戴与结构支撑"
+      ],
+      "reason": "2025年5月9日官方宣布累计10万件；截至2025年12月累计30万件。累计增加20万件，不是年度销量增长200%。",
+      "audience": "伏案与圆肩姿势困扰人群",
+      "points": "2025年5月9日官方宣布累计10万件；截至2025年12月累计30万件。累计增加20万件，不是年度销量增长200%。；把支撑结构织入日常内衣，验证尺码、闷热与穿脱负担",
+      "links": [
+        {
+          "title": "官方产品/销售证据",
+          "url": "https://www.mtg.gr.jp/news/detail/2026/02/article_2487.html"
+        },
+        {
+          "title": "对照证据/需求依据",
+          "url": "https://www.mtg.gr.jp/news/detail/2025/05/article_2347.html"
+        }
+      ],
+      "why": "把支撑结构织入日常内衣，验证尺码、闷热与穿脱负担",
+      "market": {
+        "tier": "暂无统计",
+        "size": "未用品牌出货量推算整体市场",
+        "growth": "2025年5月9日官方宣布累计10万件；截至2025年12月累计30万件。累计增加20万件，不是年度销量增长200%。",
+        "demand_level": "有量化市场信号",
+        "demand": "伏案与圆肩姿势困扰人群",
+        "verdict": "观望",
+        "view": "把支撑结构织入日常内衣，验证尺码、闷热与穿脱负担",
+        "sources": [
+          {
+            "title": "来源依据",
+            "url": "https://www.mtg.gr.jp/news/detail/2026/02/article_2487.html"
+          },
+          {
+            "title": "来源依据",
+            "url": "https://www.mtg.gr.jp/news/detail/2025/05/article_2347.html"
+          }
+        ]
+      },
+      "summary": {
+        "fact": "2025年5月9日官方宣布累计10万件；截至2025年12月累计30万件。累计增加20万件，不是年度销量增长200%。",
+        "inference": "把支撑结构织入日常内衣，验证尺码、闷热与穿脱负担",
+        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比"
+      },
+      "date": "2026-11-01",
+      "platforms": [
+        "品牌官网"
+      ],
+      "visual": {
+        "idea": "展示实际结构与使用情境，标注参考产品"
+      },
+      "concept": {
+        "title": "Style BX 姿势支撑内衣的本土化参考",
+        "desc": "把支撑结构织入日常内衣，验证尺码、闷热与穿脱负担",
+        "primary": "先验证真实使用障碍，再立项",
+        "kit": [],
+        "up": []
+      },
+      "steps": [
+        "核验本地适用范围与可售状态",
+        "访谈目标用户并进行结构适配测试",
+        "补充价格、供应与渠道成交证据"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mtg.gr.jp/news/detail/2026/02/article_2487.html",
+          "claim": "2025年5月9日官方宣布累计10万件；截至2025年12月累计30万件。累计增加20万件，不是年度销量增长200%。",
+          "checked": "2026-11-01"
+        },
+        {
+          "url": "https://www.mtg.gr.jp/news/detail/2025/05/article_2347.html",
+          "claim": "历史对照或系列口径辅助证据",
+          "checked": "2026-11-01"
+        }
+      ],
+      "referenceBrand": "MTG Style"
+    },
+    {
+      "id": "bakune-dry-pro",
+      "name": "BAKUNE 恢复睡衣系列（Dry Pro参考款）",
+      "direction": "销量起量",
+      "category": "运动康复",
+      "brands": [],
+      "type": "设备/护理用品",
+      "tech": [
+        "功能纤维与睡姿版型"
+      ],
+      "reason": "BAKUNE系列累计销售2024年12月100万套，2025年12月200万套；2025年增加100万套。不能归为Dry Pro单品销量。",
+      "audience": "运动后休息及夜间出汗、翻身束缚人群",
+      "points": "BAKUNE系列累计销售2024年12月100万套，2025年12月200万套；2025年增加100万套。不能归为Dry Pro单品销量。；恢复产品融入穿衣习惯；Dry Pro着重通气与翻身活动量，国内功效需另验证",
+      "links": [
+        {
+          "title": "官方产品/销售证据",
+          "url": "https://corp.tential.jp/wp-content/uploads/2026/04/20260421_release.pdf"
+        },
+        {
+          "title": "对照证据/需求依据",
+          "url": "https://corp.tential.jp/wp-content/uploads/2025/10/20251009_release.pdf"
+        }
+      ],
+      "why": "恢复产品融入穿衣习惯；Dry Pro着重通气与翻身活动量，国内功效需另验证",
+      "market": {
+        "tier": "暂无统计",
+        "size": "未用品牌出货量推算整体市场",
+        "growth": "BAKUNE系列累计销售2024年12月100万套，2025年12月200万套；2025年增加100万套。不能归为Dry Pro单品销量。",
+        "demand_level": "有量化市场信号",
+        "demand": "运动后休息及夜间出汗、翻身束缚人群",
+        "verdict": "观望",
+        "view": "恢复产品融入穿衣习惯；Dry Pro着重通气与翻身活动量，国内功效需另验证",
+        "sources": [
+          {
+            "title": "来源依据",
+            "url": "https://corp.tential.jp/wp-content/uploads/2026/04/20260421_release.pdf"
+          },
+          {
+            "title": "来源依据",
+            "url": "https://corp.tential.jp/wp-content/uploads/2025/10/20251009_release.pdf"
+          }
+        ]
+      },
+      "summary": {
+        "fact": "BAKUNE系列累计销售2024年12月100万套，2025年12月200万套；2025年增加100万套。不能归为Dry Pro单品销量。",
+        "inference": "恢复产品融入穿衣习惯；Dry Pro着重通气与翻身活动量，国内功效需另验证",
+        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比"
+      },
+      "date": "2026-11-01",
+      "platforms": [
+        "品牌官网"
+      ],
+      "visual": {
+        "idea": "展示实际结构与使用情境，标注参考产品"
+      },
+      "concept": {
+        "title": "BAKUNE 恢复睡衣系列（Dry Pro参考款）的本土化参考",
+        "desc": "恢复产品融入穿衣习惯；Dry Pro着重通气与翻身活动量，国内功效需另验证",
+        "primary": "先验证真实使用障碍，再立项",
+        "kit": [],
+        "up": []
+      },
+      "steps": [
+        "核验本地适用范围与可售状态",
+        "访谈目标用户并进行结构适配测试",
+        "补充价格、供应与渠道成交证据"
+      ],
+      "evidence": [
+        {
+          "url": "https://corp.tential.jp/wp-content/uploads/2026/04/20260421_release.pdf",
+          "claim": "BAKUNE系列累计销售2024年12月100万套，2025年12月200万套；2025年增加100万套。不能归为Dry Pro单品销量。",
+          "checked": "2026-11-01"
+        },
+        {
+          "url": "https://corp.tential.jp/wp-content/uploads/2025/10/20251009_release.pdf",
+          "claim": "历史对照或系列口径辅助证据",
+          "checked": "2026-11-01"
+        }
+      ],
+      "referenceBrand": "TENTIAL"
+    },
+    {
+      "id": "red-recoverywear",
+      "name": "ReD 日常恢复服系列",
+      "direction": "销量起量",
+      "category": "运动康复",
+      "brands": [],
+      "type": "设备/护理用品",
+      "tech": [
+        "矿物复合纤维与轻薄服装"
+      ],
+      "reason": "2025年7月至2026年9月系列累计出货300万件，官方2026年10月15日公布；不是终端零售销量。",
+      "audience": "追求日常轻负担身体放松的人群",
+      "points": "2025年7月至2026年9月系列累计出货300万件，官方2026年10月15日公布；不是终端零售销量。；把恢复从单次仪器使用延展到内衣、睡衣；功效主张应按销售市场验证",
+      "links": [
+        {
+          "title": "官方产品/销售证据",
+          "url": "https://www.mtg.gr.jp/news/detail/2026/10/article_2656.html"
+        },
+        {
+          "title": "对照证据/需求依据",
+          "url": "https://www.mtg.gr.jp/ir/pdf/annual_report/mtg2025.pdf"
+        }
+      ],
+      "why": "把恢复从单次仪器使用延展到内衣、睡衣；功效主张应按销售市场验证",
+      "market": {
+        "tier": "暂无统计",
+        "size": "未用品牌出货量推算整体市场",
+        "growth": "2025年7月至2026年9月系列累计出货300万件，官方2026年10月15日公布；不是终端零售销量。",
+        "demand_level": "有量化市场信号",
+        "demand": "追求日常轻负担身体放松的人群",
+        "verdict": "观望",
+        "view": "把恢复从单次仪器使用延展到内衣、睡衣；功效主张应按销售市场验证",
+        "sources": [
+          {
+            "title": "来源依据",
+            "url": "https://www.mtg.gr.jp/news/detail/2026/10/article_2656.html"
+          },
+          {
+            "title": "来源依据",
+            "url": "https://www.mtg.gr.jp/ir/pdf/annual_report/mtg2025.pdf"
+          }
+        ]
+      },
+      "summary": {
+        "fact": "2025年7月至2026年9月系列累计出货300万件，官方2026年10月15日公布；不是终端零售销量。",
+        "inference": "把恢复从单次仪器使用延展到内衣、睡衣；功效主张应按销售市场验证",
+        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比"
+      },
+      "date": "2026-11-01",
+      "platforms": [
+        "品牌官网"
+      ],
+      "visual": {
+        "idea": "展示实际结构与使用情境，标注参考产品"
+      },
+      "concept": {
+        "title": "ReD 日常恢复服系列的本土化参考",
+        "desc": "把恢复从单次仪器使用延展到内衣、睡衣；功效主张应按销售市场验证",
+        "primary": "先验证真实使用障碍，再立项",
+        "kit": [],
+        "up": []
+      },
+      "steps": [
+        "核验本地适用范围与可售状态",
+        "访谈目标用户并进行结构适配测试",
+        "补充价格、供应与渠道成交证据"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mtg.gr.jp/news/detail/2026/10/article_2656.html",
+          "claim": "2025年7月至2026年9月系列累计出货300万件，官方2026年10月15日公布；不是终端零售销量。",
+          "checked": "2026-11-01"
+        },
+        {
+          "url": "https://www.mtg.gr.jp/ir/pdf/annual_report/mtg2025.pdf",
+          "claim": "历史对照或系列口径辅助证据",
+          "checked": "2026-11-01"
+        }
+      ],
+      "referenceBrand": "MTG ReD"
+    },
+    {
+      "id": "doshisha-gorilla-care",
+      "name": "DOSHISHA Gorilla护理系列（小腿/大腿款参考）",
+      "direction": "销量起量",
+      "category": "缓解疲劳",
+      "brands": [],
+      "type": "设备/护理用品",
+      "tech": [
+        "气压包裹与分部位护理"
+      ],
+      "reason": "DOSHISHA官方披露Gorilla整个系列累计出货2025年10月200万件、2026年7月400万件，9个月累计增加200万件。系列含健康家电及衍生用品，不能写成小腿护理单款销量或同款同比。健康家电子系列另有2024年2月上市至2025年5月累计出货100万台的起量证据。",
+      "audience": "偏好简单操作的腿部放松人群",
+      "points": "DOSHISHA官方披露Gorilla整个系列累计出货2025年10月200万件、2026年7月400万件，9个月累计增加200万件。系列含健康家电及衍生用品，不能写成小腿护理单款销量或同款同比。健康家电子系列另有2024年2月上市至2025年5月累计出货100万台的起量证据。；以单部位护理、低操作负担和鲜明命名形成传播，用户提出大腿需求后扩展两用结构。策略可借鉴，强压或疼痛不等于效果。",
+      "links": [
+        {
+          "title": "官方2026年7月400万里程碑",
+          "url": "https://prtimes.jp/main/html/rd/p/000000965.000028427.html"
+        },
+        {
+          "title": "官方2025年10月200万基线及系列范围",
+          "url": "https://prtimes.jp/a/?c=28427&f=d28427-796-dec719d2cf98140bf296b21f44c1cdda.pdf&r=796"
+        },
+        {
+          "title": "健康家电子系列100万起量证据",
+          "url": "https://www.doshisha.co.jp/dcs/wp-content/uploads/2025/07/250708.pdf"
+        }
+      ],
+      "why": "以单部位护理、低操作负担和鲜明命名形成传播，用户提出大腿需求后扩展两用结构。策略可借鉴，强压或疼痛不等于效果。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "未用品牌出货量推算整体市场",
+        "growth": "DOSHISHA官方披露Gorilla整个系列累计出货2025年10月200万件、2026年7月400万件，9个月累计增加200万件。系列含健康家电及衍生用品，不能写成小腿护理单款销量或同款同比。健康家电子系列另有2024年2月上市至2025年5月累计出货100万台的起量证据。",
+        "demand_level": "有量化市场信号",
+        "demand": "低操作负担的局部身体放松",
+        "verdict": "观望",
+        "view": "以单部位护理、低操作负担和鲜明命名形成传播，用户提出大腿需求后扩展两用结构。策略可借鉴，强压或疼痛不等于效果。",
+        "sources": [
+          {
+            "title": "来源依据",
+            "url": "https://prtimes.jp/main/html/rd/p/000000965.000028427.html"
+          },
+          {
+            "title": "来源依据",
+            "url": "https://prtimes.jp/a/?c=28427&f=d28427-796-dec719d2cf98140bf296b21f44c1cdda.pdf&r=796"
+          },
+          {
+            "title": "来源依据",
+            "url": "https://www.doshisha.co.jp/dcs/wp-content/uploads/2025/07/250708.pdf"
+          }
+        ]
+      },
+      "summary": {
+        "fact": "DOSHISHA官方披露Gorilla整个系列累计出货2025年10月200万件、2026年7月400万件，9个月累计增加200万件。系列含健康家电及衍生用品，不能写成小腿护理单款销量或同款同比。健康家电子系列另有2024年2月上市至2025年5月累计出货100万台的起量证据。",
+        "inference": "以单部位护理、低操作负担和鲜明命名形成传播，用户提出大腿需求后扩展两用结构。策略可借鉴，强压或疼痛不等于效果。",
+        "limitation": "量化增长适用于整个Gorilla系列，包含品类扩展；不能归为小腿单款或同SKU增速。"
+      },
+      "date": "2026-11-01",
+      "platforms": [
+        "品牌官网"
+      ],
+      "visual": {
+        "idea": "展示实际结构与使用情境，标注参考产品"
+      },
+      "concept": {
+        "title": "单部位气压护理与大腿兼容结构",
+        "desc": "以单部位护理、低操作负担和鲜明命名形成传播，用户提出大腿需求后扩展两用结构。策略可借鉴，强压或疼痛不等于效果。",
+        "primary": "先验证舒适适配、压力限制与操作易懂",
+        "kit": [],
+        "up": []
+      },
+      "steps": [
+        "核验本地适用范围与可售状态",
+        "访谈目标用户并进行结构适配测试",
+        "补充价格、供应与渠道成交证据"
+      ],
+      "evidence": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000965.000028427.html",
+          "claim": "2026年9月16日官方公告：2026年7月末整个系列累计出货400万",
+          "checked": "2026-11-01"
+        },
+        {
+          "url": "https://prtimes.jp/a/?c=28427&f=d28427-796-dec719d2cf98140bf296b21f44c1cdda.pdf&r=796",
+          "claim": "2025年11月19日官方公告：2024年2月至2025年10月整个系列累计出货200万，含健康家电与衍生用品",
+          "checked": "2026-11-01"
+        },
+        {
+          "url": "https://www.doshisha.co.jp/dcs/wp-content/uploads/2025/07/250708.pdf",
+          "claim": "2025年7月8日官方公告：健康家电系列2024年2月上市至2025年5月累计出货100万台",
+          "checked": "2026-11-01"
+        }
+      ],
+      "referenceBrand": "DOSHISHA"
+    },
+    {
+      "id": "milli-expanding-dilator",
+      "name": "Milli 渐进扩张器",
+      "direction": "需求未满足",
+      "category": "女性健康/私密",
+      "brands": [],
+      "type": "设备/护理用品",
+      "tech": [
+        "1毫米渐进扩张与尺寸显示"
+      ],
+      "reason": "NIHR女性健康优先需求明确列出更好的扩张器；Milli提供渐进尺寸调整。存在产品不意味着需求已经充分满足。",
+      "audience": "在专业指导下进行阴道扩张训练的人群",
+      "points": "NIHR女性健康优先需求明确列出更好的扩张器；Milli提供渐进尺寸调整。存在产品不意味着需求已经充分满足。；尺寸变化连续、减少换支摩擦；需专业适用性与人因测试",
+      "links": [
+        {
+          "title": "官方产品/销售证据",
+          "url": "https://www.hellomilli.com/vaginal-dilator/"
+        },
+        {
+          "title": "对照证据/需求依据",
+          "url": "https://www.community.healthcare.mic.nihr.ac.uk/research/femtech"
+        }
+      ],
+      "why": "尺寸变化连续、减少换支摩擦；需专业适用性与人因测试",
+      "market": {
+        "tier": "暂无统计",
+        "size": "未用品牌出货量推算整体市场",
+        "growth": "未确认销量增长",
+        "demand_level": "有痛点证据，规模待验证",
+        "demand": "在专业指导下进行阴道扩张训练的人群",
+        "verdict": "观望",
+        "view": "尺寸变化连续、减少换支摩擦；需专业适用性与人因测试",
+        "sources": [
+          {
+            "title": "来源依据",
+            "url": "https://www.hellomilli.com/vaginal-dilator/"
+          },
+          {
+            "title": "来源依据",
+            "url": "https://www.community.healthcare.mic.nihr.ac.uk/research/femtech"
+          }
+        ]
+      },
+      "summary": {
+        "fact": "NIHR女性健康优先需求明确列出更好的扩张器；Milli提供渐进尺寸调整。存在产品不意味着需求已经充分满足。",
+        "inference": "尺寸变化连续、减少换支摩擦；需专业适用性与人因测试",
+        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证"
+      },
+      "date": "2026-11-01",
+      "platforms": [
+        "品牌官网"
+      ],
+      "visual": {
+        "idea": "展示实际结构与使用情境，标注参考产品"
+      },
+      "concept": {
+        "title": "Milli 渐进扩张器的本土化参考",
+        "desc": "尺寸变化连续、减少换支摩擦；需专业适用性与人因测试",
+        "primary": "先验证真实使用障碍，再立项",
+        "kit": [],
+        "up": []
+      },
+      "steps": [
+        "核验本地适用范围与可售状态",
+        "访谈目标用户并进行结构适配测试",
+        "补充价格、供应与渠道成交证据"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.hellomilli.com/vaginal-dilator/",
+          "claim": "NIHR女性健康优先需求明确列出更好的扩张器；Milli提供渐进尺寸调整。存在产品不意味着需求已经充分满足。",
+          "checked": "2026-11-01"
+        },
+        {
+          "url": "https://www.community.healthcare.mic.nihr.ac.uk/research/femtech",
+          "claim": "需求/产品限制辅助证据",
+          "checked": "2026-11-01"
+        }
+      ],
+      "referenceBrand": "Materna Medical"
+    },
+    {
+      "id": "lancome-hapta",
+      "name": "Lancôme HAPTA 辅助上妆器",
+      "direction": "需求未满足",
+      "category": "无障碍美容",
+      "brands": [],
+      "type": "设备/护理用品",
+      "tech": [
+        "自调平与运动稳定"
+      ],
+      "reason": "欧莱雅将精细手部动作受限人群的上妆困难作为研发目标；通用转接头与握持结构改善适配。品牌估计人群数量不等于可购买市场。",
+      "audience": "手部动作受限、握持与旋转困难人群",
+      "points": "欧莱雅将精细手部动作受限人群的上妆困难作为研发目标；通用转接头与握持结构改善适配。品牌估计人群数量不等于可购买市场。；从稳定口红迁移到护肤涂抹握柄；迁移是设计推断，不是已验证功效",
+      "links": [
+        {
+          "title": "官方产品/销售证据",
+          "url": "https://www.loreal.com/en/articles/brands/hapta-lancome/"
+        },
+        {
+          "title": "对照证据/需求依据",
+          "url": "https://www.loreal.com/en/press-release/research-and-innovation/time-best-inventions-2023/"
+        }
+      ],
+      "why": "从稳定口红迁移到护肤涂抹握柄；迁移是设计推断，不是已验证功效",
+      "market": {
+        "tier": "暂无统计",
+        "size": "未用品牌出货量推算整体市场",
+        "growth": "未确认销量增长",
+        "demand_level": "有痛点证据，规模待验证",
+        "demand": "手部动作受限、握持与旋转困难人群",
+        "verdict": "观望",
+        "view": "从稳定口红迁移到护肤涂抹握柄；迁移是设计推断，不是已验证功效",
+        "sources": [
+          {
+            "title": "来源依据",
+            "url": "https://www.loreal.com/en/articles/brands/hapta-lancome/"
+          },
+          {
+            "title": "来源依据",
+            "url": "https://www.loreal.com/en/press-release/research-and-innovation/time-best-inventions-2023/"
+          }
+        ]
+      },
+      "summary": {
+        "fact": "欧莱雅将精细手部动作受限人群的上妆困难作为研发目标；通用转接头与握持结构改善适配。品牌估计人群数量不等于可购买市场。",
+        "inference": "从稳定口红迁移到护肤涂抹握柄；迁移是设计推断，不是已验证功效",
+        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证"
+      },
+      "date": "2026-11-01",
+      "platforms": [
+        "品牌官网"
+      ],
+      "visual": {
+        "idea": "展示实际结构与使用情境，标注参考产品"
+      },
+      "concept": {
+        "title": "Lancôme HAPTA 辅助上妆器的本土化参考",
+        "desc": "从稳定口红迁移到护肤涂抹握柄；迁移是设计推断，不是已验证功效",
+        "primary": "先验证真实使用障碍，再立项",
+        "kit": [],
+        "up": []
+      },
+      "steps": [
+        "核验本地适用范围与可售状态",
+        "访谈目标用户并进行结构适配测试",
+        "补充价格、供应与渠道成交证据"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.loreal.com/en/articles/brands/hapta-lancome/",
+          "claim": "欧莱雅将精细手部动作受限人群的上妆困难作为研发目标；通用转接头与握持结构改善适配。品牌估计人群数量不等于可购买市场。",
+          "checked": "2026-11-01"
+        },
+        {
+          "url": "https://www.loreal.com/en/press-release/research-and-innovation/time-best-inventions-2023/",
+          "claim": "需求/产品限制辅助证据",
+          "checked": "2026-11-01"
+        }
+      ],
+      "referenceBrand": "Lancôme / L’Oréal"
+    },
+    {
+      "id": "silverette-cups",
+      "name": "Silverette 哺乳间隔护理罩杯",
+      "direction": "需求未满足",
+      "category": "女性健康/产后",
+      "brands": [],
+      "type": "设备/护理用品",
+      "tech": [
+        "弧面硬壳与乳头非压迫空间"
+      ],
+      "reason": "NIHR把哺乳乳房/乳头疼痛列为未满足需求；官方产品采用银制罩杯。仅确认结构与产品存在，不据品牌宣传认定预防感染或治疗效果。",
+      "audience": "哺乳期间受衣物摩擦困扰人群",
+      "points": "NIHR把哺乳乳房/乳头疼痛列为未满足需求；官方产品采用银制罩杯。仅确认结构与产品存在，不据品牌宣传认定预防感染或治疗效果。；重点是舒适隔离、尺寸适配与清洁；治疗性宣称需独立证据",
+      "links": [
+        {
+          "title": "官方产品/销售证据",
+          "url": "https://silveretteusa.com/products/silverette-nursing-cups"
+        },
+        {
+          "title": "对照证据/需求依据",
+          "url": "https://www.community.healthcare.mic.nihr.ac.uk/research/femtech"
+        }
+      ],
+      "why": "重点是舒适隔离、尺寸适配与清洁；治疗性宣称需独立证据",
+      "market": {
+        "tier": "暂无统计",
+        "size": "未用品牌出货量推算整体市场",
+        "growth": "未确认销量增长",
+        "demand_level": "有痛点证据，规模待验证",
+        "demand": "哺乳期间受衣物摩擦困扰人群",
+        "verdict": "观望",
+        "view": "重点是舒适隔离、尺寸适配与清洁；治疗性宣称需独立证据",
+        "sources": [
+          {
+            "title": "来源依据",
+            "url": "https://silveretteusa.com/products/silverette-nursing-cups"
+          },
+          {
+            "title": "来源依据",
+            "url": "https://www.community.healthcare.mic.nihr.ac.uk/research/femtech"
+          }
+        ]
+      },
+      "summary": {
+        "fact": "NIHR把哺乳乳房/乳头疼痛列为未满足需求；官方产品采用银制罩杯。仅确认结构与产品存在，不据品牌宣传认定预防感染或治疗效果。",
+        "inference": "重点是舒适隔离、尺寸适配与清洁；治疗性宣称需独立证据",
+        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证"
+      },
+      "date": "2026-11-01",
+      "platforms": [
+        "品牌官网"
+      ],
+      "visual": {
+        "idea": "展示实际结构与使用情境，标注参考产品"
+      },
+      "concept": {
+        "title": "Silverette 哺乳间隔护理罩杯的本土化参考",
+        "desc": "重点是舒适隔离、尺寸适配与清洁；治疗性宣称需独立证据",
+        "primary": "先验证真实使用障碍，再立项",
+        "kit": [],
+        "up": []
+      },
+      "steps": [
+        "核验本地适用范围与可售状态",
+        "访谈目标用户并进行结构适配测试",
+        "补充价格、供应与渠道成交证据"
+      ],
+      "evidence": [
+        {
+          "url": "https://silveretteusa.com/products/silverette-nursing-cups",
+          "claim": "NIHR把哺乳乳房/乳头疼痛列为未满足需求；官方产品采用银制罩杯。仅确认结构与产品存在，不据品牌宣传认定预防感染或治疗效果。",
+          "checked": "2026-11-01"
+        },
+        {
+          "url": "https://www.community.healthcare.mic.nihr.ac.uk/research/femtech",
+          "claim": "需求/产品限制辅助证据",
+          "checked": "2026-11-01"
+        }
+      ],
+      "referenceBrand": "Silverette"
+    },
+    {
+      "id": "uresta-bladder-support",
+      "name": "Uresta 自主管理膀胱支撑器",
+      "direction": "需求未满足",
+      "category": "女性健康/盆底",
+      "brands": [],
+      "type": "设备/护理用品",
+      "tech": [
+        "体内机械支撑与可选尺码"
+      ],
+      "reason": "NIHR把孕产相关漏尿管理列为优先需求；Uresta官方明确适用压力性漏尿。不是所有尿失禁通用方案。",
+      "audience": "运动、咳嗽等诱发压力性漏尿且经专业评估的人群",
+      "points": "NIHR把孕产相关漏尿管理列为优先需求；Uresta官方明确适用压力性漏尿。不是所有尿失禁通用方案。；舒适选型、可抓握取出和适用筛查比增加电子功能更关键",
+      "links": [
+        {
+          "title": "官方产品/销售证据",
+          "url": "https://uresta.com/pages/faqs"
+        },
+        {
+          "title": "对照证据/需求依据",
+          "url": "https://www.community.healthcare.mic.nihr.ac.uk/research/femtech"
+        }
+      ],
+      "why": "舒适选型、可抓握取出和适用筛查比增加电子功能更关键",
+      "market": {
+        "tier": "暂无统计",
+        "size": "未用品牌出货量推算整体市场",
+        "growth": "未确认销量增长",
+        "demand_level": "有痛点证据，规模待验证",
+        "demand": "运动、咳嗽等诱发压力性漏尿且经专业评估的人群",
+        "verdict": "观望",
+        "view": "舒适选型、可抓握取出和适用筛查比增加电子功能更关键",
+        "sources": [
+          {
+            "title": "来源依据",
+            "url": "https://uresta.com/pages/faqs"
+          },
+          {
+            "title": "来源依据",
+            "url": "https://www.community.healthcare.mic.nihr.ac.uk/research/femtech"
+          }
+        ]
+      },
+      "summary": {
+        "fact": "NIHR把孕产相关漏尿管理列为优先需求；Uresta官方明确适用压力性漏尿。不是所有尿失禁通用方案。",
+        "inference": "舒适选型、可抓握取出和适用筛查比增加电子功能更关键",
+        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证"
+      },
+      "date": "2026-11-01",
+      "platforms": [
+        "品牌官网"
+      ],
+      "visual": {
+        "idea": "展示实际结构与使用情境，标注参考产品"
+      },
+      "concept": {
+        "title": "Uresta 自主管理膀胱支撑器的本土化参考",
+        "desc": "舒适选型、可抓握取出和适用筛查比增加电子功能更关键",
+        "primary": "先验证真实使用障碍，再立项",
+        "kit": [],
+        "up": []
+      },
+      "steps": [
+        "核验本地适用范围与可售状态",
+        "访谈目标用户并进行结构适配测试",
+        "补充价格、供应与渠道成交证据"
+      ],
+      "evidence": [
+        {
+          "url": "https://uresta.com/pages/faqs",
+          "claim": "NIHR把孕产相关漏尿管理列为优先需求；Uresta官方明确适用压力性漏尿。不是所有尿失禁通用方案。",
+          "checked": "2026-11-01"
+        },
+        {
+          "url": "https://www.community.healthcare.mic.nihr.ac.uk/research/femtech",
+          "claim": "需求/产品限制辅助证据",
+          "checked": "2026-11-01"
+        }
+      ],
+      "referenceBrand": "Uresta"
+    },
+    {
+      "id": "elvie-catch",
+      "name": "Elvie Catch 被动集乳杯",
+      "direction": "需求未满足",
+      "category": "女性健康/产后",
+      "brands": [],
+      "type": "设备/护理用品",
+      "tech": [
+        "无泵被动集乳；硅胶裙边密封"
+      ],
+      "reason": "官方说明围绕哺乳间隔漏乳、衣物湿痕，提供每侧约30毫升收集杯；需求证据来自产品场景与官方泄漏排障，非人群普遍性调查。",
+      "audience": "外出或工作期间有漏乳困扰的哺乳人群",
+      "points": "官方说明围绕哺乳间隔漏乳、衣物湿痕，提供每侧约30毫升收集杯；需求证据来自产品场景与官方泄漏排障，非人群普遍性调查。；贴合、防漏、易倒出和清洗是核心；仍有装配与贴合导致漏液的改进空间",
+      "links": [
+        {
+          "title": "官方产品/销售证据",
+          "url": "https://elvie.com/products/elvie-catch"
+        },
+        {
+          "title": "对照证据/需求依据",
+          "url": "https://support.elvie.com/elvie-catch/troubleshooting"
+        }
+      ],
+      "why": "贴合、防漏、易倒出和清洗是核心；仍有装配与贴合导致漏液的改进空间",
+      "market": {
+        "tier": "暂无统计",
+        "size": "未用品牌出货量推算整体市场",
+        "growth": "未确认销量增长",
+        "demand_level": "有痛点证据，规模待验证",
+        "demand": "外出或工作期间有漏乳困扰的哺乳人群",
+        "verdict": "观望",
+        "view": "贴合、防漏、易倒出和清洗是核心；仍有装配与贴合导致漏液的改进空间",
+        "sources": [
+          {
+            "title": "来源依据",
+            "url": "https://elvie.com/products/elvie-catch"
+          },
+          {
+            "title": "来源依据",
+            "url": "https://support.elvie.com/elvie-catch/troubleshooting"
+          }
+        ]
+      },
+      "summary": {
+        "fact": "官方说明围绕哺乳间隔漏乳、衣物湿痕，提供每侧约30毫升收集杯；需求证据来自产品场景与官方泄漏排障，非人群普遍性调查。",
+        "inference": "贴合、防漏、易倒出和清洗是核心；仍有装配与贴合导致漏液的改进空间",
+        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证"
+      },
+      "date": "2026-11-01",
+      "platforms": [
+        "品牌官网"
+      ],
+      "visual": {
+        "idea": "展示实际结构与使用情境，标注参考产品"
+      },
+      "concept": {
+        "title": "Elvie Catch 被动集乳杯的本土化参考",
+        "desc": "贴合、防漏、易倒出和清洗是核心；仍有装配与贴合导致漏液的改进空间",
+        "primary": "先验证真实使用障碍，再立项",
+        "kit": [],
+        "up": []
+      },
+      "steps": [
+        "核验本地适用范围与可售状态",
+        "访谈目标用户并进行结构适配测试",
+        "补充价格、供应与渠道成交证据"
+      ],
+      "evidence": [
+        {
+          "url": "https://elvie.com/products/elvie-catch",
+          "claim": "官方说明围绕哺乳间隔漏乳、衣物湿痕，提供每侧约30毫升收集杯；需求证据来自产品场景与官方泄漏排障，非人群普遍性调查。",
+          "checked": "2026-11-01"
+        },
+        {
+          "url": "https://support.elvie.com/elvie-catch/troubleshooting",
+          "claim": "需求/产品限制辅助证据",
+          "checked": "2026-11-01"
+        }
+      ],
+      "referenceBrand": "Elvie"
+    },
+    {
+      "id": "sy-reusable-occlusion",
+      "name": "补充装眼精华+可重复贴合眼罩（开发概念）",
+      "rank": "主推",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "brands": [
+        "术原"
+      ],
+      "type": "护肤品+辅助器具开发概念",
+      "tech": [
+        "定量涂布",
+        "护肤流程设计"
+      ],
+      "reason": "Dieux官网眼罩为可重复硅胶贴，搭配眼精华并提供清洗与复用方法；提示厚涂易滑。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "重视精简与复用的眼部护理用户",
+      "points": "可补充眼精华为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "links": [
+        {
+          "title": "参考产品官方/授权渠道证据",
+          "url": "https://www.dieuxskin.com/products/forever-eye-mask"
+        }
+      ],
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "一次性眼贴浪费、精华厚涂滑落（产品机会假设，待用户访谈）",
+        "verdict": "谨慎推荐",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
+        "sources": [
+          {
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://www.dieuxskin.com/products/forever-eye-mask"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "Dieux官网眼罩为可重复硅胶贴，搭配眼精华并提供清洗与复用方法；提示厚涂易滑。",
+        "audience": "重视精简与复用的眼部护理用户",
+        "points": "可补充眼精华为主，器械辅助",
+        "innovation": "薄涂定量泵+分左右贴合片+通风收纳盒；可加定时底座，不以电流解释封闭保湿",
+        "why": "先验证使用改善和耗材复购"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "展示可补充眼精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
+      },
+      "concept": {
+        "title": "补充装眼精华+可重复贴合眼罩（开发概念）",
+        "desc": "薄涂定量泵+分左右贴合片+通风收纳盒；可加定时底座，不以电流解释封闭保湿；辅助器械≤300元为开发目标，成本待验证。",
+        "form": "pen",
+        "primary": "skin",
+        "kit": [
+          [
+            "serum",
+            "可补充眼精华"
+          ]
+        ],
+        "up": [
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
+      },
+      "steps": [
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
+      ],
+      "pain": [
+        "一次性眼贴浪费、精华厚涂滑落"
+      ],
+      "innovation": "薄涂定量泵+分左右贴合片+通风收纳盒；可加定时底座，不以电流解释封闭保湿",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "薄涂定量泵+分左右贴合片+通风收纳盒；可加定时底座，不以电流解释封闭保湿",
+        "problem": "一次性眼贴浪费、精华厚涂滑落"
+      },
+      "evidence": [
+        {
+          "url": "https://www.dieuxskin.com/products/forever-eye-mask",
+          "claim": "Dieux官网眼罩为可重复硅胶贴，搭配眼精华并提供清洗与复用方法；提示厚涂易滑。",
+          "checked": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "id": "sy-refill-glide",
+      "name": "替芯精华+边涂边提醒轻振棒（开发概念）",
+      "rank": "主推",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "brands": [
+        "术原"
+      ],
+      "type": "护肤品+辅助器具开发概念",
+      "tech": [
+        "定量涂布",
+        "护肤流程设计"
+      ],
+      "reason": "Solawave官方支持文档说明精华有可补充结构，按面部分区逐次涂抹；这是减少护理中干涩摩擦的产品设计参考。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "每日精华与工具护理用户",
+      "points": "替芯保湿精华为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "links": [
+        {
+          "title": "参考产品官方/授权渠道证据",
+          "url": "https://solawave.onsitesupport.io/knowledge-base/article/faqs-about-our-skin-therapy-activating-serum"
+        }
+      ],
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "一次涂满全脸、半程变干与重复购瓶（产品机会假设，待用户访谈）",
+        "verdict": "谨慎推荐",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
+        "sources": [
+          {
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://solawave.onsitesupport.io/knowledge-base/article/faqs-about-our-skin-therapy-activating-serum"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "Solawave官方支持文档说明精华有可补充结构，按面部分区逐次涂抹；这是减少护理中干涩摩擦的产品设计参考。",
+        "audience": "每日精华与工具护理用户",
+        "points": "替芯保湿精华为主，器械辅助",
+        "innovation": "替芯泵瓶可挂靠轻振棒，单区计时并提示补涂，外壳重复使用",
+        "why": "先验证使用改善和耗材复购"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "展示替芯保湿精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
+      },
+      "concept": {
+        "title": "替芯精华+边涂边提醒轻振棒（开发概念）",
+        "desc": "替芯泵瓶可挂靠轻振棒，单区计时并提示补涂，外壳重复使用；辅助器械≤300元为开发目标，成本待验证。",
+        "form": "pen",
+        "primary": "skin",
+        "kit": [
+          [
+            "serum",
+            "替芯保湿精华"
+          ]
+        ],
+        "up": [
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
+      },
+      "steps": [
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
+      ],
+      "pain": [
+        "一次涂满全脸、半程变干与重复购瓶"
+      ],
+      "innovation": "替芯泵瓶可挂靠轻振棒，单区计时并提示补涂，外壳重复使用",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "替芯泵瓶可挂靠轻振棒，单区计时并提示补涂，外壳重复使用",
+        "problem": "一次涂满全脸、半程变干与重复购瓶"
+      },
+      "evidence": [
+        {
+          "url": "https://solawave.onsitesupport.io/knowledge-base/article/faqs-about-our-skin-therapy-activating-serum",
+          "claim": "Solawave官方支持文档说明精华有可补充结构，按面部分区逐次涂抹；这是减少护理中干涩摩擦的产品设计参考。",
+          "checked": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "id": "sy-flex-pearl",
+      "name": "眼精华+柔性冷触珠笔帽（开发概念）",
+      "rank": "主推",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "brands": [
+        "术原"
+      ],
+      "type": "护肤品+辅助器具开发概念",
+      "tech": [
+        "定量涂布",
+        "护肤流程设计"
+      ],
+      "reason": "Lancôme Light Pearl官网采用不锈钢冷触珠与柔性按摩头，并提示先刮去多余精华。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "眼周干燥、涂抹用力不均用户",
+      "points": "眼部保湿精华为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "links": [
+        {
+          "title": "参考产品官方/授权渠道证据",
+          "url": "https://www.lancome-usa.com/skincare/eye-serum/advanced-genifique-light-pearl-eye-serum/100600.html?geo=false"
+        }
+      ],
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "眼周拉扯、取料过多（产品机会假设，待用户访谈）",
+        "verdict": "谨慎推荐",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
+        "sources": [
+          {
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://www.lancome-usa.com/skincare/eye-serum/advanced-genifique-light-pearl-eye-serum/100600.html?geo=false"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "Lancôme Light Pearl官网采用不锈钢冷触珠与柔性按摩头，并提示先刮去多余精华。",
+        "audience": "眼周干燥、涂抹用力不均用户",
+        "points": "眼部保湿精华为主，器械辅助",
+        "innovation": "弹性颈限压结构、瓶口刮料器和可清洗珠头；无需制冷电路，验证清洁与兼容性",
+        "why": "先验证使用改善和耗材复购"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "展示眼部保湿精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
+      },
+      "concept": {
+        "title": "眼精华+柔性冷触珠笔帽（开发概念）",
+        "desc": "弹性颈限压结构、瓶口刮料器和可清洗珠头；无需制冷电路，验证清洁与兼容性；辅助器械≤300元为开发目标，成本待验证。",
+        "form": "pen",
+        "primary": "skin",
+        "kit": [
+          [
+            "serum",
+            "眼部保湿精华"
+          ]
+        ],
+        "up": [
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
+      },
+      "steps": [
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
+      ],
+      "pain": [
+        "眼周拉扯、取料过多"
+      ],
+      "innovation": "弹性颈限压结构、瓶口刮料器和可清洗珠头；无需制冷电路，验证清洁与兼容性",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "弹性颈限压结构、瓶口刮料器和可清洗珠头；无需制冷电路，验证清洁与兼容性",
+        "problem": "眼周拉扯、取料过多"
+      },
+      "evidence": [
+        {
+          "url": "https://www.lancome-usa.com/skincare/eye-serum/advanced-genifique-light-pearl-eye-serum/100600.html?geo=false",
+          "claim": "Lancôme Light Pearl官网采用不锈钢冷触珠与柔性按摩头，并提示先刮去多余精华。",
+          "checked": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "id": "sy-roller-refill",
+      "name": "滚珠眼精华+可复用轻振套环（开发概念）",
+      "rank": "次推",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "brands": [
+        "术原"
+      ],
+      "type": "护肤品+辅助器具开发概念",
+      "tech": [
+        "定量涂布",
+        "护肤流程设计"
+      ],
+      "reason": "Clinique官方在售All About Eyes Serum采用冷触滚珠包装；其销量趋势与复购率未知。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "通勤补涂用户",
+      "points": "滚珠眼精华为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "links": [
+        {
+          "title": "参考产品官方/授权渠道证据",
+          "url": "https://www.clinique.com/skincare-all?category=Eye+Care"
+        }
+      ],
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "手指涂眼精华不便、滚珠出液不均（产品机会假设，待用户访谈）",
+        "verdict": "谨慎推荐",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
+        "sources": [
+          {
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://www.clinique.com/skincare-all?category=Eye+Care"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "Clinique官方在售All About Eyes Serum采用冷触滚珠包装；其销量趋势与复购率未知。",
+        "audience": "通勤补涂用户",
+        "points": "滚珠眼精华为主，器械辅助",
+        "innovation": "内胆单向阀与可拆滚珠；轻振套环留用、精华内胆替换；需验证回流污染风险",
+        "why": "先验证使用改善和耗材复购"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "展示滚珠眼精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
+      },
+      "concept": {
+        "title": "滚珠眼精华+可复用轻振套环（开发概念）",
+        "desc": "内胆单向阀与可拆滚珠；轻振套环留用、精华内胆替换；需验证回流污染风险；辅助器械≤300元为开发目标，成本待验证。",
+        "form": "pen",
+        "primary": "skin",
+        "kit": [
+          [
+            "serum",
+            "滚珠眼精华"
+          ]
+        ],
+        "up": [
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
+      },
+      "steps": [
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
+      ],
+      "pain": [
+        "手指涂眼精华不便、滚珠出液不均"
+      ],
+      "innovation": "内胆单向阀与可拆滚珠；轻振套环留用、精华内胆替换；需验证回流污染风险",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "内胆单向阀与可拆滚珠；轻振套环留用、精华内胆替换；需验证回流污染风险",
+        "problem": "手指涂眼精华不便、滚珠出液不均"
+      },
+      "evidence": [
+        {
+          "url": "https://www.clinique.com/skincare-all?category=Eye+Care",
+          "claim": "Clinique官方在售All About Eyes Serum采用冷触滚珠包装；其销量趋势与复购率未知。",
+          "checked": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "id": "sy-lip-dose",
+      "name": "唇膜+卫生定量涂布器（开发概念）",
+      "rank": "次推",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "brands": [
+        "术原"
+      ],
+      "type": "护肤品+辅助器具开发概念",
+      "tech": [
+        "定量涂布",
+        "护肤流程设计"
+      ],
+      "reason": "新罗免税商品页列出LANEIGE唇膜用专用刮勺涂抹；这是工具配套参考，不是电动新品。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "唇部干燥日常护理用户",
+      "points": "夜间保湿唇膜为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "links": [
+        {
+          "title": "参考产品官方/授权渠道证据",
+          "url": "https://www.shilladfs.com/estore/kr/en/p/5122308"
+        }
+      ],
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "罐装唇膜用手取料、刮勺遗失（产品机会假设，待用户访谈）",
+        "verdict": "谨慎推荐",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
+        "sources": [
+          {
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://www.shilladfs.com/estore/kr/en/p/5122308"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "新罗免税商品页列出LANEIGE唇膜用专用刮勺涂抹；这是工具配套参考，不是电动新品。",
+        "audience": "唇部干燥日常护理用户",
+        "points": "夜间保湿唇膜为主，器械辅助",
+        "innovation": "盖内卡扣固定可洗软刮头，泵式取料限制回沾；可选短时轻振套，不以加热穿透为卖点",
+        "why": "先验证使用改善和耗材复购"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "展示夜间保湿唇膜包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
+      },
+      "concept": {
+        "title": "唇膜+卫生定量涂布器（开发概念）",
+        "desc": "盖内卡扣固定可洗软刮头，泵式取料限制回沾；可选短时轻振套，不以加热穿透为卖点；辅助器械≤300元为开发目标，成本待验证。",
+        "form": "pen",
+        "primary": "skin",
+        "kit": [
+          [
+            "serum",
+            "夜间保湿唇膜"
+          ]
+        ],
+        "up": [
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
+      },
+      "steps": [
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
+      ],
+      "pain": [
+        "罐装唇膜用手取料、刮勺遗失"
+      ],
+      "innovation": "盖内卡扣固定可洗软刮头，泵式取料限制回沾；可选短时轻振套，不以加热穿透为卖点",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "盖内卡扣固定可洗软刮头，泵式取料限制回沾；可选短时轻振套，不以加热穿透为卖点",
+        "problem": "罐装唇膜用手取料、刮勺遗失"
+      },
+      "evidence": [
+        {
+          "url": "https://www.shilladfs.com/estore/kr/en/p/5122308",
+          "claim": "新罗免税商品页列出LANEIGE唇膜用专用刮勺涂抹；这是工具配套参考，不是电动新品。",
+          "checked": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "id": "sy-capsule-dose",
+      "name": "单次精华胶囊+非刺破定量涂布夹（开发概念）",
+      "rank": "次推",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "brands": [
+        "术原"
+      ],
+      "type": "护肤品+辅助器具开发概念",
+      "tech": [
+        "定量涂布",
+        "护肤流程设计"
+      ],
+      "reason": "阿联酋航空2026年4月免税目录列出Elizabeth Arden精华胶囊组合；目录不提供销售增速。 本条为术原开发方向，不是已上市术原产品。",
+      "audience": "旅行与单次定量护理用户",
+      "points": "单次保湿精华胶囊为主复购，辅助器械目标零售价≤300元；成本待验证。",
+      "links": [
+        {
+          "title": "参考产品官方/授权渠道证据",
+          "url": "https://c.ekstatic.net/ecl/documents/duty-free/emirates-red-magazine-april-2026.pdf"
+        }
+      ],
+      "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
+      "market": {
+        "tier": "暂无统计",
+        "size": "缺失：未取得该开发概念的市场规模",
+        "growth": "缺失：未取得同口径增长数据",
+        "demand_level": "待验证",
+        "demand": "胶囊开口费力、手部残留与单次用量浪费（产品机会假设，待用户访谈）",
+        "verdict": "谨慎推荐",
+        "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
+        "sources": [
+          {
+            "title": "参考产品官方/授权渠道证据",
+            "url": "https://c.ekstatic.net/ecl/documents/duty-free/emirates-red-magazine-april-2026.pdf"
+          }
+        ]
+      },
+      "summary": {
+        "reason": "阿联酋航空2026年4月免税目录列出Elizabeth Arden精华胶囊组合；目录不提供销售增速。",
+        "audience": "旅行与单次定量护理用户",
+        "points": "单次保湿精华胶囊为主，器械辅助",
+        "innovation": "夹具定位旋拧开口并挤出至软涂布头，避免尖锐穿刺；夹具复用、胶囊耗材复购",
+        "why": "先验证使用改善和耗材复购"
+      },
+      "date": "2026-11-01",
+      "platforms": [],
+      "visual": {
+        "idea": "展示单次保湿精华胶囊包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
+      },
+      "concept": {
+        "title": "单次精华胶囊+非刺破定量涂布夹（开发概念）",
+        "desc": "夹具定位旋拧开口并挤出至软涂布头，避免尖锐穿刺；夹具复用、胶囊耗材复购；辅助器械≤300元为开发目标，成本待验证。",
+        "form": "pen",
+        "primary": "skin",
+        "kit": [
+          [
+            "serum",
+            "单次保湿精华胶囊"
+          ]
+        ],
+        "up": [
+          "护肤品为主",
+          "辅助器械≤300元开发目标",
+          "先做样机与配方兼容性验证"
+        ]
+      },
+      "steps": [
+        "先确认配方与工具匹配并按说明使用",
+        "按分区或单次定量取用护肤品",
+        "用辅助器具完成涂布，避免重复摩擦",
+        "清洁可重复部件并记录使用体验"
+      ],
+      "pain": [
+        "胶囊开口费力、手部残留与单次用量浪费"
+      ],
+      "innovation": "夹具定位旋拧开口并挤出至软涂布头，避免尖锐穿刺；夹具复用、胶囊耗材复购",
+      "shuyuan": {
+        "primary": "skincare",
+        "deviceRole": "auxiliary",
+        "deviceTargetPriceCNY": 300,
+        "priceStatus": "开发目标，成本待验证",
+        "idInnovation": "夹具定位旋拧开口并挤出至软涂布头，避免尖锐穿刺；夹具复用、胶囊耗材复购",
+        "problem": "胶囊开口费力、手部残留与单次用量浪费"
+      },
+      "evidence": [
+        {
+          "url": "https://c.ekstatic.net/ecl/documents/duty-free/emirates-red-magazine-april-2026.pdf",
+          "claim": "阿联酋航空2026年4月免税目录列出Elizabeth Arden精华胶囊组合；目录不提供销售增速。",
+          "checked": "2026-11-01"
+        }
+      ]
     }
-  ]
+  ],
+  "batches": [
+    {
+      "id": "initial-2026-11-01",
+      "date": "2026-11-01",
+      "added": [
+        "newa-rf",
+        "nira-pro",
+        "compex-mini",
+        "myolift-qt-plus",
+        "qure-microinfusion",
+        "beautybio-glofacial",
+        "silkn-titan-allways",
+        "recoverypulse-calf",
+        "therabody-wave-solo",
+        "hyperice-venom2-back",
+        "geske-thermo-brush",
+        "faq-202-mask",
+        "luminette3-glasses",
+        "sensate-relaxation",
+        "refa-fine-bubble",
+        "refa-lock-series",
+        "refa-iron-series",
+        "style-bx-innerwear",
+        "bakune-dry-pro",
+        "red-recoverywear",
+        "doshisha-gorilla-care",
+        "milli-expanding-dilator",
+        "lancome-hapta",
+        "silverette-cups",
+        "uresta-bladder-support",
+        "elvie-catch",
+        "sy-reusable-occlusion",
+        "sy-refill-glide",
+        "sy-flex-pearl",
+        "sy-roller-refill",
+        "sy-lip-dose",
+        "sy-capsule-dose"
+      ],
+      "revised": [
+        "sy-id-booster",
+        "sy-sono",
+        "sy-eye-patch",
+        "sy-lg-superform",
+        "sy-panasonic",
+        "sy-ziip",
+        "sy-light-serum",
+        "sy-skin-scan",
+        "sy-body-adaptive",
+        "sy-ion-mask",
+        "sy-two-step",
+        "sy-spot-print",
+        "sy-fiber-veil",
+        "sy-exosome",
+        "sy-microcone",
+        "sy-hydra-pen",
+        "sy-jet"
+      ],
+      "reviews": 2,
+      "counts": {
+        "医美院线家用化": 7,
+        "海外热门": 7,
+        "销量起量": 7,
+        "需求未满足": 11
+      }
+    }
+  ],
+  "meta": {
+    "schemaVersion": 2,
+    "dataThrough": "2026-11-01",
+    "checkedAt": "2026-11-01T13:41:21.894Z",
+    "sourceBatch": "initial-2026-11-01"
+  }
 }

@@ -18,3 +18,7 @@ fs.mkdirSync(path.join(dist,'assets/images'),{recursive:true});
 for (const name of fs.readdirSync(path.join(root,'assets/images'))) fs.copyFileSync(path.join(root,'assets/images',name),path.join(dist,'assets/images',name));
 fs.writeFileSync(path.join(dist,'.nojekyll'),'');
 console.log('Built dist with relative assets for GitHub Pages.');
+
+const {execFileSync}=require('node:child_process');
+let commit=process.env.GITHUB_SHA||'local';try{if(commit==='local')commit=execFileSync('git',['-c','safe.directory='+root.replaceAll('\\','/'),'rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim();}catch{}
+fs.writeFileSync(path.join(dist,'release.json'),JSON.stringify({commit,dataThrough:data.meta?.dataThrough||data.days.map(d=>d.date).sort().at(-1),batch:data.meta?.sourceBatch||null,publishedAt:new Date().toISOString()}));

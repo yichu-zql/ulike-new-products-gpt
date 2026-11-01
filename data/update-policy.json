@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "timezone": "Asia/Shanghai",
+  "schedule": "每周一08:05启动",
+  "directionMinimums": {
+    "医美院线家用化": 7,
+    "海外热门": 7,
+    "销量起量": 7,
+    "需求未满足": 5
+  },
+  "offlineDirection": "线下热销线上未起量",
+  "offlineTarget": 3,
+  "offlineTargetIsSuggested": true,
+  "recoveryMinimum": 4,
+  "recoveryCategories": [
+    "运动辅助",
+    "运动康复",
+    "缓解疲劳"
+  ],
+  "shuyuan": {
+    "mainMinimum": 5,
+    "secondaryMinimum": 10,
+    "deviceTargetPriceCNYMax": 300,
+    "primary": "skincare"
+  },
+  "reviewScope": "prelaunch-only",
+  "onEvidenceShortfall": "retain-candidate-and-previous-release-notify",
+  "interestPolicy": {
+    "mode": "learn-only",
+    "noFollowupActions": true,
+    "preserveCategoryBreadth": true
+  }
+}

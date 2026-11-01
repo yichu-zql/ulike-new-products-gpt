@@ -16,8 +16,8 @@ const isSY = i => !!i.rank;
 const BRANDS = ["Ulike","极萌","金茉","术原"];
 const VIEWS = [["all","全部"],["group","集团机会新品"],["sy","术原 · 超导护肤"]];
 const SUB = {
-  all:"Ulike集团 · 女性健康/变美家用仪器机会新品，数据截至2026-10-28",
-  group:"Ulike集团 · 女性健康/变美家用仪器机会新品，数据截至2026-10-28",
+  all:`Ulike集团 · 女性健康/变美家用仪器机会新品，数据截至${DATA.meta?.dataThrough || "2026-10-28"}`,
+  group:`Ulike集团 · 女性健康/变美家用仪器机会新品，数据截至${DATA.meta?.dataThrough || "2026-10-28"}`,
   sy:"术原 · 超导护肤：用器械ID的创新，解决用户护肤过程中的问题"};
 let view = "all";
 try { view = localStorage.getItem("ulike-new-products-gpt:view:v1") || "all"; } catch(e) {}
@@ -61,7 +61,8 @@ function renderPre(){
     <div><h3>${esc(i.name)}</h3><div class="techs">${brandTags(i)}</div>
     <p class="exp">预计上市：${esc(L.expected)}</p>
     ${L.note?`<p>${esc(L.note)}</p>`:""}
-    <p class="meta">最近核查：${esc(L.checked||"")}</p>
+    <p class="meta">最近核查：${esc(i.lastReview?.checked||L.checked||"")}${i.lastReview?.status==='inconclusive'?' · 上市状态仍待确认':''}</p>
+    ${i.lastReview?`<p>${esc(i.lastReview.note)}</p>`:''}
     <div class="srcs">信息来源：${(L.sources||[]).map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a>`).join("")}</div>
     <span class="go">看详情 →</span></div></div>`; }).join("") || `<p class="empty">目前没有未上市的新品。</p>`;
   const ups = DATA.items.filter(isNewUpd);
@@ -75,12 +76,12 @@ function renderBand(){
   if (!sy.length) { $("#syband").innerHTML = ""; return; }
   const main = sy.filter(i => i.rank==="主推"), sec = sy.filter(i => i.rank==="次推");
   if (view !== "sy"){
-    $("#syband").innerHTML = `<button class="zone z-sy" type="button" data-view="sy"><span class="dot"></span><span class="zt"><b>术原 · 超导护肤</b><span>用器械ID的创新解决护肤痛点，仪器+耗材绑定</span></span><span class="zn">主推 ${main.length} · 次推 ${sec.length}</span><span class="za">→</span></button>`;
+    $("#syband").innerHTML = `<button class="zone z-sy" type="button" data-view="sy"><span class="dot"></span><span class="zt"><b>术原 · 超导护肤</b><span>护肤品为主、仪器辅助，仪器开发目标≤300元</span></span><span class="zn">主推 ${main.length} · 次推 ${sec.length}</span><span class="za">→</span></button>`;
     return;
   }
   const pains = {}; sy.forEach(i => (i.pain||[]).forEach(p => pains[p]=(pains[p]||0)+1));
   $("#syband").innerHTML = `<div class="syhero">
-    <div class="pos"><span class="symark">超导护肤</span><p>护肤品本身不缺好成分，缺的是"进得去、用得对、坚持得下来"。术原专区只收能用器械ID的创新解决这些问题的产品：仪器负责开通道和推送，耗材负责有效成分，两者绑定形成复购。</p></div>
+    <div class="pos"><span class="symark">超导护肤</span><p>以护肤品为主产品，辅助仪器目标零售价不超过300元（开发目标，成本待验证）。通过器械ID、结构与交互创新，解决用量、涂布、卫生、局部护理和坚持使用的问题；参考产品事实与开发方案分别核实。</p></div>
     <div class="pains"><span>按用户痛点看</span>${Object.entries(pains).sort((a,b)=>b[1]-a[1]).map(([p,n]) => `<button class="pain" type="button" data-pain="${esc(p)}" aria-pressed="${ost.pain===p}">${esc(p)} ${n}</button>`).join("")}</div>
     <div class="strip-h">本期主推 <span class="rank rank-主推">主推 ${main.length}</span></div>
     <div class="strip">${main.map(i => `<button class="scard" type="button" data-go="${esc(i.id)}">${i.img?`<img src="${i.img}" alt="" loading="lazy">`:`<span class="ph none">参考图待补</span>`}<b>${esc(i.name.replace(/^【示例】/,""))}</b><span>创新点：${esc((i.summary||{}).innovation||i.innovation)}</span></button>`).join("")}</div>
@@ -130,7 +131,11 @@ function card(i){
         <dt>${L.reason}</dt><dd>${esc(i.reason)}</dd>
         <dt>${L.aud}</dt><dd>${esc(i.audience)}</dd>
         <dt>${L.pts}</dt><dd>${esc(i.points)}</dd>
-        <dt>适配品牌</dt><dd class="platforms">${brandTags(i)}</dd>
+        <dt>适配品牌</dt><dd class="platforms">${brandTags(i)||'待评估'}</dd>
+        ${i.referenceBrand?`<dt>参考品牌</dt><dd>${esc(i.referenceBrand)}</dd>`:''}
+        ${i.evidence?.length?`<dt>本期证据</dt><dd>${i.evidence.map(e=>`${esc(e.checked)} · ${e.status==='unverified'?'未重新核实，仅作编辑调整：':''}${esc(e.claim)} <a href="${esc(e.url)}" target="_blank" rel="noopener">来源</a>`).join('<br>')}</dd>`:''}
+        ${i.shuyuan ? `<dt>术原开发约束</dt><dd>护肤品为主 · 辅助仪器目标≤${esc(i.shuyuan.deviceTargetPriceCNY)}元 · ${esc(i.shuyuan.priceStatus)}<br>${esc(i.shuyuan.idInnovation)}</dd>` : ""}
+        ${i.lastReview ? `<dt>最近回查</dt><dd>${esc(i.lastReview.checked)}：${esc(i.lastReview.note)} <a href="${esc(i.lastReview.url)}" target="_blank" rel="noopener">核查来源</a></dd>` : ""}
         ${i.concept ? `<dt>创新概念</dt><dd class="concept"><b>${esc(i.concept.title)}</b><br>${esc(i.concept.desc)}<div class="cups">${i.concept.primary==="skin"?`<span class="skin">主打护肤品 · 仪器辅助</span>`:""}${(i.concept.kit||[]).map(k=>`<span>配套：${esc(k[1])}</span>`).join("")}${(i.concept.up||[]).map(u=>`<span>${esc(u)}</span>`).join("")}</div></dd>` : ""}
         ${(i.steps||[]).length ? `<dt>操作使用步骤</dt><dd><ol class="steps">${i.steps.map(t=>`<li>${esc(t)}</li>`).join("")}</ol></dd>` : ""}
         ${sy ? `<dt>产品创新点</dt><dd class="innov">${esc(i.innovation)}</dd>
@@ -186,7 +191,7 @@ document.querySelector(".bar").addEventListener("click", e => { const b = e.targ
 const OK = ["rank","pain","picked","platform","date","direction","brand","category","verdict","tier","tech"];
 const oget = (i,k) => k==="verdict"||k==="tier" ? [(i.market||{})[k]] : k==="tech" ? (i.tech||[]) : k==="pain" ? (i.pain||[]) : k==="platform" ? (i.platforms||[]) : k==="brand" ? (i.brands||[]) : k==="picked" ? [i.picked?"已选意向品":"其他"] : [i[k]];
 const OALL = {picked:"全部",rank:"全部层级",pain:"全部痛点",platform:"全部平台",brand:"全部品牌",date:"全部日期",direction:"全部方向",category:"全部品类",verdict:"全部",tier:"全部梯队",tech:"全部技术"};
-const OORDER = {picked:["已选意向品","其他"],brand:BRANDS, rank:["主推","次推"], verdict:["推荐","谨慎推荐","观望"], tier:["第一梯队","第二梯队","第三梯队","暂无统计"]};
+const OORDER = {picked:["已选意向品","其他"],brand:BRANDS, rank:["主推","次推","技术观察"], verdict:["推荐","谨慎推荐","观望"], tier:["第一梯队","第二梯队","第三梯队","暂无统计"]};
 let ost = Object.fromEntries(OK.map(k=>[k,"all"]));
 function buildOFilters(){
   const items = pool();

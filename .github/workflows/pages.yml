@@ -19,6 +19,7 @@ jobs:
         with:
           node-version: '22'
       - run: npm run build
+      - run: node --test scripts/data-rules.test.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -30,6 +31,23 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: _pages
+      - name: Restore exact deployment artifact
+        run: mkdir -p dist && tar -xf _pages/artifact.tar -C dist
+      - name: Verify live release
+        run: |
+          for attempt in 1 2 3 4 5; do
+            if node scripts/verify-live.cjs; then exit 0; fi
+            sleep 10
+          done
+          exit 1
