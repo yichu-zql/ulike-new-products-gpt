@@ -1,0 +1,71 @@
+<!-- Source-compatible quirks mode retained intentionally for visual parity. -->
+<meta charset="utf-8">
+<title>机会新品库</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1 id="h1">机会新品库</h1>
+      <div class="sub" id="sub"></div>
+    </div>
+    <div class="stats">
+      <div class="stat"><b id="sItems">0</b><span id="sItemsL">机会新品</span></div>
+      <div class="stat"><b id="sDays">0</b><span id="sDaysL">期</span></div>
+      <div class="stat"><b id="sLatest">—</b><span>最近更新</span></div>
+    </div>
+  </header>
+  <nav class="toc" aria-label="目录">
+    <div class="tocl"><span class="toclabel">目录</span><a href="#zones" data-sec="zones">专区</a><a href="#overview" data-sec="overview">新品清单</a><a href="#details" data-sec="details">每期明细</a></div>
+    <div class="tocr"><span class="toclabel">视角</span><div class="views" role="tablist" aria-label="切换视角" id="views"></div></div>
+  </nav>
+  <section id="zones" aria-labelledby="zh">
+    <div class="sechead"><h2 id="zh">专区</h2><div class="updnote" id="updnote" hidden></div></div>
+    <div class="zonegrid" id="zonegrid"><div id="syband"></div><div id="plband"></div></div>
+  </section>
+  <dialog id="pldlg" aria-labelledby="plh"><div class="dlghead"><h2 id="plh">未上市专区</h2><button type="button" class="dlgx" id="plclose" aria-label="关闭">×</button></div>
+    <div class="legend">已收录但还没在零售渠道上市的新品。每周更新时回查一次，上市后换上商品图和购买链接、移出本专区，并标「本期更新」。预计上市时间以公开报道为准。点任一品可跳到它的详情。</div>
+    <div class="plgrid" id="plgrid"></div></dialog>
+  <section id="overview" aria-labelledby="ovh">
+    <div class="sechead"><h2 id="ovh">新品清单</h2><span class="count" id="ocount"></span></div>
+    <div class="ofilters" id="ofilters">
+      <label class="syonly">推荐层级<select data-k="rank"></select></label>
+      <label class="syonly">解决痛点<select data-k="pain"></select></label>
+
+      <label>意向品<select data-k="picked"></select></label>
+      <label>发布日期<select data-k="date"></select></label>
+      <label>新品方向<select data-k="direction"></select></label>
+      <label>适配品牌<select data-k="brand"></select></label>
+      <label>主销售平台<select data-k="platform"></select></label>
+      <label>品类<select data-k="category"></select></label>
+      <label>推荐程度<select data-k="verdict"></select></label>
+      <label>市场规模梯队<select data-k="tier"></select></label>
+      <label>使用技术<select data-k="tech"></select></label>
+      <button class="reset" id="oreset" type="button">清空筛选</button>
+    </div>
+    <div class="legend">市场规模梯队按最相关细分品类的当前全球规模划分：第一梯队 ≥10亿美元，第二梯队 1–10亿美元，第三梯队 &lt;1亿美元；缺少细分统计的归为"暂无统计"。</div>
+    <div class="tablewrap"><table>
+      <thead><tr id="othead"></tr></thead>
+      <tbody id="otbody"></tbody>
+    </table></div>
+  </section>
+  <div id="details" class="narrow"><div class="sechead"><h2>每期明细</h2><a class="back" href="#overview">↑ 回到清单</a></div></div>
+  <div id="barsent" aria-hidden="true"></div>
+  <div class="bar narrow" id="bar">
+    <div class="row">
+      <input type="search" id="q" placeholder="搜索品名、人群、卖点、品牌…" aria-label="搜索">
+      <select id="date" aria-label="按日期筛选"></select>
+      <select id="verdict" aria-label="按市场判断筛选"><option value="all">全部判断</option><option>推荐</option><option>谨慎推荐</option><option>观望</option></select>
+      <select id="rank" class="syonly" aria-label="按推荐层级筛选"><option value="all">全部层级</option><option>主推</option><option>次推</option></select>
+    </div>
+    <div class="cgroups" id="cats" role="group" aria-label="按类目筛选"></div>
+    <div class="count" id="count"></div>
+  </div>
+  <main id="list" class="narrow"></main>
+</div>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>

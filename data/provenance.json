@@ -1,0 +1,782 @@
+{
+  "sourceRepository": "https://github.com/yichu-zql/ulike-new-products",
+  "sourceCommit": "ef2fa568911441a1ae46d538c416312322fd60de",
+  "sourceHTMLSHA256": "1fb14d01e5150a7fc5e8d120b829d9814a188e640c164302dc12df80b23cc551",
+  "sourceDataSHA256": "4503da644b61632bd50c88a51ed82c8e88fd6624dafeffd3bf7df92a22025ce9",
+  "sourceCSSSHA256": "9dcb4f66b86be54cac0077193e07207f66b59f16d45d5e5812fabe3c20ae7634",
+  "sourceAppSHA256": "53b56096d44762744132be4c6a7b168f4765f45130802fa59c4e2f4430de4d2d",
+  "dataThrough": "2026-10-28",
+  "replicatedOn": "2026-11-01",
+  "timezone": "Asia/Shanghai",
+  "images": [
+    {
+      "id": "tria-smoothbeauty",
+      "path": "assets/images/tria-smoothbeauty.webp",
+      "mime": "image/webp",
+      "sha256": "831d85958f958dc8113a1d4a45c468112dbf1a3b7a0a75ae27c3209bfbd37440"
+    },
+    {
+      "id": "co2lift-carboxy",
+      "path": "assets/images/co2lift-carboxy.webp",
+      "mime": "image/webp",
+      "sha256": "b03d0edcaee2d2d6e84dad5f02d9549af3023a363ac6f898b22446d8dd3e94fb"
+    },
+    {
+      "id": "theraface-depuffing",
+      "path": "assets/images/theraface-depuffing.webp",
+      "mime": "image/webp",
+      "sha256": "10ff4ee702f106de4decc56d6e0f40785736f4a2ed234f62d6eb78e058ed7825"
+    },
+    {
+      "id": "sam-ultrasound",
+      "path": "assets/images/sam-ultrasound.webp",
+      "mime": "image/webp",
+      "sha256": "03fc657d67d316c17cfc3b47ed0b912a3ad065886ade4111f10268aa80a8dfd3"
+    },
+    {
+      "id": "nuface-trinity",
+      "path": "assets/images/nuface-trinity.webp",
+      "mime": "image/webp",
+      "sha256": "d45429eb54172b3738e547755d45f4e8a396238699fb3ec9a3f12d12b2eae10e"
+    },
+    {
+      "id": "inbody-dial-h30",
+      "path": "assets/images/inbody-dial-h30.webp",
+      "mime": "image/webp",
+      "sha256": "66e20921fe4a9f228a874e33c328ad4db75597c63c156bd76861b9480c3a310c"
+    },
+    {
+      "id": "celluma-home",
+      "path": "assets/images/celluma-home.webp",
+      "mime": "image/webp",
+      "sha256": "02b92dd6f46c62dc27d8e296c45db19ba38132a916f470739567a4b31b751e9f"
+    },
+    {
+      "id": "dermalux-flex-md",
+      "path": "assets/images/dermalux-flex-md.webp",
+      "mime": "image/webp",
+      "sha256": "71bf5177d0a16466a23f11d6a15eeae98b56109e90178d45dbf8236a6e00f5b2"
+    },
+    {
+      "id": "recoverytherm-cube",
+      "path": "assets/images/recoverytherm-cube.webp",
+      "mime": "image/webp",
+      "sha256": "ae1e030a1ebe74cd810ae25005eeeae2b85f1df9adf391d7e1e9892627e28ebb"
+    },
+    {
+      "id": "wrist-thumb-wrap",
+      "path": "assets/images/wrist-thumb-wrap.webp",
+      "mime": "image/webp",
+      "sha256": "b68a3318e38c80987a55e497aaabcd4aa71d56124166970e20cdd5640e7f0e01"
+    },
+    {
+      "id": "withings-sleep",
+      "path": "assets/images/withings-sleep.webp",
+      "mime": "image/webp",
+      "sha256": "7362c3df3dbca4862138735b5c1dfc5b7a32569588edb4869819a1072c5e32a7"
+    },
+    {
+      "id": "light-salon-boost",
+      "path": "assets/images/light-salon-boost.webp",
+      "mime": "image/webp",
+      "sha256": "596dac40bfe471445bd991cfde53d06bfc01c173a8e738b7afad867866b4c1d6"
+    },
+    {
+      "id": "nubody-glp1",
+      "path": "assets/images/nubody-glp1.webp",
+      "mime": "image/webp",
+      "sha256": "de03f57b6e7e2dabff4de88c6a0f07b59e3f1c15e74678df873f8808b2f9644d"
+    },
+    {
+      "id": "espada-acne-pen",
+      "path": "assets/images/espada-acne-pen.webp",
+      "mime": "image/webp",
+      "sha256": "087318f243c2fbc4f95b72c6478340eb8ba18395f19d77fbf015a13c3daf78a5"
+    },
+    {
+      "id": "strialite-stretch",
+      "path": "assets/images/strialite-stretch.webp",
+      "mime": "image/webp",
+      "sha256": "fa5c6f3b4dd9b7c064b46fe3dc4d9dfb03836cfe8f4533db8cb47f9f13844f73"
+    },
+    {
+      "id": "electrolysis-home",
+      "path": "assets/images/electrolysis-home.webp",
+      "mime": "image/webp",
+      "sha256": "151972f6611124e546864a420fba244150c54579e18cd574b095d295a12d2406"
+    },
+    {
+      "id": "oura-ring4",
+      "path": "assets/images/oura-ring4.webp",
+      "mime": "image/webp",
+      "sha256": "d41fc7a111a5ba6e64875c48ba8c39595ad5da716b5cfe7ad420de22c1cd7b61"
+    },
+    {
+      "id": "foreo-ufo3",
+      "path": "assets/images/foreo-ufo3.webp",
+      "mime": "image/webp",
+      "sha256": "4b6a508b0a92c796587702260dbac9cbac8696d1e0df05bc3bee2d6d1cf6e077"
+    },
+    {
+      "id": "salonia-current-pointer",
+      "path": "assets/images/salonia-current-pointer.webp",
+      "mime": "image/webp",
+      "sha256": "4de869eeb5063f0506ff3d7fa21afdbb8dff245c4dadb890b69d13e7fc1ba185"
+    },
+    {
+      "id": "braun-skin-iexpert",
+      "path": "assets/images/braun-skin-iexpert.webp",
+      "mime": "image/webp",
+      "sha256": "2f0232a41c7d83941cf6700e3a03ace5a02dc9481a11697d5eea1f607353e846"
+    },
+    {
+      "id": "hyperice-vyper3",
+      "path": "assets/images/hyperice-vyper3.webp",
+      "mime": "image/webp",
+      "sha256": "eccb6e3418884b25418975f98e37214621f59f937f0a3d4bf3c80fe0447e6582"
+    },
+    {
+      "id": "renpho-foot",
+      "path": "assets/images/renpho-foot.webp",
+      "mime": "image/webp",
+      "sha256": "985ff21dbc4d67e73a979591c50fcb428c331aed5fcf52efeacf88a8b078a8fe"
+    },
+    {
+      "id": "theragun-pro-plus",
+      "path": "assets/images/theragun-pro-plus.webp",
+      "mime": "image/webp",
+      "sha256": "a28a24c73a02693fbf871b708eebf7516e0d91510bb1e16493985a0fbef3c191"
+    },
+    {
+      "id": "foreo-bear2-eyes",
+      "path": "assets/images/foreo-bear2-eyes.webp",
+      "mime": "image/webp",
+      "sha256": "20a943b23a20f43142e8b675813d94844bd15243decc3e448a948a0a2dc14043"
+    },
+    {
+      "id": "effectim-mask",
+      "path": "assets/images/effectim-mask.webp",
+      "mime": "image/webp",
+      "sha256": "f0fd3458090a183d3c8d87e7a66568ef01006af42e04f6406083836dc7f19dfa"
+    },
+    {
+      "id": "makeon-3s",
+      "path": "assets/images/makeon-3s.webp",
+      "mime": "image/webp",
+      "sha256": "b9f465464c4259843ffb60426ad571d16e5c6d24e85e76aac003748e87f82834"
+    },
+    {
+      "id": "cuckoo-medikin",
+      "path": "assets/images/cuckoo-medikin.webp",
+      "mime": "image/webp",
+      "sha256": "2a3e3c915e395fc0261a7d1c513ae4127795b3a8fe823ff64370911227b00ebe"
+    },
+    {
+      "id": "foreo-kiwi-derma",
+      "path": "assets/images/foreo-kiwi-derma.webp",
+      "mime": "image/webp",
+      "sha256": "aebe8d72225ef3766aac8453c575bd2c77bc4749030ab59390705ea6d30eaf40"
+    },
+    {
+      "id": "garmin-index-sleep",
+      "path": "assets/images/garmin-index-sleep.webp",
+      "mime": "image/webp",
+      "sha256": "d66b2802726815779ebde18531c98a5a447baed2da8970bb437caee47ae40c8a"
+    },
+    {
+      "id": "thermback-led",
+      "path": "assets/images/thermback-led.webp",
+      "mime": "image/webp",
+      "sha256": "3de077d2381d1f2d594c3f7f71f33292e8a526b4ce4c227844faf536a5b5a268"
+    },
+    {
+      "id": "sy-id-booster",
+      "path": "assets/images/sy-id-booster.webp",
+      "mime": "image/webp",
+      "sha256": "2c56a9f2cd915a5ca89e01fe79bb617832f30938b276247845f4a1f62c1583c5"
+    },
+    {
+      "id": "sy-sono",
+      "path": "assets/images/sy-sono.webp",
+      "mime": "image/webp",
+      "sha256": "ec1e78a74fe0a1fe908634e236f43063c722745d2dba212cd543c3a7226f1ed6"
+    },
+    {
+      "id": "sy-two-step",
+      "path": "assets/images/sy-two-step.webp",
+      "mime": "image/webp",
+      "sha256": "31648da140edba9bb063a1ba644ea058215ca53178bc5ec59e143bdc1dd16266"
+    },
+    {
+      "id": "sy-eye-patch",
+      "path": "assets/images/sy-eye-patch.webp",
+      "mime": "image/webp",
+      "sha256": "71e16edb5e84afe8e7a05a3704adf67028d86b3f32e66f69034f18bdca1a7ea6"
+    },
+    {
+      "id": "sy-lg-superform",
+      "path": "assets/images/sy-lg-superform.webp",
+      "mime": "image/webp",
+      "sha256": "ca9fbb0fd0f92e1472181c091d97bc7d0bc86d69eca37cdb64487ee2241e21bb"
+    },
+    {
+      "id": "sy-panasonic",
+      "path": "assets/images/sy-panasonic.webp",
+      "mime": "image/webp",
+      "sha256": "1501a67d0b2f86743fbba21c86cd5e35791a2ca3c4a705dd30606abd72dcae70"
+    },
+    {
+      "id": "sy-ziip",
+      "path": "assets/images/sy-ziip.webp",
+      "mime": "image/webp",
+      "sha256": "98c259a6536c0b9c71c68efcb3391ecded2d30b3912ade0bec0b3b10c75b3492"
+    },
+    {
+      "id": "sy-light-serum",
+      "path": "assets/images/sy-light-serum.webp",
+      "mime": "image/webp",
+      "sha256": "45570b6ab3607aa55ec85df6e1699d9db30f44f8d3f3ac12ccfabd4202d1f001"
+    },
+    {
+      "id": "sy-spot-print",
+      "path": "assets/images/sy-spot-print.webp",
+      "mime": "image/webp",
+      "sha256": "cbdcbed3c6c1c01a81ed8c1c82a655b56d40976eeb74d6d7b48c9e4cbccd80ca"
+    },
+    {
+      "id": "sy-fiber-veil",
+      "path": "assets/images/sy-fiber-veil.webp",
+      "mime": "image/webp",
+      "sha256": "98440f7d732bc7ed2831f99ecb6617871e990373c98b457de29e6b56f598304d"
+    },
+    {
+      "id": "sy-exosome",
+      "path": "assets/images/sy-exosome.webp",
+      "mime": "image/webp",
+      "sha256": "e4c90b3fc7f4341dbc85102cadb0f45817521db35d76457889444020ab1cbb4b"
+    },
+    {
+      "id": "sy-microcone",
+      "path": "assets/images/sy-microcone.webp",
+      "mime": "image/webp",
+      "sha256": "45122e2505591be9abb07fe0fce1d1a6c4787475841d283aa0e504a0d3f38473"
+    },
+    {
+      "id": "sy-skin-scan",
+      "path": "assets/images/sy-skin-scan.webp",
+      "mime": "image/webp",
+      "sha256": "c83073cdd5abf45a1e175a7e2b8d427b308d49094bf82ce3135aef1cb6792ee6"
+    },
+    {
+      "id": "sy-hydra-pen",
+      "path": "assets/images/sy-hydra-pen.webp",
+      "mime": "image/webp",
+      "sha256": "70abc24dd2a3e07ab68503b7b30c3a8d82e9696631a982ed769c8f0cc5f6de18"
+    },
+    {
+      "id": "sy-body-adaptive",
+      "path": "assets/images/sy-body-adaptive.webp",
+      "mime": "image/webp",
+      "sha256": "07be58d96478006ee0f61dbc62d35e0121b96e70a19e2b7a19c6f35f7df4512c"
+    },
+    {
+      "id": "tria-laser-4x",
+      "path": "assets/images/tria-laser-4x.webp",
+      "mime": "image/webp",
+      "sha256": "4c130be3c35e297da0bede6a20d37e2456fdaf24ed047b487356bcc1e53e6490"
+    },
+    {
+      "id": "allevared-belt",
+      "path": "assets/images/allevared-belt.webp",
+      "mime": "image/webp",
+      "sha256": "78273b0a2b99e0a2af5de898d3d381f85dd62a94c1a6464297f44e7a7da7b4de"
+    },
+    {
+      "id": "higherdose-pemf-mat",
+      "path": "assets/images/higherdose-pemf-mat.webp",
+      "mime": "image/webp",
+      "sha256": "03d2c3a544c2dff7e66da9488cf10b8eb4ee67289c9177c3d62f56a696b0e2ca"
+    },
+    {
+      "id": "revitive-medic",
+      "path": "assets/images/revitive-medic.webp",
+      "mime": "image/webp",
+      "sha256": "2362421aca193b88f4c3183c2cc2e15c15441d41acabb47ab621eb98519adfff"
+    },
+    {
+      "id": "neck-traction-electric",
+      "path": "assets/images/neck-traction-electric.webp",
+      "mime": "image/webp",
+      "sha256": "569649946cc238913feb2935078351e9166bbd10d4d7c838c00abecb2ac7b919"
+    },
+    {
+      "id": "drpen-m8",
+      "path": "assets/images/drpen-m8.webp",
+      "mime": "image/webp",
+      "sha256": "52aaa602eb767059d3e0fb646f684ac9048a11c27c56cb161b3fb54b4106329f"
+    },
+    {
+      "id": "ijoou-moxibustion",
+      "path": "assets/images/ijoou-moxibustion.webp",
+      "mime": "image/webp",
+      "sha256": "1602b250d6125afa0c31f8741b0b59467867203b55b4164f619850c294e120a9"
+    },
+    {
+      "id": "medicube-exosome-shot",
+      "path": "assets/images/medicube-exosome-shot.webp",
+      "mime": "image/webp",
+      "sha256": "e4c90b3fc7f4341dbc85102cadb0f45817521db35d76457889444020ab1cbb4b"
+    },
+    {
+      "id": "hilotherm-face-mask",
+      "path": "assets/images/hilotherm-face-mask.webp",
+      "mime": "image/webp",
+      "sha256": "51344d0db5487bc05207f8b05385dd8b2ed07a7237b60894d8df6747597a855b"
+    },
+    {
+      "id": "stelo-cgm",
+      "path": "assets/images/stelo-cgm.webp",
+      "mime": "image/webp",
+      "sha256": "69e5e1630c3a8c5b2bd223532c44d730decb989441da275f493c7429010825cd"
+    },
+    {
+      "id": "fold-reformer",
+      "path": "assets/images/fold-reformer.webp",
+      "mime": "image/webp",
+      "sha256": "bb49b2d99ba2953e23d2d6189b316decad92b301975811c107d9c75a47752956"
+    },
+    {
+      "id": "katalyst-ems-suit",
+      "path": "assets/images/katalyst-ems-suit.webp",
+      "mime": "image/webp",
+      "sha256": "fcb195e9bb834b45a011ffd8890a53d2586358f8a35ec8c234beffdbab6a2e2a"
+    },
+    {
+      "id": "currentbody-neck-led",
+      "path": "assets/images/currentbody-neck-led.webp",
+      "mime": "image/webp",
+      "sha256": "610f9ebacff9b07ee808fc7b795a5a0307f752659e2d5f83281e625f1a8ece8d"
+    },
+    {
+      "id": "omnilux-contour-glove",
+      "path": "assets/images/omnilux-contour-glove.webp",
+      "mime": "image/webp",
+      "sha256": "89efe26aed4ba3286196501f60e358c93ed540e0ce2ee6b2e5d56242cb3ee182"
+    },
+    {
+      "id": "stylpro-gua-sha",
+      "path": "assets/images/stylpro-gua-sha.webp",
+      "mime": "image/webp",
+      "sha256": "b92f363c2f14138cc85f6e735750fae7d6f4e25c4f0102c6c5cde8c46c0630c9"
+    },
+    {
+      "id": "airofit-pro",
+      "path": "assets/images/airofit-pro.webp",
+      "mime": "image/webp",
+      "sha256": "76304f01ed5738781782287ecdadf577e853a897f7697c40b7f5dfb9174a4787"
+    },
+    {
+      "id": "upright-go-s",
+      "path": "assets/images/upright-go-s.webp",
+      "mime": "image/webp",
+      "sha256": "d261362bc45edc556689b69e4ad3c8fa7c43476531c332f72d901adbc541d34a"
+    },
+    {
+      "id": "nike-hyperslide",
+      "path": "assets/images/nike-hyperslide.webp",
+      "mime": "image/webp",
+      "sha256": "0cdeeeca43e44fec2feef54012e4260e65eedd0c461f600c82e05590db5de40b"
+    },
+    {
+      "id": "elvie-stride",
+      "path": "assets/images/elvie-stride.webp",
+      "mime": "image/webp",
+      "sha256": "333af64ad33753fb0f31f805787c7a682b7aaef81503f9ae8935897760a2a5bf"
+    },
+    {
+      "id": "therabody-smartgoggles",
+      "path": "assets/images/therabody-smartgoggles.webp",
+      "mime": "image/webp",
+      "sha256": "c3e0789cfae6903c609b9216a84a00039dd924519cf681b8190a85d3d435d075"
+    },
+    {
+      "id": "vibration-plate",
+      "path": "assets/images/vibration-plate.webp",
+      "mime": "image/webp",
+      "sha256": "1e8d15f7b0b4157c562e4df2c053288aa78d049823c8ebd62c9afc4056891cb3"
+    },
+    {
+      "id": "skincaretools-hf-wand",
+      "path": "assets/images/skincaretools-hf-wand.webp",
+      "mime": "image/webp",
+      "sha256": "f9d28dff6d7572fca08ffbec78d5fa1996629974fe817abc3a322581530f2bf4"
+    },
+    {
+      "id": "lg-pral-superform",
+      "path": "assets/images/lg-pral-superform.webp",
+      "mime": "image/webp",
+      "sha256": "9510d6498014d829e7da1e2d835c54e8ce2a05422bdea835ccefb238ac45f69d"
+    },
+    {
+      "id": "yaman-bluegreen-lift",
+      "path": "assets/images/yaman-bluegreen-lift.webp",
+      "mime": "image/webp",
+      "sha256": "a96d94e75573386bd6641ffaa4a3737a5f2e825c5e25fcc3b1e6d8a551a61581"
+    },
+    {
+      "id": "menstrual-heat-belt",
+      "path": "assets/images/menstrual-heat-belt.webp",
+      "mime": "image/webp",
+      "sha256": "ba84c7df3b636f3ea76e049f2b66b0abc22373e3b9616db70c7edc1bae9b18c4"
+    },
+    {
+      "id": "classys-zap-pore-shot",
+      "path": "assets/images/classys-zap-pore-shot.webp",
+      "mime": "image/webp",
+      "sha256": "f7f4e637db759dba78d3d7b3dbd64630da133cb732221f13356640c79ba9420e"
+    },
+    {
+      "id": "muilli-skin-analyzer",
+      "path": "assets/images/muilli-skin-analyzer.webp",
+      "mime": "image/webp",
+      "sha256": "7e99be7c6b3dde437e49924518bc2153cd062aa5bbf1b12c0f7448fb50713627"
+    },
+    {
+      "id": "biodermis-scar-sheet",
+      "path": "assets/images/biodermis-scar-sheet.webp",
+      "mime": "image/webp",
+      "sha256": "c71e64d4b403e0a0bca07e00a29528c58ec1e2874dfa8095b07df6501863bdce"
+    },
+    {
+      "id": "carex-light-lamp",
+      "path": "assets/images/carex-light-lamp.webp",
+      "mime": "image/webp",
+      "sha256": "cce711d80c6d104c25057da036c2b092e496a1a965484616f9777924220e02d3"
+    },
+    {
+      "id": "bstrong-bfr",
+      "path": "assets/images/bstrong-bfr.webp",
+      "mime": "image/webp",
+      "sha256": "3171d6aec15aa51cc0672bf637cd17dc6bc28f247537af0f1535ff7b69fdb256"
+    },
+    {
+      "id": "cold-lipolysis-belt",
+      "path": "assets/images/cold-lipolysis-belt.webp",
+      "mime": "image/webp",
+      "sha256": "2b9a0c20229bd204fd4b0d8df9a64a0f5965cecc08e83dd01b7e56f01e55df09"
+    },
+    {
+      "id": "mira-perimenopause",
+      "path": "assets/images/mira-perimenopause.webp",
+      "mime": "image/webp",
+      "sha256": "beab1ccd77cae69504d9f6aa24deed83942987d906b89e4c069c69f8664569c8"
+    },
+    {
+      "id": "therabody-theracup",
+      "path": "assets/images/therabody-theracup.webp",
+      "mime": "image/webp",
+      "sha256": "74e7fd496a0440faf6500bac9a6fa250d8e1913d5b5b330b8ed9b16bd166300d"
+    },
+    {
+      "id": "mito-pod",
+      "path": "assets/images/mito-pod.webp",
+      "mime": "image/webp",
+      "sha256": "852300aa51fd2bef0c75dd3d64ebb50c6d86f1c0f8258d99e8d22852b5b2c785"
+    },
+    {
+      "id": "mitoaura-led-serum",
+      "path": "assets/images/mitoaura-led-serum.webp",
+      "mime": "image/webp",
+      "sha256": "45570b6ab3607aa55ec85df6e1699d9db30f44f8d3f3ac12ccfabd4202d1f001"
+    },
+    {
+      "id": "slendertone-abs7",
+      "path": "assets/images/slendertone-abs7.webp",
+      "mime": "image/webp",
+      "sha256": "49a937d63cd4fd1022bedbd198fe02c9d5ec0f0cb03a884cad055aa9ff443de2"
+    },
+    {
+      "id": "elitone-pelvic",
+      "path": "assets/images/elitone-pelvic.webp",
+      "mime": "image/webp",
+      "sha256": "fbe706b5e06f7a014528b75af968503b8d5cd4098d343fda19fc5268a2e893cb"
+    },
+    {
+      "id": "pulsetto-vagus",
+      "path": "assets/images/pulsetto-vagus.webp",
+      "mime": "image/webp",
+      "sha256": "a4dc13dfd21e6dc649986428b30c11c1e1c3bdb61d1e9cb31953bda9d493559e"
+    },
+    {
+      "id": "cefaly-migraine",
+      "path": "assets/images/cefaly-migraine.webp",
+      "mime": "image/webp",
+      "sha256": "6e006859da4b8c4485ef51666ef09bbbd75333727288b551c53f1ab2a8df39e7"
+    },
+    {
+      "id": "pmd-microderm",
+      "path": "assets/images/pmd-microderm.webp",
+      "mime": "image/webp",
+      "sha256": "bba64db0ace6270bd3afce80d153010b56d3016fb6b825c0a0b9c24fa1bcecc0"
+    },
+    {
+      "id": "cavitation-body",
+      "path": "assets/images/cavitation-body.webp",
+      "mime": "image/webp",
+      "sha256": "89c3347c3437266efd246e3137fd8598e3e4979bbd9882ee9cb2388159eb0479"
+    },
+    {
+      "id": "hyperice-x2-knee",
+      "path": "assets/images/hyperice-x2-knee.webp",
+      "mime": "image/webp",
+      "sha256": "4bd536c194feaf413c792f112864e46d3ab9c648a1e971180f5ee8dc2c0e6790"
+    },
+    {
+      "id": "higherdose-sauna-blanket",
+      "path": "assets/images/higherdose-sauna-blanket.webp",
+      "mime": "image/webp",
+      "sha256": "f6925353ffe8f2c3a41bb90e48522a9a4930f2dcdac6e0325c6e0385d398a1e1"
+    },
+    {
+      "id": "ice-barrel-cold-plunge",
+      "path": "assets/images/ice-barrel-cold-plunge.webp",
+      "mime": "image/webp",
+      "sha256": "9c03b2b859b6a570dc2dd41de502e34a56cc63a95691464a552e7f6790e0b3ef"
+    },
+    {
+      "id": "drx-eye-led",
+      "path": "assets/images/drx-eye-led.webp",
+      "mime": "image/webp",
+      "sha256": "28cc198aa10e606f055c505a8e41f1cc85ed7df6f0be5ed1f692457bf8e06d17"
+    },
+    {
+      "id": "brighte-eleki-lift",
+      "path": "assets/images/brighte-eleki-lift.webp",
+      "mime": "image/webp",
+      "sha256": "e98ee309dc2189e4bde4c7452c8c119c2a58a85cd59be3e5b7cd03d75e6ced03"
+    },
+    {
+      "id": "dermadry-iontophoresis",
+      "path": "assets/images/dermadry-iontophoresis.webp",
+      "mime": "image/webp",
+      "sha256": "838f434fb726f07e5e63bdb451b166965da53d16e781e574fa79bddf32322a9e"
+    },
+    {
+      "id": "phlas-cold-plasma",
+      "path": "assets/images/phlas-cold-plasma.webp",
+      "mime": "image/webp",
+      "sha256": "fd5b977e9f74e38dd338e560098fda2610337f99b6f14caaa21b23b58a008ad2"
+    },
+    {
+      "id": "excimer-308-home",
+      "path": "assets/images/excimer-308-home.webp",
+      "mime": "image/webp",
+      "sha256": "05466e86e33b075316b012abec6ab51cbb078a7838f0e1e76425446ce6099d20"
+    },
+    {
+      "id": "cryotag-skin-tag",
+      "path": "assets/images/cryotag-skin-tag.webp",
+      "mime": "image/webp",
+      "sha256": "44d102186e6a605375727ed709d5fe3ecb7e6c9a829af29d4d55a0284b1ac73d"
+    },
+    {
+      "id": "macypan-hbot",
+      "path": "assets/images/macypan-hbot.webp",
+      "mime": "image/webp",
+      "sha256": "7be7baa62cab8cff600d9df97d5b2b1a93616602878301bcfcebc5bc8fd90803"
+    },
+    {
+      "id": "acropass-microcone",
+      "path": "assets/images/acropass-microcone.webp",
+      "mime": "image/webp",
+      "sha256": "45122e2505591be9abb07fe0fce1d1a6c4787475841d283aa0e504a0d3f38473"
+    },
+    {
+      "id": "lancome-nano-resurfacer",
+      "path": "assets/images/lancome-nano-resurfacer.webp",
+      "mime": "image/webp",
+      "sha256": "a0ce256a4cc1df4d0283508d7c54631e6687ad5fb7cadc501e8df96a440ba0df"
+    },
+    {
+      "id": "embr-wave",
+      "path": "assets/images/embr-wave.webp",
+      "mime": "image/webp",
+      "sha256": "ee5c2c2443a7993ad6c7393043ac81ecc83d1e8282b36ea7eac8e1538e92e53b"
+    },
+    {
+      "id": "normatec-boots",
+      "path": "assets/images/normatec-boots.webp",
+      "mime": "image/webp",
+      "sha256": "ee070a7a2c6cdb9f6ef8b9f93265691ce80652e967fc4099f857d378323e9246"
+    },
+    {
+      "id": "venom-go",
+      "path": "assets/images/venom-go.webp",
+      "mime": "image/webp",
+      "sha256": "70835d20cb234fa91a9f15c158a1a3416ff310523a22b783a3160e9e0ec3d5c9"
+    },
+    {
+      "id": "thome-glow-signature",
+      "path": "assets/images/thome-glow-signature.webp",
+      "mime": "image/webp",
+      "sha256": "bc133050201bb6eea2d476b50d0a62fce5398d0786b80a5d73ea4f94f417b686"
+    },
+    {
+      "id": "dermaflash-luxe",
+      "path": "assets/images/dermaflash-luxe.webp",
+      "mime": "image/webp",
+      "sha256": "00d96d2b4a511beb713455de968f3e3907dc5b340fbe931b5c1675f78f7e08bc"
+    },
+    {
+      "id": "joylux-vfit",
+      "path": "assets/images/joylux-vfit.webp",
+      "mime": "image/webp",
+      "sha256": "ba0719f062fb8f95e6092c3104489800d63adf8ece983791cf8204ec0cbb4e55"
+    },
+    {
+      "id": "auraglow-whitening",
+      "path": "assets/images/auraglow-whitening.webp",
+      "mime": "image/webp",
+      "sha256": "53b5a9d2b2a207529843e8d3e2c5a88c0f4b55bdb42bfce51fc7a773aefb7e22"
+    },
+    {
+      "id": "yaman-needle-spa",
+      "path": "assets/images/yaman-needle-spa.webp",
+      "mime": "image/webp",
+      "sha256": "8df87eea0ae0fab341bb578f3147103c2e06c937820438748b905944a6bf0eb8"
+    },
+    {
+      "id": "ems-vacuum-body",
+      "path": "assets/images/ems-vacuum-body.webp",
+      "mime": "image/webp",
+      "sha256": "6afb4c4ff7e816a97e99f4fd03760b5387829fda8f2e43bced0f42721093e9e3"
+    },
+    {
+      "id": "dry-eye-mask",
+      "path": "assets/images/dry-eye-mask.webp",
+      "mime": "image/webp",
+      "sha256": "1423346d4764ed3c759671a2ad27775b02d73a494a36e1893d2288c381fe4369"
+    },
+    {
+      "id": "beautifly-glossy",
+      "path": "assets/images/beautifly-glossy.webp",
+      "mime": "image/webp",
+      "sha256": "f91974102e870172c3bcddbe5e8269f888328227407fb37d8a818dea7121916f"
+    },
+    {
+      "id": "silverfusion-mask",
+      "path": "assets/images/silverfusion-mask.webp",
+      "mime": "image/webp",
+      "sha256": "839c244d465651bf7ebe69e5e780dd72c68059c14b0fd0fb028463d7425c3c5f"
+    },
+    {
+      "id": "yaman-liftology",
+      "path": "assets/images/yaman-liftology.webp",
+      "mime": "image/webp",
+      "sha256": "256de62d142fb844f5912992aeab41a62453a9d53bc42c4bcfac62482f36ed50"
+    },
+    {
+      "id": "solawave-wand",
+      "path": "assets/images/solawave-wand.webp",
+      "mime": "image/webp",
+      "sha256": "2ae1299db4bc37898c99fb3fa3c1e8a61fe81d1311cc2da76f3dbc38734bb846"
+    },
+    {
+      "id": "ipl-clearshot",
+      "path": "assets/images/ipl-clearshot.webp",
+      "mime": "image/webp",
+      "sha256": "68e013a0cb5fd9ae9b6f8d7f34ca38ec03b5d113d6420b1175e1c40a1bd85af9"
+    },
+    {
+      "id": "lyma-laser",
+      "path": "assets/images/lyma-laser.webp",
+      "mime": "image/webp",
+      "sha256": "95bcd30d08c8b31f47cd09d3cc0bbd0a8a1af6177038e2f1446f0d08243fd61e"
+    },
+    {
+      "id": "shark-facialpro",
+      "path": "assets/images/shark-facialpro.webp",
+      "mime": "image/webp",
+      "sha256": "2ee6cb59bf0074d3bf884c0353a3ba0190079c7d3207796cda1cbf807b95dfe2"
+    },
+    {
+      "id": "reedle-shot",
+      "path": "assets/images/reedle-shot.webp",
+      "mime": "image/webp",
+      "sha256": "31648da140edba9bb063a1ba644ea058215ca53178bc5ec59e143bdc1dd16266"
+    },
+    {
+      "id": "omnilux-clear",
+      "path": "assets/images/omnilux-clear.webp",
+      "mime": "image/webp",
+      "sha256": "91507ada4fe14eb1ec3761194e0d40dc013e96f92f0542d3e1e468abc8094ebc"
+    },
+    {
+      "id": "ttns",
+      "path": "assets/images/ttns.webp",
+      "mime": "image/webp",
+      "sha256": "99d3f5e48636d9e3c544764b13c080d62e33f162dae27b0ec07741acbf02fba7"
+    },
+    {
+      "id": "ovira",
+      "path": "assets/images/ovira.webp",
+      "mime": "image/webp",
+      "sha256": "acd008939060d66324a78814502ec981835c60792a3418a98a750e2225f772bc"
+    },
+    {
+      "id": "lavie",
+      "path": "assets/images/lavie.webp",
+      "mime": "image/webp",
+      "sha256": "a18ce07132e089da6dd4eb43d0dfac29ccea43a8a7619f59c558b631314b222a"
+    },
+    {
+      "id": "shark-cryoglow",
+      "path": "assets/images/shark-cryoglow.webp",
+      "mime": "image/webp",
+      "sha256": "ccf468cee2e4b061044326829edcd0c6c7602a314c3bc9235ef3b7eaab4a44bd"
+    },
+    {
+      "id": "celimax-retinal",
+      "path": "assets/images/celimax-retinal.webp",
+      "mime": "image/webp",
+      "sha256": "15ca31efed42fd31cbccebdb4c6dfb97eb892fd55ee0a38a4b690765e708061f"
+    },
+    {
+      "id": "currentbody-helmet",
+      "path": "assets/images/currentbody-helmet.webp",
+      "mime": "image/webp",
+      "sha256": "c3b956c0e902e18c09f3a502d5297a5e6f7ad0d1a5b1ce653c9e186e38410431"
+    },
+    {
+      "id": "medicube-booster",
+      "path": "assets/images/medicube-booster.webp",
+      "mime": "image/webp",
+      "sha256": "2c56a9f2cd915a5ca89e01fe79bb617832f30938b276247845f4a1f62c1583c5"
+    },
+    {
+      "id": "perifit",
+      "path": "assets/images/perifit.webp",
+      "mime": "image/webp",
+      "sha256": "048df92e97e72d48a8a315c8bd2b1d01ab33080b6eb7ca59e367e72a1d90e380"
+    },
+    {
+      "id": "lipware",
+      "path": "assets/images/lipware.webp",
+      "mime": "image/webp",
+      "sha256": "b0970123dbc05b7347b0dac0f45d1227f88232f69cfcd4a06a5811fa042d599b"
+    },
+    {
+      "id": "bear2body",
+      "path": "assets/images/bear2body.webp",
+      "mime": "image/webp",
+      "sha256": "0b05011ee37f793ebe9a8a15f5618ab254fa8aa7bea0dade0e92391bd17c6070"
+    }
+  ],
+  "changes": [
+    "Image data URIs extracted losslessly into relative local assets",
+    "Source CSS and behavior retained; app split from HTML",
+    "View storage key isolated from original site",
+    "Unconfigured weekly update claim replaced by source data cutoff",
+    "UTF-8 charset made explicit; source document mode preserved"
+  ]
+}
