@@ -16,6 +16,13 @@ function validate(data){
   if(i.evidence)assert(i.evidence.length&&i.evidence.every(e=>url(e.url)&&e.claim&&date(e.checked)),i.id+' invalid evidence');
   if(i.shuyuan){const s=i.shuyuan;assert(s.primary==='skincare'&&s.deviceRole==='auxiliary'&&s.deviceTargetPriceCNY>0&&s.deviceTargetPriceCNY<=300&&s.priceStatus&&s.idInnovation&&s.problem,i.id+' positioning');assert(i.concept?.primary==='skin',i.id+' skincare must lead');}
   if(i.img)assert(!i.img.includes('..')&&i.img.startsWith('assets/images/'),i.id+' unsafe image path');
+  if(i.decision){
+   assert(['优先推进','定向验证','暂缓'].includes(i.decision.level),i.id+' invalid decision level');
+   assert(date(i.decision.checked),i.id+' invalid decision date');
+   for(const key of ['reason','gap','next','criteria'])assert(typeof i.decision[key]==='string'&&i.decision[key].trim(),i.id+' missing decision '+key);
+   assert(i.img&&['reference','concept'].includes(i.imageKind),i.id+' decision requires a labeled image');
+   for(const key of ['size','growth','demand'])assert(i.market[key]?.trim(),i.id+' missing market '+key);
+  }
  }
  const dayIds=new Set();for(const d of data.days){assert(date(d.date)&&!dayIds.has(d.date),'Duplicate/invalid issue date');dayIds.add(d.date);for(const b of d.brief||[]){assert(url(b.url),'Invalid brief source');for(const id of b.items||[])assert(ids.has(id),'Broken reference '+id);}}
  return {items:data.items.length,issues:data.days.length};
@@ -31,6 +38,7 @@ function prepare(base,batch,policy){
  for(const [k,min]of Object.entries(policy.directionMinimums))assert(counts[k]>=min,`${k}: ${counts[k]}/${min}`);
  assert(added.filter(i=>policy.recoveryCategories.includes(i.category)).length>=policy.recoveryMinimum,'Recovery quota unmet');
  const sy=changed.filter(i=>i.shuyuan);assert(sy.filter(i=>i.rank==='主推').length>=policy.shuyuan.mainMinimum,'Shuyuan primary quota unmet');assert(sy.filter(i=>i.rank==='次推').length>=policy.shuyuan.secondaryMinimum,'Shuyuan secondary quota unmet');
+ for(const i of added)assert(i.decision?.checked===batch.date,i.id+' requires a current selection decision');
  for(const i of added.filter(i=>i.direction===policy.offlineDirection))assert(i.channelEvidence?.offlineSales&&i.channelEvidence?.onlineScope&&i.channelEvidence?.onlineEvidence,'Offline/online comparative evidence required');
  const reviews=batch.reviews||[],required=base.items.filter(i=>i.launch?.status==='未上市');
  for(const i of required){const r=reviews.find(r=>r.id===i.id);assert(r&&r.checked===batch.date&&url(r.url)&&r.note&&['verified','inconclusive','blocked'].includes(r.status),'Review missing '+i.id);assert(r.status!=='blocked','Review blocked '+i.id);}

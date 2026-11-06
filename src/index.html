@@ -24,6 +24,7 @@
   </nav>
   <section id="zones" aria-labelledby="zh">
     <div class="sechead"><h2 id="zh">专区</h2><div class="updnote" id="updnote" hidden></div></div>
+    <div id="selection" class="selection" hidden></div>
     <div class="zonegrid" id="zonegrid"><div id="syband"></div><div id="plband"></div></div>
   </section>
   <dialog id="pldlg" aria-labelledby="plh"><div class="dlghead"><h2 id="plh">未上市专区</h2><button type="button" class="dlgx" id="plclose" aria-label="关闭">×</button></div>
@@ -58,7 +59,7 @@
     <div class="row">
       <input type="search" id="q" placeholder="搜索品名、人群、卖点、品牌…" aria-label="搜索">
       <select id="date" aria-label="按日期筛选"></select>
-      <select id="verdict" aria-label="按市场判断筛选"><option value="all">全部判断</option><option>推荐</option><option>谨慎推荐</option><option>观望</option></select>
+      <select id="verdict" aria-label="按选品判断筛选"><option value="all">全部判断</option><option>优先推进</option><option>定向验证</option><option>暂缓</option><option>推荐</option><option>谨慎推荐</option><option>观望</option></select>
       <select id="rank" class="syonly" aria-label="按推荐层级筛选"><option value="all">全部层级</option><option>主推</option><option>次推</option><option>技术观察</option></select>
     </div>
     <div class="cgroups" id="cats" role="group" aria-label="按类目筛选"></div>

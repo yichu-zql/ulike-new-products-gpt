@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 226" role="img">
+  <title>导电保湿眼贴与限位辅助手柄开发概念示意</title><rect width="440" height="226" rx="18" fill="#faf6f8"/>
+  <text x="220" y="27" text-anchor="middle" fill="#69374d" font-family="sans-serif" font-size="16">术原 · 开发概念示意</text>
+  <g transform="translate(19 37)" stroke="#934b69" fill="#f5dce7" stroke-width="4" stroke-linejoin="round"><path d="M35 57Q56 104 91 69Q74 121 38 96Q24 82 35 57ZM110 69Q146 104 169 57Q180 82 166 96Q129 121 110 69Z"/></g>
+  <g transform="translate(233 37)" stroke="#216779" fill="#deeff1" stroke-width="4" stroke-linejoin="round"><rect x="51" y="64" width="85" height="26" rx="13"/><ellipse cx="138" cy="77" rx="17" ry="22"/><circle cx="76" cy="77" r="4"/></g>
+  <path d="M193 102h52m-11-9 11 9-11 9" fill="none" stroke="#6f7182" stroke-width="3"/>
+  <g text-anchor="middle" font-family="sans-serif" fill="#2d2630" font-size="15"><text x="112" y="167">导电保湿眼贴</text><text x="325" y="167">限位辅助手柄</text>
+  <text x="220" y="203" fill="#624456">沿外沿操作</text></g></svg>

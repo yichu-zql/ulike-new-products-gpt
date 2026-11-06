@@ -276,3 +276,9 @@ dd.visual .srcs{margin-top:4px;font-size:12px}
   .bar.stuck .glabel{display:none}
   .bar.stuck .cgroups{gap:3px}
 }
+.selection{margin:0 0 14px;padding:12px 16px;border:1px solid var(--line,#ddd);border-radius:8px;background:#fff}
+.selection h3{margin:0;font-size:16px}.selection h3 small{margin-left:8px;color:#666;font-weight:400}
+.selection p{margin:6px 0;color:#596171}.selection ul{list-style:none;margin:8px 0 0;padding:0}
+.selection li{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;padding:7px 0;border-top:1px solid #ececf0}
+.selection li span{font-size:13px;color:#495264}
+.vd-优先推进{background:#e5f2ec;color:#235943}.vd-定向验证{background:#fff2db;color:#745119}.vd-暂缓{background:#edf0f3;color:#525d69}

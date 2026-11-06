@@ -3346,16 +3346,24 @@
       "image_page": "https://www.lifepharmacy.com/product/medicube-age-r-booster-pro-facial-device-pink-4481-4269",
       "market": {
         "tier": "暂无统计",
-        "size": "缺失：未取得该开发概念的市场规模",
-        "growth": "缺失：未取得同口径增长数据",
-        "demand_level": "待验证",
-        "demand": "安瓶用量和步骤不一致（产品机会假设，待用户访谈）",
+        "size": "耗材识别精华辅助手柄规模未知；先以有多种安瓶/精华搭配设备的实际用户为统计对象，测流程混淆率与识别功能付费意愿。",
+        "growth": "本开发组合增速未知；独立邻近信号为Circana 2026Q1美国精华及眼部护理参与品类增长，不代表本方案增速。",
+        "demand_level": "",
+        "demand": "FOREO历史官方手册证实耗材与程序关联是已存在设计。独立监测未证明消费者需要术原专属识别；误配、步骤遗忘只是待测假设。",
         "verdict": "谨慎推荐",
         "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
             "title": "参考产品官方/授权渠道证据",
             "url": "https://assets.foreo.com/files/static/manuals/2020-12/UFO_manual_English.pdf?UAmttbwcNzBWvxwEliMlr0to9vkUTWLy="
+          },
+          {
+            "title": "FOREO官方手册：预设面膜程序同步",
+            "url": "https://assets.foreo.com/files/static/manuals/2019-10/UFO_manual_English.pdf?_bOjMn5sEK6UMlQRpoJZHudTFSWb3mg0="
+          },
+          {
+            "title": "Circana原始零售监测：2026Q1美国美妆（仅邻近品类）",
+            "url": "https://www.circana.com/post/us-beauty-market-delivers-steady-first-quarter-growth-circana-reports"
           }
         ]
       },
@@ -3364,14 +3372,19 @@
         "audience": "面部精华用户",
         "points": "分区定量精华为主，器械辅助",
         "innovation": "可替换安瓶套环带机械防错键；手柄只做计时与轻振；标签对应单一护理程序",
-        "why": "先验证使用改善和耗材复购"
+        "why": "先验证使用改善和耗材复购",
+        "size": "耗材识别精华辅助手柄规模未知；先以有多种安瓶/精华搭配设备的实际用户为统计对象，测流程混淆率与识别功能付费意愿。",
+        "growth": "本开发组合增速未知；独立邻近信号为Circana 2026Q1美国精华及眼部护理参与品类增长，不代表本方案增速。",
+        "demand": "FOREO历史官方手册证实耗材与程序关联是已存在设计。独立监测未证明消费者需要术原专属识别；误配、步骤遗忘只是待测假设。"
       },
       "date": "2026-10-28",
       "brands": [
         "术原"
       ],
       "visual": {
-        "idea": "展示分区定量精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
+        "idea": "安瓶像弹匣一样咔哒装入，画面随之切换。换一支精华，开启一套护理。",
+        "hook": "精华换弹，护理换档",
+        "sell": "精华与护理程序配套"
       },
       "concept": {
         "title": "精华识别式涂布辅助手柄（开发概念）",
@@ -3396,7 +3409,7 @@
         "用辅助器具完成涂布，避免重复摩擦",
         "清洁可重复部件并记录使用体验"
       ],
-      "img": "assets/images/sy-id-booster.webp",
+      "img": "assets/images/selection-sy-id-booster.svg",
       "shuyuan": {
         "primary": "skincare",
         "deviceRole": "auxiliary",
@@ -3417,7 +3430,16 @@
           "date": "2026-11-01",
           "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
-      ]
+      ],
+      "imageKind": "concept",
+      "decision": {
+        "level": "定向验证",
+        "reason": "若首发只有一款精华，识别程序收益有限；应先验证多SKU混淆是否真实存在，再承担识别成本。",
+        "gap": "没有错误使用频率、识别与不用识别的对照收益；未验证兼容耗材的商业接受度。",
+        "next": "用三款标签区分精华和机械防错套环做纸样/无电子样机；20名用户按说明完成流程，记录选错、误装和操作时长。",
+        "criteria": "内部拟定门槛：未辅助时存在可复现混淆；防错结构将错误下降≥50%，不增加流程时长超过10%。若仅一款精华，删除自动识别功能。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "sy-sono",
@@ -3816,16 +3838,20 @@
       "image_page": "https://mynuface.com/collections/devices/products/ionplex-hydra-gel-power-patches-eye-masks",
       "market": {
         "tier": "暂无统计",
-        "size": "缺失：未取得该开发概念的市场规模",
-        "growth": "缺失：未取得同口径增长数据",
-        "demand_level": "待验证",
-        "demand": "眼贴滑动、眼周器械使用边界不清（产品机会假设，待用户访谈）",
+        "size": "导电眼贴+低价辅助笔组合规模未知；对比眼贴购买者与现有微电流用户的重叠、套购和复购，不以全微电流市场规模替代。",
+        "growth": "本开发组合增速未知；独立邻近信号为Circana 2026Q1美国精华及眼部护理参与品类增长，不代表本方案增速。",
+        "demand_level": "",
+        "demand": "NuFACE官网说明可在眼贴上使用FIX MicroWand，证明有商业化组合参考。相邻眼部护理有零售增长，但缺少该组合销量及比单用眼贴更值得购买的独立证据。",
         "verdict": "谨慎推荐",
         "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
-            "title": "参考产品官方/授权渠道证据",
+            "title": "NuFACE官方：眼贴与FIX MicroWand配合说明",
             "url": "https://www.mynuface.com/products/ionplex-hydra-gel-power-patches-eye-masks"
+          },
+          {
+            "title": "Circana原始零售监测：2026Q1美国美妆（仅邻近品类）",
+            "url": "https://www.circana.com/post/us-beauty-market-delivers-steady-first-quarter-growth-circana-reports"
           }
         ]
       },
@@ -3834,14 +3860,19 @@
         "audience": "眼周干燥护理用户",
         "points": "导电保湿眼贴为主，器械辅助",
         "innovation": "贴片外沿设操作区、手柄限位头和定时；电流方案须另做眼周安全与配方匹配验证",
-        "why": "先验证使用改善和耗材复购"
+        "why": "先验证使用改善和耗材复购",
+        "size": "导电眼贴+低价辅助笔组合规模未知；对比眼贴购买者与现有微电流用户的重叠、套购和复购，不以全微电流市场规模替代。",
+        "growth": "本开发组合增速未知；独立邻近信号为Circana 2026Q1美国精华及眼部护理参与品类增长，不代表本方案增速。",
+        "demand": "NuFACE官网说明可在眼贴上使用FIX MicroWand，证明有商业化组合参考。相邻眼部护理有零售增长，但缺少该组合销量及比单用眼贴更值得购买的独立证据。"
       },
       "date": "2026-10-28",
       "brands": [
         "术原"
       ],
       "visual": {
-        "idea": "展示导电保湿眼贴包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
+        "idea": "两片月牙铺好“精华护理区”，小手柄沿指定区域轻滑，眼周单独享受一场SPA。",
+        "hook": "把眼周SPA，装进两弯月牙",
+        "sell": "眼贴与手柄配合，聚焦局部护理"
       },
       "concept": {
         "title": "导电眼贴+眼周限位辅助手柄（开发概念）",
@@ -3866,7 +3897,7 @@
         "用辅助器具完成涂布，避免重复摩擦",
         "清洁可重复部件并记录使用体验"
       ],
-      "img": "assets/images/sy-eye-patch.webp",
+      "img": "assets/images/selection-sy-eye-patch.svg",
       "shuyuan": {
         "primary": "skincare",
         "deviceRole": "auxiliary",
@@ -3887,7 +3918,16 @@
           "date": "2026-11-01",
           "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
-      ]
+      ],
+      "imageKind": "concept",
+      "decision": {
+        "level": "定向验证",
+        "reason": "耗材复购路径明确，眼周电刺激与贴片匹配成本却高于纯机械工具；预算内实现和组合增益必须先闭环。",
+        "gap": "缺少具体配方的导电一致性、眼周使用安全、样机成本与联合效果证据。",
+        "next": "先验证不通电限位工具的贴合和操作；由合格工程/测试团队另行评估电流方案及材料相容性，再决定是否保留电功能。",
+        "criteria": "内部继续条件：两家供应商报价和专项测试支持≤300元开发目标；组合相较单独眼贴有预先定义、可测的体验或效果优势。未闭环不得宣传更深导入。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "sy-lg-superform",
@@ -12943,16 +12983,24 @@
       "why": "开发判断：以接触和温度管理降低操作负担；不能据此等同院线疗效。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
       "market": {
         "tier": "暂无统计",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand_level": "待验证",
-        "demand": "面部抗老人群（需求假设，待访谈验证）",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元（GVR估算）；非NEWA或射频细分。",
+        "growth": "相邻口径：美国家用美容设备2026—2033预测CAGR 9.9%；非射频实绩。",
+        "demand_level": "",
+        "demand": "官网有器械+导电凝胶套装和用户评价，说明组合模式已商品化；2026-11-06页面显示缺货，不能推断畅销。",
         "verdict": "谨慎推荐",
         "view": "开发判断：以接触和温度管理降低操作负担；不能据此等同院线疗效。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
         "sources": [
           {
             "title": "NEWA 产品/说明资料",
             "url": "https://mynewa.com/pages/about-newa"
+          },
+          {
+            "title": "GVR美国家用美容设备报告（2026-09更新）",
+            "url": "https://www.grandviewresearch.com/industry-analysis/us-at-home-beauty-devices-market-report"
+          },
+          {
+            "title": "NEWA Classic官网",
+            "url": "https://mynewa.com/products/newa-classic-skin-care-system"
           }
         ]
       },
@@ -12960,9 +13008,9 @@
         "reason": "品牌源自专业射频设备企业 ENDYMED；可研究专业技术简化为家庭操作的路径。",
         "audience": "面部抗老人群",
         "points": "以接触和温度管理降低操作负担；不能据此等同院线疗效。",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "待访谈验证",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元（GVR估算）；非NEWA或射频细分。",
+        "growth": "相邻口径：美国家用美容设备2026—2033预测CAGR 9.9%；非射频实绩。",
+        "demand": "官网有器械+导电凝胶套装和用户评价，说明组合模式已商品化；2026-11-06页面显示缺货，不能推断畅销。",
         "why": "开发判断：以接触和温度管理降低操作负担；不能据此等同院线疗效。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
       },
       "date": "2026-11-01",
@@ -12989,7 +13037,19 @@
         }
       ],
       "evidenceLevel": "产品与结构已核实；热度/规模待验证",
-      "launchStatus": "既有产品，本期新收录"
+      "launchStatus": "既有产品，本期新收录",
+      "img": "assets/images/selection-newa-rf.webp",
+      "imageKind": "reference",
+      "image_page": "https://mynewa.com/products/newa-classic-skin-care-system",
+      "image_url": "https://mynewa.com/cdn/shop/products/1gel_website_white.png?v=1692524278&width=1600",
+      "decision": {
+        "level": "定向验证",
+        "reason": "专业技术家庭化路径明确，但采购供给、国内准入和细分销量仍不足。",
+        "gap": "中国射频细分销售、注册路径与供货确认。",
+        "next": "核实供货与法规分类，拆解控温、接触检测和凝胶耗量。",
+        "criteria": "完成准入评估并取得可追溯供货及目标价格测算后，再转样机验证。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "nira-pro",
@@ -13017,16 +13077,24 @@
       "why": "开发判断：研究覆盖效率、接触确认和简化操作；国内上市资格另核。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
       "market": {
         "tier": "暂无统计",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand_level": "待验证",
-        "demand": "希望在家进行细纹护理的人群（需求假设，待访谈验证）",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元；非本品细分。",
+        "growth": "相邻预测：2026—2033 CAGR 9.9%，非本品实绩。",
+        "demand_level": "",
+        "demand": "品牌有激光设备与护肤品搭配路径；Yon-Ka仍展示Pro产品，NIRA官网当前主推Pro 3，原代际销量无法确认。",
         "verdict": "谨慎推荐",
         "view": "开发判断：研究覆盖效率、接触确认和简化操作；国内上市资格另核。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
         "sources": [
           {
-            "title": "NIRA 产品/说明资料",
+            "title": "NIRA 产品资料",
             "url": "https://niraskin-u7ptz03y31j.gorgias.help/en-US/what-is-the-pro-laser-1333607"
+          },
+          {
+            "title": "原始市场研究（口径见规模/增速）",
+            "url": "https://www.grandviewresearch.com/industry-analysis/us-at-home-beauty-devices-market-report"
+          },
+          {
+            "title": "图片所在产品页面",
+            "url": "https://us.yonka.com/products/nira-pro-laser"
           }
         ]
       },
@@ -13034,9 +13102,9 @@
         "reason": "品牌帮助中心确认 Pro 是家庭使用的激光护理工具，采用较大光斑设计。",
         "audience": "希望在家进行细纹护理的人群",
         "points": "研究覆盖效率、接触确认和简化操作；国内上市资格另核。",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "待访谈验证",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元；非本品细分。",
+        "growth": "相邻预测：2026—2033 CAGR 9.9%，非本品实绩。",
+        "demand": "品牌有激光设备与护肤品搭配路径；Yon-Ka仍展示Pro产品，NIRA官网当前主推Pro 3，原代际销量无法确认。",
         "why": "开发判断：研究覆盖效率、接触确认和简化操作；国内上市资格另核。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
       },
       "date": "2026-11-01",
@@ -13063,7 +13131,19 @@
         }
       ],
       "evidenceLevel": "产品与结构已核实；热度/规模待验证",
-      "launchStatus": "既有产品，本期新收录"
+      "launchStatus": "既有产品，本期新收录",
+      "img": "assets/images/selection-nira-pro.webp",
+      "imageKind": "reference",
+      "image_page": "https://us.yonka.com/products/nira-pro-laser",
+      "image_url": "https://us.yonka.com/cdn/shop/files/SkincareAccessories8.png?v=1753740465&width=700",
+      "decision": {
+        "level": "定向验证",
+        "reason": "接触触发与大光斑可减少操作负担，代际差异和法规路径需要先厘清。",
+        "gap": "旧款与新款参数、国内上市要求、能量/热管理和真实复购。",
+        "next": "向品牌确认代际与供货，再做皮肤适用范围和接触检测评估。",
+        "criteria": "先取得型号一致的说明书、供货记录及合规意见，才启动样机对标。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "compex-mini",
@@ -13091,16 +13171,24 @@
       "why": "开发判断：小型主机配贴片，分区贴合；需评估禁忌、强度上限及贴片耗材。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
       "market": {
         "tier": "暂无统计",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand_level": "待验证",
-        "demand": "运动训练后恢复人群（需求假设，待访谈验证）",
+        "size": "全球TENS设备2023年3.211亿美元；便携式2.310亿美元。非Compex或EMS规模。",
+        "growth": "GVR同页预测CAGR出现3.9%与8.1%冲突，暂不采用增速。",
+        "demand_level": "",
+        "demand": "CDC：美国2023年24.3%成人报告慢性疼痛；仅说明广义痛点，不能推导Compex适用人数或需求份额。",
         "verdict": "谨慎推荐",
         "view": "开发判断：小型主机配贴片，分区贴合；需评估禁忌、强度上限及贴片耗材。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
         "sources": [
           {
-            "title": "Compex 产品/说明资料",
+            "title": "图片所在产品页面",
             "url": "https://www.compex.com/en-au/products/compex-mini"
+          },
+          {
+            "title": "原始市场研究（口径见规模/增速）",
+            "url": "https://www.grandviewresearch.com/industry-analysis/transcutaneous-electrical-nerve-stimulation-market-report"
+          },
+          {
+            "title": "CDC美国成人慢性疼痛2023数据",
+            "url": "https://www.cdc.gov/nchs/products/databriefs/db518.htm"
           }
         ]
       },
@@ -13108,9 +13196,9 @@
         "reason": "官方在售无线双通道设备，手机控制并提供训练及恢复程序；属于康复电刺激家用化。",
         "audience": "运动训练后恢复人群",
         "points": "小型主机配贴片，分区贴合；需评估禁忌、强度上限及贴片耗材。",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "待访谈验证",
+        "size": "全球TENS设备2023年3.211亿美元；便携式2.310亿美元。非Compex或EMS规模。",
+        "growth": "GVR同页预测CAGR出现3.9%与8.1%冲突，暂不采用增速。",
+        "demand": "CDC：美国2023年24.3%成人报告慢性疼痛；仅说明广义痛点，不能推导Compex适用人数或需求份额。",
         "why": "开发判断：小型主机配贴片，分区贴合；需评估禁忌、强度上限及贴片耗材。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
       },
       "date": "2026-11-01",
@@ -13137,7 +13225,19 @@
         }
       ],
       "evidenceLevel": "产品与结构已核实；热度/规模待验证",
-      "launchStatus": "既有产品，本期新收录"
+      "launchStatus": "既有产品，本期新收录",
+      "img": "assets/images/selection-compex-mini.webp",
+      "imageKind": "reference",
+      "image_page": "https://www.compex.com/en-au/products/compex-mini",
+      "image_url": "https://www.compex.com/cdn/shop/files/MINI.jpg?v=1786722788&width=800",
+      "decision": {
+        "level": "定向验证",
+        "reason": "无线双通道已有产品依据，恢复场景清晰；医疗用途与健身用途不能混用。",
+        "gap": "贴片消耗、连接稳定性和对目标用户的真实适用性。",
+        "next": "区分运动放松与疼痛治疗两条产品路线，测贴片定位、连接和复用成本。",
+        "criteria": "确定分类与适用范围，完成目标部位验证及贴片成本模型后推进。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "myolift-qt-plus",
@@ -13165,16 +13265,28 @@
       "why": "开发判断：重点拆解唇、眼、额头等区域附件与导电凝胶的配套逻辑，不把导电等同经皮递送。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
       "market": {
         "tier": "暂无统计",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand_level": "待验证",
-        "demand": "抗老护理且希望减少手持操作的人群（需求假设，待访谈验证）",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元；非本品细分。",
+        "growth": "相邻预测：2026—2033 CAGR 9.9%，非本品实绩。",
+        "demand_level": "",
+        "demand": "官网评论模块显示210条评价；有用户提及解放双手，也有粘附下降反馈。评论存在异常年份，不能推断销量或满意度。",
         "verdict": "谨慎推荐",
         "view": "开发判断：重点拆解唇、眼、额头等区域附件与导电凝胶的配套逻辑，不把导电等同经皮递送。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
         "sources": [
           {
-            "title": "7E Wellness 产品/说明资料",
+            "title": "7E Wellness 产品资料",
             "url": "https://help.7ewellness.com/en-US/my-plan-124443"
+          },
+          {
+            "title": "原始市场研究（口径见规模/增速）",
+            "url": "https://www.grandviewresearch.com/industry-analysis/us-at-home-beauty-devices-market-report"
+          },
+          {
+            "title": "图片所在产品页面",
+            "url": "https://livelovespa.com/products/myolift%E2%84%A2-qt-plus-facial-toning-device-web-7e-wellness"
+          },
+          {
+            "title": "MyoLift QT Plus官网评论模块",
+            "url": "https://www.7ewellness.com/products/at-home-microcurrent-devices-myolift-qt-plus-facial-toning"
           }
         ]
       },
@@ -13182,9 +13294,9 @@
         "reason": "官方指南提供按皮肤目标制定的应用程序，并可搭配分区导电面膜附件。",
         "audience": "抗老护理且希望减少手持操作的人群",
         "points": "重点拆解唇、眼、额头等区域附件与导电凝胶的配套逻辑，不把导电等同经皮递送。",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "待访谈验证",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元；非本品细分。",
+        "growth": "相邻预测：2026—2033 CAGR 9.9%，非本品实绩。",
+        "demand": "官网评论模块显示210条评价；有用户提及解放双手，也有粘附下降反馈。评论存在异常年份，不能推断销量或满意度。",
         "why": "开发判断：重点拆解唇、眼、额头等区域附件与导电凝胶的配套逻辑，不把导电等同经皮递送。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
       },
       "date": "2026-11-01",
@@ -13211,7 +13323,19 @@
         }
       ],
       "evidenceLevel": "产品与结构已核实；热度/规模待验证",
-      "launchStatus": "既有产品，本期新收录"
+      "launchStatus": "既有产品，本期新收录",
+      "img": "assets/images/selection-myolift-qt-plus.webp",
+      "imageKind": "reference",
+      "image_page": "https://livelovespa.com/products/myolift%E2%84%A2-qt-plus-facial-toning-device-web-7e-wellness",
+      "image_url": "https://livelovespa.com/cdn/shop/files/8_1.jpg?v=1746121252&width=1080",
+      "decision": {
+        "level": "优先推进",
+        "reason": "分区贴膜让结构、耗材和使用便利性一起验证，适合先做低成本ID模型。",
+        "gap": "粘附寿命、清洁方式、导电稳定性与皮肤刺激。",
+        "next": "先做眼周/下颌贴膜的人体工学及重复佩戴测试，计算耗材单次成本。",
+        "criteria": "建议门槛：20人重复佩戴测试至少16人可独立正确定位，粘附与电气安全均达标；内部目标。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "qure-microinfusion",
@@ -13240,16 +13364,24 @@
       "why": "开发判断：涉及破皮，不纳入低风险超导护肤主推；先查分类、无菌、配方适用性及医疗边界。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
       "market": {
         "tier": "暂无统计",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand_level": "待验证",
-        "demand": "研究级候选，不作为普通护肤消费建议（需求假设，待访谈验证）",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元；非本品细分。",
+        "growth": "相邻预测：2026—2033 CAGR 9.9%，非本品实绩。",
+        "demand_level": "",
+        "demand": "品牌商品页显示1634条评价及精华配套；这是品牌自有站的关注信号，不证明市场增长或破皮产品安全。",
         "verdict": "观望",
         "view": "开发判断：涉及破皮，不纳入低风险超导护肤主推；先查分类、无菌、配方适用性及医疗边界。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
         "sources": [
           {
-            "title": "Qure 产品/说明资料",
+            "title": "Qure 产品资料",
             "url": "https://qureskincare.com/pages/microinfusion-safety-guide"
+          },
+          {
+            "title": "原始市场研究（口径见规模/增速）",
+            "url": "https://www.grandviewresearch.com/industry-analysis/us-at-home-beauty-devices-market-report"
+          },
+          {
+            "title": "图片所在产品页面",
+            "url": "https://qureskincare.com/pages/microinfusion-a"
           }
         ]
       },
@@ -13257,9 +13389,9 @@
         "reason": "官方说明呈现储液腔、精华及一次性针头组成；是器械与耗材绑定的结构参考。",
         "audience": "研究级候选，不作为普通护肤消费建议",
         "points": "涉及破皮，不纳入低风险超导护肤主推；先查分类、无菌、配方适用性及医疗边界。",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "待访谈验证",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元；非本品细分。",
+        "growth": "相邻预测：2026—2033 CAGR 9.9%，非本品实绩。",
+        "demand": "品牌商品页显示1634条评价及精华配套；这是品牌自有站的关注信号，不证明市场增长或破皮产品安全。",
         "why": "开发判断：涉及破皮，不纳入低风险超导护肤主推；先查分类、无菌、配方适用性及医疗边界。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
       },
       "date": "2026-11-01",
@@ -13286,7 +13418,19 @@
         }
       ],
       "evidenceLevel": "产品与结构已核实；热度/规模待验证",
-      "launchStatus": "既有产品，本期新收录"
+      "launchStatus": "既有产品，本期新收录",
+      "img": "assets/images/selection-qure-microinfusion.webp",
+      "imageKind": "reference",
+      "image_page": "https://qureskincare.com/pages/microinfusion-a",
+      "image_url": "https://qureskincare.com/cdn/shop/files/02_720x.webp?v=1785750820",
+      "decision": {
+        "level": "暂缓",
+        "reason": "储液与耗材设计可供研究，但破皮路径不符合普通低价护肤辅助器直接落地的条件。",
+        "gap": "产品分类、无菌保证、配方与微创适配、真实风险收益。",
+        "next": "保留结构参考，优先研究不破皮的定量涂布和防回流方案。",
+        "criteria": "只有完成医疗/法规评估、无菌与配方相容性验证后才重新评估破皮路线。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "beautybio-glofacial",
@@ -13315,16 +13459,24 @@
       "why": "开发判断：双水路清污分离、可清洗吸头、耗材适配是工程重点；不声称实现注射水光效果。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
       "market": {
         "tier": "暂无统计",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand_level": "待验证",
-        "demand": "油脂清洁需求且关注卫生维护的人群（需求假设，待访谈验证）",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元；非本品细分。",
+        "growth": "相邻预测：2026—2033 CAGR 9.9%，非本品实绩。",
+        "demand_level": "",
+        "demand": "Nordstrom展示42条评价但当前已售罄且该商品不再供应；仅证明曾进入零售渠道，不能认定当前起量。",
         "verdict": "谨慎推荐",
         "view": "开发判断：双水路清污分离、可清洗吸头、耗材适配是工程重点；不声称实现注射水光效果。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
         "sources": [
           {
-            "title": "BeautyBio 产品/说明资料",
+            "title": "BeautyBio 产品资料",
             "url": "https://beautybio.gorgias.help/en-US/glofacial-faqs-233062"
+          },
+          {
+            "title": "原始市场研究（口径见规模/增速）",
+            "url": "https://www.grandviewresearch.com/industry-analysis/us-at-home-beauty-devices-market-report"
+          },
+          {
+            "title": "图片所在产品页面",
+            "url": "https://www.nordstrom.com/s/glofacial-hydro-infusion-deep-pore-cleansing-blue-led-clarifying-tool/7071114"
           }
         ]
       },
@@ -13332,9 +13484,9 @@
         "reason": "品牌帮助中心明确专用浓缩液、清洁工具和独立蓝光功能；可借鉴院线水吸清洁的家庭化结构。",
         "audience": "油脂清洁需求且关注卫生维护的人群",
         "points": "双水路清污分离、可清洗吸头、耗材适配是工程重点；不声称实现注射水光效果。",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "待访谈验证",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元；非本品细分。",
+        "growth": "相邻预测：2026—2033 CAGR 9.9%，非本品实绩。",
+        "demand": "Nordstrom展示42条评价但当前已售罄且该商品不再供应；仅证明曾进入零售渠道，不能认定当前起量。",
         "why": "开发判断：双水路清污分离、可清洗吸头、耗材适配是工程重点；不声称实现注射水光效果。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
       },
       "date": "2026-11-01",
@@ -13361,7 +13513,19 @@
         }
       ],
       "evidenceLevel": "产品与结构已核实；热度/规模待验证",
-      "launchStatus": "既有产品，本期新收录"
+      "launchStatus": "既有产品，本期新收录",
+      "img": "assets/images/selection-beautybio-glofacial.webp",
+      "imageKind": "reference",
+      "image_page": "https://www.nordstrom.com/s/glofacial-hydro-infusion-deep-pore-cleansing-blue-led-clarifying-tool/7071114",
+      "image_url": "https://n.nordstrommedia.com/it/c8495c48-a9de-4e84-87fe-24e85d886430.jpeg?crop=pad&h=1170&w=780",
+      "decision": {
+        "level": "定向验证",
+        "reason": "清污分离和可拆洗吸头有明确结构机会，需先解决清洁维护与耗材负担。",
+        "gap": "持续供货、泵路清洁、负压控制及精华浓缩液实际复购。",
+        "next": "核查其他渠道供货，再做透明水路模型和一次清洗耗时测试。",
+        "criteria": "供货和产品身份确认，负压/卫生验证通过且目标用户接受清洁流程后推进。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "silkn-titan-allways",
@@ -13391,16 +13555,24 @@
       "why": "开发判断：无线握持与温度管理值得研究；国外许可不代表中国获准上市。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
       "market": {
         "tier": "暂无统计",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand_level": "待验证",
-        "demand": "符合产品适用范围的成人护理人群（需求假设，待访谈验证）",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元；非本品细分。",
+        "growth": "相邻预测：2026—2033 CAGR 9.9%，非本品实绩。",
+        "demand_level": "",
+        "demand": "监管文件确认产品存在及限定适用范围；缺该型号销量、评价增量和国内购买需求。",
         "verdict": "谨慎推荐",
         "view": "开发判断：无线握持与温度管理值得研究；国外许可不代表中国获准上市。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
         "sources": [
           {
-            "title": "Silk’n 产品/说明资料",
+            "title": "Silk’n 产品资料",
             "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K230013.pdf"
+          },
+          {
+            "title": "原始市场研究（口径见规模/增速）",
+            "url": "https://www.grandviewresearch.com/industry-analysis/us-at-home-beauty-devices-market-report"
+          },
+          {
+            "title": "图片所在产品页面",
+            "url": "https://www.nordstrom.com/s/silkn-titan-allways-wrinkle-reduction-skin-tightening-cordless-device/6865130"
           }
         ]
       },
@@ -13408,9 +13580,9 @@
         "reason": "FDA公开文件确认家用设备结构组合射频和低功率光；适用范围与肤色限制应按文件理解。",
         "audience": "符合产品适用范围的成人护理人群",
         "points": "无线握持与温度管理值得研究；国外许可不代表中国获准上市。",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "待访谈验证",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元；非本品细分。",
+        "growth": "相邻预测：2026—2033 CAGR 9.9%，非本品实绩。",
+        "demand": "监管文件确认产品存在及限定适用范围；缺该型号销量、评价增量和国内购买需求。",
         "why": "开发判断：无线握持与温度管理值得研究；国外许可不代表中国获准上市。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
       },
       "date": "2026-11-01",
@@ -13437,7 +13609,19 @@
         }
       ],
       "evidenceLevel": "产品与结构已核实；热度/规模待验证",
-      "launchStatus": "既有产品，本期新收录"
+      "launchStatus": "既有产品，本期新收录",
+      "img": "assets/images/selection-silkn-titan-allways.webp",
+      "imageKind": "reference",
+      "image_page": "https://www.nordstrom.com/s/silkn-titan-allways-wrinkle-reduction-skin-tightening-cordless-device/6865130",
+      "image_url": "https://n.nordstrommedia.com/it/a429a247-04ef-473b-a50d-d4d52dd89cc3.jpeg?crop=pad&h=1196&w=780",
+      "decision": {
+        "level": "定向验证",
+        "reason": "可研究无线握持和控温结构，尚不足以立项成“海外爆品”。",
+        "gap": "射频国内准入、限定肤色适用范围、接触热管理。",
+        "next": "比较NEWA与Titan的安全控制及耗材结构，先出差异矩阵。",
+        "criteria": "明确差异化且完成分类与安全可行性评估后决定是否打样。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "recoverypulse-calf",
@@ -13465,16 +13649,20 @@
       "why": "开发判断：关注多尺码、防滑移和电机可拆洗；热度仅为候选，暂无独立销量证据。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
       "market": {
         "tier": "暂无统计",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand_level": "待验证",
-        "demand": "运动后小腿放松和久站人群（需求假设，待访谈验证）",
+        "size": "相邻口径：全球按摩设备2025年124亿美元，含按摩椅/商用。",
+        "growth": "相邻预测：2026—2033 CAGR 7.4%，非本品增速。",
+        "demand_level": "",
+        "demand": "官网提供多尺码振动压缩小腿套；需求聚焦运动后和久站的穿戴便利，尚无型号销量与增速证据。",
         "verdict": "谨慎推荐",
         "view": "开发判断：关注多尺码、防滑移和电机可拆洗；热度仅为候选，暂无独立销量证据。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
         "sources": [
           {
-            "title": "Therabody 产品/说明资料",
+            "title": "图片所在产品页面",
             "url": "https://www.therabody.com/products/recoverypulse-calf-small?option=s"
+          },
+          {
+            "title": "原始市场研究（口径见规模/增速）",
+            "url": "https://www.grandviewresearch.com/industry-analysis/massage-equipment-market"
           }
         ]
       },
@@ -13482,9 +13670,9 @@
         "reason": "海外品牌在售小腿套，将弹力压缩与振动集成到可穿戴形态。",
         "audience": "运动后小腿放松和久站人群",
         "points": "关注多尺码、防滑移和电机可拆洗；热度仅为候选，暂无独立销量证据。",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "待访谈验证",
+        "size": "相邻口径：全球按摩设备2025年124亿美元，含按摩椅/商用。",
+        "growth": "相邻预测：2026—2033 CAGR 7.4%，非本品增速。",
+        "demand": "官网提供多尺码振动压缩小腿套；需求聚焦运动后和久站的穿戴便利，尚无型号销量与增速证据。",
         "why": "开发判断：关注多尺码、防滑移和电机可拆洗；热度仅为候选，暂无独立销量证据。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
       },
       "date": "2026-11-01",
@@ -13511,7 +13699,20 @@
         }
       ],
       "evidenceLevel": "产品与结构已核实；热度/规模待验证",
-      "launchStatus": "既有产品，本期新收录"
+      "launchStatus": "既有产品，本期新收录",
+      "img": "assets/images/selection-recoverypulse-calf.webp",
+      "imageKind": "reference",
+      "image_page": "https://www.therabody.com/products/recoverypulse-calf-small?option=s",
+      "image_url": "https://www.therabody.com/cdn/shop/files/RecoveryPulse-Calf-Transparent.png?v=1740200496&width=800",
+      "decision": {
+        "level": "优先推进",
+        "reason": "穿戴形态可围绕防滑、可拆洗及轻便做清晰差异化。",
+        "gap": "尺码覆盖、行走滑移、振动不适和洗护耐久性。",
+        "next": "做三种尺码袖套样件，与普通压缩袜比较穿脱、噪声和舒适度。",
+        "criteria": "建议门槛：20名目标用户中至少16人可正确穿戴且连续试用无明显滑移；内部目标。",
+        "checked": "2026-11-06"
+      },
+      "directionStatus": "海外观察（热度待核）"
     },
     {
       "id": "therabody-wave-solo",
@@ -13539,16 +13740,20 @@
       "why": "开发判断：关注脚底及身体局部接触、降噪和防滚走；未核实近期销量增长。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
       "market": {
         "tier": "暂无统计",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand_level": "待验证",
-        "demand": "运动后希望精准放松的小空间用户（需求假设，待访谈验证）",
+        "size": "相邻口径：全球按摩设备2025年124亿美元（GVR估算，含按摩椅与商用）；非按摩球规模。",
+        "growth": "相邻口径：按摩设备2026—2033预测CAGR 7.4%；非按摩球销量增速。",
+        "demand_level": "",
+        "demand": "官网已提供局部滚压、振动和引导课程；需求假设是训练后及足底放松，尚缺真实购买频次与留存。",
         "verdict": "谨慎推荐",
         "view": "开发判断：关注脚底及身体局部接触、降噪和防滚走；未核实近期销量增长。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
         "sources": [
           {
-            "title": "Therabody 产品/说明资料",
+            "title": "WaveSolo官网",
             "url": "https://www.therabody.com/products/wave-solo"
+          },
+          {
+            "title": "GVR按摩设备报告",
+            "url": "https://www.grandviewresearch.com/industry-analysis/massage-equipment-market"
           }
         ]
       },
@@ -13556,9 +13761,9 @@
         "reason": "官方商品页展示小型振动球、硅胶表面和应用程序引导；可拆解局部放松的低体积形态。",
         "audience": "运动后希望精准放松的小空间用户",
         "points": "关注脚底及身体局部接触、降噪和防滚走；未核实近期销量增长。",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "待访谈验证",
+        "size": "相邻口径：全球按摩设备2025年124亿美元（GVR估算，含按摩椅与商用）；非按摩球规模。",
+        "growth": "相邻口径：按摩设备2026—2033预测CAGR 7.4%；非按摩球销量增速。",
+        "demand": "官网已提供局部滚压、振动和引导课程；需求假设是训练后及足底放松，尚缺真实购买频次与留存。",
         "why": "开发判断：关注脚底及身体局部接触、降噪和防滚走；未核实近期销量增长。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
       },
       "date": "2026-11-01",
@@ -13585,7 +13790,20 @@
         }
       ],
       "evidenceLevel": "产品与结构已核实；热度/规模待验证",
-      "launchStatus": "既有产品，本期新收录"
+      "launchStatus": "既有产品，本期新收录",
+      "img": "assets/images/selection-therabody-wave-solo.webp",
+      "imageKind": "reference",
+      "image_page": "https://www.therabody.com/products/wave-solo",
+      "image_url": "https://www.therabody.com/cdn/shop/files/Wave_Solo_2_7141ce6e-6034-40b3-aef2-d20db585069f.png?v=1739883278&width=416",
+      "decision": {
+        "level": "优先推进",
+        "reason": "小体积形态便于低成本打样，接触、防滚与降噪有明确工程验证入口。",
+        "gap": "相较普通按摩球的支付溢价与持续使用率。",
+        "next": "比较振动球、普通球与筋膜枪的足底/局部体验及噪声。",
+        "criteria": "建议立项门槛：20名目标用户测试中至少12名愿意按目标价购买，且可用性通过；这是内部验证目标。",
+        "checked": "2026-11-06"
+      },
+      "directionStatus": "海外观察（热度待核）"
     },
     {
       "id": "hyperice-venom2-back",
@@ -13613,16 +13831,24 @@
       "why": "开发判断：评估带体贴合、分区温度与活动自由度；海外在售不等于销量起量。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
       "market": {
         "tier": "暂无统计",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand_level": "待验证",
-        "demand": "运动后腰背紧绷和久坐人群（需求假设，待访谈验证）",
+        "size": "相邻口径：全球按摩设备2025年124亿美元，含按摩椅/商用。",
+        "growth": "相邻预测：2026—2033 CAGR 7.4%，非本品增速。",
+        "demand_level": "",
+        "demand": "CDC：2023年美国成人慢性疼痛占24.3%；非腰背带适用人群或销量。品牌已将温热振动做成腰背包裹形态。",
         "verdict": "谨慎推荐",
         "view": "开发判断：评估带体贴合、分区温度与活动自由度；海外在售不等于销量起量。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
         "sources": [
           {
-            "title": "Hyperice 产品/说明资料",
+            "title": "图片所在产品页面",
             "url": "https://get.hyperice.com/venom-collection"
+          },
+          {
+            "title": "原始市场研究（口径见规模/增速）",
+            "url": "https://www.grandviewresearch.com/industry-analysis/massage-equipment-market"
+          },
+          {
+            "title": "CDC美国成人慢性疼痛2023数据",
+            "url": "https://www.cdc.gov/nchs/products/databriefs/db518.htm"
           }
         ]
       },
@@ -13630,9 +13856,9 @@
         "reason": "官方页面与使用指南确认腰背包裹结构、温热及振动模式；区别于库内 Venom Go 小贴片。",
         "audience": "运动后腰背紧绷和久坐人群",
         "points": "评估带体贴合、分区温度与活动自由度；海外在售不等于销量起量。",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "待访谈验证",
+        "size": "相邻口径：全球按摩设备2025年124亿美元，含按摩椅/商用。",
+        "growth": "相邻预测：2026—2033 CAGR 7.4%，非本品增速。",
+        "demand": "CDC：2023年美国成人慢性疼痛占24.3%；非腰背带适用人群或销量。品牌已将温热振动做成腰背包裹形态。",
         "why": "开发判断：评估带体贴合、分区温度与活动自由度；海外在售不等于销量起量。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
       },
       "date": "2026-11-01",
@@ -13659,7 +13885,20 @@
         }
       ],
       "evidenceLevel": "产品与结构已核实；热度/规模待验证",
-      "launchStatus": "既有产品，本期新收录"
+      "launchStatus": "既有产品，本期新收录",
+      "img": "assets/images/selection-hyperice-venom2-back.webp",
+      "imageKind": "reference",
+      "image_page": "https://get.hyperice.com/venom-collection",
+      "image_url": "https://cdn.prod.website-files.com/626af11e2e54061fae9df1b9/63ceb331c0d3880b06786196_hyp10-01.webp",
+      "decision": {
+        "level": "优先推进",
+        "reason": "腰背贴合、活动自由和热分区可低成本验证，场景比全身泛按摩明确。",
+        "gap": "与低价热敷带相比的支付溢价、温度均匀和活动滑移。",
+        "next": "比较坐姿/站姿包裹方式，测表面温度均匀性与噪声，再做购买意愿测试。",
+        "criteria": "安全验证通过，且目标用户愿意为振动与贴合提升付费，才扩大投入。",
+        "checked": "2026-11-06"
+      },
+      "directionStatus": "海外观察（热度待核）"
     },
     {
       "id": "geske-thermo-brush",
@@ -13688,16 +13927,20 @@
       "why": "开发判断：可研究双面一体ID和易清洗结构；温热并不自动证明精华透皮吸收提升。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
       "market": {
         "tier": "暂无统计",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand_level": "待验证",
-        "demand": "重视鼻翼清洁和精华涂抹便利的人群（需求假设，待访谈验证）",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元；非本品细分。",
+        "growth": "相邻预测：2026—2033 CAGR 9.9%，非本品实绩。",
+        "demand_level": "",
+        "demand": "官网该SKU显示0条评价，不能据品牌露出认定热门；双面洁面/温热设计有可观察的功能组合。",
         "verdict": "谨慎推荐",
         "view": "开发判断：可研究双面一体ID和易清洗结构；温热并不自动证明精华透皮吸收提升。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
         "sources": [
           {
-            "title": "GESKE 产品/说明资料",
+            "title": "图片所在产品页面",
             "url": "https://us.geske.com/us/products/sonic-thermo-facial-brush-6-in-1/black"
+          },
+          {
+            "title": "原始市场研究（口径见规模/增速）",
+            "url": "https://www.grandviewresearch.com/industry-analysis/us-at-home-beauty-devices-market-report"
           }
         ]
       },
@@ -13705,9 +13948,9 @@
         "reason": "官方页面确认硅胶刷头、温热背面与应用程序引导；海外媒体有体验报道，未有可比销量。",
         "audience": "重视鼻翼清洁和精华涂抹便利的人群",
         "points": "可研究双面一体ID和易清洗结构；温热并不自动证明精华透皮吸收提升。",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "待访谈验证",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元；非本品细分。",
+        "growth": "相邻预测：2026—2033 CAGR 9.9%，非本品实绩。",
+        "demand": "官网该SKU显示0条评价，不能据品牌露出认定热门；双面洁面/温热设计有可观察的功能组合。",
         "why": "开发判断：可研究双面一体ID和易清洗结构；温热并不自动证明精华透皮吸收提升。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
       },
       "date": "2026-11-01",
@@ -13734,7 +13977,20 @@
         }
       ],
       "evidenceLevel": "产品与结构已核实；热度/规模待验证",
-      "launchStatus": "既有产品，本期新收录"
+      "launchStatus": "既有产品，本期新收录",
+      "img": "assets/images/selection-geske-thermo-brush.png",
+      "imageKind": "reference",
+      "image_page": "https://us.geske.com/us/products/sonic-thermo-facial-brush-6-in-1/black",
+      "image_url": "https://prod-strapi.geske.click/geske_sonic_thermo_facial_brush_6in1_b0007_02_technology_highlight_slide1_black_2x_693bce9447.png",
+      "decision": {
+        "level": "定向验证",
+        "reason": "双面ID和鼻翼触达值得拆解，但需要先验证洁面刷品类仍有新增需求。",
+        "gap": "是否增加操作负担、清洗残留、温热支付意愿。",
+        "next": "访谈已放弃洁面刷的人群，比较双面刷与手洗的真实清洁流程。",
+        "criteria": "建议门槛：20人中至少12人连续两周愿意使用并接受目标价格；内部目标。",
+        "checked": "2026-11-06"
+      },
+      "directionStatus": "海外观察（热度待核）"
     },
     {
       "id": "faq-202-mask",
@@ -13763,16 +14019,24 @@
       "why": "开发判断：重点比较贴合、眼部避光、清洁和首次配对负担；不能用媒体体验替代临床证据。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
       "market": {
         "tier": "暂无统计",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand_level": "待验证",
-        "demand": "希望减少线缆束缚的面部护理用户（需求假设，待访谈验证）",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元；非本品细分。",
+        "growth": "相邻预测：2026—2033 CAGR 9.9%，非本品实绩。",
+        "demand_level": "",
+        "demand": "Nordstrom列53条评价和购买入口，显示零售覆盖；官网当前3波段表述与旧零售7色+近红外不同，需按地区型号核对。",
         "verdict": "谨慎推荐",
         "view": "开发判断：重点比较贴合、眼部避光、清洁和首次配对负担；不能用媒体体验替代临床证据。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
         "sources": [
           {
-            "title": "FAQ / FOREO 产品/说明资料",
+            "title": "当前FAQ202官方地区页面",
             "url": "https://www.foreo.com/faq-swiss-202"
+          },
+          {
+            "title": "原始市场研究（口径见规模/增速）",
+            "url": "https://www.grandviewresearch.com/industry-analysis/us-at-home-beauty-devices-market-report"
+          },
+          {
+            "title": "图片所在产品页面",
+            "url": "https://www.nordstrom.com/s/faq-202-led-face-mask/8468657"
           }
         ]
       },
@@ -13780,9 +14044,9 @@
         "reason": "官方产品及说明书确认柔性硅胶、无线形态和多波段选择；海外零售商与媒体持续收录。",
         "audience": "希望减少线缆束缚的面部护理用户",
         "points": "重点比较贴合、眼部避光、清洁和首次配对负担；不能用媒体体验替代临床证据。",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "待访谈验证",
+        "size": "相邻口径：美国家用美容设备2025年20亿美元；非本品细分。",
+        "growth": "相邻预测：2026—2033 CAGR 9.9%，非本品实绩。",
+        "demand": "Nordstrom列53条评价和购买入口，显示零售覆盖；官网当前3波段表述与旧零售7色+近红外不同，需按地区型号核对。",
         "why": "开发判断：重点比较贴合、眼部避光、清洁和首次配对负担；不能用媒体体验替代临床证据。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
       },
       "date": "2026-11-01",
@@ -13809,7 +14073,20 @@
         }
       ],
       "evidenceLevel": "产品与结构已核实；热度/规模待验证",
-      "launchStatus": "既有产品，本期新收录"
+      "launchStatus": "既有产品，本期新收录",
+      "img": "assets/images/selection-faq-202-mask.webp",
+      "imageKind": "reference",
+      "image_page": "https://www.nordstrom.com/s/faq-202-led-face-mask/8468657",
+      "image_url": "https://n.nordstrommedia.com/it/9fc9649e-bc06-4888-8d30-0f2b7915179c.jpeg?crop=pad&h=1170&w=780",
+      "decision": {
+        "level": "定向验证",
+        "reason": "柔性无线改善佩戴自由，但波段版本差异和贴合均匀度决定验证成本。",
+        "gap": "具体地区SKU参数、光照均匀性、眼部安全及清洁寿命。",
+        "next": "先锁定一个销售地区和型号，再测试不同脸型贴合、视线和温升。",
+        "criteria": "取得一致说明书与测试报告，光安全和目标脸型覆盖达标后推进。",
+        "checked": "2026-11-06"
+      },
+      "directionStatus": "海外观察（热度待核）"
     },
     {
       "id": "luminette3-glasses",
@@ -13836,16 +14113,24 @@
       "why": "开发判断：先核对眼部禁忌、照度和使用时段，避免宣称治疗失眠；海外热度待量化。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
       "market": {
         "tier": "暂无统计",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand_level": "待验证",
-        "demand": "晨间光照不足且希望活动中使用的人群（需求假设，待访谈验证）",
+        "size": "相邻口径：全球光疗2025年13亿美元，含多类疾病及专业设备；非眼镜规模。",
+        "growth": "相邻预测：2026—2033 CAGR 8.6%；非光照眼镜增速。",
+        "demand_level": "",
+        "demand": "NIMH估计美国数百万人经历季节性情绪障碍；这不等于眼镜适用人数。产品定位应区分日常晨间光照与治疗。",
         "verdict": "谨慎推荐",
         "view": "开发判断：先核对眼部禁忌、照度和使用时段，避免宣称治疗失眠；海外热度待量化。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
         "sources": [
           {
-            "title": "Luminette 产品/说明资料",
+            "title": "图片所在产品页面",
             "url": "https://myluminette.com/en-us/products/luminette-3"
+          },
+          {
+            "title": "原始市场研究（口径见规模/增速）",
+            "url": "https://www.grandviewresearch.com/industry-analysis/light-therapy-market-report"
+          },
+          {
+            "title": "NIMH季节性情绪障碍说明",
+            "url": "https://www.nimh.nih.gov/health/publications/seasonal-affective-disorder"
           }
         ]
       },
@@ -13853,9 +14138,9 @@
         "reason": "官方在售轻量光照眼镜，可与普通眼镜搭配；可研究从桌面光照灯转向可穿戴使用。",
         "audience": "晨间光照不足且希望活动中使用的人群",
         "points": "先核对眼部禁忌、照度和使用时段，避免宣称治疗失眠；海外热度待量化。",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "待访谈验证",
+        "size": "相邻口径：全球光疗2025年13亿美元，含多类疾病及专业设备；非眼镜规模。",
+        "growth": "相邻预测：2026—2033 CAGR 8.6%；非光照眼镜增速。",
+        "demand": "NIMH估计美国数百万人经历季节性情绪障碍；这不等于眼镜适用人数。产品定位应区分日常晨间光照与治疗。",
         "why": "开发判断：先核对眼部禁忌、照度和使用时段，避免宣称治疗失眠；海外热度待量化。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
       },
       "date": "2026-11-01",
@@ -13882,7 +14167,20 @@
         }
       ],
       "evidenceLevel": "产品与结构已核实；热度/规模待验证",
-      "launchStatus": "既有产品，本期新收录"
+      "launchStatus": "既有产品，本期新收录",
+      "img": "assets/images/selection-luminette3-glasses.webp",
+      "imageKind": "reference",
+      "image_page": "https://myluminette.com/en-us/products/luminette-3",
+      "image_url": "https://myluminette.com/cdn/shop/t/61/assets/luminette-3-selector-main.png?v=72312629471893973391752514057",
+      "decision": {
+        "level": "定向验证",
+        "reason": "穿戴光照可减少固定坐在灯前的约束，场景适合晨间习惯研究。",
+        "gap": "中国目标人群、眼部禁忌、光照剂量与长期依从性。",
+        "next": "由适当专业人员评估光照方案，先验证普通眼镜兼容、晨间使用便利性。",
+        "criteria": "完成眼部安全/适用范围评估且晨间习惯测试显示持续使用，再进入开发。",
+        "checked": "2026-11-06"
+      },
+      "directionStatus": "海外观察（热度待核）"
     },
     {
       "id": "sensate-relaxation",
@@ -13910,16 +14208,20 @@
       "why": "开发判断：研究握石式触感、振动音频同步和无屏操作；不把放松体验写成焦虑症疗效。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
       "market": {
         "tier": "暂无统计",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand_level": "待验证",
-        "demand": "希望形成短时放松习惯的人群（需求假设，待访谈验证）",
+        "size": "宽口径背景：GWI全球心理健康消费2024年2683亿美元；不能当放松硬件TAM。",
+        "growth": "背景口径：2019—2024 CAGR 12.4%；不代表该硬件或当前增长。",
+        "demand_level": "",
+        "demand": "品牌提供胸前振动配声音内容的放松方案；暂无可将焦虑/睡眠人群转为硬件购买者的转化率。",
         "verdict": "谨慎推荐",
         "view": "开发判断：研究握石式触感、振动音频同步和无屏操作；不把放松体验写成焦虑症疗效。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。",
         "sources": [
           {
-            "title": "Sensate 产品/说明资料",
+            "title": "图片所在产品页面",
             "url": "https://www.getsensate.com/pages/home"
+          },
+          {
+            "title": "原始市场研究（口径见规模/增速）",
+            "url": "https://globalwellnessinstitute.org/wp-content/uploads/2025/11/2025-GWI-WE-Monitor_DIGITAL-FINAL.pdf"
           }
         ]
       },
@@ -13927,9 +14229,9 @@
         "reason": "官方说明为胸前轻振动配合应用程序声音，不是电刺激；海外媒体有关注。",
         "audience": "希望形成短时放松习惯的人群",
         "points": "研究握石式触感、振动音频同步和无屏操作；不把放松体验写成焦虑症疗效。",
-        "size": "暂无可靠细分统计",
-        "growth": "暂无可靠细分统计",
-        "demand": "待访谈验证",
+        "size": "宽口径背景：GWI全球心理健康消费2024年2683亿美元；不能当放松硬件TAM。",
+        "growth": "背景口径：2019—2024 CAGR 12.4%；不代表该硬件或当前增长。",
+        "demand": "品牌提供胸前振动配声音内容的放松方案；暂无可将焦虑/睡眠人群转为硬件购买者的转化率。",
         "why": "开发判断：研究握石式触感、振动音频同步和无屏操作；不把放松体验写成焦虑症疗效。 先做小样可用性访谈与供应链验证，暂无市场规模与增速结论。"
       },
       "date": "2026-11-01",
@@ -13956,7 +14258,20 @@
         }
       ],
       "evidenceLevel": "产品与结构已核实；热度/规模待验证",
-      "launchStatus": "既有产品，本期新收录"
+      "launchStatus": "既有产品，本期新收录",
+      "img": "assets/images/selection-sensate-relaxation.webp",
+      "imageKind": "reference",
+      "image_page": "https://www.getsensate.com/pages/home",
+      "image_url": "https://www.getsensate.com/cdn/shop/files/preview_images/sensate-video-cover-01_1000x.png?v=1721758214",
+      "decision": {
+        "level": "定向验证",
+        "reason": "可研究触觉与音频同步，但相较免费冥想音频的增量价值尚不清楚。",
+        "gap": "独立体验效果、订阅成本、离线可用性与长期坚持。",
+        "next": "采用相同音频，对比有无胸前振动的盲法可行性与体验偏好。",
+        "criteria": "建议门槛：对照试用中稳定体现舒适/坚持优势且用户接受价格；不以治疗焦虑宣传。",
+        "checked": "2026-11-06"
+      },
+      "directionStatus": "海外观察（热度待核）"
     },
     {
       "id": "refa-fine-bubble",
@@ -13984,19 +14299,19 @@
       "why": "把高频洗澡变为护理触点，先验证水压适配和清洁体验",
       "market": {
         "tier": "暂无统计",
-        "size": "未用品牌出货量推算整体市场",
-        "growth": "累计出货由2023年10月200万支至2025年6月300万支；约20个月增加100万支。系列出货，不是零售销量。",
-        "demand_level": "有量化市场信号",
-        "demand": "日常沐浴与温和清洁人群",
+        "size": "单品牌系列规模代理：2013年4月至2025年6月累计出货300万支，非整个花洒市场规模、非零售成交。",
+        "growth": "2023年10月累计200万→2025年6月300万，20个月增加100万支、累计基数增加50%；不等于年度同比。",
+        "demand_level": "",
+        "demand": "高频沐浴场景下温和清洁与替换方便；官方提供不同花洒及滤芯型号，需求判断来自产品设计与持续出货，国内付费意愿仍待验证。",
         "verdict": "观望",
         "view": "把高频洗澡变为护理触点，先验证水压适配和清洁体验",
         "sources": [
           {
-            "title": "来源依据",
+            "title": "MTG累计300万及产品图",
             "url": "https://www.mtg.gr.jp/news/detail/2025/07/article_2381.html"
           },
           {
-            "title": "来源依据",
+            "title": "MTG累计200万基线",
             "url": "https://www.mtg.gr.jp/news/detail/2023/11/article_2206.html"
           }
         ]
@@ -14004,7 +14319,10 @@
       "summary": {
         "fact": "累计出货由2023年10月200万支至2025年6月300万支；约20个月增加100万支。系列出货，不是零售销量。",
         "inference": "把高频洗澡变为护理触点，先验证水压适配和清洁体验",
-        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比"
+        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比",
+        "size": "单品牌系列规模代理：2013年4月至2025年6月累计出货300万支，非整个花洒市场规模、非零售成交。",
+        "growth": "2023年10月累计200万→2025年6月300万，20个月增加100万支、累计基数增加50%；不等于年度同比。",
+        "demand": "高频沐浴场景下温和清洁与替换方便；官方提供不同花洒及滤芯型号，需求判断来自产品设计与持续出货，国内付费意愿仍待验证。"
       },
       "date": "2026-11-01",
       "platforms": [
@@ -14037,7 +14355,19 @@
           "checked": "2026-11-01"
         }
       ],
-      "referenceBrand": "ReFa"
+      "referenceBrand": "ReFa",
+      "img": "assets/images/selection-refa-fine-bubble.jpg",
+      "imageKind": "reference",
+      "image_page": "https://www.mtg.gr.jp/news/detail/2025/07/article_2381.html",
+      "image_url": "https://www.mtg.gr.jp/news/2025/07/16/rf_fb300m/img-item01.jpg",
+      "decision": {
+        "level": "定向验证",
+        "reason": "已有持续出货，且无需新增用户操作步骤。",
+        "gap": "中国家庭水压、接口适配和溢价接受度缺证；清洁体验不能直接外推治疗功效。",
+        "next": "对比普通花洒做家庭试用，并评估低水压表现与滤芯复购接受度。",
+        "criteria": "建议内部通过条件：多数试用者可独立安装，水压与冲洗体验不劣于原花洒，并出现真实付费选择；不是行业标准。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "refa-lock-series",
@@ -14065,19 +14395,19 @@
       "why": "仪器负责造型，耗材解决触感与持型，形成复购组合",
       "market": {
         "tier": "暂无统计",
-        "size": "未用品牌出货量推算整体市场",
-        "growth": "系列累计出货2025年1月300万瓶，2025年11月末500万瓶；增加200万瓶，不等于同比增速。",
-        "demand_level": "有量化市场信号",
-        "demand": "频繁使用卷发棒/直发夹人群",
+        "size": "系列规模代理：2020年10月至2025年11月末累计出货500万瓶；2026年公告称系列10款，不能当作单瓶型号销量或护发油市场总额。",
+        "growth": "2025年1月累计300万→11月末500万，约10个月增加200万瓶，累计基数增加66.7%；并非同比销售增长。",
+        "demand_level": "",
+        "demand": "热造型前护理同时追求持型与柔软触感，是设备+耗材的清晰组合场景。销量信号支持继续验证，不证明中国同价位需求。",
         "verdict": "观望",
         "view": "仪器负责造型，耗材解决触感与持型，形成复购组合",
         "sources": [
           {
-            "title": "来源依据",
+            "title": "MTG 500万出货及产品",
             "url": "https://www.mtg.gr.jp/news/detail/2026/01/article_2478.html"
           },
           {
-            "title": "来源依据",
+            "title": "MTG 300万基线",
             "url": "https://www.mtg.gr.jp/news/detail/2025/02/article_2330.html"
           }
         ]
@@ -14085,7 +14415,10 @@
       "summary": {
         "fact": "系列累计出货2025年1月300万瓶，2025年11月末500万瓶；增加200万瓶，不等于同比增速。",
         "inference": "仪器负责造型，耗材解决触感与持型，形成复购组合",
-        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比"
+        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比",
+        "size": "系列规模代理：2020年10月至2025年11月末累计出货500万瓶；2026年公告称系列10款，不能当作单瓶型号销量或护发油市场总额。",
+        "growth": "2025年1月累计300万→11月末500万，约10个月增加200万瓶，累计基数增加66.7%；并非同比销售增长。",
+        "demand": "热造型前护理同时追求持型与柔软触感，是设备+耗材的清晰组合场景。销量信号支持继续验证，不证明中国同价位需求。"
       },
       "date": "2026-11-01",
       "platforms": [
@@ -14118,7 +14451,19 @@
           "checked": "2026-11-01"
         }
       ],
-      "referenceBrand": "ReFa"
+      "referenceBrand": "ReFa",
+      "img": "assets/images/selection-refa-lock-series.jpg",
+      "imageKind": "reference",
+      "image_page": "https://www.mtg.gr.jp/news/detail/2026/01/article_2478.html",
+      "image_url": "https://www.mtg.gr.jp/news/2026/01/15/rf_lock_500m/img-item.jpg",
+      "decision": {
+        "level": "优先推进",
+        "reason": "仪器与护理耗材分工明确，存在可追踪的系列增量。",
+        "gap": "需验证国内不同发质的油腻感、持型和清洗负担，未披露单款复购率。",
+        "next": "用现有造型设备搭配小样盲测，并记录持型、触感与再次购买选择。",
+        "criteria": "建议内部通过条件：与常用油对照有稳定体验优势且接受目标价格，再推进配方与供应评估。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "refa-iron-series",
@@ -14146,19 +14491,19 @@
       "why": "从温度堆叠转向控制热、压和操作失误",
       "market": {
         "tier": "暂无统计",
-        "size": "未用品牌出货量推算整体市场",
-        "growth": "系列累计出货2024年5月200万支至2025年9月300万支；16个月增加100万支。不是PRO+单款销量。",
-        "demand_level": "有量化市场信号",
-        "demand": "居家造型与发损困扰人群",
+        "size": "单品牌热造型系列：2019年10月至2025年9月累计出货300万支；非全行业市场额，也非PRO+单款。",
+        "growth": "2024年5月200万→2025年9月300万，16个月增加100万支，累计基数+50%；非年度同比。",
+        "demand_level": "",
+        "demand": "热造型损伤、夹板压痕和操作不熟练是产品设计切入点；需求强度目前由系列出货支持，国内换机理由需验证。",
         "verdict": "观望",
         "view": "从温度堆叠转向控制热、压和操作失误",
         "sources": [
           {
-            "title": "来源依据",
+            "title": "官方产品/销售证据",
             "url": "https://www.mtg.gr.jp/news/detail/2026/02/article_2497.html"
           },
           {
-            "title": "来源依据",
+            "title": "对照证据/需求依据",
             "url": "https://www.mtg.gr.jp/news/detail/2024/07/article_2278.html"
           }
         ]
@@ -14166,7 +14511,10 @@
       "summary": {
         "fact": "系列累计出货2024年5月200万支至2025年9月300万支；16个月增加100万支。不是PRO+单款销量。",
         "inference": "从温度堆叠转向控制热、压和操作失误",
-        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比"
+        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比",
+        "size": "单品牌热造型系列：2019年10月至2025年9月累计出货300万支；非全行业市场额，也非PRO+单款。",
+        "growth": "2024年5月200万→2025年9月300万，16个月增加100万支，累计基数+50%；非年度同比。",
+        "demand": "热造型损伤、夹板压痕和操作不熟练是产品设计切入点；需求强度目前由系列出货支持，国内换机理由需验证。"
       },
       "date": "2026-11-01",
       "platforms": [
@@ -14199,7 +14547,19 @@
           "checked": "2026-11-01"
         }
       ],
-      "referenceBrand": "ReFa"
+      "referenceBrand": "ReFa",
+      "img": "assets/images/selection-refa-iron-series.jpg",
+      "imageKind": "reference",
+      "image_page": "https://www.mtg.gr.jp/news/detail/2026/02/article_2497.html",
+      "image_url": "https://www.mtg.gr.jp/news/2026/02/20/rf_hairiron_300m/img-main.jpg",
+      "decision": {
+        "level": "定向验证",
+        "reason": "系列持续增长，但成熟赛道需明确差异。",
+        "gap": "中国用户换机意愿与低损伤客观对照不足。",
+        "next": "做发束重复造型实验和用户持握试用。",
+        "criteria": "建议条件：在持型不下降的前提下，损伤与操作负担至少一项有稳定改善。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "style-bx-innerwear",
@@ -14227,19 +14587,19 @@
       "why": "把支撑结构织入日常内衣，验证尺码、闷热与穿脱负担",
       "market": {
         "tier": "暂无统计",
-        "size": "未用品牌出货量推算整体市场",
-        "growth": "2025年5月9日官方宣布累计10万件；截至2025年12月累计30万件。累计增加20万件，不是年度销量增长200%。",
-        "demand_level": "有量化市场信号",
-        "demand": "伏案与圆肩姿势困扰人群",
+        "size": "单产品线出货规模：2024年3月至2025年12月累计30万件；不是姿势矫正服行业规模。",
+        "growth": "2025年5月官方10万→2025年12月30万，累计增加20万件、累计基数+200%；不等于年度销量增200%。",
+        "demand_level": "",
+        "demand": "穿衣即可获得结构支撑，降低主动训练负担；重点人群是久坐、关注体态者，不能据出货推断治疗驼背。",
         "verdict": "观望",
         "view": "把支撑结构织入日常内衣，验证尺码、闷热与穿脱负担",
         "sources": [
           {
-            "title": "来源依据",
+            "title": "官方产品/销售证据",
             "url": "https://www.mtg.gr.jp/news/detail/2026/02/article_2487.html"
           },
           {
-            "title": "来源依据",
+            "title": "对照证据/需求依据",
             "url": "https://www.mtg.gr.jp/news/detail/2025/05/article_2347.html"
           }
         ]
@@ -14247,7 +14607,10 @@
       "summary": {
         "fact": "2025年5月9日官方宣布累计10万件；截至2025年12月累计30万件。累计增加20万件，不是年度销量增长200%。",
         "inference": "把支撑结构织入日常内衣，验证尺码、闷热与穿脱负担",
-        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比"
+        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比",
+        "size": "单产品线出货规模：2024年3月至2025年12月累计30万件；不是姿势矫正服行业规模。",
+        "growth": "2025年5月官方10万→2025年12月30万，累计增加20万件、累计基数+200%；不等于年度销量增200%。",
+        "demand": "穿衣即可获得结构支撑，降低主动训练负担；重点人群是久坐、关注体态者，不能据出货推断治疗驼背。"
       },
       "date": "2026-11-01",
       "platforms": [
@@ -14280,7 +14643,19 @@
           "checked": "2026-11-01"
         }
       ],
-      "referenceBrand": "MTG Style"
+      "referenceBrand": "MTG Style",
+      "img": "assets/images/selection-style-bx-innerwear.jpg",
+      "imageKind": "reference",
+      "image_page": "https://www.mtg.gr.jp/news/detail/2026/02/article_2487.html",
+      "image_url": "https://www.mtg.gr.jp/news/2026/02/03/style_500m/img-support.jpg",
+      "decision": {
+        "level": "定向验证",
+        "reason": "穿戴习惯容易衔接，已有具体产品线量化增长。",
+        "gap": "尺码、勒痕、热湿舒适性和持续穿着率未知。",
+        "next": "跨尺码试穿，与普通内衣比较全天舒适与活动度。",
+        "criteria": "建议条件：多数目标用户可持续穿着，不因束缚、闷热放弃，且愿意为支撑体验付费。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "bakune-dry-pro",
@@ -14308,19 +14683,19 @@
       "why": "恢复产品融入穿衣习惯；Dry Pro着重通气与翻身活动量，国内功效需另验证",
       "market": {
         "tier": "暂无统计",
-        "size": "未用品牌出货量推算整体市场",
-        "growth": "BAKUNE系列累计销售2024年12月100万套，2025年12月200万套；2025年增加100万套。不能归为Dry Pro单品销量。",
-        "demand_level": "有量化市场信号",
-        "demand": "运动后休息及夜间出汗、翻身束缚人群",
+        "size": "BAKUNE系列累计销售200万套（截至2025年12月；上下两件计一套），相当于400万件；不是Dry Pro单款销量。",
+        "growth": "2024年12月100万套→2025年12月200万套，2025年增加100万套；累计翻倍不等于2025年年销量翻倍。",
+        "demand_level": "",
+        "demand": "睡衣版型、排湿与翻身舒适形成低负担恢复场景；Dry Pro针对夏季汗湿和动作束缚，品牌材料测试不等于睡眠临床结论。",
         "verdict": "观望",
         "view": "恢复产品融入穿衣习惯；Dry Pro着重通气与翻身活动量，国内功效需另验证",
         "sources": [
           {
-            "title": "来源依据",
+            "title": "官方产品/销售证据",
             "url": "https://corp.tential.jp/wp-content/uploads/2026/04/20260421_release.pdf"
           },
           {
-            "title": "来源依据",
+            "title": "对照证据/需求依据",
             "url": "https://corp.tential.jp/wp-content/uploads/2025/10/20251009_release.pdf"
           }
         ]
@@ -14328,7 +14703,10 @@
       "summary": {
         "fact": "BAKUNE系列累计销售2024年12月100万套，2025年12月200万套；2025年增加100万套。不能归为Dry Pro单品销量。",
         "inference": "恢复产品融入穿衣习惯；Dry Pro着重通气与翻身活动量，国内功效需另验证",
-        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比"
+        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比",
+        "size": "BAKUNE系列累计销售200万套（截至2025年12月；上下两件计一套），相当于400万件；不是Dry Pro单款销量。",
+        "growth": "2024年12月100万套→2025年12月200万套，2025年增加100万套；累计翻倍不等于2025年年销量翻倍。",
+        "demand": "睡衣版型、排湿与翻身舒适形成低负担恢复场景；Dry Pro针对夏季汗湿和动作束缚，品牌材料测试不等于睡眠临床结论。"
       },
       "date": "2026-11-01",
       "platforms": [
@@ -14361,7 +14739,19 @@
           "checked": "2026-11-01"
         }
       ],
-      "referenceBrand": "TENTIAL"
+      "referenceBrand": "TENTIAL",
+      "img": "assets/images/selection-bakune-dry-pro.jpg",
+      "imageKind": "reference",
+      "image_page": "https://prtimes.jp/main/html/rd/p/000000366.000032370.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/32370/366/32370-366-f3bb7e0dc36c17e888998985617d616e-1800x2700.jpg",
+      "decision": {
+        "level": "定向验证",
+        "reason": "恢复用品与既有睡眠习惯结合，有系列真实销售基础。",
+        "gap": "国内材质溢价、持续效果及洗后性能未知。",
+        "next": "先验证凉感、透气、翻身活动度和洗后稳定性，再讨论功能宣称。",
+        "criteria": "建议条件：盲测体验优于同价普通睡衣，洗后优势仍在；功效需独立验证。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "red-recoverywear",
@@ -14389,19 +14779,19 @@
       "why": "把恢复从单次仪器使用延展到内衣、睡衣；功效主张应按销售市场验证",
       "market": {
         "tier": "暂无统计",
-        "size": "未用品牌出货量推算整体市场",
-        "growth": "2025年7月至2026年9月系列累计出货300万件，官方2026年10月15日公布；不是终端零售销量。",
-        "demand_level": "有量化市场信号",
-        "demand": "追求日常轻负担身体放松的人群",
+        "size": "ReD系列2025年7月至2026年9月累计出货300万件；属于品牌系列规模代理，不是零售消费者人数或国内市场额。",
+        "growth": "上市约15个月累计300万件；有起量期间，无可比年度同比，不能把300万写成年度销量。",
+        "demand_level": "",
+        "demand": "从内衣到睡衣覆盖日常恢复；轻薄穿着降低额外操作成本。日本产品定位和功能主张不等于国内用户已认可。",
         "verdict": "观望",
         "view": "把恢复从单次仪器使用延展到内衣、睡衣；功效主张应按销售市场验证",
         "sources": [
           {
-            "title": "来源依据",
+            "title": "官方产品/销售证据",
             "url": "https://www.mtg.gr.jp/news/detail/2026/10/article_2656.html"
           },
           {
-            "title": "来源依据",
+            "title": "对照证据/需求依据",
             "url": "https://www.mtg.gr.jp/ir/pdf/annual_report/mtg2025.pdf"
           }
         ]
@@ -14409,7 +14799,10 @@
       "summary": {
         "fact": "2025年7月至2026年9月系列累计出货300万件，官方2026年10月15日公布；不是终端零售销量。",
         "inference": "把恢复从单次仪器使用延展到内衣、睡衣；功效主张应按销售市场验证",
-        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比"
+        "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比",
+        "size": "ReD系列2025年7月至2026年9月累计出货300万件；属于品牌系列规模代理，不是零售消费者人数或国内市场额。",
+        "growth": "上市约15个月累计300万件；有起量期间，无可比年度同比，不能把300万写成年度销量。",
+        "demand": "从内衣到睡衣覆盖日常恢复；轻薄穿着降低额外操作成本。日本产品定位和功能主张不等于国内用户已认可。"
       },
       "date": "2026-11-01",
       "platforms": [
@@ -14442,7 +14835,19 @@
           "checked": "2026-11-01"
         }
       ],
-      "referenceBrand": "MTG ReD"
+      "referenceBrand": "MTG ReD",
+      "img": "assets/images/selection-red-recoverywear.jpg",
+      "imageKind": "reference",
+      "image_page": "https://www.mtg.gr.jp/news/detail/2026/10/article_2656.html",
+      "image_url": "https://www.mtg.gr.jp/news/2025/07/09/red_detail/img01.jpg",
+      "decision": {
+        "level": "定向验证",
+        "reason": "短期起量清楚，但依赖品牌渠道与材料主张。",
+        "gap": "国内渠道复购、价格接受度与材料独立验证缺失。",
+        "next": "比较不同穿着场景的面料舒适与洗后性能，访谈真实付费用户。",
+        "criteria": "建议条件：舒适与复穿意愿有明确优势，效果依据与目标市场销售资格可确认。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "doshisha-gorilla-care",
@@ -14474,23 +14879,23 @@
       "why": "以单部位护理、低操作负担和鲜明命名形成传播，用户提出大腿需求后扩展两用结构。策略可借鉴，强压或疼痛不等于效果。",
       "market": {
         "tier": "暂无统计",
-        "size": "未用品牌出货量推算整体市场",
-        "growth": "DOSHISHA官方披露Gorilla整个系列累计出货2025年10月200万件、2026年7月400万件，9个月累计增加200万件。系列含健康家电及衍生用品，不能写成小腿护理单款销量或同款同比。健康家电子系列另有2024年2月上市至2025年5月累计出货100万台的起量证据。",
-        "demand_level": "有量化市场信号",
-        "demand": "低操作负担的局部身体放松",
+        "size": "整个Gorilla系列2026年7月累计出货400万件，包含健康家电和衍生用品；小腿单款的规模未披露。",
+        "growth": "2025年10月200万→2026年7月400万，9个月累计增加200万件；包含系列扩品，非小腿按摩器同款同比。健康家电子系列2024年2月至2025年5月累计100万台。",
+        "demand_level": "",
+        "demand": "官方称20–30岁女性支持较高；小腿单部位护理与用户提出大腿需求，支持简单、局部的放松产品方向。",
         "verdict": "观望",
         "view": "以单部位护理、低操作负担和鲜明命名形成传播，用户提出大腿需求后扩展两用结构。策略可借鉴，强压或疼痛不等于效果。",
         "sources": [
           {
-            "title": "来源依据",
+            "title": "官方2026年7月400万里程碑",
             "url": "https://prtimes.jp/main/html/rd/p/000000965.000028427.html"
           },
           {
-            "title": "来源依据",
+            "title": "官方2025年10月200万基线及系列范围",
             "url": "https://prtimes.jp/a/?c=28427&f=d28427-796-dec719d2cf98140bf296b21f44c1cdda.pdf&r=796"
           },
           {
-            "title": "来源依据",
+            "title": "健康家电子系列100万起量证据",
             "url": "https://www.doshisha.co.jp/dcs/wp-content/uploads/2025/07/250708.pdf"
           }
         ]
@@ -14498,7 +14903,10 @@
       "summary": {
         "fact": "DOSHISHA官方披露Gorilla整个系列累计出货2025年10月200万件、2026年7月400万件，9个月累计增加200万件。系列含健康家电及衍生用品，不能写成小腿护理单款销量或同款同比。健康家电子系列另有2024年2月上市至2025年5月累计出货100万台的起量证据。",
         "inference": "以单部位护理、低操作负担和鲜明命名形成传播，用户提出大腿需求后扩展两用结构。策略可借鉴，强压或疼痛不等于效果。",
-        "limitation": "量化增长适用于整个Gorilla系列，包含品类扩展；不能归为小腿单款或同SKU增速。"
+        "limitation": "量化增长适用于整个Gorilla系列，包含品类扩展；不能归为小腿单款或同SKU增速。",
+        "size": "整个Gorilla系列2026年7月累计出货400万件，包含健康家电和衍生用品；小腿单款的规模未披露。",
+        "growth": "2025年10月200万→2026年7月400万，9个月累计增加200万件；包含系列扩品，非小腿按摩器同款同比。健康家电子系列2024年2月至2025年5月累计100万台。",
+        "demand": "官方称20–30岁女性支持较高；小腿单部位护理与用户提出大腿需求，支持简单、局部的放松产品方向。"
       },
       "date": "2026-11-01",
       "platforms": [
@@ -14536,7 +14944,19 @@
           "checked": "2026-11-01"
         }
       ],
-      "referenceBrand": "DOSHISHA"
+      "referenceBrand": "DOSHISHA",
+      "img": "assets/images/selection-doshisha-gorilla-care.jpg",
+      "imageKind": "reference",
+      "image_page": "https://prtimes.jp/main/html/rd/p/000000965.000028427.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/28427/965/28427-965-dac08958c4ee0f634847507a4a75b859-1000x1000.jpg",
+      "decision": {
+        "level": "优先推进",
+        "reason": "有清楚的局部使用场景与可追溯系列增量，能开展低成本结构验证。",
+        "gap": "单款成交和复购未披露；强刺激偏好不能代表所有用户。",
+        "next": "研究压力分级、快脱结构和不同腿围适配，对比现有腿部放松方案。",
+        "criteria": "建议条件：舒适可控、易穿脱且目标用户在对照中选择该方案；不把疼痛当作有效指标。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "milli-expanding-dilator",
@@ -14564,27 +14984,34 @@
       "why": "尺寸变化连续、减少换支摩擦；需专业适用性与人因测试",
       "market": {
         "tier": "暂无统计",
-        "size": "未用品牌出货量推算整体市场",
-        "growth": "未确认销量增长",
-        "demand_level": "有痛点证据，规模待验证",
-        "demand": "在专业指导下进行阴道扩张训练的人群",
+        "size": "相邻需求代理：英国Natsal-3（2010–2012调查，2017论文）中16–74岁有性生活女性7.5%报告过去一年持续至少3个月的性交痛；不等于阴道痉挛患病率、器械适用人数或中国市场规模。",
+        "growth": "未找到Milli公开销量、收入或同比；历史需求调查不能证明2026市场增长。",
+        "demand_level": "",
+        "demand": "NIHR EMPOWER汇总329份问卷，将改进扩张器列为女性健康设备优先需求；连续尺寸调整对应传统换支时尺寸跳跃的具体障碍。",
         "verdict": "观望",
         "view": "尺寸变化连续、减少换支摩擦；需专业适用性与人因测试",
         "sources": [
           {
-            "title": "来源依据",
+            "title": "官方产品/销售证据",
             "url": "https://www.hellomilli.com/vaginal-dilator/"
           },
           {
-            "title": "来源依据",
+            "title": "对照证据/需求依据",
             "url": "https://www.community.healthcare.mic.nihr.ac.uk/research/femtech"
+          },
+          {
+            "title": "英国Natsal性交痛原始研究（相邻需求代理）",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28120373/"
           }
         ]
       },
       "summary": {
         "fact": "NIHR女性健康优先需求明确列出更好的扩张器；Milli提供渐进尺寸调整。存在产品不意味着需求已经充分满足。",
         "inference": "尺寸变化连续、减少换支摩擦；需专业适用性与人因测试",
-        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证"
+        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证",
+        "size": "相邻需求代理：英国Natsal-3（2010–2012调查，2017论文）中16–74岁有性生活女性7.5%报告过去一年持续至少3个月的性交痛；不等于阴道痉挛患病率、器械适用人数或中国市场规模。",
+        "growth": "未找到Milli公开销量、收入或同比；历史需求调查不能证明2026市场增长。",
+        "demand": "NIHR EMPOWER汇总329份问卷，将改进扩张器列为女性健康设备优先需求；连续尺寸调整对应传统换支时尺寸跳跃的具体障碍。"
       },
       "date": "2026-11-01",
       "platforms": [
@@ -14617,7 +15044,19 @@
           "checked": "2026-11-01"
         }
       ],
-      "referenceBrand": "Materna Medical"
+      "referenceBrand": "Materna Medical",
+      "img": "assets/images/selection-milli-expanding-dilator.avif",
+      "imageKind": "reference",
+      "image_page": "https://www.hellomilli.com/vaginal-dilator/",
+      "image_url": "https://www.hellomilli.com/wp-content/uploads/2024/09/Milli-and-case-product-shot-with-callouts-600w-1.avif",
+      "decision": {
+        "level": "定向验证",
+        "reason": "有独立需求优先级依据，结构创新明确。",
+        "gap": "需分清疼痛病因、适用人群与专业指导路径；国内可及性未知。",
+        "next": "联合盆底专业人员做需求访谈和非临床人因验证，再评估适用与证据要求。",
+        "criteria": "建议条件：专业方确认适用边界，渐进调节与清洁取出优于现有方案；不据一般疼痛人口推销量。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "lancome-hapta",
@@ -14645,19 +15084,19 @@
       "why": "从稳定口红迁移到护肤涂抹握柄；迁移是设计推断，不是已验证功效",
       "market": {
         "tier": "暂无统计",
-        "size": "未用品牌出货量推算整体市场",
-        "growth": "未确认销量增长",
-        "demand_level": "有痛点证据，规模待验证",
-        "demand": "手部动作受限、握持与旋转困难人群",
+        "size": "相邻人群代理：欧莱雅2023年公开估计全球约5000万人精细动作受限；含各类人群，不等于彩妆需求、付费用户或设备市场。",
+        "growth": "未查到HAPTA销量或同比；获奖和原型展示不能替代市场增长。",
+        "demand_level": "",
+        "demand": "自调平、易握持及通用口红接口针对动作受限的独立上妆需求；迁移到护肤握柄只是设计推断。",
         "verdict": "观望",
         "view": "从稳定口红迁移到护肤涂抹握柄；迁移是设计推断，不是已验证功效",
         "sources": [
           {
-            "title": "来源依据",
+            "title": "官方产品/销售证据",
             "url": "https://www.loreal.com/en/articles/brands/hapta-lancome/"
           },
           {
-            "title": "来源依据",
+            "title": "对照证据/需求依据",
             "url": "https://www.loreal.com/en/press-release/research-and-innovation/time-best-inventions-2023/"
           }
         ]
@@ -14665,7 +15104,10 @@
       "summary": {
         "fact": "欧莱雅将精细手部动作受限人群的上妆困难作为研发目标；通用转接头与握持结构改善适配。品牌估计人群数量不等于可购买市场。",
         "inference": "从稳定口红迁移到护肤涂抹握柄；迁移是设计推断，不是已验证功效",
-        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证"
+        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证",
+        "size": "相邻人群代理：欧莱雅2023年公开估计全球约5000万人精细动作受限；含各类人群，不等于彩妆需求、付费用户或设备市场。",
+        "growth": "未查到HAPTA销量或同比；获奖和原型展示不能替代市场增长。",
+        "demand": "自调平、易握持及通用口红接口针对动作受限的独立上妆需求；迁移到护肤握柄只是设计推断。"
       },
       "date": "2026-11-01",
       "platforms": [
@@ -14698,7 +15140,19 @@
           "checked": "2026-11-01"
         }
       ],
-      "referenceBrand": "Lancôme / L’Oréal"
+      "referenceBrand": "Lancôme / L’Oréal",
+      "img": "assets/images/selection-lancome-hapta.jpg",
+      "imageKind": "reference",
+      "image_page": "https://www.loreal.com/en/articles/brands/hapta-lancome/",
+      "image_url": "https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/1-home/2025/fortune-500/innovations/lancome-hapta.jpg?rev=a85f46ec43cd4aa7ac6c10cb8fed6358",
+      "decision": {
+        "level": "定向验证",
+        "reason": "无障碍握持与稳定性问题具体，可从结构适配切入。",
+        "gap": "实际目标人群规模、重量耐受和购买渠道缺证。",
+        "next": "与真实动作受限用户共创，比较被动握柄与电动稳定两种方案。",
+        "criteria": "建议条件：独立完成率与疲劳负担改善，且用户接受重量、维护和价格。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "silverette-cups",
@@ -14726,27 +15180,34 @@
       "why": "重点是舒适隔离、尺寸适配与清洁；治疗性宣称需独立证据",
       "market": {
         "tier": "暂无统计",
-        "size": "未用品牌出货量推算整体市场",
-        "growth": "未确认销量增长",
-        "demand_level": "有痛点证据，规模待验证",
-        "demand": "哺乳期间受衣物摩擦困扰人群",
+        "size": "相邻人群代理：CDC NIS-Child中美国2022年出生儿童85.7%曾接受母乳、62.1%在6月龄仍接受母乳；这是哺乳基础人群比例，不是乳头疼痛率或银罩杯市场规模。",
+        "growth": "未找到Silverette销量同比；CDC 2021→2022出生队列曾母乳比例84.1%→85.7%（+1.6个百分点）只说明基础人群变化，不能用作产品增速。",
+        "demand_level": "",
+        "demand": "NIHR将哺乳乳房/乳头疼痛列入优先需求。罩杯的非压迫空间与防摩擦结构可验证；不采用未经独立验证的抗感染营销承诺。",
         "verdict": "观望",
         "view": "重点是舒适隔离、尺寸适配与清洁；治疗性宣称需独立证据",
         "sources": [
           {
-            "title": "来源依据",
+            "title": "官方产品/销售证据",
             "url": "https://silveretteusa.com/products/silverette-nursing-cups"
           },
           {
-            "title": "来源依据",
+            "title": "对照证据/需求依据",
             "url": "https://www.community.healthcare.mic.nihr.ac.uk/research/femtech"
+          },
+          {
+            "title": "CDC各出生队列母乳喂养比例（相邻人群代理）",
+            "url": "https://www.cdc.gov/breastfeeding-data/survey/results.html"
           }
         ]
       },
       "summary": {
         "fact": "NIHR把哺乳乳房/乳头疼痛列为未满足需求；官方产品采用银制罩杯。仅确认结构与产品存在，不据品牌宣传认定预防感染或治疗效果。",
         "inference": "重点是舒适隔离、尺寸适配与清洁；治疗性宣称需独立证据",
-        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证"
+        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证",
+        "size": "相邻人群代理：CDC NIS-Child中美国2022年出生儿童85.7%曾接受母乳、62.1%在6月龄仍接受母乳；这是哺乳基础人群比例，不是乳头疼痛率或银罩杯市场规模。",
+        "growth": "未找到Silverette销量同比；CDC 2021→2022出生队列曾母乳比例84.1%→85.7%（+1.6个百分点）只说明基础人群变化，不能用作产品增速。",
+        "demand": "NIHR将哺乳乳房/乳头疼痛列入优先需求。罩杯的非压迫空间与防摩擦结构可验证；不采用未经独立验证的抗感染营销承诺。"
       },
       "date": "2026-11-01",
       "platforms": [
@@ -14779,7 +15240,19 @@
           "checked": "2026-11-01"
         }
       ],
-      "referenceBrand": "Silverette"
+      "referenceBrand": "Silverette",
+      "img": "assets/images/selection-silverette-cups.webp",
+      "imageKind": "reference",
+      "image_page": "https://silveretteusa.com/products/silverette-nursing-cups",
+      "image_url": "https://silveretteusa.com/cdn/shop/files/Silverette_box_with_size_badge_removed.png?v=1792626467",
+      "decision": {
+        "level": "定向验证",
+        "reason": "低复杂度结构可以围绕真实摩擦问题验证。",
+        "gap": "银材料相对其他材料的增益、清洁与局部潮湿影响不明。",
+        "next": "与哺乳专业人员比较不同材质、罩形与透气设计。",
+        "criteria": "建议条件：舒适与摩擦控制有可重复改善，无使用负担恶化；材料溢价须有证据。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "uresta-bladder-support",
@@ -14807,27 +15280,34 @@
       "why": "舒适选型、可抓握取出和适用筛查比增加电子功能更关键",
       "market": {
         "tier": "暂无统计",
-        "size": "未用品牌出货量推算整体市场",
-        "growth": "未确认销量增长",
-        "demand_level": "有痛点证据，规模待验证",
-        "demand": "运动、咳嗽等诱发压力性漏尿且经专业评估的人群",
+        "size": "相邻疾病负担代理：美国NIDDK综述估计约一半女性经历尿失禁；包含所有类型、年龄和程度，不能当作压力性漏尿适用人数或Uresta市场规模。",
+        "growth": "未找到Uresta公开销售增速；疾病负担和小样本研究均不能替代商业增长。",
+        "demand_level": "",
+        "demand": "NIHR列出孕产漏尿管理需求；Uresta适用于压力性漏尿，核心是尺寸匹配、自主放置与取出，不能覆盖所有尿失禁。",
         "verdict": "观望",
         "view": "舒适选型、可抓握取出和适用筛查比增加电子功能更关键",
         "sources": [
           {
-            "title": "来源依据",
+            "title": "官方产品/销售证据",
             "url": "https://uresta.com/pages/faqs"
           },
           {
-            "title": "来源依据",
+            "title": "对照证据/需求依据",
             "url": "https://www.community.healthcare.mic.nihr.ac.uk/research/femtech"
+          },
+          {
+            "title": "NIDDK尿失禁人群负担（非产品市场）",
+            "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-control-problems/definition-facts"
           }
         ]
       },
       "summary": {
         "fact": "NIHR把孕产相关漏尿管理列为优先需求；Uresta官方明确适用压力性漏尿。不是所有尿失禁通用方案。",
         "inference": "舒适选型、可抓握取出和适用筛查比增加电子功能更关键",
-        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证"
+        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证",
+        "size": "相邻疾病负担代理：美国NIDDK综述估计约一半女性经历尿失禁；包含所有类型、年龄和程度，不能当作压力性漏尿适用人数或Uresta市场规模。",
+        "growth": "未找到Uresta公开销售增速；疾病负担和小样本研究均不能替代商业增长。",
+        "demand": "NIHR列出孕产漏尿管理需求；Uresta适用于压力性漏尿，核心是尺寸匹配、自主放置与取出，不能覆盖所有尿失禁。"
       },
       "date": "2026-11-01",
       "platforms": [
@@ -14860,7 +15340,19 @@
           "checked": "2026-11-01"
         }
       ],
-      "referenceBrand": "Uresta"
+      "referenceBrand": "Uresta",
+      "img": "assets/images/selection-uresta-bladder-support.webp",
+      "imageKind": "reference",
+      "image_page": "https://uresta.com/pages/faqs",
+      "image_url": "https://uresta.com/cdn/shop/files/Uresta-StarterKit-Carousel-3.webp?v=1793817079&width=800",
+      "decision": {
+        "level": "定向验证",
+        "reason": "明确局部支撑机制，针对运动等情境漏尿有研究价值。",
+        "gap": "国内压力性漏尿分层、适用筛查和自主适配成功率未知。",
+        "next": "与妇科/盆底专业人员评估选型、取出和转诊路径。",
+        "criteria": "建议条件：筛查与尺寸选择可重复、用户能够舒适取出，且适用性与证据要求清晰。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "elvie-catch",
@@ -14888,27 +15380,34 @@
       "why": "贴合、防漏、易倒出和清洗是核心；仍有装配与贴合导致漏液的改进空间",
       "market": {
         "tier": "暂无统计",
-        "size": "未用品牌出货量推算整体市场",
-        "growth": "未确认销量增长",
-        "demand_level": "有痛点证据，规模待验证",
-        "demand": "外出或工作期间有漏乳困扰的哺乳人群",
+        "size": "相邻人群代理：美国2022年出生儿童85.7%曾接受母乳、62.1%在6月龄仍接受母乳（CDC）；不能转化为漏乳率、集乳杯渗透率或销售额。",
+        "growth": "未找到Catch销量或同比。基础哺乳人群变化不等于被动集乳杯市场增长。",
+        "demand_level": "",
+        "demand": "官方每侧30毫升无泵收集与泄漏排障说明，指出外出湿痕、密封装配、贴合及倒奶是实际设计痛点；缺少独立需求规模研究。",
         "verdict": "观望",
         "view": "贴合、防漏、易倒出和清洗是核心；仍有装配与贴合导致漏液的改进空间",
         "sources": [
           {
-            "title": "来源依据",
+            "title": "官方产品/销售证据",
             "url": "https://elvie.com/products/elvie-catch"
           },
           {
-            "title": "来源依据",
+            "title": "对照证据/需求依据",
             "url": "https://support.elvie.com/elvie-catch/troubleshooting"
+          },
+          {
+            "title": "CDC各出生队列母乳喂养比例（相邻人群代理）",
+            "url": "https://www.cdc.gov/breastfeeding-data/survey/results.html"
           }
         ]
       },
       "summary": {
         "fact": "官方说明围绕哺乳间隔漏乳、衣物湿痕，提供每侧约30毫升收集杯；需求证据来自产品场景与官方泄漏排障，非人群普遍性调查。",
         "inference": "贴合、防漏、易倒出和清洗是核心；仍有装配与贴合导致漏液的改进空间",
-        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证"
+        "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证",
+        "size": "相邻人群代理：美国2022年出生儿童85.7%曾接受母乳、62.1%在6月龄仍接受母乳（CDC）；不能转化为漏乳率、集乳杯渗透率或销售额。",
+        "growth": "未找到Catch销量或同比。基础哺乳人群变化不等于被动集乳杯市场增长。",
+        "demand": "官方每侧30毫升无泵收集与泄漏排障说明，指出外出湿痕、密封装配、贴合及倒奶是实际设计痛点；缺少独立需求规模研究。"
       },
       "date": "2026-11-01",
       "platforms": [
@@ -14941,7 +15440,19 @@
           "checked": "2026-11-01"
         }
       ],
-      "referenceBrand": "Elvie"
+      "referenceBrand": "Elvie",
+      "img": "assets/images/selection-elvie-catch.webp",
+      "imageKind": "reference",
+      "image_page": "https://elvie.com/products/elvie-catch",
+      "image_url": "https://elvie.com/cdn/shop/files/Elvie_Catch_1_47713_06088.jpg?v=1767629963&width=800",
+      "decision": {
+        "level": "优先推进",
+        "reason": "被动结构简单，漏液与清洗问题易做对照验证。",
+        "gap": "不同乳型贴合、活动漏液与维护成本未知。",
+        "next": "比较硅胶裙边、杯口位置和倒液通道，验证活动场景防漏及清洗。",
+        "criteria": "建议条件：目标活动下较现有杯/防溢乳垫更易用、漏液更少，且用户理解收集乳的保存限制。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "sy-reusable-occlusion",
@@ -14969,16 +15480,28 @@
       "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "market": {
         "tier": "暂无统计",
-        "size": "缺失：未取得该开发概念的市场规模",
-        "growth": "缺失：未取得同口径增长数据",
-        "demand_level": "待验证",
-        "demand": "一次性眼贴浪费、精华厚涂滑落（产品机会假设，待用户访谈）",
+        "size": "未取得可重复眼罩+精华组合的可靠市场规模；先统计目标平台同类SKU、成交价与近90天销量，不能以整个眼霜市场替代。",
+        "growth": "本组合增速未知。邻近信号：Circana称2026年一季度美国高端护肤增长由面部护理推动，面霜、精华和眼部护理合计贡献多数增长；未披露眼罩细分增速。",
+        "demand_level": "",
+        "demand": "Dieux官方操作指南明确厚涂会导致滑落，存在可验证的用量/贴合问题；独立用户帖也讨论滑落，但属个案，不代表发生率。",
         "verdict": "谨慎推荐",
         "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
             "title": "参考产品官方/授权渠道证据",
             "url": "https://www.dieuxskin.com/products/forever-eye-mask"
+          },
+          {
+            "title": "Dieux：厚涂与滑落操作说明",
+            "url": "https://www.dieuxskin.com/blogs/beauty/8-ways-to-optimize-your-forever-eye-mask"
+          },
+          {
+            "title": "Circana：2026Q1美国美妆",
+            "url": "https://www.circana.com/post/us-beauty-market-delivers-steady-first-quarter-growth-circana-reports"
+          },
+          {
+            "title": "用户讨论：可重复眼贴滑落（个案）",
+            "url": "https://www.reddit.com/r/SkincareAddiction/comments/1ip90v3"
           }
         ]
       },
@@ -14987,12 +15510,17 @@
         "audience": "重视精简与复用的眼部护理用户",
         "points": "可补充眼精华为主，器械辅助",
         "innovation": "薄涂定量泵+分左右贴合片+通风收纳盒；可加定时底座，不以电流解释封闭保湿",
-        "why": "先验证使用改善和耗材复购"
+        "why": "先验证使用改善和耗材复购",
+        "size": "未取得可重复眼罩+精华组合的可靠市场规模；先统计目标平台同类SKU、成交价与近90天销量，不能以整个眼霜市场替代。",
+        "growth": "本组合增速未知。邻近信号：Circana称2026年一季度美国高端护肤增长由面部护理推动，面霜、精华和眼部护理合计贡献多数增长；未披露眼罩细分增速。",
+        "demand": "Dieux官方操作指南明确厚涂会导致滑落，存在可验证的用量/贴合问题；独立用户帖也讨论滑落，但属个案，不代表发生率。"
       },
       "date": "2026-11-01",
       "platforms": [],
       "visual": {
-        "idea": "展示可补充眼精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
+        "idea": "精华珠落下，透明月牙顺势贴合。揭下洗净，下次换新精华继续敷。",
+        "hook": "给眼周贴张精华保鲜膜",
+        "sell": "精华贴合覆盖，眼罩反复使用"
       },
       "concept": {
         "title": "补充装眼精华+可重复贴合眼罩（开发概念）",
@@ -15035,7 +15563,17 @@
           "claim": "Dieux官网眼罩为可重复硅胶贴，搭配眼精华并提供清洗与复用方法；提示厚涂易滑。",
           "checked": "2026-11-01"
         }
-      ]
+      ],
+      "img": "assets/images/selection-sy-reusable-occlusion.svg",
+      "imageKind": "concept",
+      "decision": {
+        "level": "优先推进",
+        "reason": "低复杂度原型可直接验证定量与防滑；护肤品复购路径清楚，但尚未验证消费者是否愿付费。",
+        "gap": "缺少国内需求强度、复购、清洁依从性和成本报价。",
+        "next": "做两种贴形与两种泵量，招募20名目标用户交叉试用一周；记录滑落、清洗、泵量与购买意愿。",
+        "criteria": "内部拟定门槛，非研究结果：相较用户常用眼贴滑落次数下降≥30%，≥70%完成规定清洁；两家报价支持器械零售价≤300元及目标毛利，再进入配方/包材验证。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "sy-refill-glide",
@@ -15063,16 +15601,20 @@
       "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "market": {
         "tier": "暂无统计",
-        "size": "缺失：未取得该开发概念的市场规模",
-        "growth": "缺失：未取得同口径增长数据",
-        "demand_level": "待验证",
-        "demand": "一次涂满全脸、半程变干与重复购瓶（产品机会假设，待用户访谈）",
+        "size": "替芯精华+提醒棒组合规模未知；测算目标渠道近90天导电精华成交与已购仪器人群规模，去除非适配产品，再开展目标价购买测试。",
+        "growth": "本开发组合增速未知；独立邻近信号为Circana 2026Q1美国精华及眼部护理参与品类增长，不代表本方案增速。",
+        "demand_level": "",
+        "demand": "官方明确逐区使用、不要预先涂满全脸，并支持替芯；可据此提出干涩拖拽/忘记补涂假设。独立零售监测只支持精华等相邻品类增长，未证实消费者需要提醒棒。",
         "verdict": "谨慎推荐",
         "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
-            "title": "参考产品官方/授权渠道证据",
+            "title": "Solawave：替芯与分区涂布说明",
             "url": "https://solawave.onsitesupport.io/knowledge-base/article/faqs-about-our-skin-therapy-activating-serum"
+          },
+          {
+            "title": "Circana原始零售监测：2026Q1美国美妆（仅邻近品类）",
+            "url": "https://www.circana.com/post/us-beauty-market-delivers-steady-first-quarter-growth-circana-reports"
           }
         ]
       },
@@ -15081,12 +15623,17 @@
         "audience": "每日精华与工具护理用户",
         "points": "替芯保湿精华为主，器械辅助",
         "innovation": "替芯泵瓶可挂靠轻振棒，单区计时并提示补涂，外壳重复使用",
-        "why": "先验证使用改善和耗材复购"
+        "why": "先验证使用改善和耗材复购",
+        "size": "替芯精华+提醒棒组合规模未知；测算目标渠道近90天导电精华成交与已购仪器人群规模，去除非适配产品，再开展目标价购买测试。",
+        "growth": "本开发组合增速未知；独立邻近信号为Circana 2026Q1美国精华及眼部护理参与品类增长，不代表本方案增速。",
+        "demand": "官方明确逐区使用、不要预先涂满全脸，并支持替芯；可据此提出干涩拖拽/忘记补涂假设。独立零售监测只支持精华等相邻品类增长，未证实消费者需要提醒棒。"
       },
       "date": "2026-11-01",
       "platforms": [],
       "visual": {
-        "idea": "展示替芯保湿精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
+        "idea": "小棒走到下一站，提示灯轻闪。补一滴精华，下一段护理润泽开场。",
+        "hook": "会提醒续杯的精华棒",
+        "sell": "分区护理，及时提醒补涂"
       },
       "concept": {
         "title": "替芯精华+边涂边提醒轻振棒（开发概念）",
@@ -15129,7 +15676,17 @@
           "claim": "Solawave官方支持文档说明精华有可补充结构，按面部分区逐次涂抹；这是减少护理中干涩摩擦的产品设计参考。",
           "checked": "2026-11-01"
         }
-      ]
+      ],
+      "img": "assets/images/selection-sy-refill-glide.svg",
+      "imageKind": "concept",
+      "decision": {
+        "level": "定向验证",
+        "reason": "补涂提醒与替芯可低成本试样，但轻振是否产生额外付费价值尚不清楚。",
+        "gap": "尚无提醒功能提升坚持率、精华消耗和复购的证据。",
+        "next": "让20名现有工具用户交叉使用普通泵瓶和计时样机，各7天；同配方比较补涂遗漏、总操作时长、换芯便利。",
+        "criteria": "内部试验门槛：补涂遗漏下降≥30%；操作时长不增加超过10%；至少两家报价支持器械≤300元及目标毛利。未达到则保留替芯包装、取消电子附件。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "sy-flex-pearl",
@@ -15157,16 +15714,20 @@
       "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "market": {
         "tier": "暂无统计",
-        "size": "缺失：未取得该开发概念的市场规模",
-        "growth": "缺失：未取得同口径增长数据",
-        "demand_level": "待验证",
-        "demand": "眼周拉扯、取料过多（产品机会假设，待用户访谈）",
+        "size": "限压珠头眼精华细分规模未知；先对主要平台金属头/滚珠眼精华SKU进行同口径90天成交与价格分布采样。",
+        "growth": "本开发组合增速未知；独立邻近信号为Circana 2026Q1美国精华及眼部护理参与品类增长，不代表本方案增速。",
+        "demand_level": "",
+        "demand": "参考品牌确有柔性按摩头和瓶口刮料步骤。独立零售监测提供眼部护理相邻增长信号；眼周拉扯和取料过量发生率仍待用户观察。",
         "verdict": "谨慎推荐",
         "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
-            "title": "参考产品官方/授权渠道证据",
+            "title": "Lancôme：冷触珠、柔性连接与刮料流程",
             "url": "https://www.lancome-usa.com/skincare/eye-serum/advanced-genifique-light-pearl-eye-serum/100600.html?geo=false"
+          },
+          {
+            "title": "Circana原始零售监测：2026Q1美国美妆（仅邻近品类）",
+            "url": "https://www.circana.com/post/us-beauty-market-delivers-steady-first-quarter-growth-circana-reports"
           }
         ]
       },
@@ -15175,12 +15736,17 @@
         "audience": "眼周干燥、涂抹用力不均用户",
         "points": "眼部保湿精华为主，器械辅助",
         "innovation": "弹性颈限压结构、瓶口刮料器和可清洗珠头；无需制冷电路，验证清洁与兼容性",
-        "why": "先验证使用改善和耗材复购"
+        "why": "先验证使用改善和耗材复购",
+        "size": "限压珠头眼精华细分规模未知；先对主要平台金属头/滚珠眼精华SKU进行同口径90天成交与价格分布采样。",
+        "growth": "本开发组合增速未知；独立邻近信号为Circana 2026Q1美国精华及眼部护理参与品类增长，不代表本方案增速。",
+        "demand": "参考品牌确有柔性按摩头和瓶口刮料步骤。独立零售监测提供眼部护理相邻增长信号；眼周拉扯和取料过量发生率仍待用户观察。"
       },
       "date": "2026-11-01",
       "platforms": [],
       "visual": {
-        "idea": "展示眼部保湿精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
+        "idea": "银色小珠沿眼周轻滑，柔性珠头随弧度转弯，铺开一条晶莹的精华细带。",
+        "hook": "让精华珠在眼周溜冰",
+        "sell": "冷触滚珠顺应弧度，轻柔涂布"
       },
       "concept": {
         "title": "眼精华+柔性冷触珠笔帽（开发概念）",
@@ -15223,7 +15789,17 @@
           "claim": "Lancôme Light Pearl官网采用不锈钢冷触珠与柔性按摩头，并提示先刮去多余精华。",
           "checked": "2026-11-01"
         }
-      ]
+      ],
+      "img": "assets/images/selection-sy-flex-pearl.svg",
+      "imageKind": "concept",
+      "decision": {
+        "level": "优先推进",
+        "reason": "可将创新集中在机械限压、定量取料与清洁，基础样机不依赖电路；具有快速验证路径。",
+        "gap": "缺少柔性颈疲劳寿命、配方材料相容性和实际舒适度优势证据。",
+        "next": "制作两种颈部刚度和两种刮料口；与普通涂抹头盲测，记录单位取料量、接触力和舒适度。",
+        "criteria": "内部拟定门槛：20名受试者中≥70%偏好样机，单次取料量变异系数≤20%；清洁/相容性与跌落耐久合格，再进入配方验证。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "sy-roller-refill",
@@ -15251,16 +15827,28 @@
       "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "market": {
         "tier": "暂无统计",
-        "size": "缺失：未取得该开发概念的市场规模",
-        "growth": "缺失：未取得同口径增长数据",
-        "demand_level": "待验证",
-        "demand": "手指涂眼精华不便、滚珠出液不均（产品机会假设，待用户访谈）",
+        "size": "替芯滚珠+复用振动套环规模未知；以滚珠眼精华为邻近集合，统计SKU、90天销量与替芯提供率，不以全眼霜市场代替。",
+        "growth": "本开发组合增速未知；独立邻近信号为Circana 2026Q1美国精华及眼部护理参与品类增长，不代表本方案增速。",
+        "demand_level": "",
+        "demand": "Clinique官方及Sephora均有滚珠眼精华，证实该形式已有零售承接；不证明可换芯/振动需求。公开品类监测支持眼部护理增长，未披露滚珠细分份额。",
         "verdict": "谨慎推荐",
         "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
             "title": "参考产品官方/授权渠道证据",
             "url": "https://www.clinique.com/skincare-all?category=Eye+Care"
+          },
+          {
+            "title": "Clinique：滚珠眼精华官方商品页",
+            "url": "https://www.clinique.com/product/1667/9423/skincare/all-about-eyestm-serum-de-puffing-eye-massage"
+          },
+          {
+            "title": "Circana原始零售监测：2026Q1美国美妆（仅邻近品类）",
+            "url": "https://www.circana.com/post/us-beauty-market-delivers-steady-first-quarter-growth-circana-reports"
+          },
+          {
+            "title": "Sephora：Clinique滚珠精华及轻压使用步骤",
+            "url": "https://www.sephora.com/product/all-about-eyes-serum-de-puffing-eye-massage-P257537"
           }
         ]
       },
@@ -15269,7 +15857,10 @@
         "audience": "通勤补涂用户",
         "points": "滚珠眼精华为主，器械辅助",
         "innovation": "内胆单向阀与可拆滚珠；轻振套环留用、精华内胆替换；需验证回流污染风险",
-        "why": "先验证使用改善和耗材复购"
+        "why": "先验证使用改善和耗材复购",
+        "size": "替芯滚珠+复用振动套环规模未知；以滚珠眼精华为邻近集合，统计SKU、90天销量与替芯提供率，不以全眼霜市场代替。",
+        "growth": "本开发组合增速未知；独立邻近信号为Circana 2026Q1美国精华及眼部护理参与品类增长，不代表本方案增速。",
+        "demand": "Clinique官方及Sephora均有滚珠眼精华，证实该形式已有零售承接；不证明可换芯/振动需求。公开品类监测支持眼部护理增长，未披露滚珠细分份额。"
       },
       "date": "2026-11-01",
       "platforms": [],
@@ -15317,7 +15908,17 @@
           "claim": "Clinique官方在售All About Eyes Serum采用冷触滚珠包装；其销量趋势与复购率未知。",
           "checked": "2026-11-01"
         }
-      ]
+      ],
+      "img": "assets/images/selection-sy-roller-refill.svg",
+      "imageKind": "concept",
+      "decision": {
+        "level": "定向验证",
+        "reason": "滚珠形式已有参照，但加套环、替芯会增加装配和清洁成本；须先证明增量价值。",
+        "gap": "回流污染控制、替芯密封、用户愿否为振动另付费未验证。",
+        "next": "优先做不带电的可换芯滚珠；对比固定滚珠与替芯滚珠的残留、滴漏和更换失误，再单测振动。",
+        "criteria": "内部拟定门槛：20名用户首次装芯成功率≥90%；模拟运输不漏液；相容性与微生物控制通过。振动若无体验偏好优势就删除。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "sy-lip-dose",
@@ -15345,16 +15946,28 @@
       "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "market": {
         "tier": "暂无统计",
-        "size": "缺失：未取得该开发概念的市场规模",
-        "growth": "缺失：未取得同口径增长数据",
-        "demand_level": "待验证",
-        "demand": "罐装唇膜用手取料、刮勺遗失（产品机会假设，待用户访谈）",
+        "size": "唇膜+卫生涂布器组合规模未公开；应按唇膜/唇部护理渠道成交单独测量，不用唇彩或全部彩妆销售额替代。",
+        "growth": "组合增速未知；Circana 2026Q1显示唇部护理在美国大众和高端渠道销售额与销量均增长，未给本组合百分比。",
+        "demand_level": "",
+        "demand": "独立用户帖反映罐装转软管及刮勺保管问题，属于需求线索不是普遍发生率。唇部护理有独立零售增长信号，可先验证卫生涂布器，暂无轻振必要性证据。",
         "verdict": "谨慎推荐",
         "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
             "title": "参考产品官方/授权渠道证据",
             "url": "https://www.shilladfs.com/estore/kr/en/p/5122308"
+          },
+          {
+            "title": "LANEIGE美国官网：唇膜产品类别",
+            "url": "https://us.laneige.com/collections/lip-sleeping-masks"
+          },
+          {
+            "title": "Circana原始零售监测：2026Q1美国美妆（仅邻近品类）",
+            "url": "https://www.circana.com/post/us-beauty-market-delivers-steady-first-quarter-growth-circana-reports"
+          },
+          {
+            "title": "用户个案：把罐装唇膜转装软管",
+            "url": "https://www.reddit.com/r/Sephora/comments/16g3bpq"
           }
         ]
       },
@@ -15363,7 +15976,10 @@
         "audience": "唇部干燥日常护理用户",
         "points": "夜间保湿唇膜为主，器械辅助",
         "innovation": "盖内卡扣固定可洗软刮头，泵式取料限制回沾；可选短时轻振套，不以加热穿透为卖点",
-        "why": "先验证使用改善和耗材复购"
+        "why": "先验证使用改善和耗材复购",
+        "size": "唇膜+卫生涂布器组合规模未公开；应按唇膜/唇部护理渠道成交单独测量，不用唇彩或全部彩妆销售额替代。",
+        "growth": "组合增速未知；Circana 2026Q1显示唇部护理在美国大众和高端渠道销售额与销量均增长，未给本组合百分比。",
+        "demand": "独立用户帖反映罐装转软管及刮勺保管问题，属于需求线索不是普遍发生率。唇部护理有独立零售增长信号，可先验证卫生涂布器，暂无轻振必要性证据。"
       },
       "date": "2026-11-01",
       "platforms": [],
@@ -15411,7 +16027,17 @@
           "claim": "新罗免税商品页列出LANEIGE唇膜用专用刮勺涂抹；这是工具配套参考，不是电动新品。",
           "checked": "2026-11-01"
         }
-      ]
+      ],
+      "img": "assets/images/selection-sy-lip-dose.svg",
+      "imageKind": "concept",
+      "decision": {
+        "level": "优先推进",
+        "reason": "先做盖内固定刮头或定量泵，结构简单且可与唇膜复购绑定；取消无证据的电子附加功能。",
+        "gap": "高黏度配方泵出稳定性、残留与刮头清洁意愿未验证。",
+        "next": "对照罐+刮勺、盖内固定刮头和软管三种结构；20名用户随身使用一周，记录取料、遗失、残留。",
+        "criteria": "内部拟定门槛：≥70%用户偏好改进结构、无明显漏料；残留率不高于原包装；报价支持目标毛利，否则直接选软管。",
+        "checked": "2026-11-06"
+      }
     },
     {
       "id": "sy-capsule-dose",
@@ -15439,16 +16065,24 @@
       "why": "以护肤品复购为核心，通过器械ID改善用量、接触、流程或清洁；超导是品牌概念，不作为已验证透皮功效。",
       "market": {
         "tier": "暂无统计",
-        "size": "缺失：未取得该开发概念的市场规模",
-        "growth": "缺失：未取得同口径增长数据",
-        "demand_level": "待验证",
-        "demand": "胶囊开口费力、手部残留与单次用量浪费（产品机会假设，待用户访谈）",
+        "size": "胶囊精华辅助夹具规模未知；测量胶囊精华用户实际开口失败比例及愿付工具费人数，不能直接套用整个精华市场规模。",
+        "growth": "本开发组合增速未知；独立邻近信号为Circana 2026Q1美国精华及眼部护理参与品类增长，不代表本方案增速。",
+        "demand_level": "",
+        "demand": "官方胶囊本身已单次定量，且说明可直接扭开后挤出。独立数据未证明需夹具；原“用量难控制”假设较弱，真正需验证的是握力/手部灵活性受限者是否有开口困难。",
         "verdict": "谨慎推荐",
         "view": "参考产品存在已核实；需求强度、销量、成本和术原方案功效尚未验证。",
         "sources": [
           {
             "title": "参考产品官方/授权渠道证据",
             "url": "https://c.ekstatic.net/ecl/documents/duty-free/emirates-red-magazine-april-2026.pdf"
+          },
+          {
+            "title": "Elizabeth Arden：胶囊定量与开口说明",
+            "url": "https://www.elizabetharden.com/collections/ceramide-capsules"
+          },
+          {
+            "title": "Circana原始零售监测：2026Q1美国美妆（仅邻近品类）",
+            "url": "https://www.circana.com/post/us-beauty-market-delivers-steady-first-quarter-growth-circana-reports"
           }
         ]
       },
@@ -15457,7 +16091,10 @@
         "audience": "旅行与单次定量护理用户",
         "points": "单次保湿精华胶囊为主，器械辅助",
         "innovation": "夹具定位旋拧开口并挤出至软涂布头，避免尖锐穿刺；夹具复用、胶囊耗材复购",
-        "why": "先验证使用改善和耗材复购"
+        "why": "先验证使用改善和耗材复购",
+        "size": "胶囊精华辅助夹具规模未知；测量胶囊精华用户实际开口失败比例及愿付工具费人数，不能直接套用整个精华市场规模。",
+        "growth": "本开发组合增速未知；独立邻近信号为Circana 2026Q1美国精华及眼部护理参与品类增长，不代表本方案增速。",
+        "demand": "官方胶囊本身已单次定量，且说明可直接扭开后挤出。独立数据未证明需夹具；原“用量难控制”假设较弱，真正需验证的是握力/手部灵活性受限者是否有开口困难。"
       },
       "date": "2026-11-01",
       "platforms": [],
@@ -15505,7 +16142,17 @@
           "claim": "阿联酋航空2026年4月免税目录列出Elizabeth Arden精华胶囊组合；目录不提供销售增速。",
           "checked": "2026-11-01"
         }
-      ]
+      ],
+      "img": "assets/images/selection-sy-capsule-dose.svg",
+      "imageKind": "concept",
+      "decision": {
+        "level": "暂缓",
+        "reason": "现有胶囊已经定量，增加夹具可能制造清洁和收纳负担；尚无独立需求证据。",
+        "gap": "目标人群、开口失败率和相对徒手的净收益均不明确。",
+        "next": "先访谈15名胶囊用户，包含手部灵活性较低者；仅当观察到反复开口困难，再做无尖锐部件辅助夹。",
+        "criteria": "内部继续条件：至少5名访谈者有可复现开口困难；样机相较徒手减少开口失败且不增加整体时间/残留，否则停止该工具方向。",
+        "checked": "2026-11-06"
+      }
     }
   ],
   "batches": [
@@ -15578,6 +16225,7 @@
     "schemaVersion": 2,
     "dataThrough": "2026-11-01",
     "checkedAt": "2026-11-01T13:41:21.894Z",
-    "sourceBatch": "initial-2026-11-01"
+    "sourceBatch": "initial-2026-11-01",
+    "selectionReviewed": "2026-11-06"
   }
 }
