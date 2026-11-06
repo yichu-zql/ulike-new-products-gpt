@@ -23,8 +23,7 @@ let view = "all";
 try { view = localStorage.getItem("ulike-new-products-gpt:view:v1") || "all"; } catch(e) {}
 if (!VIEWS.some(v => v[0]===view)) view = "all";
 const inView = i => view==="all" || (view==="sy") === isSY(i);
-const isListed = i => !["pending","concept"].includes(i.selectionStatus);
-const pool = () => DATA.items.filter(i => isListed(i) && inView(i));
+const pool = () => DATA.items.filter(inView);
 
 const dates = [...new Set(DATA.items.map(i => i.date).concat(DATA.days.map(d => d.date)))].sort().reverse();
 const latest = dates[0];
@@ -32,7 +31,7 @@ let state = {q:"", date:"all", cat:"all", verdict:"all", rank:"all"};
 $("#date").innerHTML = `<option value="all">全部日期</option>` + dates.map(d => `<option value="${d}">${d}</option>`).join("");
 
 function renderViews(){
-  const listed = DATA.items.filter(isListed);
+  const listed = DATA.items;
   const n = {all:listed.length, group:listed.filter(i=>!isSY(i)).length, sy:listed.filter(isSY).length};
   $("#views").innerHTML = VIEWS.map(([k,l]) => `<button role="tab" type="button" data-view="${k}" class="${k}" aria-selected="${view===k}">${l} <em>${n[k]}</em>${k==="sy"?'<span class="new">NEW</span>':""}</button>`).join("");
   document.body.classList.toggle("v-sy", view==="sy");
@@ -72,9 +71,8 @@ function renderPre(){
   note.hidden = !ups.length;
   if (ups.length) note.innerHTML = `<b>本期更新 ${ups.length} 项</b>` + ups.map(i => `<button type="button" data-go="${esc(i.id)}" title="${esc(lastUpd(i).note)}">${esc(i.name.replace(/（.*$/,""))}</button>`).join("");
 }
-const decisionLevels = ["优先推进", "定向验证", "暂缓"];
-const verdictOf = i => i.selectionStatus==="verified" && i.decision?.level==="优先推进" ? "优先看样" : i.decision?.level || i.market?.verdict;
-const directionOf = i => i.directionStatus || i.direction;
+const verdictOf = i => i.market?.verdict;
+const directionOf = i => i.direction;
 function renderSelection(){
   const box = $("#selection");
   const decisions = pool().filter(i => i.selectionStatus==="verified" && i.decision);
@@ -84,28 +82,19 @@ function renderSelection(){
     <p>已复核实售 ${decisions.length} 条 · 优先看样 ${priority.length} 条</p>
     <ul>${decisions.map(i => `<li><button type="button" class="go" data-go="${esc(i.id)}">${esc(i.name)}</button><span>${i.decision.level==="优先推进"?"优先看样":esc(i.decision.level)} · ${esc(i.decision.next)}</span></li>`).join("")}</ul>` : "";
 }
-function renderReviewArchive(){
-  const items = DATA.items.filter(i => inView(i) && !isListed(i));
-  $("#review-archive").innerHTML = [["pending","待证线索"],["concept","术原研发备忘"]].map(([status,label])=>{
-    const rows = items.filter(i => i.selectionStatus===status);
-    if (!rows.length) return "";
-    return `<details class="brief"><summary>${label}<span class="briefn">${rows.length} 条</span></summary><div>${rows.map(card).join("")}</div></details>`;
-  }).join("");
-}
 function renderBand(){
   renderSelection();
-  renderReviewArchive();
-  const sy = DATA.items.filter(i => isListed(i) && isSY(i));
+  const sy = DATA.items.filter(isSY);
   $("#zonegrid").classList.toggle("syon", view==="sy");
   if (!sy.length) { $("#syband").innerHTML = ""; return; }
   const main = sy.filter(i => i.rank==="主推");
   if (view !== "sy"){
-    $("#syband").innerHTML = `<button class="zone z-sy" type="button" data-view="sy"><span class="dot"></span><span class="zt"><b>术原 · 超导护肤</b><span>实售组合，护肤品为主，辅助器具核实售价≤300元</span></span><span class="zn">${sy.length} 条实售</span><span class="za">→</span></button>`;
+    $("#syband").innerHTML = `<button class="zone z-sy" type="button" data-view="sy"><span class="dot"></span><span class="zt"><b>术原 · 超导护肤</b><span>往期研究与本期机会，护肤品为主、器具辅助</span></span><span class="zn">${sy.length} 条</span><span class="za">→</span></button>`;
     return;
   }
   const pains = {}; sy.forEach(i => (i.pain||[]).forEach(p => pains[p]=(pains[p]||0)+1));
   $("#syband").innerHTML = `<div class="syhero">
-    <div class="pos"><span class="symark">超导护肤</span><p>收录护肤品为主、器具辅助的实售组合。器具售价已核实，海外标价按注明日期折算为人民币，不超过300元。</p></div>
+    <div class="pos"><span class="symark">超导护肤</span><p>汇总历期术原机会。实售商品注明器具核实价，开发方向与技术观察保留原有标识。</p></div>
     <div class="pains"><span>按用户痛点看</span>${Object.entries(pains).sort((a,b)=>b[1]-a[1]).map(([p,n]) => `<button class="pain" type="button" data-pain="${esc(p)}" aria-pressed="${ost.pain===p}">${esc(p)} ${n}</button>`).join("")}</div>
     <div class="strip-h">术原专题主推 <span class="rank rank-主推">主推 ${main.length}</span><small>　当前推进判断见选品行动与产品明细</small></div>
     <div class="strip">${main.map(i => `<button class="scard" type="button" data-go="${esc(i.id)}">${i.img?`<img src="${i.img}" alt="" loading="lazy">`:`<span class="ph none">参考图待补</span>`}<b>${esc(i.name.replace(/^【示例】/,""))}</b><span>创新点：${esc((i.summary||{}).innovation||i.innovation)}</span></button>`).join("")}</div>
@@ -127,6 +116,7 @@ function catMatch(i){
   if (state.cat.startsWith("grp:")) return groupOf(i.category)===state.cat.slice(4);
   return i.category===state.cat;
 }
+let catsCollapsed = false;
 function renderCats(){
   const items = pool(), counts = {};
   items.forEach(i => counts[i.category] = (counts[i.category]||0)+1);
@@ -136,9 +126,12 @@ function renderCats(){
   for (const g of groups){
     const cs = g.cats.filter(c => counts[c]); if (!cs.length) continue;
     const n = cs.reduce((a,c)=>a+counts[c],0);
-    html += `<div class="cg${g.sy?" sy":""}"><button class="glabel" data-cat="grp:${esc(g.name)}" aria-pressed="${state.cat==="grp:"+g.name}">${esc(g.name)} ${n}</button><div class="chips">` +
-      cs.map(c => `<button class="chip" data-cat="${esc(c)}" aria-pressed="${state.cat===c}">${esc(short(c))} <i>${counts[c]}</i></button>`).join("") + `</div></div>`;
+    const active = state.cat==="grp:"+g.name || (catsCollapsed && cs.includes(state.cat));
+    const label = `<button class="glabel" data-cat="grp:${esc(g.name)}" aria-pressed="${active}">${esc(g.name)} ${n}</button>`;
+    const chips = catsCollapsed ? "" : `<div class="chips">${cs.map(c => `<button class="chip" data-cat="${esc(c)}" aria-pressed="${state.cat===c}">${esc(short(c))} <i>${counts[c]}</i></button>`).join("")}</div>`;
+    html += `<div class="cg${g.sy?" sy":""}">${label}${chips}</div>`;
   }
+  $("#cats").classList.toggle("compact",catsCollapsed);
   $("#cats").innerHTML = html;
 }
 function card(i){
@@ -149,7 +142,7 @@ function card(i){
       <div class="pic">${i.img
         ? `<a class="frame" href="${esc(i.imageKind === "concept" ? i.img : i.image_page||(i.links[0]||{}).url)}" target="_blank" rel="noopener"><img src="${esc(i.img)}" alt="${esc(i.name)} ${imageLabel}" loading="lazy"></a><small>${imageLabel}</small>`
         : `<a class="none" href="${esc(i.image_page||(i.links[0]||{}).url)}" target="_blank" rel="noopener">查看参考商品图 ↗</a><small>现有参考图</small>`}</div>
-      <div class="body"><div class="top"><h3>${esc(i.name)}</h3><div class="tags">${pickBadge(i)}${updBadge(i)}${preBadge(i)}${sy?`<span class="tag sy">术原</span>${isListed(i)?`<span class="rank rank-${esc(i.rank)}">${esc(i.rank)}</span>`:""}`:""}${i.direction?`<span class="tag${i.direction.startsWith("医美")?" med":""}">${esc(directionOf(i))}</span>`:""}<span class="tag cat">${esc(short(i.category))}</span>${i.type?`<span class="tag">${esc(i.type)}</span>`:""}${(i.tech||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}<a class="back" href="#overview">↑ 清单</a></div></div>
+      <div class="body"><div class="top"><h3>${esc(i.name)}</h3><div class="tags">${pickBadge(i)}${updBadge(i)}${preBadge(i)}${sy?`<span class="tag sy">术原</span><span class="rank rank-${esc(i.rank)}">${esc(i.rank)}</span>`:""}${i.direction?`<span class="tag${i.direction.startsWith("医美")?" med":""}">${esc(directionOf(i))}</span>`:""}<span class="tag cat">${esc(short(i.category))}</span>${i.type?`<span class="tag">${esc(i.type)}</span>`:""}${(i.tech||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}<a class="back" href="#overview">↑ 清单</a></div></div>
       <dl>
         ${i.launch ? `<dt>上市状态</dt><dd><b>${esc(i.launch.status)}</b>${i.launch.expected?` · 预计上市：${esc(i.launch.expected)}`:""}${i.launch.note?`<br>${esc(i.launch.note)}`:""}${(i.launch.sources||[]).length?`<span class="srcs">${i.launch.sources.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a>`).join("")}</span>`:""}</dd>` : ""}
         ${(i.updates||[]).length ? `<dt>更新记录</dt><dd>${i.updates.map(u=>`${esc(u.date)}：${esc(u.note)}`).join("<br>")}</dd>` : ""}
@@ -168,13 +161,13 @@ function card(i){
         <dt>解决痛点</dt><dd class="platforms">${(i.pain||[]).map(p=>`<span class="ptag">${esc(p)}</span>`).join("")}</dd>` : ""}
         ${(i.platforms||[]).length ? `<dt>主销售平台</dt><dd class="platforms">${i.platforms.map(p=>`<span class="ptag">${esc(p)}</span>`).join("")}</dd>` : ""}
         ${i.visual && i.visual.idea ? `<dt>宣传可视化方向</dt><dd class="visual">${i.visual.hook?`<b class="vhook">「${esc(i.visual.hook)}」</b>${i.visual.sell?`<span class="vsell">对应卖点：${esc(i.visual.sell)}</span>`:""}<br>`:""}${esc(i.visual.idea)}${(i.visual.links||[]).length?`<span class="srcs">素材参考：${i.visual.links.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a>`).join("")}</span>`:""}</dd>` : ""}
-        ${i.market ? `<dt>市场规模／参照</dt><dd>${i.market.tier&&(!i.decision||i.market.tier!=="暂无统计")?`<span class="tier tier-${esc(i.market.tier)}">${esc(i.market.tier)}</span> `:""}${esc(i.market.size)}</dd>
+        ${i.market ? `<dt>市场规模／参照</dt><dd>${i.market.tier?`<span class="tier tier-${esc(i.market.tier)}">${esc(i.market.tier)}</span> `:""}${esc(i.market.size)}</dd>
         <dt>增速／趋势</dt><dd>${esc(i.market.growth)}</dd>
         <dt>用户需求</dt><dd>${i.market.demand_level?`<span class="lvl lvl-${esc(i.market.demand_level)}">需求${esc(i.market.demand_level)}</span>`:""}${esc(i.market.demand)}</dd>` : ""}
         ${i.unmet ? `<dt>需求缺口</dt><dd><b>需求</b> ${esc(i.unmet.demand)}<br><b>没被满足</b> ${esc(i.unmet.gap)}<br><b>怎么解决</b> ${esc(i.unmet.solve)}${(i.unmet.sources||[]).length?`<span class="srcs">${i.unmet.sources.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a>`).join("")}</span>`:""}</dd>` : ""}
         <dt>${L.links}</dt><dd class="links">${(i.links||[]).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a>`).join("")}</dd>
-        ${!isListed(i) ? `<dt>收录状态</dt><dd>${i.selectionStatus==="concept"?"研发备忘":"待证线索"} · ${esc(i.selectionNote)}</dd>`
-        : i.decision ? `<dt>推荐理由</dt><dd class="why"><span class="vd vd-${esc(i.decision.level)}">${i.selectionStatus==="verified"&&i.decision.level==="优先推进"?"优先看样":esc(i.decision.level)}</span>${esc(i.decision.reason)}</dd>
+        ${i.selectionStatus==="concept" ? "<dt>收录状态</dt><dd>开发概念</dd>" : ""}
+        ${i.decision ? `<dt>推荐理由</dt><dd class="why"><span class="vd vd-${esc(verdictOf(i))}">${esc(verdictOf(i))}</span>${esc(i.decision.reason)}</dd>
         <dt>关键待证</dt><dd>${esc(i.decision.gap)}</dd>
         <dt>下一步</dt><dd>${esc(i.decision.next)}<span class="mview"><b>判断条件</b>${esc(i.decision.criteria)}</span></dd>`
         : `<dt>推荐理由</dt><dd class="why">${i.market?`<span class="vd vd-${esc(i.market.verdict)}">${esc(i.market.verdict)}</span>`:""}${esc(i.why)}${i.market?`<span class="mview"><b>市场维度</b>${esc(i.market.view)}</span>`:""}</dd>`}
@@ -202,7 +195,7 @@ function render(){
     if (!its.length && !(day && day.brief && day.brief.length)) continue;
     html += `<section class="day"><div class="dayhead"><h2>${d}</h2>${d===latest?'<span class="latest">最新</span>':''}</div>`;
     if (day && day.brief && day.brief.length && !filtered){
-      const relOf = b => (b.items||[]).map(id => DATA.items.find(x => x.id===id)).filter(i => i && isListed(i) && inView(i));
+      const relOf = b => (b.items||[]).map(id => DATA.items.find(x => x.id===id)).filter(i => i && inView(i));
       const nRel = new Set(day.brief.flatMap(b => relOf(b).map(i=>i.id))).size;
       html += `<details class="brief"${d===latest?" open":""}><summary>行业速览<span class="briefn">${day.brief.length} 条动态${nRel?` · 关联本期 ${nRel} 个新品`:""}</span></summary><ul>` +
         day.brief.map(b => { const rel = relOf(b); return `<li><p>${esc(b.text)} <a class="src" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.source)}</a></p>${rel.length?`<div class="rel"><span>相关新品</span>${rel.map(i => `<button type="button" data-go="${esc(i.id)}">${esc(i.name.replace(/（.*$/,""))}</button>`).join("")}</div>`:""}</li>`; }).join("") + `</ul></details>`;
@@ -211,6 +204,13 @@ function render(){
   }
   $("#list").innerHTML = html || `<p class="empty">没有符合条件的机会新品，换个关键词或类目试试。</p>`;
 }
+$("#cat-toggle").addEventListener("click", e => {
+  catsCollapsed = !catsCollapsed;
+  e.currentTarget.setAttribute("aria-expanded",String(!catsCollapsed));
+  e.currentTarget.textContent = catsCollapsed ? "展开类目" : "收起类目";
+  renderCats();
+  window.dispatchEvent(new Event("resize"));
+});
 $("#q").addEventListener("input", e => { state.q = e.target.value; render(); });
 $("#date").addEventListener("change", e => { state.date = e.target.value; render(); });
 $("#verdict").addEventListener("change", e => { state.verdict = e.target.value; render(); });
@@ -221,7 +221,7 @@ document.querySelector(".bar").addEventListener("click", e => { const b = e.targ
 const OK = ["rank","pain","picked","platform","date","direction","brand","category","verdict","tier","tech"];
 const oget = (i,k) => k==="verdict" ? [verdictOf(i)] : k==="direction" ? [directionOf(i)] : k==="tier" ? [i.market?.tier] : k==="tech" ? (i.tech||[]) : k==="pain" ? (i.pain||[]) : k==="platform" ? (i.platforms||[]) : k==="brand" ? (i.brands||[]) : k==="picked" ? [i.picked?"已选意向品":"其他"] : [i[k]];
 const OALL = {picked:"全部",rank:"全部层级",pain:"全部痛点",platform:"全部平台",brand:"全部品牌",date:"全部日期",direction:"全部方向",category:"全部品类",verdict:"全部",tier:"全部梯队",tech:"全部技术"};
-const OORDER = {picked:["已选意向品","其他"],brand:BRANDS, rank:["主推","次推","技术观察"], verdict:["优先看样",...decisionLevels,"推荐","谨慎推荐","观望"], tier:["第一梯队","第二梯队","第三梯队","暂无统计"]};
+const OORDER = {picked:["已选意向品","其他"],brand:BRANDS, rank:["主推","次推","技术观察"], verdict:["推荐","谨慎推荐","观望"], tier:["第一梯队","第二梯队","第三梯队","暂无统计"]};
 let ost = Object.fromEntries(OK.map(k=>[k,"all"]));
 function buildOFilters(){
   const items = pool();
@@ -267,10 +267,10 @@ function orender(){
     <td class="w2">${esc(s.audience||i.audience)}</td>
     <td class="w2">${esc(s.points||i.points)}</td>
     ${view==="sy" ? `<td class="w3">${esc(s.innovation||i.innovation)}</td>` : ""}
-    <td class="w3">${m.tier&&(!i.decision||m.tier!=="暂无统计")?`<span class="tier tier-${esc(m.tier)}">${esc(m.tier)}</span><br>`:""}${esc(s.size||m.size)}</td>
+    <td class="w3">${m.tier?`<span class="tier tier-${esc(m.tier)}">${esc(m.tier)}</span><br>`:""}${esc(s.size||m.size)}</td>
     <td class="w2">${esc(s.growth||m.growth)}</td>
     <td class="w2">${m.demand_level?`<span class="lvl lvl-${esc(m.demand_level)}">需求${esc(m.demand_level)}</span>`:""}${esc(s.demand||m.demand)}</td>
-    <td class="w3">${verdictOf(i)?`<span class="vd vd-${esc(verdictOf(i))}">${esc(verdictOf(i))}</span>`:""}${esc(i.decision?.next||s.why||i.why)}</td>
+    <td class="w3">${verdictOf(i)?`<span class="vd vd-${esc(verdictOf(i))}">${esc(verdictOf(i))}</span>`:""}${esc(s.why||i.why)}</td>
     <td><button class="go" type="button" data-go="${esc(i.id)}">看明细 ↓</button></td></tr>`; }).join("")
     || `<tr><td colspan="16" class="empty">没有符合条件的新品，换个筛选试试。</td></tr>`;
 }
@@ -283,8 +283,6 @@ document.addEventListener("click", e => {
   if (!el) { state = {q:"",date:"all",cat:"all",verdict:"all",rank:"all"}; $("#q").value=""; $("#date").value="all"; $("#verdict").value="all"; $("#rank").value="all"; render(); el = document.getElementById("item-"+b.dataset.go); }
   if (!el && view !== "all") { setView("all"); el = document.getElementById("item-"+b.dataset.go); }
   if (!el) return;
-  const archive = el.closest("#review-archive details");
-  if (archive) archive.open = true;
   el.scrollIntoView({behavior:"smooth", block:"start"});
   el.classList.add("flash"); setTimeout(()=>el.classList.remove("flash"), 1800);
 });

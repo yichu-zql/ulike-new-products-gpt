@@ -282,3 +282,8 @@ dd.visual .srcs{margin-top:4px;font-size:12px}
 .selection li{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;padding:7px 0;border-top:1px solid #ececf0}
 .selection li span{font-size:13px;color:#495264}
 .vd-优先推进{background:#e5f2ec;color:#235943}.vd-定向验证{background:#fff2db;color:#745119}.vd-暂缓{background:#edf0f3;color:#525d69}
+.cat-toggle{align-self:flex-start;margin:3px 0;padding:3px 8px;border:1px solid var(--line,#ddd);border-radius:5px;background:#fff;color:var(--muted);font:inherit;font-size:12px;cursor:pointer}
+.cgroups.compact{flex-direction:row;flex-wrap:wrap;gap:5px 8px}
+.cgroups.compact .cg{display:block}
+.cgroups.compact .glabel{display:inline-block;padding:3px 8px;border:1px solid var(--line,#ddd);border-radius:5px;background:#fff;white-space:nowrap}
+.cgroups.compact .glabel[aria-pressed=true]{background:var(--accent-soft,#f6eaf0);border-color:var(--accent);text-decoration:none}
