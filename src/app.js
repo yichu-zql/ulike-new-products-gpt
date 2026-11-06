@@ -23,7 +23,8 @@ let view = "all";
 try { view = localStorage.getItem("ulike-new-products-gpt:view:v1") || "all"; } catch(e) {}
 if (!VIEWS.some(v => v[0]===view)) view = "all";
 const inView = i => view==="all" || (view==="sy") === isSY(i);
-const pool = () => DATA.items.filter(inView);
+const isListed = i => !["pending","concept"].includes(i.selectionStatus);
+const pool = () => DATA.items.filter(i => isListed(i) && inView(i));
 
 const dates = [...new Set(DATA.items.map(i => i.date).concat(DATA.days.map(d => d.date)))].sort().reverse();
 const latest = dates[0];
@@ -31,7 +32,8 @@ let state = {q:"", date:"all", cat:"all", verdict:"all", rank:"all"};
 $("#date").innerHTML = `<option value="all">全部日期</option>` + dates.map(d => `<option value="${d}">${d}</option>`).join("");
 
 function renderViews(){
-  const n = {all:DATA.items.length, group:DATA.items.filter(i=>!isSY(i)).length, sy:DATA.items.filter(isSY).length};
+  const listed = DATA.items.filter(isListed);
+  const n = {all:listed.length, group:listed.filter(i=>!isSY(i)).length, sy:listed.filter(isSY).length};
   $("#views").innerHTML = VIEWS.map(([k,l]) => `<button role="tab" type="button" data-view="${k}" class="${k}" aria-selected="${view===k}">${l} <em>${n[k]}</em>${k==="sy"?'<span class="new">NEW</span>':""}</button>`).join("");
   document.body.classList.toggle("v-sy", view==="sy");
   $("#h1").innerHTML = view==="sy" ? `<span class="symark">术原 <small>SHUYUAN</small></span> 超导护肤新品` : SITE_TITLE;
@@ -71,30 +73,39 @@ function renderPre(){
   if (ups.length) note.innerHTML = `<b>本期更新 ${ups.length} 项</b>` + ups.map(i => `<button type="button" data-go="${esc(i.id)}" title="${esc(lastUpd(i).note)}">${esc(i.name.replace(/（.*$/,""))}</button>`).join("");
 }
 const decisionLevels = ["优先推进", "定向验证", "暂缓"];
-const verdictOf = i => i.decision?.level || i.market?.verdict;
+const verdictOf = i => i.selectionStatus==="verified" && i.decision?.level==="优先推进" ? "优先看样" : i.decision?.level || i.market?.verdict;
 const directionOf = i => i.directionStatus || i.direction;
 function renderSelection(){
   const box = $("#selection");
-  const decisions = pool().filter(i => i.decision && i.decision.checked === DATA.meta?.selectionReviewed);
+  const decisions = pool().filter(i => i.selectionStatus==="verified" && i.decision);
   box.hidden = !decisions.length;
   const priority = decisions.filter(i => i.decision.level === "优先推进");
   box.innerHTML = decisions.length ? `<h3>选品行动 <small>${esc(DATA.meta.selectionReviewed)} 研究复核</small></h3>
-    <p>${decisionLevels.map(level => `${level} ${decisions.filter(i => i.decision.level === level).length}`).join(" · ")}。优先推进指先做买样、打样或低成本验证。</p>
-    ${priority.length ? `<ul>${priority.map(i => `<li><button type="button" class="go" data-go="${esc(i.id)}">${esc(i.name)}</button><span>${esc(i.decision.next)}</span></li>`).join("")}</ul>` : "<p>此视角暂无优先推进项，可在新品清单查看验证条件。</p>"}` : "";
+    <p>已复核实售 ${decisions.length} 条 · 优先看样 ${priority.length} 条</p>
+    <ul>${decisions.map(i => `<li><button type="button" class="go" data-go="${esc(i.id)}">${esc(i.name)}</button><span>${i.decision.level==="优先推进"?"优先看样":esc(i.decision.level)} · ${esc(i.decision.next)}</span></li>`).join("")}</ul>` : "";
+}
+function renderReviewArchive(){
+  const items = DATA.items.filter(i => inView(i) && !isListed(i));
+  $("#review-archive").innerHTML = [["pending","待证线索"],["concept","术原研发备忘"]].map(([status,label])=>{
+    const rows = items.filter(i => i.selectionStatus===status);
+    if (!rows.length) return "";
+    return `<details class="brief"><summary>${label}<span class="briefn">${rows.length} 条</span></summary><div>${rows.map(card).join("")}</div></details>`;
+  }).join("");
 }
 function renderBand(){
   renderSelection();
-  const sy = DATA.items.filter(isSY);
+  renderReviewArchive();
+  const sy = DATA.items.filter(i => isListed(i) && isSY(i));
   $("#zonegrid").classList.toggle("syon", view==="sy");
   if (!sy.length) { $("#syband").innerHTML = ""; return; }
-  const main = sy.filter(i => i.rank==="主推"), sec = sy.filter(i => i.rank==="次推");
+  const main = sy.filter(i => i.rank==="主推");
   if (view !== "sy"){
-    $("#syband").innerHTML = `<button class="zone z-sy" type="button" data-view="sy"><span class="dot"></span><span class="zt"><b>术原 · 超导护肤</b><span>护肤品为主、仪器辅助，仪器开发目标≤300元</span></span><span class="zn">主推 ${main.length} · 次推 ${sec.length}</span><span class="za">→</span></button>`;
+    $("#syband").innerHTML = `<button class="zone z-sy" type="button" data-view="sy"><span class="dot"></span><span class="zt"><b>术原 · 超导护肤</b><span>实售组合，护肤品为主，辅助器具核实售价≤300元</span></span><span class="zn">${sy.length} 条实售</span><span class="za">→</span></button>`;
     return;
   }
   const pains = {}; sy.forEach(i => (i.pain||[]).forEach(p => pains[p]=(pains[p]||0)+1));
   $("#syband").innerHTML = `<div class="syhero">
-    <div class="pos"><span class="symark">超导护肤</span><p>以护肤品为主产品，辅助仪器目标零售价不超过300元（开发目标，成本待验证）。通过器械ID、结构与交互创新，解决用量、涂布、卫生、局部护理和坚持使用的问题；参考产品事实与开发方案分别核实。</p></div>
+    <div class="pos"><span class="symark">超导护肤</span><p>收录护肤品为主、器具辅助的实售组合。器具售价已核实，海外标价按注明日期折算为人民币，不超过300元。</p></div>
     <div class="pains"><span>按用户痛点看</span>${Object.entries(pains).sort((a,b)=>b[1]-a[1]).map(([p,n]) => `<button class="pain" type="button" data-pain="${esc(p)}" aria-pressed="${ost.pain===p}">${esc(p)} ${n}</button>`).join("")}</div>
     <div class="strip-h">术原专题主推 <span class="rank rank-主推">主推 ${main.length}</span><small>　当前推进判断见选品行动与产品明细</small></div>
     <div class="strip">${main.map(i => `<button class="scard" type="button" data-go="${esc(i.id)}">${i.img?`<img src="${i.img}" alt="" loading="lazy">`:`<span class="ph none">参考图待补</span>`}<b>${esc(i.name.replace(/^【示例】/,""))}</b><span>创新点：${esc((i.summary||{}).innovation||i.innovation)}</span></button>`).join("")}</div>
@@ -138,7 +149,7 @@ function card(i){
       <div class="pic">${i.img
         ? `<a class="frame" href="${esc(i.imageKind === "concept" ? i.img : i.image_page||(i.links[0]||{}).url)}" target="_blank" rel="noopener"><img src="${esc(i.img)}" alt="${esc(i.name)} ${imageLabel}" loading="lazy"></a><small>${imageLabel}</small>`
         : `<a class="none" href="${esc(i.image_page||(i.links[0]||{}).url)}" target="_blank" rel="noopener">查看参考商品图 ↗</a><small>现有参考图</small>`}</div>
-      <div class="body"><div class="top"><h3>${esc(i.name)}</h3><div class="tags">${pickBadge(i)}${updBadge(i)}${preBadge(i)}${sy?`<span class="tag sy">术原</span><span class="rank rank-${esc(i.rank)}">${esc(i.rank)}</span>`:""}${i.direction?`<span class="tag${i.direction.startsWith("医美")?" med":""}">${esc(directionOf(i))}</span>`:""}<span class="tag cat">${esc(short(i.category))}</span>${i.type?`<span class="tag">${esc(i.type)}</span>`:""}${(i.tech||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}<a class="back" href="#overview">↑ 清单</a></div></div>
+      <div class="body"><div class="top"><h3>${esc(i.name)}</h3><div class="tags">${pickBadge(i)}${updBadge(i)}${preBadge(i)}${sy?`<span class="tag sy">术原</span>${isListed(i)?`<span class="rank rank-${esc(i.rank)}">${esc(i.rank)}</span>`:""}`:""}${i.direction?`<span class="tag${i.direction.startsWith("医美")?" med":""}">${esc(directionOf(i))}</span>`:""}<span class="tag cat">${esc(short(i.category))}</span>${i.type?`<span class="tag">${esc(i.type)}</span>`:""}${(i.tech||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}<a class="back" href="#overview">↑ 清单</a></div></div>
       <dl>
         ${i.launch ? `<dt>上市状态</dt><dd><b>${esc(i.launch.status)}</b>${i.launch.expected?` · 预计上市：${esc(i.launch.expected)}`:""}${i.launch.note?`<br>${esc(i.launch.note)}`:""}${(i.launch.sources||[]).length?`<span class="srcs">${i.launch.sources.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a>`).join("")}</span>`:""}</dd>` : ""}
         ${(i.updates||[]).length ? `<dt>更新记录</dt><dd>${i.updates.map(u=>`${esc(u.date)}：${esc(u.note)}`).join("<br>")}</dd>` : ""}
@@ -147,6 +158,7 @@ function card(i){
         <dt>${L.pts}</dt><dd>${esc(i.points)}</dd>
         <dt>适配品牌</dt><dd class="platforms">${brandTags(i)||'待评估'}</dd>
         ${i.referenceBrand?`<dt>参考品牌</dt><dd>${esc(i.referenceBrand)}</dd>`:''}
+        ${i.sale?`<dt>销售依据</dt><dd>${esc(i.sale.price)} · ${esc(i.sale.market)} <a href="${esc(i.sale.url)}" target="_blank" rel="noopener">商品页</a>${i.sale.device?`<br>${esc(i.sale.device.note)} <a href="${esc(i.sale.device.url)}" target="_blank" rel="noopener">器具单价</a> · <a href="${esc(i.sale.device.rateUrl)}" target="_blank" rel="noopener">折算依据</a>`:""}</dd>`:""}
         ${i.evidence?.length?`<dt>本期证据</dt><dd>${i.evidence.map(e=>`${esc(e.checked)} · ${e.status==='unverified'?'未重新核实，仅作编辑调整：':''}${esc(e.claim)} <a href="${esc(e.url)}" target="_blank" rel="noopener">来源</a>`).join('<br>')}</dd>`:''}
         ${i.shuyuan ? `<dt>术原开发约束</dt><dd>护肤品为主 · 辅助仪器目标≤${esc(i.shuyuan.deviceTargetPriceCNY)}元 · ${esc(i.shuyuan.priceStatus)}<br>${esc(i.shuyuan.idInnovation)}</dd>` : ""}
         ${i.lastReview ? `<dt>最近回查</dt><dd>${esc(i.lastReview.checked)}：${esc(i.lastReview.note)} <a href="${esc(i.lastReview.url)}" target="_blank" rel="noopener">核查来源</a></dd>` : ""}
@@ -161,7 +173,8 @@ function card(i){
         <dt>用户需求</dt><dd>${i.market.demand_level?`<span class="lvl lvl-${esc(i.market.demand_level)}">需求${esc(i.market.demand_level)}</span>`:""}${esc(i.market.demand)}</dd>` : ""}
         ${i.unmet ? `<dt>需求缺口</dt><dd><b>需求</b> ${esc(i.unmet.demand)}<br><b>没被满足</b> ${esc(i.unmet.gap)}<br><b>怎么解决</b> ${esc(i.unmet.solve)}${(i.unmet.sources||[]).length?`<span class="srcs">${i.unmet.sources.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a>`).join("")}</span>`:""}</dd>` : ""}
         <dt>${L.links}</dt><dd class="links">${(i.links||[]).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a>`).join("")}</dd>
-        ${i.decision ? `<dt>选品判断</dt><dd class="why"><span class="vd vd-${esc(i.decision.level)}">${esc(i.decision.level)}</span>${esc(i.decision.reason)}</dd>
+        ${!isListed(i) ? `<dt>收录状态</dt><dd>${i.selectionStatus==="concept"?"研发备忘":"待证线索"} · ${esc(i.selectionNote)}</dd>`
+        : i.decision ? `<dt>推荐理由</dt><dd class="why"><span class="vd vd-${esc(i.decision.level)}">${i.selectionStatus==="verified"&&i.decision.level==="优先推进"?"优先看样":esc(i.decision.level)}</span>${esc(i.decision.reason)}</dd>
         <dt>关键待证</dt><dd>${esc(i.decision.gap)}</dd>
         <dt>下一步</dt><dd>${esc(i.decision.next)}<span class="mview"><b>判断条件</b>${esc(i.decision.criteria)}</span></dd>`
         : `<dt>推荐理由</dt><dd class="why">${i.market?`<span class="vd vd-${esc(i.market.verdict)}">${esc(i.market.verdict)}</span>`:""}${esc(i.why)}${i.market?`<span class="mview"><b>市场维度</b>${esc(i.market.view)}</span>`:""}</dd>`}
@@ -189,8 +202,8 @@ function render(){
     if (!its.length && !(day && day.brief && day.brief.length)) continue;
     html += `<section class="day"><div class="dayhead"><h2>${d}</h2>${d===latest?'<span class="latest">最新</span>':''}</div>`;
     if (day && day.brief && day.brief.length && !filtered){
-      const relOf = b => (b.items||[]).map(id => DATA.items.find(x => x.id===id)).filter(Boolean);
-      const nRel = new Set(day.brief.flatMap(b => b.items||[])).size;
+      const relOf = b => (b.items||[]).map(id => DATA.items.find(x => x.id===id)).filter(i => i && isListed(i) && inView(i));
+      const nRel = new Set(day.brief.flatMap(b => relOf(b).map(i=>i.id))).size;
       html += `<details class="brief"${d===latest?" open":""}><summary>行业速览<span class="briefn">${day.brief.length} 条动态${nRel?` · 关联本期 ${nRel} 个新品`:""}</span></summary><ul>` +
         day.brief.map(b => { const rel = relOf(b); return `<li><p>${esc(b.text)} <a class="src" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.source)}</a></p>${rel.length?`<div class="rel"><span>相关新品</span>${rel.map(i => `<button type="button" data-go="${esc(i.id)}">${esc(i.name.replace(/（.*$/,""))}</button>`).join("")}</div>`:""}</li>`; }).join("") + `</ul></details>`;
     }
@@ -208,7 +221,7 @@ document.querySelector(".bar").addEventListener("click", e => { const b = e.targ
 const OK = ["rank","pain","picked","platform","date","direction","brand","category","verdict","tier","tech"];
 const oget = (i,k) => k==="verdict" ? [verdictOf(i)] : k==="direction" ? [directionOf(i)] : k==="tier" ? [i.market?.tier] : k==="tech" ? (i.tech||[]) : k==="pain" ? (i.pain||[]) : k==="platform" ? (i.platforms||[]) : k==="brand" ? (i.brands||[]) : k==="picked" ? [i.picked?"已选意向品":"其他"] : [i[k]];
 const OALL = {picked:"全部",rank:"全部层级",pain:"全部痛点",platform:"全部平台",brand:"全部品牌",date:"全部日期",direction:"全部方向",category:"全部品类",verdict:"全部",tier:"全部梯队",tech:"全部技术"};
-const OORDER = {picked:["已选意向品","其他"],brand:BRANDS, rank:["主推","次推","技术观察"], verdict:[...decisionLevels,"推荐","谨慎推荐","观望"], tier:["第一梯队","第二梯队","第三梯队","暂无统计"]};
+const OORDER = {picked:["已选意向品","其他"],brand:BRANDS, rank:["主推","次推","技术观察"], verdict:["优先看样",...decisionLevels,"推荐","谨慎推荐","观望"], tier:["第一梯队","第二梯队","第三梯队","暂无统计"]};
 let ost = Object.fromEntries(OK.map(k=>[k,"all"]));
 function buildOFilters(){
   const items = pool();
@@ -270,6 +283,8 @@ document.addEventListener("click", e => {
   if (!el) { state = {q:"",date:"all",cat:"all",verdict:"all",rank:"all"}; $("#q").value=""; $("#date").value="all"; $("#verdict").value="all"; $("#rank").value="all"; render(); el = document.getElementById("item-"+b.dataset.go); }
   if (!el && view !== "all") { setView("all"); el = document.getElementById("item-"+b.dataset.go); }
   if (!el) return;
+  const archive = el.closest("#review-archive details");
+  if (archive) archive.open = true;
   el.scrollIntoView({behavior:"smooth", block:"start"});
   el.classList.add("flash"); setTimeout(()=>el.classList.remove("flash"), 1800);
 });

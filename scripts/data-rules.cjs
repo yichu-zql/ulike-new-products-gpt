@@ -16,6 +16,16 @@ function validate(data){
   if(i.evidence)assert(i.evidence.length&&i.evidence.every(e=>url(e.url)&&e.claim&&date(e.checked)),i.id+' invalid evidence');
   if(i.shuyuan){const s=i.shuyuan;assert(s.primary==='skincare'&&s.deviceRole==='auxiliary'&&s.deviceTargetPriceCNY>0&&s.deviceTargetPriceCNY<=300&&s.priceStatus&&s.idInnovation&&s.problem,i.id+' positioning');assert(i.concept?.primary==='skin',i.id+' skincare must lead');}
   if(i.img)assert(!i.img.includes('..')&&i.img.startsWith('assets/images/'),i.id+' unsafe image path');
+  if(i.selectionStatus)assert(['verified','pending','concept'].includes(i.selectionStatus),i.id+' invalid selection status');
+  if(i.selectionStatus==='verified'){
+   assert(i.imageKind==='reference'&&i.img&&url(i.image_url),i.id+' requires a real product photo');
+   assert(i.decision&&url(i.sale?.url)&&i.sale.price&&i.sale.market,i.id+' missing sale evidence');
+   if(i.rank){
+    const device=i.sale.device;
+    assert(device&&Number.isFinite(device.amountCny)&&device.amountCny>0&&device.amountCny<=300&&url(device.url)&&url(device.rateUrl)&&device.note,i.id+' requires a verified device price within 300 CNY');
+    assert(i.concept?.primary==='skin',i.id+' skincare must lead');
+   }
+  }
   if(i.decision){
    assert(['优先推进','定向验证','暂缓'].includes(i.decision.level),i.id+' invalid decision level');
    assert(date(i.decision.checked),i.id+' invalid decision date');
@@ -37,8 +47,8 @@ function prepare(base,batch,policy){
  const counts=Object.fromEntries(Object.keys(policy.directionMinimums).map(k=>[k,added.filter(i=>i.direction===k).length]));
  for(const [k,min]of Object.entries(policy.directionMinimums))assert(counts[k]>=min,`${k}: ${counts[k]}/${min}`);
  assert(added.filter(i=>policy.recoveryCategories.includes(i.category)).length>=policy.recoveryMinimum,'Recovery quota unmet');
- const sy=changed.filter(i=>i.shuyuan);assert(sy.filter(i=>i.rank==='主推').length>=policy.shuyuan.mainMinimum,'Shuyuan primary quota unmet');assert(sy.filter(i=>i.rank==='次推').length>=policy.shuyuan.secondaryMinimum,'Shuyuan secondary quota unmet');
- for(const i of added)assert(i.decision?.checked===batch.date,i.id+' requires a current selection decision');
+ const sy=changed.filter(i=>i.selectionStatus==='verified'&&i.sale?.device);assert(sy.filter(i=>i.rank==='主推').length>=policy.shuyuan.mainMinimum,'Shuyuan primary quota unmet');assert(sy.filter(i=>i.rank==='次推').length>=policy.shuyuan.secondaryMinimum,'Shuyuan secondary quota unmet');
+ for(const i of added)assert(i.selectionStatus==='verified'&&i.decision?.checked===batch.date,i.id+' requires current retail evidence and selection decision');
  for(const i of added.filter(i=>i.direction===policy.offlineDirection))assert(i.channelEvidence?.offlineSales&&i.channelEvidence?.onlineScope&&i.channelEvidence?.onlineEvidence,'Offline/online comparative evidence required');
  const reviews=batch.reviews||[],required=base.items.filter(i=>i.launch?.status==='未上市');
  for(const i of required){const r=reviews.find(r=>r.id===i.id);assert(r&&r.checked===batch.date&&url(r.url)&&r.note&&['verified','inconclusive','blocked'].includes(r.status),'Review missing '+i.id);assert(r.status!=='blocked','Review blocked '+i.id);}

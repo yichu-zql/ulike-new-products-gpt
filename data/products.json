@@ -3439,7 +3439,9 @@
         "next": "用三款标签区分精华和机械防错套环做纸样/无电子样机；20名用户按说明完成流程，记录选错、误装和操作时长。",
         "criteria": "内部拟定门槛：未辅助时存在可复现混淆；防错结构将错误下降≥50%，不增加流程时长超过10%。若仅一款精华，删除自动识别功能。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
     },
     {
       "id": "sy-sono",
@@ -3545,7 +3547,9 @@
           "date": "2026-11-01",
           "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
-      ]
+      ],
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
     },
     {
       "id": "sy-ion-mask",
@@ -3683,7 +3687,9 @@
         "status": "inconclusive",
         "url": "https://ick.intercharmkorea.com/eng/exhibitor/exhi_detail04.asp?idx=6429&param=%26page%3D27&ref_idx=16258",
         "note": "2026 InterCHARM参展方仍展示Young&be Bio-radiance Mask。已确认展示记录；没有取得可核实的正式零售上架和开售日期，不能把未检索到认作确定未上市。保留跟踪并注明上市待核实。"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "原术原技术观察，待核实实售组合及器具单价。"
     },
     {
       "id": "sy-two-step",
@@ -3804,7 +3810,9 @@
           "date": "2026-11-01",
           "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
-      ]
+      ],
+      "selectionStatus": "pending",
+      "selectionNote": "原术原技术观察，待核实实售组合及器具单价。"
     },
     {
       "id": "sy-eye-patch",
@@ -3927,7 +3935,9 @@
         "next": "先验证不通电限位工具的贴合和操作；由合格工程/测试团队另行评估电流方案及材料相容性，再决定是否保留电功能。",
         "criteria": "内部继续条件：两家供应商报价和专项测试支持≤300元开发目标；组合相较单独眼贴有预先定义、可测的体验或效果优势。未闭环不得宣传更深导入。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
     },
     {
       "id": "sy-lg-superform",
@@ -4032,7 +4042,9 @@
           "date": "2026-11-01",
           "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
-      ]
+      ],
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
     },
     {
       "id": "sy-panasonic",
@@ -4137,7 +4149,9 @@
           "date": "2026-11-01",
           "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
-      ]
+      ],
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
     },
     {
       "id": "sy-ziip",
@@ -4241,7 +4255,9 @@
           "date": "2026-11-01",
           "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
-      ]
+      ],
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
     },
     {
       "id": "sy-light-serum",
@@ -4348,7 +4364,9 @@
           "date": "2026-11-01",
           "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
-      ]
+      ],
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
     },
     {
       "id": "sy-spot-print",
@@ -4462,7 +4480,9 @@
           "date": "2026-11-01",
           "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
-      ]
+      ],
+      "selectionStatus": "pending",
+      "selectionNote": "原术原技术观察，待核实实售组合及器具单价。"
     },
     {
       "id": "sy-fiber-veil",
@@ -4584,7 +4604,9 @@
           "status": "unverified",
           "kind": "editorial-decision"
         }
-      ]
+      ],
+      "selectionStatus": "pending",
+      "selectionNote": "原术原技术观察，待核实实售组合及器具单价。"
     },
     {
       "id": "sy-exosome",
@@ -4699,7 +4721,9 @@
           "date": "2026-11-01",
           "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
-      ]
+      ],
+      "selectionStatus": "pending",
+      "selectionNote": "原术原技术观察，待核实实售组合及器具单价。"
     },
     {
       "id": "sy-microcone",
@@ -4816,7 +4840,9 @@
           "date": "2026-11-01",
           "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
-      ]
+      ],
+      "selectionStatus": "pending",
+      "selectionNote": "原术原技术观察，待核实实售组合及器具单价。"
     },
     {
       "id": "sy-skin-scan",
@@ -4920,7 +4946,9 @@
           "date": "2026-11-01",
           "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
-      ]
+      ],
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
     },
     {
       "id": "sy-hydra-pen",
@@ -5037,7 +5065,9 @@
           "date": "2026-11-01",
           "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
-      ]
+      ],
+      "selectionStatus": "pending",
+      "selectionNote": "原术原技术观察，待核实实售组合及器具单价。"
     },
     {
       "id": "sy-jet",
@@ -5170,7 +5200,9 @@
         "status": "inconclusive",
         "url": "https://www.ces.tech/ces-innovation-awards/2026/skinboosters-jet/",
         "note": "CES 2026官方创新奖页确认SkinBoosters Jet，描述面向专业美容护理的微雾化应用。本轮未取得家用零售上市公告或可下单官方商品页；继续跟踪，不填虚构上市日。"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "原术原技术观察，待核实实售组合及器具单价。"
     },
     {
       "id": "sy-body-adaptive",
@@ -5275,7 +5307,9 @@
           "date": "2026-11-01",
           "note": "按术原护肤品主导、辅助器具目标≤300元重新分级；与意向品标签无关。参考依据与未核实项见正文。"
         }
-      ]
+      ],
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
     },
     {
       "date": "2026-10-24",
@@ -13049,7 +13083,9 @@
         "next": "核实供货与法规分类，拆解控温、接触检测和凝胶耗量。",
         "criteria": "完成准入评估并取得可追溯供货及目标价格测算后，再转样机验证。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "nira-pro",
@@ -13143,7 +13179,9 @@
         "next": "向品牌确认代际与供货，再做皮肤适用范围和接触检测评估。",
         "criteria": "先取得型号一致的说明书、供货记录及合规意见，才启动样机对标。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "compex-mini",
@@ -13237,7 +13275,9 @@
         "next": "区分运动放松与疼痛治疗两条产品路线，测贴片定位、连接和复用成本。",
         "criteria": "确定分类与适用范围，完成目标部位验证及贴片成本模型后推进。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "myolift-qt-plus",
@@ -13335,7 +13375,9 @@
         "next": "先做眼周/下颌贴膜的人体工学及重复佩戴测试，计算耗材单次成本。",
         "criteria": "建议门槛：20人重复佩戴测试至少16人可独立正确定位，粘附与电气安全均达标；内部目标。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "qure-microinfusion",
@@ -13430,7 +13472,9 @@
         "next": "保留结构参考，优先研究不破皮的定量涂布和防回流方案。",
         "criteria": "只有完成医疗/法规评估、无菌与配方相容性验证后才重新评估破皮路线。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "beautybio-glofacial",
@@ -13525,7 +13569,9 @@
         "next": "核查其他渠道供货，再做透明水路模型和一次清洗耗时测试。",
         "criteria": "供货和产品身份确认，负压/卫生验证通过且目标用户接受清洁流程后推进。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "silkn-titan-allways",
@@ -13621,7 +13667,9 @@
         "next": "比较NEWA与Titan的安全控制及耗材结构，先出差异矩阵。",
         "criteria": "明确差异化且完成分类与安全可行性评估后决定是否打样。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "recoverypulse-calf",
@@ -13712,7 +13760,9 @@
         "criteria": "建议门槛：20名目标用户中至少16人可正确穿戴且连续试用无明显滑移；内部目标。",
         "checked": "2026-11-06"
       },
-      "directionStatus": "海外观察（热度待核）"
+      "directionStatus": "海外观察（热度待核）",
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "therabody-wave-solo",
@@ -13803,7 +13853,9 @@
         "criteria": "建议立项门槛：20名目标用户测试中至少12名愿意按目标价购买，且可用性通过；这是内部验证目标。",
         "checked": "2026-11-06"
       },
-      "directionStatus": "海外观察（热度待核）"
+      "directionStatus": "海外观察（热度待核）",
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "hyperice-venom2-back",
@@ -13898,7 +13950,9 @@
         "criteria": "安全验证通过，且目标用户愿意为振动与贴合提升付费，才扩大投入。",
         "checked": "2026-11-06"
       },
-      "directionStatus": "海外观察（热度待核）"
+      "directionStatus": "海外观察（热度待核）",
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "geske-thermo-brush",
@@ -13990,7 +14044,9 @@
         "criteria": "建议门槛：20人中至少12人连续两周愿意使用并接受目标价格；内部目标。",
         "checked": "2026-11-06"
       },
-      "directionStatus": "海外观察（热度待核）"
+      "directionStatus": "海外观察（热度待核）",
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "faq-202-mask",
@@ -14086,7 +14142,9 @@
         "criteria": "取得一致说明书与测试报告，光安全和目标脸型覆盖达标后推进。",
         "checked": "2026-11-06"
       },
-      "directionStatus": "海外观察（热度待核）"
+      "directionStatus": "海外观察（热度待核）",
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "luminette3-glasses",
@@ -14180,7 +14238,9 @@
         "criteria": "完成眼部安全/适用范围评估且晨间习惯测试显示持续使用，再进入开发。",
         "checked": "2026-11-06"
       },
-      "directionStatus": "海外观察（热度待核）"
+      "directionStatus": "海外观察（热度待核）",
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "sensate-relaxation",
@@ -14271,7 +14331,9 @@
         "criteria": "建议门槛：对照试用中稳定体现舒适/坚持优势且用户接受价格；不以治疗焦虑宣传。",
         "checked": "2026-11-06"
       },
-      "directionStatus": "海外观察（热度待核）"
+      "directionStatus": "海外观察（热度待核）",
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "refa-fine-bubble",
@@ -14367,11 +14429,13 @@
         "next": "对比普通花洒做家庭试用，并评估低水压表现与滤芯复购接受度。",
         "criteria": "建议内部通过条件：多数试用者可独立安装，水压与冲洗体验不劣于原花洒，并出现真实付费选择；不是行业标准。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "refa-lock-series",
-      "name": "ReFa LOCK 造型护理油系列",
+      "name": "ReFa LOCK OIL 造型护发油（100 mL）",
       "direction": "销量起量",
       "category": "头皮/生发仪",
       "brands": [],
@@ -14379,36 +14443,36 @@
       "tech": [
         "造型前护理油与热造型搭配"
       ],
-      "reason": "系列累计出货2025年1月300万瓶，2025年11月末500万瓶；增加200万瓶，不等于同比增速。",
+      "reason": "主方向为销量起量，依据为 ReFa LOCK 系列出货增长。标准款为已上市参照商品。",
       "audience": "频繁使用卷发棒/直发夹人群",
-      "points": "系列累计出货2025年1月300万瓶，2025年11月末500万瓶；增加200万瓶，不等于同比增速。；仪器负责造型，耗材解决触感与持型，形成复购组合",
+      "points": "热造型前使用，产品定位兼顾造型持久与头发柔软触感。",
       "links": [
         {
-          "title": "官方产品/销售证据",
-          "url": "https://www.mtg.gr.jp/news/detail/2026/01/article_2478.html"
+          "title": "ReFa 日本商品页",
+          "url": "https://www.refa.net/item/refa_lock_oil/"
         },
         {
-          "title": "对照证据/需求依据",
+          "title": "MTG 系列300万瓶公告",
           "url": "https://www.mtg.gr.jp/news/detail/2025/02/article_2330.html"
+        },
+        {
+          "title": "MTG 系列500万瓶公告",
+          "url": "https://www.mtg.gr.jp/news/detail/2026/01/article_2478.html"
         }
       ],
       "why": "仪器负责造型，耗材解决触感与持型，形成复购组合",
       "market": {
         "tier": "暂无统计",
-        "size": "系列规模代理：2020年10月至2025年11月末累计出货500万瓶；2026年公告称系列10款，不能当作单瓶型号销量或护发油市场总额。",
-        "growth": "2025年1月累计300万→11月末500万，约10个月增加200万瓶，累计基数增加66.7%；并非同比销售增长。",
+        "size": "相邻市场参照。2025年前9个月美国高端美发品零售额约35亿美元，涵盖护发及造型等多个品类。",
+        "growth": "同期美国高端美发品销售额同比+8%，其中造型品双位数增长。ReFa LOCK系列2025年1月底至11月底累计出货由300万增至500万瓶，约10个月增加200万瓶。",
         "demand_level": "",
-        "demand": "热造型前护理同时追求持型与柔软触感，是设备+耗材的清晰组合场景。销量信号支持继续验证，不证明中国同价位需求。",
+        "demand": "经常使用卷发棒或直板夹的人，希望造型持久，同时保留柔软触感。",
         "verdict": "观望",
         "view": "仪器负责造型，耗材解决触感与持型，形成复购组合",
         "sources": [
           {
-            "title": "MTG 500万出货及产品",
-            "url": "https://www.mtg.gr.jp/news/detail/2026/01/article_2478.html"
-          },
-          {
-            "title": "MTG 300万基线",
-            "url": "https://www.mtg.gr.jp/news/detail/2025/02/article_2330.html"
+            "title": "Circana 美国高端美发品零售监测",
+            "url": "https://www.circana.com/post/us-beauty-industry-sales-accelerate-in-q3-circana-reports"
           }
         ]
       },
@@ -14416,23 +14480,23 @@
         "fact": "系列累计出货2025年1月300万瓶，2025年11月末500万瓶；增加200万瓶，不等于同比增速。",
         "inference": "仪器负责造型，耗材解决触感与持型，形成复购组合",
         "limitation": "系列口径，不能归为参考单款或单一渠道销量；不推导未披露同比",
-        "size": "系列规模代理：2020年10月至2025年11月末累计出货500万瓶；2026年公告称系列10款，不能当作单瓶型号销量或护发油市场总额。",
-        "growth": "2025年1月累计300万→11月末500万，约10个月增加200万瓶，累计基数增加66.7%；并非同比销售增长。",
-        "demand": "热造型前护理同时追求持型与柔软触感，是设备+耗材的清晰组合场景。销量信号支持继续验证，不证明中国同价位需求。"
+        "size": "相邻市场参照。2025年前9个月美国高端美发品零售额约35亿美元，涵盖护发及造型等多个品类。",
+        "growth": "同期美国高端美发品销售额同比+8%，其中造型品双位数增长。ReFa LOCK系列2025年1月底至11月底累计出货由300万增至500万瓶，约10个月增加200万瓶。",
+        "demand": "经常使用卷发棒或直板夹的人，希望造型持久，同时保留柔软触感。",
+        "reason": "主方向为销量起量，依据为 ReFa LOCK 系列出货增长。标准款为已上市参照商品。",
+        "points": "热造型前使用，产品定位兼顾造型持久与头发柔软触感。",
+        "why": "系列出货增长与固定使用场景支持优先看样。"
       },
       "date": "2026-11-01",
       "platforms": [
-        "品牌官网"
+        "ReFa 日本官网"
       ],
       "visual": {
         "idea": "展示实际结构与使用情境，标注参考产品"
       },
       "concept": {
-        "title": "ReFa LOCK 造型护理油系列的本土化参考",
-        "desc": "仪器负责造型，耗材解决触感与持型，形成复购组合",
-        "primary": "先验证真实使用障碍，再立项",
-        "kit": [],
-        "up": []
+        "title": "可借鉴创新 · 造型设备搭配造型前护理",
+        "desc": "把护发油放进热造型前的固定步骤。可用现有设备对比不同配方的持型与触感。"
       },
       "steps": [
         "核验本地适用范围与可售状态",
@@ -14441,28 +14505,34 @@
       ],
       "evidence": [
         {
-          "url": "https://www.mtg.gr.jp/news/detail/2026/01/article_2478.html",
-          "claim": "系列累计出货2025年1月300万瓶，2025年11月末500万瓶；增加200万瓶，不等于同比增速。",
-          "checked": "2026-11-01"
+          "url": "https://www.refa.net/item/refa_lock_oil/",
+          "claim": "标准款100 mL，官网含税价2,640日元。",
+          "checked": "2026-11-06"
         },
         {
-          "url": "https://www.mtg.gr.jp/news/detail/2025/02/article_2330.html",
-          "claim": "历史对照或系列口径辅助证据",
-          "checked": "2026-11-01"
+          "url": "https://www.mtg.gr.jp/news/detail/2026/01/article_2478.html",
+          "claim": "LOCK系列于2025年11月底累计出货500万瓶。",
+          "checked": "2026-11-06"
         }
       ],
       "referenceBrand": "ReFa",
       "img": "assets/images/selection-refa-lock-series.jpg",
       "imageKind": "reference",
-      "image_page": "https://www.mtg.gr.jp/news/detail/2026/01/article_2478.html",
+      "image_page": "https://www.refa.net/item/refa_lock_oil/",
       "image_url": "https://www.mtg.gr.jp/news/2026/01/15/rf_lock_500m/img-item.jpg",
       "decision": {
+        "checked": "2026-11-06",
         "level": "优先推进",
-        "reason": "仪器与护理耗材分工明确，存在可追踪的系列增量。",
-        "gap": "需验证国内不同发质的油腻感、持型和清洗负担，未披露单款复购率。",
-        "next": "用现有造型设备搭配小样盲测，并记录持型、触感与再次购买选择。",
-        "criteria": "建议内部通过条件：与常用油对照有稳定体验优势且接受目标价格，再推进配方与供应评估。",
-        "checked": "2026-11-06"
+        "reason": "系列出货增长与固定使用场景支持优先看样。",
+        "gap": "标准款零售销量和本地复购尚待核实。",
+        "next": "用现有造型设备对比原品与普通护发油，观察持型、油腻感和再购意愿。",
+        "criteria": "样品在目标使用场景有可感知的体验优势，并有复购意愿。"
+      },
+      "selectionStatus": "verified",
+      "sale": {
+        "price": "2,640日元／100 mL（含税）",
+        "market": "日本",
+        "url": "https://www.refa.net/item/refa_lock_oil/"
       }
     },
     {
@@ -14559,7 +14629,9 @@
         "next": "做发束重复造型实验和用户持握试用。",
         "criteria": "建议条件：在持型不下降的前提下，损伤与操作负担至少一项有稳定改善。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "style-bx-innerwear",
@@ -14655,7 +14727,9 @@
         "next": "跨尺码试穿，与普通内衣比较全天舒适与活动度。",
         "criteria": "建议条件：多数目标用户可持续穿着，不因束缚、闷热放弃，且愿意为支撑体验付费。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "bakune-dry-pro",
@@ -14751,7 +14825,9 @@
         "next": "先验证凉感、透气、翻身活动度和洗后稳定性，再讨论功能宣称。",
         "criteria": "建议条件：盲测体验优于同价普通睡衣，洗后优势仍在；功效需独立验证。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "red-recoverywear",
@@ -14847,7 +14923,9 @@
         "next": "比较不同穿着场景的面料舒适与洗后性能，访谈真实付费用户。",
         "criteria": "建议条件：舒适与复穿意愿有明确优势，效果依据与目标市场销售资格可确认。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "doshisha-gorilla-care",
@@ -14956,7 +15034,9 @@
         "next": "研究压力分级、快脱结构和不同腿围适配，对比现有腿部放松方案。",
         "criteria": "建议条件：舒适可控、易穿脱且目标用户在对照中选择该方案；不把疼痛当作有效指标。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "milli-expanding-dilator",
@@ -15056,7 +15136,9 @@
         "next": "联合盆底专业人员做需求访谈和非临床人因验证，再评估适用与证据要求。",
         "criteria": "建议条件：专业方确认适用边界，渐进调节与清洁取出优于现有方案；不据一般疼痛人口推销量。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "lancome-hapta",
@@ -15152,7 +15234,9 @@
         "next": "与真实动作受限用户共创，比较被动握柄与电动稳定两种方案。",
         "criteria": "建议条件：独立完成率与疲劳负担改善，且用户接受重量、维护和价格。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "silverette-cups",
@@ -15252,7 +15336,9 @@
         "next": "与哺乳专业人员比较不同材质、罩形与透气设计。",
         "criteria": "建议条件：舒适与摩擦控制有可重复改善，无使用负担恶化；材料溢价须有证据。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "uresta-bladder-support",
@@ -15352,11 +15438,13 @@
         "next": "与妇科/盆底专业人员评估选型、取出和转诊路径。",
         "criteria": "建议条件：筛查与尺寸选择可重复、用户能够舒适取出，且适用性与证据要求清晰。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "pending",
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
     },
     {
       "id": "elvie-catch",
-      "name": "Elvie Catch 被动集乳杯",
+      "name": "Elvie Catch 被动集乳杯（两只装）",
       "direction": "需求未满足",
       "category": "女性健康/产后",
       "brands": [],
@@ -15364,40 +15452,40 @@
       "tech": [
         "无泵被动集乳；硅胶裙边密封"
       ],
-      "reason": "官方说明围绕哺乳间隔漏乳、衣物湿痕，提供每侧约30毫升收集杯；需求证据来自产品场景与官方泄漏排障，非人群普遍性调查。",
+      "reason": "主方向为需求未满足。已购用户提到活动时移位渗漏与重新装配费力。",
       "audience": "外出或工作期间有漏乳困扰的哺乳人群",
-      "points": "官方说明围绕哺乳间隔漏乳、衣物湿痕，提供每侧约30毫升收集杯；需求证据来自产品场景与官方泄漏排障，非人群普遍性调查。；贴合、防漏、易倒出和清洗是核心；仍有装配与贴合导致漏液的改进空间",
+      "points": "硅胶裙边贴合，内穿被动收集自然流出的乳汁，每只30 mL，可拆洗。",
       "links": [
         {
-          "title": "官方产品/销售证据",
-          "url": "https://elvie.com/products/elvie-catch"
+          "title": "Target 商品页与已购评论",
+          "url": "https://www.target.com/p/-/A-80274513"
         },
         {
-          "title": "对照证据/需求依据",
+          "title": "Elvie 渗漏排障",
           "url": "https://support.elvie.com/elvie-catch/troubleshooting"
         }
       ],
       "why": "贴合、防漏、易倒出和清洗是核心；仍有装配与贴合导致漏液的改进空间",
       "market": {
         "tier": "暂无统计",
-        "size": "相邻人群代理：美国2022年出生儿童85.7%曾接受母乳、62.1%在6月龄仍接受母乳（CDC）；不能转化为漏乳率、集乳杯渗透率或销售额。",
-        "growth": "未找到Catch销量或同比。基础哺乳人群变化不等于被动集乳杯市场增长。",
+        "size": "相邻细分参照。2025年全球哺乳用乳罩壳（breast shells）市场约7,600万美元，涵盖不同用途的哺乳罩壳。",
+        "growth": "同一市场2026–2033年预测年复合增速3.7%，预计2033年约1.02亿美元。",
         "demand_level": "",
-        "demand": "官方每侧30毫升无泵收集与泄漏排障说明，指出外出湿痕、密封装配、贴合及倒奶是实际设计痛点；缺少独立需求规模研究。",
+        "demand": "日间漏乳的哺乳期用户需要减少衣物湿痕，同时方便收集与清洗。已购反馈指出活动时移位渗漏、拆洗后重新密封仍有改善空间。",
         "verdict": "观望",
         "view": "贴合、防漏、易倒出和清洗是核心；仍有装配与贴合导致漏液的改进空间",
         "sources": [
           {
-            "title": "官方产品/销售证据",
-            "url": "https://elvie.com/products/elvie-catch"
+            "title": "Grand View Research 哺乳用乳罩壳市场",
+            "url": "https://www.grandviewresearch.com/industry-analysis/breast-shells-market-report"
           },
           {
-            "title": "对照证据/需求依据",
+            "title": "Target 已购反馈",
+            "url": "https://www.target.com/p/-/A-80274513"
+          },
+          {
+            "title": "Elvie 渗漏排障",
             "url": "https://support.elvie.com/elvie-catch/troubleshooting"
-          },
-          {
-            "title": "CDC各出生队列母乳喂养比例（相邻人群代理）",
-            "url": "https://www.cdc.gov/breastfeeding-data/survey/results.html"
           }
         ]
       },
@@ -15405,23 +15493,23 @@
         "fact": "官方说明围绕哺乳间隔漏乳、衣物湿痕，提供每侧约30毫升收集杯；需求证据来自产品场景与官方泄漏排障，非人群普遍性调查。",
         "inference": "贴合、防漏、易倒出和清洗是核心；仍有装配与贴合导致漏液的改进空间",
         "limitation": "需求存在不代表疗效已证实；本地适用性、价格和市场规模待验证",
-        "size": "相邻人群代理：美国2022年出生儿童85.7%曾接受母乳、62.1%在6月龄仍接受母乳（CDC）；不能转化为漏乳率、集乳杯渗透率或销售额。",
-        "growth": "未找到Catch销量或同比。基础哺乳人群变化不等于被动集乳杯市场增长。",
-        "demand": "官方每侧30毫升无泵收集与泄漏排障说明，指出外出湿痕、密封装配、贴合及倒奶是实际设计痛点；缺少独立需求规模研究。"
+        "size": "相邻细分参照。2025年全球哺乳用乳罩壳（breast shells）市场约7,600万美元，涵盖不同用途的哺乳罩壳。",
+        "growth": "同一市场2026–2033年预测年复合增速3.7%，预计2033年约1.02亿美元。",
+        "demand": "日间漏乳的哺乳期用户需要减少衣物湿痕，同时方便收集与清洗。已购反馈指出活动时移位渗漏、拆洗后重新密封仍有改善空间。",
+        "reason": "主方向为需求未满足。已购用户提到活动时移位渗漏与重新装配费力。",
+        "points": "硅胶裙边贴合，内穿被动收集自然流出的乳汁，每只30 mL，可拆洗。",
+        "why": "已购反馈与品牌排障都能定位到贴合和密封问题。"
       },
       "date": "2026-11-01",
       "platforms": [
-        "品牌官网"
+        "美国 Target"
       ],
       "visual": {
         "idea": "展示实际结构与使用情境，标注参考产品"
       },
       "concept": {
-        "title": "Elvie Catch 被动集乳杯的本土化参考",
-        "desc": "贴合、防漏、易倒出和清洗是核心；仍有装配与贴合导致漏液的改进空间",
-        "primary": "先验证真实使用障碍，再立项",
-        "kit": [],
-        "up": []
+        "title": "可借鉴创新 · 易拆洗的密封结构",
+        "desc": "保留内穿杯的柔性贴合和可拆洗，验证裙边定位与装配提示能否减少活动时的渗漏。"
       },
       "steps": [
         "核验本地适用范围与可售状态",
@@ -15430,28 +15518,34 @@
       ],
       "evidence": [
         {
-          "url": "https://elvie.com/products/elvie-catch",
-          "claim": "官方说明围绕哺乳间隔漏乳、衣物湿痕，提供每侧约30毫升收集杯；需求证据来自产品场景与官方泄漏排障，非人群普遍性调查。",
-          "checked": "2026-11-01"
+          "url": "https://www.target.com/p/-/A-80274513",
+          "claim": "Target 两只装标价24.99美元，页面有已购反馈。",
+          "checked": "2026-11-06"
         },
         {
           "url": "https://support.elvie.com/elvie-catch/troubleshooting",
-          "claim": "需求/产品限制辅助证据",
-          "checked": "2026-11-01"
+          "claim": "官方排障涉及裙边装配、贴合和液位。",
+          "checked": "2026-11-06"
         }
       ],
       "referenceBrand": "Elvie",
       "img": "assets/images/selection-elvie-catch.webp",
       "imageKind": "reference",
-      "image_page": "https://elvie.com/products/elvie-catch",
+      "image_page": "https://www.target.com/p/-/A-80274513",
       "image_url": "https://elvie.com/cdn/shop/files/Elvie_Catch_1_47713_06088.jpg?v=1767629963&width=800",
       "decision": {
-        "level": "优先推进",
-        "reason": "被动结构简单，漏液与清洗问题易做对照验证。",
-        "gap": "不同乳型贴合、活动漏液与维护成本未知。",
-        "next": "比较硅胶裙边、杯口位置和倒液通道，验证活动场景防漏及清洗。",
-        "criteria": "建议条件：目标活动下较现有杯/防溢乳垫更易用、漏液更少，且用户理解收集乳的保存限制。",
-        "checked": "2026-11-06"
+        "checked": "2026-11-06",
+        "level": "定向验证",
+        "reason": "已购反馈与品牌排障都能定位到贴合和密封问题。",
+        "gap": "典型使用场景下的渗漏发生率及对改进款的付费意愿。",
+        "next": "与同类杯型比较走动、弯腰和反复拆洗后的密封表现。",
+        "criteria": "同一痛点在目标用户中反复出现，并且样件在对照中表现更稳定。"
+      },
+      "selectionStatus": "verified",
+      "sale": {
+        "price": "24.99美元／两只",
+        "market": "美国",
+        "url": "https://www.target.com/p/-/A-80274513"
       }
     },
     {
@@ -15573,7 +15667,9 @@
         "next": "做两种贴形与两种泵量，招募20名目标用户交叉试用一周；记录滑落、清洗、泵量与购买意愿。",
         "criteria": "内部拟定门槛，非研究结果：相较用户常用眼贴滑落次数下降≥30%，≥70%完成规定清洁；两家报价支持器械零售价≤300元及目标毛利，再进入配方/包材验证。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
     },
     {
       "id": "sy-refill-glide",
@@ -15686,7 +15782,9 @@
         "next": "让20名现有工具用户交叉使用普通泵瓶和计时样机，各7天；同配方比较补涂遗漏、总操作时长、换芯便利。",
         "criteria": "内部试验门槛：补涂遗漏下降≥30%；操作时长不增加超过10%；至少两家报价支持器械≤300元及目标毛利。未达到则保留替芯包装、取消电子附件。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
     },
     {
       "id": "sy-flex-pearl",
@@ -15799,7 +15897,9 @@
         "next": "制作两种颈部刚度和两种刮料口；与普通涂抹头盲测，记录单位取料量、接触力和舒适度。",
         "criteria": "内部拟定门槛：20名受试者中≥70%偏好样机，单次取料量变异系数≤20%；清洁/相容性与跌落耐久合格，再进入配方验证。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
     },
     {
       "id": "sy-roller-refill",
@@ -15918,7 +16018,9 @@
         "next": "优先做不带电的可换芯滚珠；对比固定滚珠与替芯滚珠的残留、滴漏和更换失误，再单测振动。",
         "criteria": "内部拟定门槛：20名用户首次装芯成功率≥90%；模拟运输不漏液；相容性与微生物控制通过。振动若无体验偏好优势就删除。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
     },
     {
       "id": "sy-lip-dose",
@@ -16037,7 +16139,9 @@
         "next": "对照罐+刮勺、盖内固定刮头和软管三种结构；20名用户随身使用一周，记录取料、遗失、残留。",
         "criteria": "内部拟定门槛：≥70%用户偏好改进结构、无明显漏料；残留率不高于原包装；报价支持目标毛利，否则直接选软管。",
         "checked": "2026-11-06"
-      }
+      },
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
     },
     {
       "id": "sy-capsule-dose",
@@ -16152,6 +16256,141 @@
         "next": "先访谈15名胶囊用户，包含手部灵活性较低者；仅当观察到反复开口困难，再做无尖锐部件辅助夹。",
         "criteria": "内部继续条件：至少5名访谈者有可复现开口困难；样机相较徒手减少开口失败且不增加整体时间/残留，否则停止该工具方向。",
         "checked": "2026-11-06"
+      },
+      "selectionStatus": "concept",
+      "selectionNote": "开发方向，保留原研究和参考资料。"
+    },
+    {
+      "id": "dieux-eye-revival-duo",
+      "name": "Dieux The Eye Revival Duo 眼精华＋可复用眼罩",
+      "date": "2026-11-01",
+      "category": "局部精护",
+      "direction": "需求未满足",
+      "directionStatus": "术原实售组合",
+      "brands": [
+        "术原"
+      ],
+      "referenceBrand": "Dieux",
+      "rank": "主推",
+      "type": "护肤品＋非电动辅助器具",
+      "tech": [
+        "可复用硅胶贴合",
+        "局部覆盖"
+      ],
+      "reason": "品牌已公开销售眼精华与眼罩的官方套组，器具可单买且折合低于300元。",
+      "audience": "已用眼部精华或一次性眼贴、希望改善眼周干燥和贴合体验的人群。",
+      "points": "Auracle 20 mL眼精华承担护理，Forever Eye Mask一对负责贴合覆盖，可清洗复用。",
+      "why": "组合具备明确的护理主品与可反复使用的辅具，适合优先看样。",
+      "platforms": [
+        "Dieux 美国官网"
+      ],
+      "img": "assets/images/selection-dieux-eye-revival-duo.png",
+      "image_url": "https://www.dieuxskin.com/cdn/shop/files/the-eye-revival-duo_gallery-variant-20260922-8b401257.png?v=1790097412&width=700",
+      "image_page": "https://www.dieuxskin.com/products/the-eye-revival-duo",
+      "sale": {
+        "price": "62美元／套，眼精华单卖44美元",
+        "market": "美国",
+        "url": "https://www.dieuxskin.com/products/the-eye-revival-duo",
+        "device": {
+          "amountCny": 167.875,
+          "note": "非电动眼罩单卖25美元，按2026-11-03中间价6.7150折合约168元，税费及运费另计。",
+          "url": "https://www.dieuxskin.com/products/forever-eye-mask?variant=39467065704541",
+          "rateUrl": "https://www.chinamoney.org.cn/english/bmkcpr/index.html?tab=2"
+        }
+      },
+      "links": [
+        {
+          "title": "Dieux 官方套组",
+          "url": "https://www.dieuxskin.com/products/the-eye-revival-duo"
+        },
+        {
+          "title": "眼罩单品及精华价格",
+          "url": "https://www.dieuxskin.com/products/forever-eye-mask?variant=39467065704541"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.dieuxskin.com/products/the-eye-revival-duo",
+          "claim": "官方销售20 mL眼精华与一对可复用眼罩的套组。",
+          "checked": "2026-11-06"
+        },
+        {
+          "url": "https://www.dieuxskin.com/products/forever-eye-mask?variant=39467065704541",
+          "claim": "辅助硅胶眼罩单卖25美元。",
+          "checked": "2026-11-06"
+        },
+        {
+          "url": "https://www.chinamoney.org.cn/english/bmkcpr/index.html?tab=2",
+          "claim": "2026-11-03美元兑人民币中间价6.7150。",
+          "checked": "2026-11-06"
+        }
+      ],
+      "market": {
+        "tier": "暂无统计",
+        "verdict": "推荐",
+        "size": "上一级市场参照。2024年中国眼部护肤零售额约262亿元，含眼霜、眼精华及眼膜。",
+        "growth": "同一市场2019–2024年历史年复合增速5.3%。报告预测2024–2029年年复合增速8.0%，2029年约384亿元。",
+        "demand": "眼精华或一次性眼贴用户希望薄涂后贴稳，敷完容易清洗和收纳。用量过多容易滑落。",
+        "view": "眼部护肤大盘作为中国品类参照，组合的真实复购仍需验证。",
+        "sources": [
+          {
+            "title": "港交所披露申请稿 · 弗若斯特沙利文中国眼部护肤数据",
+            "url": "https://www1.hkexnews.hk/app/sehk/2025/107953/a128211/sehk25121101564.pdf"
+          },
+          {
+            "title": "Dieux 贴合与用量指南",
+            "url": "https://www.dieuxskin.com/blogs/beauty/8-ways-to-optimize-your-forever-eye-mask"
+          }
+        ]
+      },
+      "innovation": "可复用硅胶眼罩搭配可独立补购的眼精华，器具负责局部贴合覆盖。",
+      "pain": [
+        "眼周干燥",
+        "眼贴滑落",
+        "一次性眼贴消耗"
+      ],
+      "concept": {
+        "title": "可借鉴创新 · 精华主品与可复用辅具",
+        "desc": "用真实套组比较薄涂量、贴合和清洗负担。精华独立补购作为组合验证重点。",
+        "primary": "skin",
+        "kit": [
+          [
+            "serum",
+            "眼部精华"
+          ],
+          [
+            "mask",
+            "可复用硅胶眼罩"
+          ]
+        ]
+      },
+      "steps": [
+        "按品牌说明薄涂眼部精华。",
+        "覆盖眼罩，按说明敷10–20分钟。",
+        "取下后清洗、擦干并收纳。"
+      ],
+      "visual": {
+        "hook": "给眼周贴张精华保鲜膜",
+        "sell": "精华贴合覆盖，眼罩可清洗复用",
+        "idea": "薄涂精华后，透明月牙贴合眼周。揭下洗净，下次继续搭配精华。"
+      },
+      "decision": {
+        "checked": "2026-11-06",
+        "level": "优先推进",
+        "reason": "官方实售组合符合护肤品为主、器具辅助，且器具核实售价低于300元。",
+        "gap": "组合对贴合体验、护理坚持度和精华复购意愿的增益。",
+        "next": "先看样，对比单用精华与搭配眼罩的贴合、滑落和清洗体验。",
+        "criteria": "用户愿意持续使用组合，并愿在精华用完后单独补购。"
+      },
+      "selectionStatus": "verified",
+      "imageKind": "reference",
+      "summary": {
+        "reason": "品牌已公开销售眼精华与眼罩的官方套组，器具可单买且折合低于300元。",
+        "points": "Auracle 20 mL眼精华承担护理，Forever Eye Mask一对负责贴合覆盖，可清洗复用。",
+        "size": "上一级市场参照。2024年中国眼部护肤零售额约262亿元，含眼霜、眼精华及眼膜。",
+        "growth": "同一市场2019–2024年历史年复合增速5.3%。报告预测2024–2029年年复合增速8.0%，2029年约384亿元。",
+        "demand": "眼精华或一次性眼贴用户希望薄涂后贴稳，敷完容易清洗和收纳。用量过多容易滑落。",
+        "why": "官方实售组合符合护肤品为主、器具辅助，且器具核实售价低于300元。"
       }
     }
   ],
