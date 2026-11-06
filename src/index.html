@@ -40,14 +40,21 @@
       <label>发布日期<select data-k="date"></select></label>
       <label>新品方向<select data-k="direction"></select></label>
       <label>适配品牌<select data-k="brand"></select></label>
-      <label>主销售平台<select data-k="platform"></select></label>
+      <fieldset class="platform-filter">
+        <legend>主销平台（可多选）</legend>
+        <div>
+          <label><input type="checkbox" value="天猫">天猫</label>
+          <label><input type="checkbox" value="京东">京东</label>
+          <label><input type="checkbox" value="抖音">抖音</label>
+        </div>
+      </fieldset>
       <label>品类<select data-k="category"></select></label>
       <label>推荐程度<select data-k="verdict"></select></label>
       <label>市场规模梯队<select data-k="tier"></select></label>
       <label>使用技术<select data-k="tech"></select></label>
       <button class="reset" id="oreset" type="button">清空筛选</button>
     </div>
-    <div class="legend">市场规模梯队按所列市场参照口径划分：第一梯队 ≥10亿美元，第二梯队 1–10亿美元，第三梯队 &lt;1亿美元；缺少可用规模的归为"暂无统计"。</div>
+    <div class="legend">本期主销平台为建议渠道。市场规模按所列参照口径分梯队：第一梯队 ≥10亿美元，第二梯队 1–10亿美元，第三梯队 &lt;1亿美元；缺少可用规模标为“暂无统计”。</div>
     <div class="tablewrap"><table>
       <thead><tr id="othead"></tr></thead>
       <tbody id="otbody"></tbody>

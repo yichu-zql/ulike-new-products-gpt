@@ -13041,14 +13041,17 @@
       "summary": {
         "reason": "专业射频家用化",
         "audience": "面部抗老人群",
-        "points": "接触与温度管理",
+        "points": "贴肤温控，辅助居家紧致护理",
         "size": "美国家用美容设备20亿美元（2025，参照）",
         "growth": "预测年均+9.9%（2026–33，参照）",
         "demand": "居家抗老",
         "why": "先核供货与适用条件"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "京东"
+      ],
       "visual": {
         "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
       },
@@ -13085,7 +13088,8 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "platformSuggested": true
     },
     {
       "id": "nira-pro",
@@ -13137,14 +13141,17 @@
       "summary": {
         "reason": "细纹光护理家用化",
         "audience": "关注细纹人群",
-        "points": "较大光斑",
+        "points": "较大光斑覆盖，方便分区护理细纹",
         "size": "美国家用美容设备20亿美元（2025，参照）",
         "growth": "预测年均+9.9%（2026–33，参照）",
         "demand": "居家局部细纹护理",
         "why": "先核版本与照射体验"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "京东"
+      ],
       "visual": {
         "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
       },
@@ -13181,7 +13188,8 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "platformSuggested": true
     },
     {
       "id": "compex-mini",
@@ -13237,14 +13245,17 @@
       "summary": {
         "reason": "康复电刺激小型化",
         "audience": "运动训练人群",
-        "points": "无线双通道、手机控制",
+        "points": "无线双通道电刺激，提供训练与恢复程序",
         "size": "全球TENS约3.21亿美元（2023，参照）",
         "growth": "预测年均+3.9%（2024–30）",
         "demand": "训练后恢复",
         "why": "对照穿戴和操作体验"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "京东"
+      ],
       "visual": {
         "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
       },
@@ -13281,7 +13292,8 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "platformSuggested": true
     },
     {
       "id": "myolift-qt-plus",
@@ -13337,14 +13349,17 @@
       "summary": {
         "reason": "微电流搭配分区贴膜",
         "audience": "希望免手持护理者",
-        "points": "分区导电贴膜",
+        "points": "分区导电贴膜，减少护理时的手持操作",
         "size": "美国家用美容设备20亿美元（2025，参照）",
         "growth": "预测年均+9.9%（2026–33，参照）",
         "demand": "降低手持负担",
         "why": "先看贴膜与耗材成本"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "京东"
+      ],
       "visual": {
         "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
       },
@@ -13381,7 +13396,8 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "platformSuggested": true
     },
     {
       "id": "qure-microinfusion",
@@ -13434,14 +13450,17 @@
       "summary": {
         "reason": "储液腔与耗材配套",
         "audience": "有局部精华护理需求者",
-        "points": "储液头、精华、针头套组",
+        "points": "储液头搭配一次性针头，分区施用配套精华",
         "size": "美国家用美容设备20亿美元（2025，参照）",
         "growth": "预测年均+9.9%（2026–33，参照）",
         "demand": "局部护理",
         "why": "先核使用风险与适用性"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "京东"
+      ],
       "visual": {
         "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
       },
@@ -13478,7 +13497,8 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "platformSuggested": true
     },
     {
       "id": "beautybio-glofacial",
@@ -13531,14 +13551,17 @@
       "summary": {
         "reason": "院线水吸清洁家用化",
         "audience": "油脂清洁需求者",
-        "points": "水吸、浓缩液与蓝光",
+        "points": "水吸带走表面油污，配套清洁浓缩液",
         "size": "美国家用美容设备20亿美元（2025，参照）",
         "growth": "预测年均+9.9%（2026–33，参照）",
         "demand": "油脂清洁与维护",
         "why": "先核供货和清洗负担"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "抖音"
+      ],
       "visual": {
         "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
       },
@@ -13575,7 +13598,8 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "platformSuggested": true
     },
     {
       "id": "silkn-titan-allways",
@@ -13629,14 +13653,17 @@
       "summary": {
         "reason": "射频与光护理一体",
         "audience": "符合适用范围的成人",
-        "points": "射频与低功率光",
+        "points": "射频结合低功率光，面向居家紧致护理",
         "size": "美国家用美容设备20亿美元（2025，参照）",
         "growth": "预测年均+9.9%（2026–33，参照）",
         "demand": "居家紧致护理",
         "why": "核对适用条件后看样"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "京东"
+      ],
       "visual": {
         "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
       },
@@ -13673,7 +13700,8 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "platformSuggested": true
     },
     {
       "id": "recoverypulse-calf",
@@ -13721,14 +13749,17 @@
       "summary": {
         "reason": "振动集成到压缩套",
         "audience": "运动后与久站人群",
-        "points": "弹力压缩＋振动",
+        "points": "弹力压缩叠加振动，穿戴式放松小腿",
         "size": "全球按摩设备124亿美元（2025，参照）",
         "growth": "预测年均+7.4%（2026–33，参照）",
         "demand": "小腿局部放松",
         "why": "对照普通压缩袜"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "京东",
+        "抖音"
+      ],
       "visual": {
         "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
       },
@@ -13766,7 +13797,8 @@
       },
       "directionStatus": "海外观察（热度待核）",
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "platformSuggested": true
     },
     {
       "id": "therabody-wave-solo",
@@ -13814,14 +13846,17 @@
       "summary": {
         "reason": "局部振动球便携化",
         "audience": "运动后局部紧绷人群",
-        "points": "小球、硅胶与振动",
+        "points": "小球定点振动，便于足底和局部放松",
         "size": "全球按摩设备124亿美元（2025，参照）",
         "growth": "预测年均+7.4%（2026–33，参照）",
         "demand": "足底与小部位放松",
         "why": "对照普通按摩球"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "京东",
+        "抖音"
+      ],
       "visual": {
         "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
       },
@@ -13859,7 +13894,8 @@
       },
       "directionStatus": "海外观察（热度待核）",
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "platformSuggested": true
     },
     {
       "id": "hyperice-venom2-back",
@@ -13911,14 +13947,17 @@
       "summary": {
         "reason": "腰背热振可穿戴",
         "audience": "久坐与运动人群",
-        "points": "包裹式温热＋振动",
+        "points": "腰背包裹式热振，适合久坐后局部放松",
         "size": "全球按摩设备124亿美元（2025，参照）",
         "growth": "预测年均+7.4%（2026–33，参照）",
         "demand": "腰背紧绷放松",
         "why": "验证贴合与温度均匀"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "京东"
+      ],
       "visual": {
         "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
       },
@@ -13956,7 +13995,8 @@
       },
       "directionStatus": "海外观察（热度待核）",
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "platformSuggested": true
     },
     {
       "id": "geske-thermo-brush",
@@ -14005,14 +14045,17 @@
       "summary": {
         "reason": "洁面刷集成温热护理",
         "audience": "重视鼻翼清洁人群",
-        "points": "双面硅胶与温热",
+        "points": "硅胶刷清洁鼻翼，温热背面辅助涂抹护理",
         "size": "美国家用美容设备20亿美元（2025，参照）",
         "growth": "预测年均+9.9%（2026–33，参照）",
         "demand": "局部清洁便利",
         "why": "先验证洁面刷增量需求"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "抖音"
+      ],
       "visual": {
         "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
       },
@@ -14050,7 +14093,8 @@
       },
       "directionStatus": "海外观察（热度待核）",
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "platformSuggested": true
     },
     {
       "id": "faq-202-mask",
@@ -14103,14 +14147,17 @@
       "summary": {
         "reason": "光疗面罩无线化",
         "audience": "重视自由活动人群",
-        "points": "柔性硅胶、无线佩戴",
+        "points": "柔性无线面罩，光护理时减少线缆束缚",
         "size": "美国家用美容设备20亿美元（2025，参照）",
         "growth": "预测年均+9.9%（2026–33，参照）",
         "demand": "减少线缆束缚",
         "why": "先核版本与贴合"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "京东"
+      ],
       "visual": {
         "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
       },
@@ -14148,7 +14195,8 @@
       },
       "directionStatus": "海外观察（热度待核）",
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "platformSuggested": true
     },
     {
       "id": "luminette3-glasses",
@@ -14199,14 +14247,17 @@
       "summary": {
         "reason": "桌面光照转为穿戴",
         "audience": "晨间光照不足人群",
-        "points": "轻量眼镜形态",
+        "points": "眼镜式光照，晨间活动时可佩戴使用",
         "size": "全球光疗13亿美元（2025，参照）",
         "growth": "预测年均+8.6%（2026–33，参照）",
         "demand": "晨间活动中使用",
         "why": "验证佩戴负担"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "京东"
+      ],
       "visual": {
         "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
       },
@@ -14244,7 +14295,8 @@
       },
       "directionStatus": "海外观察（热度待核）",
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "platformSuggested": true
     },
     {
       "id": "sensate-relaxation",
@@ -14292,14 +14344,17 @@
       "summary": {
         "reason": "胸前轻振搭配声音",
         "audience": "短时放松人群",
-        "points": "振动与音频同步",
+        "points": "胸前轻振同步声音，引导短时放松",
         "size": "全球心理健康消费2,683亿美元（2024，宽口径）",
         "growth": "历史年均+12.4%（2019–24，参照）",
         "demand": "建立短时放松习惯",
         "why": "对照纯音频体验"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "抖音"
+      ],
       "visual": {
         "idea": "研发示意：呈现器械接触部位与配套结构，不做疗效前后对比。"
       },
@@ -14337,14 +14392,17 @@
       },
       "directionStatus": "海外观察（热度待核）",
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "platformSuggested": true
     },
     {
       "id": "refa-fine-bubble",
       "name": "ReFa Fine Bubble 微细气泡花洒系列",
       "direction": "销量起量",
       "category": "身体护理仪",
-      "brands": [],
+      "brands": [
+        "Ulike"
+      ],
       "type": "设备/护理用品",
       "tech": [
         "微细气泡与可替换花洒"
@@ -14395,12 +14453,13 @@
         "demand": "沐浴触感与清洁",
         "reason": "花洒系列累计300万支",
         "audience": "重视沐浴体验者",
-        "points": "微细气泡、多水流",
+        "points": "微细气泡与多档水流，满足不同沐浴需求",
         "why": "先核水压适配"
       },
       "date": "2026-11-01",
       "platforms": [
-        "品牌官网"
+        "天猫",
+        "京东"
       ],
       "visual": {
         "idea": "展示实际结构与使用情境，标注参考产品"
@@ -14443,14 +14502,20 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "referencePlatforms": [
+        "品牌官网"
+      ],
+      "platformSuggested": true
     },
     {
       "id": "refa-lock-series",
       "name": "ReFa LOCK OIL 造型护发油（100 mL）",
       "direction": "销量起量",
       "category": "头皮/生发仪",
-      "brands": [],
+      "brands": [
+        "金茉"
+      ],
       "type": "护肤/护理耗材",
       "tech": [
         "造型前护理油与热造型搭配"
@@ -14496,13 +14561,14 @@
         "growth": "美发同比+8% · 系列累计+200万瓶",
         "demand": "想持型又怕发丝僵硬",
         "reason": "系列约10个月增200万瓶",
-        "points": "造型前用油，持型兼顾柔软",
+        "points": "造型前涂抹，兼顾持型与柔软触感",
         "why": "对照普通油测持型与复购",
         "audience": "高频热造型人群"
       },
       "date": "2026-11-01",
       "platforms": [
-        "ReFa 日本官网"
+        "天猫",
+        "抖音"
       ],
       "visual": {
         "idea": "展示实际结构与使用情境，标注参考产品"
@@ -14546,14 +14612,21 @@
         "price": "2,640日元／100 mL（含税）",
         "market": "日本",
         "url": "https://www.refa.net/item/refa_lock_oil/"
-      }
+      },
+      "referencePlatforms": [
+        "ReFa 日本官网"
+      ],
+      "platformSuggested": true
     },
     {
       "id": "refa-iron-series",
       "name": "ReFa 热造型夹板系列",
       "direction": "销量起量",
       "category": "头皮/生发仪",
-      "brands": [],
+      "brands": [
+        "极萌",
+        "金茉"
+      ],
       "type": "设备/护理用品",
       "tech": [
         "碳层夹板；热与压力控制"
@@ -14604,12 +14677,14 @@
         "demand": "造型与发丝触感",
         "reason": "系列累计出货300万支",
         "audience": "居家热造型人群",
-        "points": "夹板与热控制",
+        "points": "加热夹板配合温控，可拉直或塑造弧度",
         "why": "先拆解夹板和温控"
       },
       "date": "2026-11-01",
       "platforms": [
-        "品牌官网"
+        "天猫",
+        "京东",
+        "抖音"
       ],
       "visual": {
         "idea": "展示实际结构与使用情境，标注参考产品"
@@ -14652,14 +14727,20 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "referencePlatforms": [
+        "品牌官网"
+      ],
+      "platformSuggested": true
     },
     {
       "id": "style-bx-innerwear",
       "name": "Style BX 姿势支撑内衣",
       "direction": "销量起量",
       "category": "运动辅助",
-      "brands": [],
+      "brands": [
+        "Ulike"
+      ],
       "type": "设备/护理用品",
       "tech": [
         "日常贴身穿戴与结构支撑"
@@ -14710,12 +14791,13 @@
         "demand": "日常姿势支撑",
         "reason": "系列累计出货30万件",
         "audience": "长期伏案人群",
-        "points": "贴身支撑结构",
+        "points": "贴身结构支撑，适合伏案时日常穿戴",
         "why": "验证尺码与舒适度"
       },
       "date": "2026-11-01",
       "platforms": [
-        "品牌官网"
+        "天猫",
+        "京东"
       ],
       "visual": {
         "idea": "展示实际结构与使用情境，标注参考产品"
@@ -14758,14 +14840,20 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "referencePlatforms": [
+        "品牌官网"
+      ],
+      "platformSuggested": true
     },
     {
       "id": "bakune-dry-pro",
       "name": "BAKUNE 恢复睡衣系列（Dry Pro参考款）",
       "direction": "销量起量",
       "category": "运动康复",
-      "brands": [],
+      "brands": [
+        "Ulike"
+      ],
       "type": "设备/护理用品",
       "tech": [
         "功能纤维与睡姿版型"
@@ -14816,12 +14904,13 @@
         "demand": "夜间舒适与放松",
         "reason": "系列一年增100万套",
         "audience": "运动后及夜间易出汗者",
-        "points": "轻薄、排汗、睡衣化",
+        "points": "轻薄排汗版型，减少睡觉翻身的束缚感",
         "why": "验证透气与睡姿体验"
       },
       "date": "2026-11-01",
       "platforms": [
-        "品牌官网"
+        "天猫",
+        "抖音"
       ],
       "visual": {
         "idea": "展示实际结构与使用情境，标注参考产品"
@@ -14864,14 +14953,20 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "referencePlatforms": [
+        "品牌官网"
+      ],
+      "platformSuggested": true
     },
     {
       "id": "red-recoverywear",
       "name": "ReD 日常恢复服系列",
       "direction": "销量起量",
       "category": "运动康复",
-      "brands": [],
+      "brands": [
+        "Ulike"
+      ],
       "type": "设备/护理用品",
       "tech": [
         "矿物复合纤维与轻薄服装"
@@ -14922,12 +15017,13 @@
         "demand": "日常穿着舒适",
         "reason": "上市约15个月出货300万件",
         "audience": "偏好轻负担放松人群",
-        "points": "恢复衣物日常化",
+        "points": "轻薄矿物复合纤维，方便日常穿着放松",
         "why": "比较面料与价格带"
       },
       "date": "2026-11-01",
       "platforms": [
-        "品牌官网"
+        "天猫",
+        "抖音"
       ],
       "visual": {
         "idea": "展示实际结构与使用情境，标注参考产品"
@@ -14970,14 +15066,20 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "referencePlatforms": [
+        "品牌官网"
+      ],
+      "platformSuggested": true
     },
     {
       "id": "doshisha-gorilla-care",
       "name": "DOSHISHA Gorilla护理系列（小腿/大腿款参考）",
       "direction": "销量起量",
       "category": "缓解疲劳",
-      "brands": [],
+      "brands": [
+        "Ulike"
+      ],
       "type": "设备/护理用品",
       "tech": [
         "气压包裹与分部位护理"
@@ -15032,12 +15134,13 @@
         "demand": "久站后小腿放松",
         "reason": "全系列9个月增200万件",
         "audience": "腿部放松人群",
-        "points": "分部位加压、操作简单",
+        "points": "气压包裹分部位加压，小腿与大腿可按需选择",
         "why": "优先比较快脱与压力"
       },
       "date": "2026-11-01",
       "platforms": [
-        "品牌官网"
+        "京东",
+        "抖音"
       ],
       "visual": {
         "idea": "展示实际结构与使用情境，标注参考产品"
@@ -15085,14 +15188,20 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "referencePlatforms": [
+        "品牌官网"
+      ],
+      "platformSuggested": true
     },
     {
       "id": "milli-expanding-dilator",
       "name": "Milli 渐进扩张器",
       "direction": "需求未满足",
       "category": "女性健康/私密",
-      "brands": [],
+      "brands": [
+        "Ulike"
+      ],
       "type": "设备/护理用品",
       "tech": [
         "1毫米渐进扩张与尺寸显示"
@@ -15147,12 +15256,13 @@
         "demand": "减少频繁换规格",
         "reason": "渐进尺寸回应扩张需求",
         "audience": "专业指导下的训练者",
-        "points": "同一器具渐进调节",
+        "points": "同一器具逐级调整尺寸，减少更换规格",
         "why": "验证适用性及操作负担"
       },
       "date": "2026-11-01",
       "platforms": [
-        "品牌官网"
+        "天猫",
+        "京东"
       ],
       "visual": {
         "idea": "展示实际结构与使用情境，标注参考产品"
@@ -15195,14 +15305,20 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "referencePlatforms": [
+        "品牌官网"
+      ],
+      "platformSuggested": true
     },
     {
       "id": "lancome-hapta",
       "name": "Lancôme HAPTA 辅助上妆器",
       "direction": "需求未满足",
       "category": "无障碍美容",
-      "brands": [],
+      "brands": [
+        "金茉"
+      ],
       "type": "设备/护理用品",
       "tech": [
         "自调平与运动稳定"
@@ -15253,12 +15369,13 @@
         "demand": "更容易自主上妆",
         "reason": "手部动作受限的上妆辅助",
         "audience": "手部精细动作受限者",
-        "points": "辅助握持与稳定",
+        "points": "辅助手柄稳定口红，便于握持与调整角度",
         "why": "先核正式开售与适配"
       },
       "date": "2026-11-01",
       "platforms": [
-        "品牌官网"
+        "天猫",
+        "抖音"
       ],
       "visual": {
         "idea": "展示实际结构与使用情境，标注参考产品"
@@ -15301,14 +15418,20 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "referencePlatforms": [
+        "品牌官网"
+      ],
+      "platformSuggested": true
     },
     {
       "id": "silverette-cups",
       "name": "Silverette 哺乳间隔护理罩杯",
       "direction": "需求未满足",
       "category": "女性健康/产后",
-      "brands": [],
+      "brands": [
+        "Ulike"
+      ],
       "type": "设备/护理用品",
       "tech": [
         "弧面硬壳与乳头非压迫空间"
@@ -15363,12 +15486,13 @@
         "demand": "减少衣物摩擦",
         "reason": "哺乳间隔防摩擦",
         "audience": "哺乳期摩擦困扰者",
-        "points": "银制保护罩",
+        "points": "罩住乳头区域，减少哺乳间隔的衣物摩擦",
         "why": "比较贴合与日常佩戴"
       },
       "date": "2026-11-01",
       "platforms": [
-        "品牌官网"
+        "天猫",
+        "京东"
       ],
       "visual": {
         "idea": "展示实际结构与使用情境，标注参考产品"
@@ -15411,14 +15535,20 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "referencePlatforms": [
+        "品牌官网"
+      ],
+      "platformSuggested": true
     },
     {
       "id": "uresta-bladder-support",
       "name": "Uresta 自主管理膀胱支撑器",
       "direction": "需求未满足",
       "category": "女性健康/盆底",
-      "brands": [],
+      "brands": [
+        "Ulike"
+      ],
       "type": "设备/护理用品",
       "tech": [
         "体内机械支撑与可选尺码"
@@ -15473,12 +15603,13 @@
         "demand": "活动中的漏尿管理",
         "reason": "针对压力性漏尿场景",
         "audience": "专业评估后的适用人群",
-        "points": "可复用的支撑器",
+        "points": "可复用支撑器，面向经专业评估的压力性漏尿人群",
         "why": "核实人群与使用障碍"
       },
       "date": "2026-11-01",
       "platforms": [
-        "品牌官网"
+        "天猫",
+        "京东"
       ],
       "visual": {
         "idea": "展示实际结构与使用情境，标注参考产品"
@@ -15521,14 +15652,20 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "pending",
-      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。"
+      "selectionNote": "待按同款实物、公开销售依据和主方向证据复核。",
+      "referencePlatforms": [
+        "品牌官网"
+      ],
+      "platformSuggested": true
     },
     {
       "id": "elvie-catch",
       "name": "Elvie Catch 被动集乳杯（两只装）",
       "direction": "需求未满足",
       "category": "女性健康/产后",
-      "brands": [],
+      "brands": [
+        "Ulike"
+      ],
       "type": "设备/护理用品",
       "tech": [
         "无泵被动集乳；硅胶裙边密封"
@@ -15578,13 +15715,14 @@
         "growth": "预测年均+3.7%（2026–33）",
         "demand": "走动防漏、拆洗后好密封",
         "reason": "买家反馈移位渗漏",
-        "points": "内穿集乳杯，可拆洗",
+        "points": "内穿被动收集自然漏乳，拆洗后可复用",
         "why": "先比较活动时的密封",
         "audience": "有日间漏乳的哺乳者"
       },
       "date": "2026-11-01",
       "platforms": [
-        "美国 Target"
+        "天猫",
+        "京东"
       ],
       "visual": {
         "idea": "展示实际结构与使用情境，标注参考产品"
@@ -15628,7 +15766,11 @@
         "price": "24.99美元／两只",
         "market": "美国",
         "url": "https://www.target.com/p/-/A-80274513"
-      }
+      },
+      "referencePlatforms": [
+        "美国 Target"
+      ],
+      "platformSuggested": true
     },
     {
       "id": "sy-reusable-occlusion",
@@ -15688,7 +15830,7 @@
       "summary": {
         "reason": "参考Dieux复用眼罩",
         "audience": "重视复用的眼周护理者",
-        "points": "薄涂定量＋可洗眼罩",
+        "points": "薄涂定量，眼罩贴合覆盖后可清洗复用",
         "innovation": "薄涂定量＋可洗眼罩",
         "why": "保留概念，先看实售套组",
         "size": "中国眼部护肤262亿元（2024，参照）",
@@ -15696,7 +15838,10 @@
         "demand": "贴稳、好清洗"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "抖音"
+      ],
       "visual": {
         "idea": "精华珠落下，透明月牙顺势贴合。揭下洗净，下次换新精华继续敷。",
         "hook": "给眼周贴张精华保鲜膜",
@@ -15755,7 +15900,8 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "concept",
-      "selectionNote": "开发方向，保留原研究和参考资料。"
+      "selectionNote": "开发方向，保留原研究和参考资料。",
+      "platformSuggested": true
     },
     {
       "id": "sy-refill-glide",
@@ -15807,7 +15953,7 @@
       "summary": {
         "reason": "参考精华替芯与分区用法",
         "audience": "常用精华与工具者",
-        "points": "分区补涂提醒",
+        "points": "分区轻振提醒补涂，精华替芯可更换",
         "innovation": "分区补涂提醒",
         "why": "先测提醒的实际价值",
         "size": "全球面部精华62亿美元（2025，参照）",
@@ -15815,7 +15961,10 @@
         "demand": "减少涂抹半程变干"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "抖音"
+      ],
       "visual": {
         "idea": "小棒走到下一站，提示灯轻闪。补一滴精华，下一段护理润泽开场。",
         "hook": "会提醒续杯的精华棒",
@@ -15874,7 +16023,8 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "concept",
-      "selectionNote": "开发方向，保留原研究和参考资料。"
+      "selectionNote": "开发方向，保留原研究和参考资料。",
+      "platformSuggested": true
     },
     {
       "id": "sy-flex-pearl",
@@ -15926,7 +16076,7 @@
       "summary": {
         "reason": "参考柔性冷触珠头",
         "audience": "眼周干燥人群",
-        "points": "柔性珠颈与刮料口",
+        "points": "冷触珠头顺眼周弧度滚涂，刮料口控量",
         "innovation": "柔性珠颈与刮料口",
         "why": "先比较珠头接触手感",
         "size": "中国眼部护肤262亿元（2024，参照）",
@@ -15934,7 +16084,10 @@
         "demand": "控制取料、顺弧度涂布"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "抖音"
+      ],
       "visual": {
         "idea": "银色小珠沿眼周轻滑，柔性珠头随弧度转弯，铺开一条晶莹的精华细带。",
         "hook": "让精华珠在眼周溜冰",
@@ -15993,7 +16146,8 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "concept",
-      "selectionNote": "开发方向，保留原研究和参考资料。"
+      "selectionNote": "开发方向，保留原研究和参考资料。",
+      "platformSuggested": true
     },
     {
       "id": "sy-roller-refill",
@@ -16053,7 +16207,7 @@
       "summary": {
         "reason": "参考滚珠精华包装",
         "audience": "常做眼周护理者",
-        "points": "替芯滚珠＋复用套环",
+        "points": "滚珠便于眼周补涂，轻振套环重复使用",
         "innovation": "替芯滚珠＋复用套环",
         "why": "先验证套环增益",
         "size": "中国眼部护肤262亿元（2024，参照）",
@@ -16061,7 +16215,10 @@
         "demand": "易补涂、少换外壳"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "抖音"
+      ],
       "visual": {
         "idea": "展示滚珠眼精华包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
       },
@@ -16118,7 +16275,8 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "concept",
-      "selectionNote": "开发方向，保留原研究和参考资料。"
+      "selectionNote": "开发方向，保留原研究和参考资料。",
+      "platformSuggested": true
     },
     {
       "id": "sy-lip-dose",
@@ -16178,7 +16336,7 @@
       "summary": {
         "reason": "参考唇膜配刮勺",
         "audience": "日常唇膜护理者",
-        "points": "定量取料、可洗涂布",
+        "points": "定量取唇膜，软刮头帮助薄涂并可清洗",
         "innovation": "定量取料、可洗涂布",
         "why": "对照软管与刮勺",
         "size": "全球唇部护理41亿美元（2025，参照）",
@@ -16186,7 +16344,10 @@
         "demand": "减少手取与残留"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "抖音"
+      ],
       "visual": {
         "idea": "展示夜间保湿唇膜包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
       },
@@ -16243,7 +16404,8 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "concept",
-      "selectionNote": "开发方向，保留原研究和参考资料。"
+      "selectionNote": "开发方向，保留原研究和参考资料。",
+      "platformSuggested": true
     },
     {
       "id": "sy-capsule-dose",
@@ -16299,7 +16461,7 @@
       "summary": {
         "reason": "参考单次精华胶囊",
         "audience": "旅行与按次护理者",
-        "points": "夹具辅助开口与挤出",
+        "points": "夹具辅助开胶囊，定量挤出精华便于涂抹",
         "innovation": "夹具辅助开口与挤出",
         "why": "先确认辅具必要性",
         "size": "全球面部精华62亿美元（2025，参照）",
@@ -16307,7 +16469,10 @@
         "demand": "开口省力、少残留"
       },
       "date": "2026-11-01",
-      "platforms": [],
+      "platforms": [
+        "天猫",
+        "抖音"
+      ],
       "visual": {
         "idea": "展示单次保湿精华胶囊包装与辅助工具的配合步骤；只呈现涂布、定量与使用体验，不画未经证实的皮下导入。"
       },
@@ -16364,7 +16529,8 @@
         "checked": "2026-11-06"
       },
       "selectionStatus": "concept",
-      "selectionNote": "开发方向，保留原研究和参考资料。"
+      "selectionNote": "开发方向，保留原研究和参考资料。",
+      "platformSuggested": true
     },
     {
       "id": "dieux-eye-revival-duo",
@@ -16387,7 +16553,8 @@
       "points": "Auracle 20 mL眼精华承担护理，Forever Eye Mask一对负责贴合覆盖，可清洗复用。",
       "why": "组合具备明确的护理主品与可反复使用的辅具，适合优先看样。",
       "platforms": [
-        "Dieux 美国官网"
+        "天猫",
+        "抖音"
       ],
       "img": "assets/images/selection-dieux-eye-revival-duo.png",
       "image_url": "https://www.dieuxskin.com/cdn/shop/files/the-eye-revival-duo_gallery-variant-20260922-8b401257.png?v=1790097412&width=700",
@@ -16492,14 +16659,18 @@
       "imageKind": "reference",
       "summary": {
         "reason": "官方套组 · 眼罩约168元",
-        "points": "眼精华＋可洗眼罩",
+        "points": "眼精华用于眼周保湿，硅胶眼罩辅助贴合覆盖",
         "size": "中国眼部护肤262亿元（2024，参照）",
         "growth": "历史年均+5.3% · 预测+8.0%",
         "demand": "贴合稳定、清洗容易",
         "why": "先看贴合与精华复购",
         "audience": "眼精华与眼贴用户",
         "innovation": "眼精华＋可洗眼罩"
-      }
+      },
+      "referencePlatforms": [
+        "Dieux 美国官网"
+      ],
+      "platformSuggested": true
     }
   ],
   "batches": [

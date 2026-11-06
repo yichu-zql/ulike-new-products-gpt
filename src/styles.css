@@ -115,7 +115,7 @@ h1{font-family:var(--display);font-size:30px;line-height:1.2;margin:0;letter-spa
 .tags,.techs,.platforms{display:flex;gap:4px 6px;flex-wrap:wrap}
 .tag{font-size:12px;background:var(--chip);border-radius:4px;padding:1px 8px;color:var(--muted);white-space:nowrap}
 .tag.cat{background:var(--accent-soft);color:var(--accent)}
-.tag.med{background:transparent;border:1px solid var(--accent);color:var(--accent)}
+.tag.med,.tag.direction{background:transparent;border:1px solid var(--accent);color:var(--accent)}
 .tag.br{font-weight:600}
 .tag.br-术原,.tag.sy{background:var(--sy-soft);color:var(--sy);font-weight:600}.tag.br-Ulike{background:var(--accent-soft);color:var(--accent)}.tag.br-极萌{background:var(--warn-soft);color:var(--warn)}.tag.br-金茉{background:var(--ok-soft);color:var(--ok)}
 .ptag{font-size:12px;border:1px solid var(--line);border-radius:4px;padding:0 7px}
@@ -135,6 +135,11 @@ h1{font-family:var(--display);font-size:30px;line-height:1.2;margin:0;letter-spa
 .ofilters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:12px}
 .ofilters label{display:flex;flex-direction:column;gap:2px;font-size:11px;color:var(--muted);letter-spacing:.04em}
 .ofilters select{min-width:8.5em}
+.platform-filter{margin:0;padding:0;border:0;min-width:0}
+.platform-filter legend{padding:0;font-size:11px;color:var(--muted)}
+.platform-filter>div{display:flex;flex-wrap:wrap;gap:4px;margin-top:2px}
+.ofilters .platform-filter label{flex-direction:row;align-items:center;gap:3px;padding:6px;border:1px solid var(--line,#ddd);border-radius:5px;background:#fff;cursor:pointer;letter-spacing:0}
+.platform-filter input{margin:0;accent-color:var(--accent)}
 input[type=search],select{font:inherit;font-size:14px;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:6px 10px}
 input[type=search]{flex:1 1 220px;min-width:0}
 .reset{font:inherit;font-size:13px;background:none;border:none;color:var(--accent);cursor:pointer;padding:6px 4px;align-self:flex-end;text-decoration:underline;text-underline-offset:2px}
